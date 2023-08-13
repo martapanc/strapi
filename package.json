@@ -1,0 +1,33 @@
+{
+  "name": "strapi-test",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "start:prod": "ENV_PATH=.env.production NODE_ENV=production yarn start",
+    "build:prod": "ENV_PATH=.env.production NODE_ENV=production yarn build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/plugin-i18n": "4.12.4",
+    "@strapi/plugin-users-permissions": "4.12.4",
+    "@strapi/strapi": "4.12.4",
+    "better-sqlite3": "8.5.0",
+    "pg": "^8.11.2"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "4b0a8e56-65d0-440f-a9ef-8e960b22598c"
+  },
+  "engines": {
+    "node": ">=16.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
