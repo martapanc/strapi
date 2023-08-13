@@ -4,9 +4,9 @@
   "version": "0.1.0",
   "description": "A Strapi application",
   "scripts": {
-    "develop": "strapi develop",
-    "start": "strapi start",
+    "dev": "strapi develop",
     "build": "strapi build",
+    "start": "strapi start",
     "start:prod": "ENV_PATH=.env.production NODE_ENV=production yarn start",
     "build:prod": "ENV_PATH=.env.production NODE_ENV=production yarn build",
     "strapi": "strapi"
