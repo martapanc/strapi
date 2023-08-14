@@ -9,9 +9,9 @@ database="railway"
 
 backup_dir="database/backups/"
 
-# List available backup files
+# List available backup files (latest to oldest)
 echo "Available backup files:"
-backup_files=("$backup_dir"*.sql)
+backup_files=($(ls -t "$backup_dir"*.sql))
 for ((i=0; i<${#backup_files[@]}; i++)); do
     echo "$((i+1)). ${backup_files[i]}"
 done
