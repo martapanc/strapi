@@ -1,7 +1,7 @@
 {
   "name": "martacodes.it",
   "private": true,
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Strapi CMS for martacodes.it",
   "scripts": {
     "dev": "strapi develop",
