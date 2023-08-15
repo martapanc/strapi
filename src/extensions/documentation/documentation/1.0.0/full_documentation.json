@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-08-14T18:53:50.465Z"
+    "x-generation-date": "2023-08-15T15:51:04.178Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -92,10 +92,24 @@
         ],
         "type": "object",
         "properties": {
-          "Description": {
+          "CompanyName": {
             "type": "string"
           },
+          "Icon": {
+            "oneOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "string"
+              }
+            ],
+            "example": "string or id"
+          },
           "Title": {
+            "type": "string"
+          },
+          "Location": {
             "type": "string"
           },
           "From": {
@@ -109,21 +123,7 @@
           "CurrentJob": {
             "type": "boolean"
           },
-          "Icon": {
-            "oneOf": [
-              {
-                "type": "integer"
-              },
-              {
-                "type": "string"
-              }
-            ],
-            "example": "string or id"
-          },
-          "CompanyName": {
-            "type": "string"
-          },
-          "Location": {
+          "Description": {
             "type": "string"
           },
           "locale": {
@@ -140,10 +140,24 @@
           "data": {
             "type": "object",
             "properties": {
-              "Description": {
+              "CompanyName": {
                 "type": "string"
               },
+              "Icon": {
+                "oneOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "string"
+                  }
+                ],
+                "example": "string or id"
+              },
               "Title": {
+                "type": "string"
+              },
+              "Location": {
                 "type": "string"
               },
               "From": {
@@ -157,21 +171,7 @@
               "CurrentJob": {
                 "type": "boolean"
               },
-              "Icon": {
-                "oneOf": [
-                  {
-                    "type": "integer"
-                  },
-                  {
-                    "type": "string"
-                  }
-                ],
-                "example": "string or id"
-              },
-              "CompanyName": {
-                "type": "string"
-              },
-              "Location": {
+              "Description": {
                 "type": "string"
               },
               "locale": {
@@ -298,22 +298,8 @@
       "Job": {
         "type": "object",
         "properties": {
-          "Description": {
+          "CompanyName": {
             "type": "string"
-          },
-          "Title": {
-            "type": "string"
-          },
-          "From": {
-            "type": "string",
-            "format": "date"
-          },
-          "To": {
-            "type": "string",
-            "format": "date"
-          },
-          "CurrentJob": {
-            "type": "boolean"
           },
           "Icon": {
             "type": "object",
@@ -936,10 +922,24 @@
               }
             }
           },
-          "CompanyName": {
+          "Title": {
             "type": "string"
           },
           "Location": {
+            "type": "string"
+          },
+          "From": {
+            "type": "string",
+            "format": "date"
+          },
+          "To": {
+            "type": "string",
+            "format": "date"
+          },
+          "CurrentJob": {
+            "type": "boolean"
+          },
+          "Description": {
             "type": "string"
           },
           "createdAt": {
