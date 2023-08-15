@@ -9433,6 +9433,11 @@ strapi-plugin-responsive-image@^1.1.0:
   resolved "https://verdaccio.mein-recycling.de/strapi-plugin-responsive-image/-/strapi-plugin-responsive-image-1.1.0.tgz#3ae134b7f80d427fe8b7327b7f0d7d985877c797"
   integrity sha512-B9yI6rym16dWJ58T/crzDqgx1djpsIDiwcbyMywCTbUMOs6NAw9nVVhufcc9r65ThnbBZOdbLu9q11oM/bzgRA==
 
+strapi-plugin-transformer@^3.1.0:
+  version "3.1.0"
+  resolved "https://verdaccio.mein-recycling.de/strapi-plugin-transformer/-/strapi-plugin-transformer-3.1.0.tgz#903d3288d14607e18d4ea51b673665257488f8f0"
+  integrity sha512-wSWntxTeyx+9gTLsR7/rxAcx13PG+AGaLFUHARXu0cZOeULCtLHTgVbGnn0TvzlL/hUq21IKFZRuGF1amsgrzA==
+
 strapi-provider-translate-deepl@^1.1.8:
   version "1.1.8"
   resolved "https://verdaccio.mein-recycling.de/strapi-provider-translate-deepl/-/strapi-provider-translate-deepl-1.1.8.tgz#7efc5e24dbb9d75e200bdbd2d10d4e84bf71013d"
