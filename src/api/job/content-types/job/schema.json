@@ -19,7 +19,7 @@
     "CompanyName": {
       "pluginOptions": {
         "i18n": {
-          "localized": true
+          "localized": false
         }
       },
       "type": "string"
@@ -59,7 +59,7 @@
     "From": {
       "pluginOptions": {
         "i18n": {
-          "localized": true
+          "localized": false
         }
       },
       "type": "date"
@@ -67,7 +67,7 @@
     "To": {
       "pluginOptions": {
         "i18n": {
-          "localized": true
+          "localized": false
         }
       },
       "type": "date"
@@ -75,7 +75,7 @@
     "CurrentJob": {
       "pluginOptions": {
         "i18n": {
-          "localized": true
+          "localized": false
         }
       },
       "type": "boolean"
