@@ -16,7 +16,7 @@
     }
   },
   "attributes": {
-    "CompanyName": {
+    "companyName": {
       "pluginOptions": {
         "i18n": {
           "localized": false
@@ -24,7 +24,7 @@
       },
       "type": "string"
     },
-    "Icon": {
+    "icon": {
       "type": "media",
       "multiple": false,
       "required": false,
@@ -40,7 +40,7 @@
         }
       }
     },
-    "Title": {
+    "title": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -48,7 +48,7 @@
       },
       "type": "string"
     },
-    "Location": {
+    "location": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -56,7 +56,7 @@
       },
       "type": "string"
     },
-    "From": {
+    "startDate": {
       "pluginOptions": {
         "i18n": {
           "localized": false
@@ -64,7 +64,7 @@
       },
       "type": "date"
     },
-    "To": {
+    "endDate": {
       "pluginOptions": {
         "i18n": {
           "localized": false
@@ -72,7 +72,7 @@
       },
       "type": "date"
     },
-    "CurrentJob": {
+    "isCurrentJob": {
       "pluginOptions": {
         "i18n": {
           "localized": false
@@ -80,13 +80,41 @@
       },
       "type": "boolean"
     },
-    "Description": {
+    "description": {
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
       "type": "richtext"
+    },
+    "mainColor": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "customField",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+      "customField": "plugin::color-picker.color"
+    },
+    "darkColor": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "customField",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+      "customField": "plugin::color-picker.color"
+    },
+    "technologies": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "json"
     }
   }
 }
