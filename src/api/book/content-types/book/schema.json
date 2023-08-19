@@ -4,7 +4,8 @@
   "info": {
     "singularName": "book",
     "pluralName": "books",
-    "displayName": "Book"
+    "displayName": "Book",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -32,14 +33,15 @@
       "type": "string"
     },
     "cover": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
       ],
-      "type": "media",
-      "multiple": false,
       "pluginOptions": {
         "i18n": {
           "localized": false
@@ -65,6 +67,14 @@
         "Fiction",
         "Non-fiction"
       ]
+    },
+    "rank": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "integer"
     }
   }
 }
