@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tv_shows",
+  "info": {
+    "singularName": "tv-show",
+    "pluralName": "tv-shows",
+    "displayName": "TvShow"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "year": {
+      "type": "integer"
+    },
+    "poster": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}
