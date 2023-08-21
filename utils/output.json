@@ -1,0 +1,76 @@
+{
+  "data": [
+    {
+      "author": "Crichton, Michael",
+      "genre": "Fiction",
+      "goodreadsLink": "https://www.goodreads.com/book/show/40604658-jurassic-park",
+      "title": "Jurassic Park",
+      "locale": "en",
+      "cover":null
+    },
+    {
+      "author": "Hunt, Andrew and Thomas, David",
+      "genre": "Fiction",
+      "goodreadsLink": "https://www.goodreads.com/book/show/4099.The_Pragmatic_Programmer",
+      "title": "The Pragmatic Programmer",
+      "locale": "en",
+      "cover": null
+    },
+    {
+      "author": "McConnell, Steve",
+      "genre": "Fiction",
+      "goodreadsLink": "https://www.goodreads.com/book/show/4845.Code_Complete",
+      "title": "Code Complete",
+      "locale": "en",
+      "cover": null
+    },
+    {
+      "author": "Dahl, Roald",
+      "genre": "Fiction",
+      "goodreadsLink": "https://www.goodreads.com/book/show/39988.Matilda",
+      "title": "Matilda",
+      "locale": "en",
+      "cover": null
+    },
+    {
+      "author": "Adams, Douglas",
+      "genre": "Fiction",
+      "goodreadsLink": "https://www.goodreads.com/book/show/13.The_Ultimate_Hitchhiker_s_Guide_to_the_Galaxy",
+      "title": "The Hitchhiker's Guide to the Galaxy",
+      "locale": "en",
+      "cover": null
+    },
+    {
+      "author": "Pitzorno, Bianca",
+      "genre": "Fiction",
+      "goodreadsLink": "https://www.goodreads.com/book/show/7667075-polissena-del-porcello",
+      "title": "Polissena del Porcello",
+      "locale": "en",
+      "cover": null
+    },
+    {
+      "author": "Dawkins, Richard",
+      "genre": "Fiction",
+      "goodreadsLink": "https://www.goodreads.com/book/show/14743.The_God_Delusion",
+      "title": "The God Delusion",
+      "locale": "en",
+      "cover": null
+    },
+    {
+      "author": "Atwood, Margaret",
+      "genre": "Fiction",
+      "goodreadsLink": "https://www.goodreads.com/book/show/38447.The_Handmaid_s_Tale",
+      "title": "The Handmaid's Tale",
+      "locale": "en",
+      "cover": null
+    },
+    {
+      "author": "Tolkien",
+      "genre": "Fiction",
+      "goodreadsLink": "https://www.goodreads.com/book/show/33.The_Lord_of_the_Rings",
+      "title": "The Lord of the Rings",
+      "locale": "en",
+      "cover": null
+    }
+  ]
+}

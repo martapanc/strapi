@@ -37,5 +37,9 @@ module.exports = ({ env }) => ({
         introspection: true
       }
     }
+  },
+  'import-export-entries': {
+    enabled: true,
+    config: {}
   }
 });
