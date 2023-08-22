@@ -40,14 +40,6 @@
       },
       "type": "string"
     },
-    "year": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      },
-      "type": "integer"
-    },
     "file": {
       "type": "media",
       "multiple": false,
@@ -63,6 +55,14 @@
           "localized": false
         }
       }
+    },
+    "year": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "string"
     }
   }
 }
