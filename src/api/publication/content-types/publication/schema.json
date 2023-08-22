@@ -40,7 +40,7 @@
       },
       "type": "string"
     },
-    "publicationYear": {
+    "year": {
       "pluginOptions": {
         "i18n": {
           "localized": false
