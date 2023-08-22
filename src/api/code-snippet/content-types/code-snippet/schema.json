@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "code_snippets",
+  "info": {
+    "singularName": "code-snippet",
+    "pluralName": "code-snippets",
+    "displayName": "Code Snippet"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "code": {
+      "type": "text"
+    },
+    "language": {
+      "type": "string"
+    }
+  }
+}
