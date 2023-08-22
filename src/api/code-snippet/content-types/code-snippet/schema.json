@@ -13,7 +13,7 @@
   "pluginOptions": {},
   "attributes": {
     "language": {
-      "type": "text"
+      "type": "string"
     },
     "code": {
       "type": "richtext"
