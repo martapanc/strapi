@@ -4,18 +4,19 @@
   "info": {
     "singularName": "code-snippet",
     "pluralName": "code-snippets",
-    "displayName": "Code Snippet"
+    "displayName": "Code Snippet",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "code": {
+    "language": {
       "type": "text"
     },
-    "language": {
-      "type": "string"
+    "code": {
+      "type": "richtext"
     }
   }
 }
