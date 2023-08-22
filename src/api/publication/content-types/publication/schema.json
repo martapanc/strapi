@@ -40,7 +40,7 @@
       },
       "type": "string"
     },
-    "year": {
+    "publicationYear": {
       "pluginOptions": {
         "i18n": {
           "localized": false
@@ -49,14 +49,15 @@
       "type": "integer"
     },
     "file": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
       ],
-      "type": "media",
-      "multiple": false,
       "pluginOptions": {
         "i18n": {
           "localized": false
