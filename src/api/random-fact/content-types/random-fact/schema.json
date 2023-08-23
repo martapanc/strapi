@@ -4,7 +4,8 @@
   "info": {
     "singularName": "random-fact",
     "pluralName": "random-facts",
-    "displayName": "RandomFact"
+    "displayName": "Random Fact",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -45,7 +46,8 @@
           "localized": false
         }
       },
-      "type": "boolean"
+      "type": "boolean",
+      "default": true
     },
     "explanation": {
       "pluginOptions": {
