@@ -22,7 +22,7 @@ def parse_json():
 
 
 def parse_json_to_strapi():
-  jsonl_url = "https://lj8a3h3g.api.sanity.io/v2021-06-07/data/export/production?types=videoGame"
+  jsonl_url = "https://lj8a3h3g.api.sanity.io/v2021-06-07/data/export/production?types=randomFact"
   response = requests.get(jsonl_url)
   response.raise_for_status()
 
@@ -36,7 +36,7 @@ def parse_json_to_strapi():
     json_obj[id] = json_data
     id += 1
 
-  json_output = {"version": 2, "data": {"api::video-game.video-game": json_obj}}
+  json_output = {"version": 2, "data": {"api::random-fact.random-fact": json_obj}}
 
   output_file = "./utils/output.json"
   with open(output_file, "w") as f:

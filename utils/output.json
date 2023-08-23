@@ -1,102 +1,822 @@
 {
   "version": 2,
   "data": {
-    "api::video-game.video-game": {
+    "api::random-fact.random-fact": {
       "1": {
-        "link": "https://www.igdb.com/games/detroit-become-human--1",
-        "title": "Detroit Become Human",
-        "year": 2018,
+        "_createdAt": "2023-07-25T21:13:58Z",
+        "_id": "5ce0c1f7-b62f-4975-b721-cadcf8e22616",
+        "_rev": "Fcxa5E4FC708NdE8cCJr0L",
+        "_type": "randomFact",
+        "_updatedAt": "2023-07-29T10:24:43Z",
+        "explanation": [
+          {
+            "_key": "d379e8cf36be",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "8e37c1856c40",
+                "_type": "span",
+                "marks": [],
+                "text": "I wish I had started so early! "
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "13dd1963a8a0",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "e8da6e40ff4b",
+                "_type": "span",
+                "marks": [],
+                "text": "Actually, I began learning computer science in high school, so when I was 14 or 15, and unfortunately the language chosen by my teacher was the ultra-modern (?) "
+              },
+              {
+                "_key": "663114f59d2f",
+                "_type": "span",
+                "marks": [
+                  "c3bc461ae15d"
+                ],
+                "text": "Turbo Pascal"
+              },
+              {
+                "_key": "bc0975ae1719",
+                "_type": "span",
+                "marks": [],
+                "text": ". "
+              }
+            ],
+            "markDefs": [
+              {
+                "_key": "c3bc461ae15d",
+                "_type": "link",
+                "href": "https://it.wikipedia.org/wiki/Turbo_Pascal"
+              }
+            ],
+            "style": "normal"
+          },
+          {
+            "_key": "776576434c10",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "711c52bd38aa",
+                "_type": "span",
+                "marks": [],
+                "text": "I don't regret anything though - if anything that means that even a girl from small beginnings can become a decent programmer \ud83d\udcaa"
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ],
+        "headline": "I wrote the my first lines of code as a 7 year-old: a simple program in BASIC that displayed a colourful \"Happy Birthday\" on the screen \ud83d\udcbb",
+        "isFactTrue": false,
+        "name": "First code",
         "id": 1
       },
       "2": {
-        "link": "https://www.igdb.com/games/rayman-legends--1",
-        "title": "Rayman Legends",
-        "year": 2013,
+        "_createdAt": "2023-07-26T15:22:42Z",
+        "_id": "b674dd55-c6d5-4111-8d82-b41c9aca3c3b",
+        "_rev": "Fcxa5E4FC708NdE8cChcZP",
+        "_type": "randomFact",
+        "_updatedAt": "2023-07-29T13:34:50Z",
+        "description": [
+          {
+            "_key": "46f808086784",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "5673a900b76a",
+                "_type": "span",
+                "marks": [],
+                "text": "When I studied the oboe at the music school, I occasionally played for some illustrious people - notably, the ex Italian President Giorgio Napolitano, the Nobel prize Dario Fo, the bishop of my hometown, and the singer Luciano Ligabue \ud83c\udfb5 \ud83c\udfb8 \ud83c\udfb6 \ud83c\udfbb"
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "0a24f06c5d7f",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "16ec823d4ef8",
+                "_type": "span",
+                "marks": [],
+                "text": "Not so oddly enough, it was usually me who asked them for an autograph, although I was technically the 'star' and they were the audience..."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ],
+        "explanation": [
+          {
+            "_key": "df16d7f95903",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "26a7a503b120",
+                "_type": "span",
+                "marks": [],
+                "text": "That's correct!"
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "51dec8cf802e",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "2f6bb6c71fd2",
+                "_type": "span",
+                "marks": [],
+                "text": "When I studied at the music school, I occasionally played for some illustrious people - notably, the ex Italian President Giorgio Napolitano, the Nobel prize Dario Fo, the bishop of my hometown, and the singer Luciano Ligabue \ud83c\udfb5 \ud83c\udfb8 \ud83c\udfb6 \ud83c\udfbb"
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "5cbb3c1f2814",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "333a3b09c902",
+                "_type": "span",
+                "marks": [],
+                "text": "Not so oddly enough, it was usually me who asked them for an autograph, although I was technically the 'star' and they were the audience..."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ],
+        "headline": "I studied oboe at the music school for more than 12 years \ud83c\udfb6",
+        "isFactTrue": true,
+        "name": "Oboe",
         "id": 2
       },
       "3": {
-        "link": "https://www.igdb.com/games/portal-2",
-        "title": "Portal 2",
-        "year": 2011,
+        "_createdAt": "2023-07-26T15:23:54Z",
+        "_id": "3de85989-75f6-43ba-b8f9-6fe7e0d1ad23",
+        "_rev": "vx3aF5FkTOi31ydPkDJqdG",
+        "_type": "randomFact",
+        "_updatedAt": "2023-07-29T13:35:38Z",
+        "description": [
+          {
+            "_key": "ae7c077e17bc",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "d75f88051e06",
+                "_type": "span",
+                "marks": [],
+                "text": "I was an extra-actor in a movie once \ud83c\udfac "
+              }
+            ],
+            "markDefs": [
+              {
+                "_key": "4a230ead6939",
+                "_type": "link",
+                "href": "https://www.imdb.com/title/tt3530978/"
+              }
+            ],
+            "style": "normal"
+          },
+          {
+            "_key": "15c3420e723f",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "c828c6ce0176",
+                "_type": "span",
+                "marks": [],
+                "text": "It was "
+              },
+              {
+                "_key": "584bfdcb1b1e",
+                "_type": "span",
+                "marks": [
+                  "4a230ead6939"
+                ],
+                "text": "\"The Correspondence\""
+              },
+              {
+                "_key": "fe2a08656c8e",
+                "_type": "span",
+                "marks": [],
+                "text": " (2016) by Giuseppe Tornatore, and I was part of the university students who sat in the conference hall and walked around the uni campus. "
+              }
+            ],
+            "markDefs": [
+              {
+                "_key": "4a230ead6939",
+                "_type": "link",
+                "href": "https://www.imdb.com/title/tt3530978/"
+              }
+            ],
+            "style": "normal"
+          },
+          {
+            "_key": "75621e76cc8a",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "f5d20111bf77",
+                "_type": "span",
+                "marks": [],
+                "text": "If you manage to spot me, I promise I'll autograph your t-shirt \ud83d\ude09"
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ],
+        "explanation": [
+          {
+            "_key": "55574886a858",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "83a2498983cb0",
+                "_type": "span",
+                "marks": [],
+                "text": "Correct! I was part of the university students who sat in the conference hall and walked around the uni campus. "
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "5744eac36ce6",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "7f3dedfbb8cd",
+                "_type": "span",
+                "marks": [],
+                "text": "If you manage to spot me, I promise I'll autograph your t-shirt ;)"
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ],
+        "headline": "I was an extra-actor in a movie once: \"Correspondence\" by Giuseppe Tornatore \ud83c\udfac",
+        "isFactTrue": true,
+        "name": "Correspondence",
         "id": 3
       },
       "4": {
-        "link": "https://www.igdb.com/games/the-legend-of-zelda-breath-of-the-wild",
-        "title": "The Legend of Zelda: Breath of the Wild",
-        "year": 2017,
+        "_createdAt": "2023-07-25T20:56:44Z",
+        "_id": "10dee0f1-b536-4416-b0eb-1c6c3a8c5590",
+        "_rev": "vx3aF5FkTOi31ydPkDJqk2",
+        "_type": "randomFact",
+        "_updatedAt": "2023-07-29T13:35:49Z",
+        "description": [
+          {
+            "_key": "72ea0e50c7d4",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "6c93ea4f48220",
+                "_type": "span",
+                "marks": [],
+                "text": "I have a brown belt in karate, which I practised for 6 years \ud83e\udd4b "
+              }
+            ],
+            "markDefs": [
+              {
+                "_key": "c11c45286dd2",
+                "_type": "link",
+                "href": "http://www.fondazionesport.it/Sezione.jsp?idSezione=50&visscadute=1"
+              }
+            ],
+            "style": "normal"
+          },
+          {
+            "_key": "479f69e38120",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "90f5cc0c2e7e",
+                "_type": "span",
+                "marks": [],
+                "text": "I took part in a few local competitions, including the "
+              },
+              {
+                "_key": "6c93ea4f48221",
+                "_type": "span",
+                "marks": [
+                  "c11c45286dd2"
+                ],
+                "text": "\"Tricolore Youth Olympic Games\""
+              },
+              {
+                "_key": "6c93ea4f48222",
+                "_type": "span",
+                "marks": [],
+                "text": " in Reggio Emilia... so be careful when you're around me \ud83d\ude09"
+              }
+            ],
+            "markDefs": [
+              {
+                "_key": "c11c45286dd2",
+                "_type": "link",
+                "href": "http://www.fondazionesport.it/Sezione.jsp?idSezione=50&visscadute=1"
+              }
+            ],
+            "style": "normal"
+          },
+          {
+            "_key": "0f1b31837ac0",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "826d760780900",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ],
+        "explanation": [
+          {
+            "_key": "2b0e87198d49",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "2c06fc849404",
+                "_type": "span",
+                "marks": [],
+                "text": "That's correct!"
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "1f13d607adbf",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "350116d20815",
+                "_type": "span",
+                "marks": [],
+                "text": "I also took part in a few local competitions, including the "
+              },
+              {
+                "_key": "cced488d4441",
+                "_type": "span",
+                "marks": [
+                  "86ed4311ecfb"
+                ],
+                "text": "\"Tricolore Youth Olympic Games\""
+              },
+              {
+                "_key": "dac30e0d1f2f",
+                "_type": "span",
+                "marks": [],
+                "text": " in Reggio Emilia... so be careful when you're around me \ud83d\ude09"
+              }
+            ],
+            "markDefs": [
+              {
+                "_key": "86ed4311ecfb",
+                "_type": "link",
+                "href": "http://www.fondazionesport.it/Sezione.jsp?idSezione=50&visscadute=1"
+              }
+            ],
+            "style": "normal"
+          }
+        ],
+        "headline": "I've got a brown belt in karate after practising it for 6 years \ud83e\udd4b",
+        "isFactTrue": true,
+        "name": "Karate",
         "id": 4
       },
       "5": {
-        "link": "https://www.igdb.com/games/professor-layton-and-the-unwound-future",
-        "title": "Professor Layton and the Unwound Future",
-        "year": 2008,
+        "_createdAt": "2023-07-25T20:55:57Z",
+        "_id": "94173308-c254-4f79-a164-7191423acd6b",
+        "_rev": "Fcxa5E4FC708NdE8cChdbz",
+        "_type": "randomFact",
+        "_updatedAt": "2023-07-29T13:36:07Z",
+        "explanation": [
+          {
+            "_key": "e8d0e7b85629",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "317f908b5676",
+                "_type": "span",
+                "marks": [],
+                "text": "Unfortunately I caught it in April 2023, after thinking I had escaped it \ud83d\ude22"
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "c649e4c2f12a",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "103a669548d40",
+                "_type": "span",
+                "marks": [],
+                "text": "The platinum trophy is gone, but at least I am left with the gold one... after 3 years I think I deserve it :)"
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "24b569080696",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "31d026052e07",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ],
+        "headline": "At the time of writing this - August 2023 - I haven't caught Covid-19 \ud83e\udda0 If I manage not to ever catch it, I'll consider it a Platinum Trophy\u2122 \ud83c\udfc6",
+        "isFactTrue": false,
+        "name": "Covid False",
         "id": 5
       },
       "6": {
-        "link": "https://www.igdb.com/games/ori-and-the-blind-forest",
-        "title": "Ori and the Blind Forest",
-        "year": 2015,
+        "_createdAt": "2023-07-25T20:57:06Z",
+        "_id": "289f780b-7c6c-4081-908e-a6cafc225129",
+        "_rev": "Fcxa5E4FC708NdE8cCo1wv",
+        "_type": "randomFact",
+        "_updatedAt": "2023-07-29T14:05:39Z",
+        "description": [
+          {
+            "_key": "b033fa748fda",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "74d2045a753c0",
+                "_type": "span",
+                "marks": [],
+                "text": "The craziest trip of my life? That time I visited San Francisco and the big companies and schools in the Bay Area (Google, Facebook, Linkedin, Logitech, Stanford University, UC Berkeley...) as part of the "
+              },
+              {
+                "_key": "74d2045a753c1",
+                "_type": "span",
+                "marks": [
+                  "5aba3d135dcf"
+                ],
+                "text": "\"Silicon Valley Study Tour\""
+              },
+              {
+                "_key": "74d2045a753c2",
+                "_type": "span",
+                "marks": [],
+                "text": ". I then immediately flew to Shanghai to participate in a Hackathon, "
+              },
+              {
+                "_key": "74d2045a753c3",
+                "_type": "span",
+                "marks": [
+                  "399e5f3c4e34"
+                ],
+                "text": "GESS 2017"
+              },
+              {
+                "_key": "74d2045a753c4",
+                "_type": "span",
+                "marks": [],
+                "text": "... all within a span of less than 3 weeks \ud83c\udf0e"
+              }
+            ],
+            "markDefs": [
+              {
+                "_key": "5aba3d135dcf",
+                "_type": "link",
+                "href": "https://www.siliconvalleystudytour.com/"
+              },
+              {
+                "_key": "399e5f3c4e34",
+                "_type": "link",
+                "href": "https://globalsummerschool.org/"
+              }
+            ],
+            "style": "normal"
+          }
+        ],
+        "explanation": [
+          {
+            "_key": "7174d114f418",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "9bda89379747",
+                "_type": "span",
+                "marks": [],
+                "text": "Yep, definitely the craziest trip of my life so far... "
+              }
+            ],
+            "markDefs": [
+              {
+                "_key": "da66970de4cf",
+                "_type": "link",
+                "href": "https://www.siliconvalleystudytour.com/"
+              },
+              {
+                "_key": "2f3ab837ac80",
+                "_type": "link",
+                "href": "https://globalsummerschool.org/"
+              }
+            ],
+            "style": "normal"
+          },
+          {
+            "_key": "af9852797f61",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "0cd190b11057",
+                "_type": "span",
+                "marks": [],
+                "text": "I visited San Francisco and the big companies and schools in the Bay Area (Google, Facebook, Linkedin, Logitech, Stanford University, UC Berkeley...) as part of the "
+              },
+              {
+                "_key": "48af79dc2c77",
+                "_type": "span",
+                "marks": [
+                  "da66970de4cf"
+                ],
+                "text": "\"Silicon Valley Study Tour\""
+              },
+              {
+                "_key": "04fbf8bc44c6",
+                "_type": "span",
+                "marks": [],
+                "text": ". I then immediately flew to Shanghai to participate in a Hackathon, "
+              },
+              {
+                "_key": "93eee3ac6662",
+                "_type": "span",
+                "marks": [
+                  "2f3ab837ac80"
+                ],
+                "text": "GESS 2017"
+              },
+              {
+                "_key": "3c84eb03c058",
+                "_type": "span",
+                "marks": [],
+                "text": "... all within less than 3 weeks."
+              }
+            ],
+            "markDefs": [
+              {
+                "_key": "da66970de4cf",
+                "_type": "link",
+                "href": "https://www.siliconvalleystudytour.com/"
+              },
+              {
+                "_key": "2f3ab837ac80",
+                "_type": "link",
+                "href": "https://globalsummerschool.org/"
+              }
+            ],
+            "style": "normal"
+          }
+        ],
+        "headline": "Once I traveled to California for a tour of the Silicon Valley, then to Shanghai to attend a hackathon - all in the span of 3 weeks \ud83c\udf0e",
+        "isFactTrue": true,
+        "name": "SVST & GESS",
         "id": 6
       },
       "7": {
-        "link": "https://www.igdb.com/games/croc-2",
-        "title": "Croc 2",
-        "year": 1999,
+        "_createdAt": "2023-07-26T15:19:51Z",
+        "_id": "bf8d3a53-4375-4941-b721-e35f3a44ce55",
+        "_rev": "vx3aF5FkTOi31ydPkBWZ8x",
+        "_type": "randomFact",
+        "_updatedAt": "2023-07-28T19:39:18Z",
+        "description": [
+          {
+            "_key": "8ddc0ad03807",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "0683f80f8da60",
+                "_type": "span",
+                "marks": [],
+                "text": "I have been officially excommunicated by the Roman Catholic Church \u26ea"
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "96b5af1a1302",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "758a4fb5ae2e",
+                "_type": "span",
+                "marks": [],
+                "text": "At a certain point in my life I realised that I no longer agreed with the dictates of the religion I had grown up in, so I decided to declare it to the Church, and was excommunicated as a consequence... I don't brag about it, but it feels good to be consistent \ud83d\ude0c"
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ],
+        "explanation": [
+          {
+            "_key": "58d3b5ad27e3",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "6e2551f5dbae",
+                "_type": "span",
+                "marks": [],
+                "text": "That is accurate! "
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "f14202f9c828",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "ed932b8a70ee",
+                "_type": "span",
+                "marks": [],
+                "text": "At a certain point in my life I realised that I no longer agreed with the dictates of the religion I had grown up in, so I decided to declare it to the Church, and was excommunicated as a consequence... I don't brag about it, but it feels good to be consistent \ud83d\ude0c"
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ],
+        "headline": "I have been officially excommunicated by the Roman Catholic Church \u26ea",
+        "isFactTrue": true,
+        "name": "Church",
         "id": 7
       },
       "8": {
-        "link": "https://www.igdb.com/games/uncharted-4-a-thief-s-end",
-        "title": "Uncharted 4",
-        "year": 2016,
+        "_createdAt": "2023-07-25T21:20:04Z",
+        "_id": "1e85c936-22ac-4aa0-ad3a-89abcc5c8c3d",
+        "_rev": "Fcxa5E4FC708NdE8cChdBZ",
+        "_type": "randomFact",
+        "_updatedAt": "2023-07-29T13:35:11Z",
+        "description": [
+          {
+            "_key": "fe8c36955fe2",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "d1fdaab8cd17",
+                "_type": "span",
+                "marks": [],
+                "text": "I know flags and capitals of all 195 countries in the world."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ],
+        "explanation": [
+          {
+            "_key": "594bd29fc3ea",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "a60dbc629cf1",
+                "_type": "span",
+                "marks": [],
+                "text": "Haha, nope... not yet at least, but I'm working on it ;) "
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "cf9c507ca78f",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "1b9a8ae7842f",
+                "_type": "span",
+                "marks": [],
+                "text": "I know all 50 States by heart (alphabetically and geographically) though, and can probably name most of the 110 Italian towns along with their codes."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ],
+        "headline": "I know flags and capitals of all 195 countries in the world \ud83c\uddf0\ud83c\uddf2",
+        "isFactTrue": false,
+        "name": "Countries",
         "id": 8
       },
       "9": {
-        "link": "https://www.igdb.com/games/guitar-hero-warriors-of-rock",
-        "title": "Guitar Hero: Warriors of Rock",
-        "year": 2010,
+        "_createdAt": "2023-07-25T20:43:51Z",
+        "_id": "68149e17-9fb8-47df-bcd2-df0415acbaa0",
+        "_rev": "Fcxa5E4FC708NdE8cCK6Cd",
+        "_type": "randomFact",
+        "_updatedAt": "2023-07-29T10:33:28Z",
+        "description": [
+          {
+            "_key": "f5de7177c0d4",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "1476ddfbadaf0",
+                "_type": "span",
+                "marks": [],
+                "text": "I was an extra-actor in a movie once \ud83c\udfac It was \"The Correspondence\" (2016) by Giuseppe Tornatore, and I was part of the university students who sat in the conference hall and walked around the uni campus. "
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "eb1599022bbf",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "160fc8e96abd",
+                "_type": "span",
+                "marks": [],
+                "text": "The best thing about it is I got to meet Jeremy Irons \ud83e\udd29"
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ],
+        "explanation": [
+          {
+            "_key": "e55a451643f7",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "8fb55a75daa30",
+                "_type": "span",
+                "marks": [],
+                "text": "That one was mostly true! "
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "a18cebdecbfd",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "b9370c9436fe",
+                "_type": "span",
+                "marks": [],
+                "text": "I was an extra in the \u201cCorrespondence\u201d, but didn\u2019t have the chance to meet dear Jeremy\u2026 to be fair I\u2019m pretty sure that the leading actress, Olga Kurylenko, barely ever interacted with him in person, considering the structure of the movie \ud83e\udd2a "
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "9302c1442e81",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "0466512da051",
+                "_type": "span",
+                "marks": [],
+                "text": "Still had a fun time anyway, even though the whole experience convinced me never to become an actor\u2026 way too much effort! \ud83d\ude05"
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ],
+        "headline": "I was an extra-actor in a movie once (\"Correspondence\" by G. Tornatore), and I got to meet Jeremy Irons \ud83e\udd29",
+        "isFactTrue": false,
+        "name": "Correspondence False",
         "id": 9
-      },
-      "10": {
-        "link": "https://www.igdb.com/games/rocket-league",
-        "title": "Rocket League",
-        "year": 2015,
-        "id": 10
-      },
-      "11": {
-        "link": "https://www.igdb.com/games/sonic-unleashed--1",
-        "title": "Sonic Unleashed",
-        "year": 2008,
-        "id": 11
-      },
-      "12": {
-        "link": "https://www.igdb.com/games/sonic-frontiers",
-        "title": "Sonic Frontiers",
-        "year": 2022,
-        "id": 12
-      },
-      "13": {
-        "link": "https://www.igdb.com/games/super-mario-odyssey",
-        "title": "Super Mario Odyssey",
-        "year": 2017,
-        "id": 13
-      },
-      "14": {
-        "link": "https://www.igdb.com/games/the-legend-of-zelda-tears-of-the-kingdom",
-        "title": "The Legend of Zelda: Tears of the Kingdom",
-        "year": 2023,
-        "id": 14
-      },
-      "15": {
-        "link": "https://www.igdb.com/games/ori-and-the-will-of-the-wisps",
-        "title": "Ori and the Will of the Wisps",
-        "year": 2020,
-        "id": 15
-      },
-      "16": {
-        "link": "https://www.igdb.com/games/pokemon-go",
-        "title": "Pok\u00e9mon Go",
-        "year": 2021,
-        "id": 16
       }
     }
   }
