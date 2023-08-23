@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-08-23T14:16:36.155Z"
+    "x-generation-date": "2023-08-23T16:29:15.339Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -8209,9 +8209,6 @@
               "title": {
                 "type": "string"
               },
-              "year": {
-                "type": "integer"
-              },
               "poster": {
                 "oneOf": [
                   {
@@ -8224,6 +8221,9 @@
                 "example": "string or id"
               },
               "link": {
+                "type": "string"
+              },
+              "year": {
                 "type": "string"
               }
             }
@@ -8281,9 +8281,6 @@
         "properties": {
           "title": {
             "type": "string"
-          },
-          "year": {
-            "type": "integer"
           },
           "poster": {
             "type": "object",
@@ -8909,6 +8906,9 @@
           "link": {
             "type": "string"
           },
+          "year": {
+            "type": "string"
+          },
           "createdAt": {
             "type": "string",
             "format": "date-time"
@@ -8991,9 +8991,6 @@
               "title": {
                 "type": "string"
               },
-              "year": {
-                "type": "integer"
-              },
               "cover": {
                 "oneOf": [
                   {
@@ -9006,6 +9003,9 @@
                 "example": "string or id"
               },
               "link": {
+                "type": "string"
+              },
+              "year": {
                 "type": "string"
               }
             }
@@ -9063,9 +9063,6 @@
         "properties": {
           "title": {
             "type": "string"
-          },
-          "year": {
-            "type": "integer"
           },
           "cover": {
             "type": "object",
@@ -9689,6 +9686,9 @@
             }
           },
           "link": {
+            "type": "string"
+          },
+          "year": {
             "type": "string"
           },
           "createdAt": {

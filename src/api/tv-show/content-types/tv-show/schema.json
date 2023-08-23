@@ -4,7 +4,8 @@
   "info": {
     "singularName": "tv-show",
     "pluralName": "tv-shows",
-    "displayName": "TvShow"
+    "displayName": "TvShow",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -14,20 +15,21 @@
     "title": {
       "type": "string"
     },
-    "year": {
-      "type": "integer"
-    },
     "poster": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "link": {
+      "type": "string"
+    },
+    "year": {
       "type": "string"
     }
   }

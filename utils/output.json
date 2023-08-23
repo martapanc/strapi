@@ -1,58 +1,103 @@
 {
-  "data": [
-    {
-      "author": "Atheist Community of Austin",
-      "language": "en",
-      "mediaLink": "https://open.spotify.com/show/1lxRYcJVq7iatU7mcNRbEH",
-      "name": "Talk Heathen"
-    },
-    {
-      "author": "Rick DuFer",
-      "language": "it",
-      "mediaLink": "https://open.spotify.com/show/3CPV6sZxGV3fVuDLbR9uWh",
-      "name": "Daily Cogito"
-    },
-    {
-      "author": "Stefano Nazi",
-      "language": "it",
-      "mediaLink": "https://open.spotify.com/playlist/41SG1CEuMMah5oaSKbeDAp",
-      "name": "Indagini"
-    },
-    {
-      "author": "Emanuele Menietti, Beatrice Mautino",
-      "language": "it",
-      "mediaLink": "https://open.spotify.com/show/2dFnTK83EmwkR6yMYb3uoL",
-      "name": "Ci Vuole una Scienza"
-    },
-    {
-      "author": "Pablo Trincia",
-      "language": "it",
-      "mediaLink": "https://open.spotify.com/show/66fZ8K1hHPhnBrbWxIODEi",
-      "name": "Veleno"
-    },
-    {
-      "author": "Francesco Costa",
-      "language": "it",
-      "mediaLink": "https://open.spotify.com/show/5MWgP5N6UPK3IJhYjpwVYq",
-      "name": "Da Costa a Costa"
-    },
-    {
-      "author": "Alessandro Masala aka Shy",
-      "language": "it",
-      "mediaLink": "https://open.spotify.com/show/7iTg2xpKFAeiBVA3Zq6e7m",
-      "name": "Breaking Italy"
-    },
-    {
-      "author": "Atheist Community of Austin",
-      "language": "en",
-      "mediaLink": "https://open.spotify.com/show/770WPA1HnBVJ3b2gzliMDJ",
-      "name": "The Atheist Experience"
-    },
-    {
-      "author": "Pablo Trincia",
-      "language": "it",
-      "mediaLink": "https://open.spotify.com/show/7r4owruhMrR2us6mAN7xDQ",
-      "name": "Il Dito di Dio"
+  "version": 2,
+  "data": {
+    "api::video-game.video-game": {
+      "1": {
+        "link": "https://www.igdb.com/games/detroit-become-human--1",
+        "title": "Detroit Become Human",
+        "year": 2018,
+        "id": 1
+      },
+      "2": {
+        "link": "https://www.igdb.com/games/rayman-legends--1",
+        "title": "Rayman Legends",
+        "year": 2013,
+        "id": 2
+      },
+      "3": {
+        "link": "https://www.igdb.com/games/portal-2",
+        "title": "Portal 2",
+        "year": 2011,
+        "id": 3
+      },
+      "4": {
+        "link": "https://www.igdb.com/games/the-legend-of-zelda-breath-of-the-wild",
+        "title": "The Legend of Zelda: Breath of the Wild",
+        "year": 2017,
+        "id": 4
+      },
+      "5": {
+        "link": "https://www.igdb.com/games/professor-layton-and-the-unwound-future",
+        "title": "Professor Layton and the Unwound Future",
+        "year": 2008,
+        "id": 5
+      },
+      "6": {
+        "link": "https://www.igdb.com/games/ori-and-the-blind-forest",
+        "title": "Ori and the Blind Forest",
+        "year": 2015,
+        "id": 6
+      },
+      "7": {
+        "link": "https://www.igdb.com/games/croc-2",
+        "title": "Croc 2",
+        "year": 1999,
+        "id": 7
+      },
+      "8": {
+        "link": "https://www.igdb.com/games/uncharted-4-a-thief-s-end",
+        "title": "Uncharted 4",
+        "year": 2016,
+        "id": 8
+      },
+      "9": {
+        "link": "https://www.igdb.com/games/guitar-hero-warriors-of-rock",
+        "title": "Guitar Hero: Warriors of Rock",
+        "year": 2010,
+        "id": 9
+      },
+      "10": {
+        "link": "https://www.igdb.com/games/rocket-league",
+        "title": "Rocket League",
+        "year": 2015,
+        "id": 10
+      },
+      "11": {
+        "link": "https://www.igdb.com/games/sonic-unleashed--1",
+        "title": "Sonic Unleashed",
+        "year": 2008,
+        "id": 11
+      },
+      "12": {
+        "link": "https://www.igdb.com/games/sonic-frontiers",
+        "title": "Sonic Frontiers",
+        "year": 2022,
+        "id": 12
+      },
+      "13": {
+        "link": "https://www.igdb.com/games/super-mario-odyssey",
+        "title": "Super Mario Odyssey",
+        "year": 2017,
+        "id": 13
+      },
+      "14": {
+        "link": "https://www.igdb.com/games/the-legend-of-zelda-tears-of-the-kingdom",
+        "title": "The Legend of Zelda: Tears of the Kingdom",
+        "year": 2023,
+        "id": 14
+      },
+      "15": {
+        "link": "https://www.igdb.com/games/ori-and-the-will-of-the-wisps",
+        "title": "Ori and the Will of the Wisps",
+        "year": 2020,
+        "id": 15
+      },
+      "16": {
+        "link": "https://www.igdb.com/games/pokemon-go",
+        "title": "Pok\u00e9mon Go",
+        "year": 2021,
+        "id": 16
+      }
     }
-  ]
+  }
 }
