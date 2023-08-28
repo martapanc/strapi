@@ -42,5 +42,12 @@ module.exports = ({ env }) => ({
   'import-export-entries': {
     enabled: true,
     config: {}
+  },
+  stellate: {
+    config: {
+      serviceName: env('STELLATE_SERVICE_NAME'),
+      purgingAPIToken: env('STELLATE_PURGING_TOKEN'),
+      soft: false
+    }
   }
 });
