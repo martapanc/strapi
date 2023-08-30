@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-08-28T12:45:45.015Z"
+    "x-generation-date": "2023-08-30T15:28:57.719Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -1418,7 +1418,19 @@
           "greeting": {
             "type": "string"
           },
-          "introduction": {
+          "introduction_1": {
+            "type": "string"
+          },
+          "introduction_2": {
+            "type": "string"
+          },
+          "introduction_3": {
+            "type": "string"
+          },
+          "introduction_4": {
+            "type": "string"
+          },
+          "introduction_5": {
             "type": "string"
           },
           "versions": {
@@ -1464,7 +1476,19 @@
               "greeting": {
                 "type": "string"
               },
-              "introduction": {
+              "introduction_1": {
+                "type": "string"
+              },
+              "introduction_2": {
+                "type": "string"
+              },
+              "introduction_3": {
+                "type": "string"
+              },
+              "introduction_4": {
+                "type": "string"
+              },
+              "introduction_5": {
                 "type": "string"
               },
               "versions": {
@@ -1620,7 +1644,19 @@
           "greeting": {
             "type": "string"
           },
-          "introduction": {
+          "introduction_1": {
+            "type": "string"
+          },
+          "introduction_2": {
+            "type": "string"
+          },
+          "introduction_3": {
+            "type": "string"
+          },
+          "introduction_4": {
+            "type": "string"
+          },
+          "introduction_5": {
             "type": "string"
           },
           "createdAt": {
@@ -1937,7 +1973,19 @@
                         "greeting": {
                           "type": "string"
                         },
-                        "introduction": {
+                        "introduction_1": {
+                          "type": "string"
+                        },
+                        "introduction_2": {
+                          "type": "string"
+                        },
+                        "introduction_3": {
+                          "type": "string"
+                        },
+                        "introduction_4": {
+                          "type": "string"
+                        },
+                        "introduction_5": {
                           "type": "string"
                         },
                         "createdAt": {
