@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-09-10T10:06:52.382Z"
+    "x-generation-date": "2023-09-10T10:45:59.771Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -4813,9 +4813,6 @@
           "shortDescription": {
             "type": "string"
           },
-          "longDescription": {
-            "type": "string"
-          },
           "tools": {
             "type": "string"
           },
@@ -4827,6 +4824,9 @@
             "type": "string"
           },
           "links": {},
+          "longDescription": {
+            "type": "string"
+          },
           "versions": {
             "type": "array",
             "items": {
@@ -4884,9 +4884,6 @@
               "shortDescription": {
                 "type": "string"
               },
-              "longDescription": {
-                "type": "string"
-              },
               "tools": {
                 "type": "string"
               },
@@ -4898,6 +4895,9 @@
                 "type": "string"
               },
               "links": {},
+              "longDescription": {
+                "type": "string"
+              },
               "versions": {
                 "type": "array",
                 "items": {
@@ -5675,9 +5675,6 @@
           "shortDescription": {
             "type": "string"
           },
-          "longDescription": {
-            "type": "string"
-          },
           "tools": {
             "type": "string"
           },
@@ -5689,6 +5686,9 @@
             "type": "string"
           },
           "links": {},
+          "longDescription": {
+            "type": "string"
+          },
           "createdAt": {
             "type": "string",
             "format": "date-time"
@@ -5894,9 +5894,6 @@
                         "shortDescription": {
                           "type": "string"
                         },
-                        "longDescription": {
-                          "type": "string"
-                        },
                         "tools": {
                           "type": "string"
                         },
@@ -5908,6 +5905,9 @@
                           "type": "string"
                         },
                         "links": {},
+                        "longDescription": {
+                          "type": "string"
+                        },
                         "createdAt": {
                           "type": "string",
                           "format": "date-time"
