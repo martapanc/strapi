@@ -58,7 +58,7 @@
           "localized": true
         }
       },
-      "type": "string"
+      "type": "text"
     },
     "tools": {
       "pluginOptions": {
