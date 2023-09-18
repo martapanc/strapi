@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-09-18T17:39:30.148Z"
+    "x-generation-date": "2023-09-18T18:11:07.682Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -7501,7 +7501,7 @@
         ],
         "type": "object",
         "properties": {
-          "JobPreferences": {
+          "jobPreferences": {
             "$ref": "#/components/schemas/SharedTitledParagraphComponent"
           },
           "tldr": {
@@ -7553,7 +7553,7 @@
           "data": {
             "type": "object",
             "properties": {
-              "JobPreferences": {
+              "jobPreferences": {
                 "$ref": "#/components/schemas/SharedTitledParagraphComponent"
               },
               "tldr": {
@@ -7715,7 +7715,7 @@
       "RecruitersPage": {
         "type": "object",
         "properties": {
-          "JobPreferences": {
+          "jobPreferences": {
             "$ref": "#/components/schemas/SharedTitledParagraphComponent"
           },
           "tldr": {
@@ -8038,8 +8038,7 @@
                     "attributes": {
                       "type": "object",
                       "properties": {
-                        "JobPreferences": {
-                          "type": "object",
+                        "jobPreferences": {                          "type": "object",
                           "properties": {
                             "id": {
                               "type": "number"

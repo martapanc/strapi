@@ -19,7 +19,7 @@
     }
   },
   "attributes": {
-    "JobPreferences": {
+    "jobPreferences": {
       "type": "component",
       "repeatable": false,
       "pluginOptions": {
