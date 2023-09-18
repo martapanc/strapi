@@ -4,7 +4,8 @@
   "info": {
     "singularName": "recruiters-page",
     "pluralName": "recruiters-pages",
-    "displayName": "Recruiters Page"
+    "displayName": "Recruiters Page",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -19,6 +20,45 @@
   },
   "attributes": {
     "JobPreferences": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "versions": {
+          "versioned": true
+        },
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.titled-paragraph"
+    },
+    "tldr": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "versions": {
+          "versioned": true
+        },
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.titled-paragraph"
+    },
+    "salary": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "versions": {
+          "versioned": true
+        },
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.titled-paragraph"
+    },
+    "toolsTechs": {
       "type": "component",
       "repeatable": false,
       "pluginOptions": {

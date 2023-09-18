@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-09-18T15:23:30.478Z"
+    "x-generation-date": "2023-09-18T17:39:30.148Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -7504,6 +7504,15 @@
           "JobPreferences": {
             "$ref": "#/components/schemas/SharedTitledParagraphComponent"
           },
+          "tldr": {
+            "$ref": "#/components/schemas/SharedTitledParagraphComponent"
+          },
+          "salary": {
+            "$ref": "#/components/schemas/SharedTitledParagraphComponent"
+          },
+          "toolsTechs": {
+            "$ref": "#/components/schemas/SharedTitledParagraphComponent"
+          },
           "versions": {
             "type": "array",
             "items": {
@@ -7545,6 +7554,15 @@
             "type": "object",
             "properties": {
               "JobPreferences": {
+                "$ref": "#/components/schemas/SharedTitledParagraphComponent"
+              },
+              "tldr": {
+                "$ref": "#/components/schemas/SharedTitledParagraphComponent"
+              },
+              "salary": {
+                "$ref": "#/components/schemas/SharedTitledParagraphComponent"
+              },
+              "toolsTechs": {
                 "$ref": "#/components/schemas/SharedTitledParagraphComponent"
               },
               "versions": {
@@ -7698,6 +7716,15 @@
         "type": "object",
         "properties": {
           "JobPreferences": {
+            "$ref": "#/components/schemas/SharedTitledParagraphComponent"
+          },
+          "tldr": {
+            "$ref": "#/components/schemas/SharedTitledParagraphComponent"
+          },
+          "salary": {
+            "$ref": "#/components/schemas/SharedTitledParagraphComponent"
+          },
+          "toolsTechs": {
             "$ref": "#/components/schemas/SharedTitledParagraphComponent"
           },
           "createdAt": {
@@ -8012,6 +8039,48 @@
                       "type": "object",
                       "properties": {
                         "JobPreferences": {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "number"
+                            },
+                            "title": {
+                              "type": "string"
+                            },
+                            "content": {
+                              "type": "string"
+                            }
+                          }
+                        },
+                        "tldr": {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "number"
+                            },
+                            "title": {
+                              "type": "string"
+                            },
+                            "content": {
+                              "type": "string"
+                            }
+                          }
+                        },
+                        "salary": {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "number"
+                            },
+                            "title": {
+                              "type": "string"
+                            },
+                            "content": {
+                              "type": "string"
+                            }
+                          }
+                        },
+                        "toolsTechs": {
                           "type": "object",
                           "properties": {
                             "id": {
