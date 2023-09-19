@@ -83,6 +83,17 @@
         }
       },
       "component": "shared.titled-paragraph"
+    },
+    "intro": {
+      "pluginOptions": {
+        "versions": {
+          "versioned": true
+        },
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "richtext"
     }
   }
 }
