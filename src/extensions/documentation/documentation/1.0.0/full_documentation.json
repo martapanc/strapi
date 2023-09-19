@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-09-18T18:11:07.682Z"
+    "x-generation-date": "2023-09-19T16:59:47.214Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -7513,6 +7513,9 @@
           "toolsTechs": {
             "$ref": "#/components/schemas/SharedTitledParagraphComponent"
           },
+          "generalInfo": {
+            "$ref": "#/components/schemas/SharedTitledParagraphComponent"
+          },
           "versions": {
             "type": "array",
             "items": {
@@ -7563,6 +7566,9 @@
                 "$ref": "#/components/schemas/SharedTitledParagraphComponent"
               },
               "toolsTechs": {
+                "$ref": "#/components/schemas/SharedTitledParagraphComponent"
+              },
+              "generalInfo": {
                 "$ref": "#/components/schemas/SharedTitledParagraphComponent"
               },
               "versions": {
@@ -7725,6 +7731,9 @@
             "$ref": "#/components/schemas/SharedTitledParagraphComponent"
           },
           "toolsTechs": {
+            "$ref": "#/components/schemas/SharedTitledParagraphComponent"
+          },
+          "generalInfo": {
             "$ref": "#/components/schemas/SharedTitledParagraphComponent"
           },
           "createdAt": {
@@ -8038,7 +8047,8 @@
                     "attributes": {
                       "type": "object",
                       "properties": {
-                        "jobPreferences": {                          "type": "object",
+                        "jobPreferences": {
+                          "type": "object",
                           "properties": {
                             "id": {
                               "type": "number"
@@ -8080,6 +8090,20 @@
                           }
                         },
                         "toolsTechs": {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "number"
+                            },
+                            "title": {
+                              "type": "string"
+                            },
+                            "content": {
+                              "type": "string"
+                            }
+                          }
+                        },
+                        "generalInfo": {
                           "type": "object",
                           "properties": {
                             "id": {

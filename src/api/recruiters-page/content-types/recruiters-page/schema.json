@@ -70,6 +70,19 @@
         }
       },
       "component": "shared.titled-paragraph"
+    },
+    "generalInfo": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "versions": {
+          "versioned": true
+        },
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.titled-paragraph"
     }
   }
 }
