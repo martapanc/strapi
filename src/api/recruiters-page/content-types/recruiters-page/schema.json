@@ -94,6 +94,17 @@
         }
       },
       "type": "richtext"
+    },
+    "outro": {
+      "pluginOptions": {
+        "versions": {
+          "versioned": true
+        },
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "richtext"
     }
   }
 }
