@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-09-23T16:26:49.199Z"
+    "x-generation-date": "2023-09-26T13:47:27.603Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -12308,19 +12308,19 @@
         "type": "object",
         "properties": {
           "hardware": {
-            "type": "string"
-          },
-          "programmingTools": {
-            "type": "string"
-          },
-          "productivity": {
-            "type": "string"
-          },
-          "security": {
-            "type": "string"
+            "$ref": "#/components/schemas/SharedTitledParagraphComponent"
           },
           "media": {
-            "type": "string"
+            "$ref": "#/components/schemas/SharedTitledParagraphComponent"
+          },
+          "programmingTools": {
+            "$ref": "#/components/schemas/SharedTitledParagraphComponent"
+          },
+          "security": {
+            "$ref": "#/components/schemas/SharedTitledParagraphComponent"
+          },
+          "productivity": {
+            "$ref": "#/components/schemas/SharedTitledParagraphComponent"
           },
           "versions": {
             "type": "array",
@@ -12363,19 +12363,19 @@
             "type": "object",
             "properties": {
               "hardware": {
-                "type": "string"
-              },
-              "programmingTools": {
-                "type": "string"
-              },
-              "productivity": {
-                "type": "string"
-              },
-              "security": {
-                "type": "string"
+                "$ref": "#/components/schemas/SharedTitledParagraphComponent"
               },
               "media": {
-                "type": "string"
+                "$ref": "#/components/schemas/SharedTitledParagraphComponent"
+              },
+              "programmingTools": {
+                "$ref": "#/components/schemas/SharedTitledParagraphComponent"
+              },
+              "security": {
+                "$ref": "#/components/schemas/SharedTitledParagraphComponent"
+              },
+              "productivity": {
+                "$ref": "#/components/schemas/SharedTitledParagraphComponent"
               },
               "versions": {
                 "type": "array",
@@ -12528,19 +12528,19 @@
         "type": "object",
         "properties": {
           "hardware": {
-            "type": "string"
-          },
-          "programmingTools": {
-            "type": "string"
-          },
-          "productivity": {
-            "type": "string"
-          },
-          "security": {
-            "type": "string"
+            "$ref": "#/components/schemas/SharedTitledParagraphComponent"
           },
           "media": {
-            "type": "string"
+            "$ref": "#/components/schemas/SharedTitledParagraphComponent"
+          },
+          "programmingTools": {
+            "$ref": "#/components/schemas/SharedTitledParagraphComponent"
+          },
+          "security": {
+            "$ref": "#/components/schemas/SharedTitledParagraphComponent"
+          },
+          "productivity": {
+            "$ref": "#/components/schemas/SharedTitledParagraphComponent"
           },
           "createdAt": {
             "type": "string",
@@ -12854,19 +12854,74 @@
                       "type": "object",
                       "properties": {
                         "hardware": {
-                          "type": "string"
-                        },
-                        "programmingTools": {
-                          "type": "string"
-                        },
-                        "productivity": {
-                          "type": "string"
-                        },
-                        "security": {
-                          "type": "string"
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "number"
+                            },
+                            "title": {
+                              "type": "string"
+                            },
+                            "content": {
+                              "type": "string"
+                            }
+                          }
                         },
                         "media": {
-                          "type": "string"
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "number"
+                            },
+                            "title": {
+                              "type": "string"
+                            },
+                            "content": {
+                              "type": "string"
+                            }
+                          }
+                        },
+                        "programmingTools": {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "number"
+                            },
+                            "title": {
+                              "type": "string"
+                            },
+                            "content": {
+                              "type": "string"
+                            }
+                          }
+                        },
+                        "security": {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "number"
+                            },
+                            "title": {
+                              "type": "string"
+                            },
+                            "content": {
+                              "type": "string"
+                            }
+                          }
+                        },
+                        "productivity": {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "number"
+                            },
+                            "title": {
+                              "type": "string"
+                            },
+                            "content": {
+                              "type": "string"
+                            }
+                          }
                         },
                         "createdAt": {
                           "type": "string",

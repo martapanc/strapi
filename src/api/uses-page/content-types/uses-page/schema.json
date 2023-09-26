@@ -4,7 +4,8 @@
   "info": {
     "singularName": "uses-page",
     "pluralName": "uses-pages",
-    "displayName": "Uses Page"
+    "displayName": "Uses Page",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -19,6 +20,8 @@
   },
   "attributes": {
     "hardware": {
+      "type": "component",
+      "repeatable": false,
       "pluginOptions": {
         "versions": {
           "versioned": true
@@ -27,42 +30,11 @@
           "localized": true
         }
       },
-      "type": "richtext"
-    },
-    "programmingTools": {
-      "pluginOptions": {
-        "versions": {
-          "versioned": true
-        },
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "richtext"
-    },
-    "productivity": {
-      "pluginOptions": {
-        "versions": {
-          "versioned": true
-        },
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "richtext"
-    },
-    "security": {
-      "pluginOptions": {
-        "versions": {
-          "versioned": true
-        },
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "richtext"
+      "component": "shared.titled-paragraph"
     },
     "media": {
+      "type": "component",
+      "repeatable": false,
       "pluginOptions": {
         "versions": {
           "versioned": true
@@ -71,7 +43,46 @@
           "localized": true
         }
       },
-      "type": "richtext"
+      "component": "shared.titled-paragraph"
+    },
+    "programmingTools": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "versions": {
+          "versioned": true
+        },
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.titled-paragraph"
+    },
+    "security": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "versions": {
+          "versioned": true
+        },
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.titled-paragraph"
+    },
+    "productivity": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "versions": {
+          "versioned": true
+        },
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.titled-paragraph"
     }
   }
 }
