@@ -4994,4 +4994,3760 @@ Check out my projects [here](/projects).', '2023-08-22 19:37:46.325', '2023-08-2
 
 INSERT INTO public.software_development_intros (id, title, content, created_at, updated_at, published_at, created_by_id, updated_by_id, vuid, version_number, version_comment, is_visible_in_list_view, locale) VALUES (1, 'Software Development', 'Software development has been not only my profession but also my enduring passion for the past 8 years. Below, I''ve provided a glimpse into my key technical skill sets and the technologies that have become integral to my work. 
 
-Want to find out more about my experience? Feel free 
+Want to find out more about my experience? Feel free to browse my [project portfolio](/projects), or [download this CV](/downloads/cv.pdf) in PDF format.', '2023-08-22 20:02:30.679', '2023-09-14 16:16:28.206', '2023-08-22 20:02:40.423', 1, 1, NULL, 1, NULL, true, 'en');
+
+
+--
+-- Data for Name: software_development_intros_localizations_links; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+
+
+--
+-- Data for Name: software_development_intros_versions_links; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+
+
+--
+-- Data for Name: strapi_api_token_permissions; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+
+
+--
+-- Data for Name: strapi_api_token_permissions_token_links; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+
+
+--
+-- Data for Name: strapi_api_tokens; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+
+
+--
+-- Data for Name: strapi_core_store_settings; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+INSERT INTO public.strapi_core_store_settings (id, key, value, type, environment, tag) VALUES (3, 'plugin_content_manager_configuration_content_types::admin::role', '{"uid":"admin::role","settings":{"bulkable":true,"filterable":true,"searchable":true,"pageSize":10,"mainField":"name","defaultSortBy":"name","defaultSortOrder":"ASC"},"metadatas":{"id":{"edit":{},"list":{"label":"id","searchable":true,"sortable":true}},"name":{"edit":{"label":"name","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"name","searchable":true,"sortable":true}},"code":{"edit":{"label":"code","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"code","searchable":true,"sortable":true}},"description":{"edit":{"label":"description","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"description","searchable":true,"sortable":true}},"users":{"edit":{"label":"users","description":"","placeholder":"","visible":true,"editable":true,"mainField":"firstname"},"list":{"label":"users","searchable":false,"sortable":false}},"permissions":{"edit":{"label":"permissions","description":"","placeholder":"","visible":true,"editable":true,"mainField":"action"},"list":{"label":"permissions","searchable":false,"sortable":false}},"createdAt":{"edit":{"label":"createdAt","description":"","placeholder":"","visible":false,"editable":true},"list":{"label":"createdAt","searchable":true,"sortable":true}},"updatedAt":{"edit":{"label":"updatedAt","description":"","placeholder":"","visible":false,"editable":true},"list":{"label":"updatedAt","searchable":true,"sortable":true}},"createdBy":{"edit":{"label":"createdBy","description":"","placeholder":"","visible":false,"editable":true,"mainField":"firstname"},"list":{"label":"createdBy","searchable":true,"sortable":true}},"updatedBy":{"edit":{"label":"updatedBy","description":"","placeholder":"","visible":false,"editable":true,"mainField":"firstname"},"list":{"label":"updatedBy","searchable":true,"sortable":true}}},"layouts":{"list":["id","name","code","description"],"edit":[[{"name":"name","size":6},{"name":"code","size":6}],[{"name":"description","size":6},{"name":"users","size":6}],[{"name":"permissions","size":6}]]}}', 'object', NULL, NULL);
+INSERT INTO public.strapi_core_store_settings (id, key, value, type, environment, tag) VALUES (4, 'plugin_content_manager_configuration_content_types::plugin::upload.file', '{"uid":"plugin::upload.file","settings":{"bulkable":true,"filterable":true,"searchable":true,"pageSize":10,"mainField":"name","defaultSortBy":"name","defaultSortOrder":"ASC"},"metadatas":{"id":{"edit":{},"list":{"label":"id","searchable":true,"sortable":true}},"name":{"edit":{"label":"name","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"name","searchable":true,"sortable":true}},"alternativeText":{"edit":{"label":"alternativeText","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"alternativeText","searchable":true,"sortable":true}},"caption":{"edit":{"label":"caption","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"caption","searchable":true,"sortable":true}},"width":{"edit":{"label":"width","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"width","searchable":true,"sortable":true}},"height":{"edit":{"label":"height","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"height","searchable":true,"sortable":true}},"formats":{"edit":{"label":"formats","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"formats","searchable":false,"sortable":false}},"hash":{"edit":{"label":"hash","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"hash","searchable":true,"sortable":true}},"ext":{"edit":{"label":"ext","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"ext","searchable":true,"sortable":true}},"mime":{"edit":{"label":"mime","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"mime","searchable":true,"sortable":true}},"size":{"edit":{"label":"size","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"size","searchable":true,"sortable":true}},"url":{"edit":{"label":"url","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"url","searchable":true,"sortable":true}},"previewUrl":{"edit":{"label":"previewUrl","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"previewUrl","searchable":true,"sortable":true}},"provider":{"edit":{"label":"provider","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"provider","searchable":true,"sortable":true}},"provider_metadata":{"edit":{"label":"provider_metadata","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"provider_metadata","searchable":false,"sortable":false}},"folder":{"edit":{"label":"folder","description":"","placeholder":"","visible":true,"editable":true,"mainField":"name"},"list":{"label":"folder","searchable":true,"sortable":true}},"folderPath":{"edit":{"label":"folderPath","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"folderPath","searchable":true,"sortable":true}},"createdAt":{"edit":{"label":"createdAt","description":"","placeholder":"","visible":false,"editable":true},"list":{"label":"createdAt","searchable":true,"sortable":true}},"updatedAt":{"edit":{"label":"updatedAt","description":"","placeholder":"","visible":false,"editable":true},"list":{"label":"updatedAt","searchable":true,"sortable":true}},"createdBy":{"edit":{"label":"createdBy","description":"","placeholder":"","visible":false,"editable":true,"mainField":"firstname"},"list":{"label":"createdBy","searchable":true,"sortable":true}},"updatedBy":{"edit":{"label":"updatedBy","description":"","placeholder":"","visible":false,"editable":true,"mainField":"firstname"},"list":{"label":"updatedBy","searchable":true,"sortable":true}}},"layouts":{"list":["id","name","alternativeText","caption"],"edit":[[{"name":"name","size":6},{"name":"alternativeText","size":6}],[{"name":"caption","size":6},{"name":"width","size":4}],[{"name":"height","size":4}],[{"name":"formats","size":12}],[{"name":"hash","size":6},{"name":"ext","size":6}],[{"name":"mime","size":6},{"name":"size","size":4}],[{"name":"url","size":6},{"name":"previewUrl","size":6}],[{"name":"provider","size":6}],[{"name":"provider_metadata","size":12}],[{"name":"folder","size":6},{"name":"folderPath","size":6}]]}}', 'object', NULL, NULL);
+INSERT INTO public.strapi_core_store_settings (id, key, value, type, environment, tag) VALUES (2, 'plugin_content_manager_configuration_content_types::admin::user', '{"uid":"admin::user","settings":{"bulkable":true,"filterable":true,"searchable":true,"pageSize":10,"mainField":"firstname","defaultSortBy":"firstname","defaultSortOrder":"ASC"},"metadatas":{"id":{"edit":{},"list":{"label":"id","searchable":true,"sortable":true}},"firstname":{"edit":{"label":"firstname","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"firstname","searchable":true,"sortable":true}},"lastname":{"edit":{"label":"lastname","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"lastname","searchable":true,"sortable":true}},"username":{"edit":{"label":"username","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"username","searchable":true,"sortable":true}},"email":{"edit":{"label":"email","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"email","searchable":true,"sortable":true}},"password":{"edit":{"label":"password","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"password","searchable":true,"sortable":true}},"resetPasswordToken":{"edit":{"label":"resetPasswordToken","description":"","placeholder":"","visible":false,"editable":true},"list":{"label":"resetPasswordToken","searchable":true,"sortable":true}},"registrationToken":{"edit":{"label":"registrationToken","description":"","placeholder":"","visible":false,"editable":true},"list":{"label":"registrationToken","searchable":true,"sortable":true}},"isActive":{"edit":{"label":"isActive","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"isActive","searchable":true,"sortable":true}},"roles":{"edit":{"label":"roles","description":"","placeholder":"","visible":true,"editable":true,"mainField":"name"},"list":{"label":"roles","searchable":false,"sortable":false}},"blocked":{"edit":{"label":"blocked","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"blocked","searchable":true,"sortable":true}},"preferedLanguage":{"edit":{"label":"preferedLanguage","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"preferedLanguage","searchable":true,"sortable":true}},"createdAt":{"edit":{"label":"createdAt","description":"","placeholder":"","visible":false,"editable":true},"list":{"label":"createdAt","searchable":true,"sortable":true}},"updatedAt":{"edit":{"label":"updatedAt","description":"","placeholder":"","visible":false,"editable":true},"list":{"label":"updatedAt","searchable":true,"sortable":true}},"createdBy":{"edit":{"label":"createdBy","description":"","placeholder":"","visible":false,"editable":true,"mainField":"firstname"},"list":{"label":"createdBy","searchable":true,"sortable":true}},"updatedBy":{"edit":{"label":"updatedBy","description":"","placeholder":"","visible":false,"editable":true,"mainField":"firstname"},"list":{"label":"updatedBy","searchable":true,"sortable":true}}},"layouts":{"list":["id","firstname","lastname","username"],"edit":[[{"name":"firstname","size":6},{"name":"lastname","size":6}],[{"name":"username","size":6},{"name":"email","size":6}],[{"name":"password","size":6},{"name":"isActive","size":4}],[{"name":"roles","size":6},{"name":"blocked","size":4}],[{"name":"preferedLanguage","size":6}]]}}', 'object', NULL, NULL);
+INSERT INTO public.strapi_core_store_settings (id, key, value, type, environment, tag) VALUES (15, 'plugin_upload_settings', '{"sizeOptimization":true,"responsiveDimensions":true,"autoOrientation":false}', 'object', NULL, NULL);
+INSERT INTO public.strapi_core_store_settings (id, key, value, type, environment, tag) VALUES (18, 'plugin_users-permissions_grant', '{"email":{"enabled":true,"icon":"envelope"},"discord":{"enabled":false,"icon":"discord","key":"","secret":"","callback":"api/auth/discord/callback","scope":["identify","email"]},"facebook":{"enabled":false,"icon":"facebook-square","key":"","secret":"","callback":"api/auth/facebook/callback","scope":["email"]},"google":{"enabled":false,"icon":"google","key":"","secret":"","callback":"api/auth/google/callback","scope":["email"]},"github":{"enabled":false,"icon":"github","key":"","secret":"","callback":"api/auth/github/callback","scope":["user","user:email"]},"microsoft":{"enabled":false,"icon":"windows","key":"","secret":"","callback":"api/auth/microsoft/callback","scope":["user.read"]},"twitter":{"enabled":false,"icon":"twitter","key":"","secret":"","callback":"api/auth/twitter/callback"},"instagram":{"enabled":false,"icon":"instagram","key":"","secret":"","callback":"api/auth/instagram/callback","scope":["user_profile"]},"vk":{"enabled":false,"icon":"vk","key":"","secret":"","callback":"api/auth/vk/callback","scope":["email"]},"twitch":{"enabled":false,"icon":"twitch","key":"","secret":"","callback":"api/auth/twitch/callback","scope":["user:read:email"]},"linkedin":{"enabled":false,"icon":"linkedin","key":"","secret":"","callback":"api/auth/linkedin/callback","scope":["r_liteprofile","r_emailaddress"]},"cognito":{"enabled":false,"icon":"aws","key":"","secret":"","subdomain":"my.subdomain.com","callback":"api/auth/cognito/callback","scope":["email","openid","profile"]},"reddit":{"enabled":false,"icon":"reddit","key":"","secret":"","state":true,"callback":"api/auth/reddit/callback","scope":["identity"]},"auth0":{"enabled":false,"icon":"","key":"","secret":"","subdomain":"my-tenant.eu","callback":"api/auth/auth0/callback","scope":["openid","email","profile"]},"cas":{"enabled":false,"icon":"book","key":"","secret":"","callback":"api/auth/cas/callback","scope":["openid email"],"subdomain":"my.subdomain.com/cas"},"patreon":{"enabled":false,"icon":"","key":"","secret":"","callback":"api/auth/patreon/callback","scope":["identity","identity[email]"]}}', 'object', NULL, NULL);
+INSERT INTO public.strapi_core_store_settings (id, key, value, type, environment, tag) VALUES (19, 'plugin_users-permissions_email', '{"reset_password":{"display":"Email.template.reset_password","icon":"sync","options":{"from":{"name":"Administration Panel","email":"no-reply@strapi.io"},"response_email":"","object":"Reset password","message":"<p>We heard that you lost your password. Sorry about that!</p>\n\n<p>But don’t worry! You can use the following link to reset your password:</p>\n<p><%= URL %>?code=<%= TOKEN %></p>\n\n<p>Thanks.</p>"}},"email_confirmation":{"display":"Email.template.email_confirmation","icon":"check-square","options":{"from":{"name":"Administration Panel","email":"no-reply@strapi.io"},"response_email":"","object":"Account confirmation","message":"<p>Thank you for registering!</p>\n\n<p>You have to confirm your email address. Please click on the link below.</p>\n\n<p><%= URL %>?confirmation=<%= CODE %></p>\n\n<p>Thanks.</p>"}}}', 'object', NULL, NULL);
+INSERT INTO public.strapi_core_store_settings (id, key, value, type, environment, tag) VALUES (20, 'plugin_users-permissions_advanced', '{"unique_email":true,"allow_register":true,"email_confirmation":false,"email_reset_password":null,"email_confirmation_redirection":null,"default_role":"authenticated"}', 'object', NULL, NULL);
+INSERT INTO public.strapi_core_store_settings (id, key, value, type, environment, tag) VALUES (10, 'plugin_content_manager_configuration_content_types::admin::api-token', '{"uid":"admin::api-token","settings":{"bulkable":true,"filterable":true,"searchable":true,"pageSize":10,"mainField":"name","defaultSortBy":"name","defaultSortOrder":"ASC"},"metadatas":{"id":{"edit":{},"list":{"label":"id","searchable":true,"sortable":true}},"name":{"edit":{"label":"name","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"name","searchable":true,"sortable":true}},"description":{"edit":{"label":"description","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"description","searchable":true,"sortable":true}},"type":{"edit":{"label":"type","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"type","searchable":true,"sortable":true}},"accessKey":{"edit":{"label":"accessKey","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"accessKey","searchable":true,"sortable":true}},"lastUsedAt":{"edit":{"label":"lastUsedAt","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"lastUsedAt","searchable":true,"sortable":true}},"permissions":{"edit":{"label":"permissions","description":"","placeholder":"","visible":true,"editable":true,"mainField":"action"},"list":{"label":"permissions","searchable":false,"sortable":false}},"expiresAt":{"edit":{"label":"expiresAt","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"expiresAt","searchable":true,"sortable":true}},"lifespan":{"edit":{"label":"lifespan","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"lifespan","searchable":true,"sortable":true}},"createdAt":{"edit":{"label":"createdAt","description":"","placeholder":"","visible":false,"editable":true},"list":{"label":"createdAt","searchable":true,"sortable":true}},"updatedAt":{"edit":{"label":"updatedAt","description":"","placeholder":"","visible":false,"editable":true},"list":{"label":"updatedAt","searchable":true,"sortable":true}},"createdBy":{"edit":{"label":"createdBy","description":"","placeholder":"","visible":false,"editable":true,"mainField":"firstname"},"list":{"label":"createdBy","searchable":true,"sortable":true}},"updatedBy":{"edit":{"label":"updatedBy","description":"","placeholder":"","visible":false,"editable":true,"mainField":"firstname"},"list":{"label":"updatedBy","searchable":true,"sortable":true}}},"layouts":{"list":["id","name","description","type"],"edit":[[{"name":"name","size":6},{"name":"description","size":6}],[{"name":"type","size":6},{"name":"accessKey","size":6}],[{"name":"lastUsedAt","size":6},{"name":"permissions","size":6}],[{"name":"expiresAt","size":6},{"name":"lifespan","size":4}]]}}', 'object', NULL, NULL);
+INSERT INTO public.strapi_core_store_settings (id, key, value, type, environment, tag) VALUES (12, 'plugin_content_manager_configuration_content_types::plugin::users-permissions.permission', '{"uid":"plugin::users-permissions.permission","settings":{"bulkable":true,"filterable":true,"searchable":true,"pageSize":10,"mainField":"action","defaultSortBy":"action","defaultSortOrder":"ASC"},"metadatas":{"id":{"edit":{},"list":{"label":"id","searchable":true,"sortable":true}},"action":{"edit":{"label":"action","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"action","searchable":true,"sortable":true}},"role":{"edit":{"label":"role","description":"","placeholder":"","visible":true,"editable":true,"mainField":"name"},"list":{"label":"role","searchable":true,"sortable":true}},"createdAt":{"edit":{"label":"createdAt","description":"","placeholder":"","visible":false,"editable":true},"list":{"label":"createdAt","searchable":true,"sortable":true}},"updatedAt":{"edit":{"label":"updatedAt","description":"","placeholder":"","visible":false,"editable":true},"list":{"label":"updatedAt","searchable":true,"sortable":true}},"createdBy":{"edit":{"label":"createdBy","description":"","placeholder":"","visible":false,"editable":true,"mainField":"firstname"},"list":{"label":"createdBy","searchable":true,"sortable":true}},"updatedBy":{"edit":{"label":"updatedBy","description":"","placeholder":"","visible":false,"editable":true,"mainField":"firstname"},"list":{"label":"updatedBy","searchable":true,"sortable":true}}},"layouts":{"list":["id","action","role","createdAt"],"edit":[[{"name":"action","size":6},{"name":"role","size":6}]]}}', 'object', NULL, NULL);
+INSERT INTO public.strapi_core_store_settings (id, key, value, type, environment, tag) VALUES (27, 'plugin_documentation_config', '{"restrictedAccess":false}', 'object', NULL, NULL);
+INSERT INTO public.strapi_core_store_settings (id, key, value, type, environment, tag) VALUES (16, 'plugin_upload_view_configuration', '{"pageSize":20,"sort":"createdAt:DESC"}', 'object', NULL, NULL);
+INSERT INTO public.strapi_core_store_settings (id, key, value, type, environment, tag) VALUES (1, 'strapi_content_types_schema', '{"admin::permission":{"collectionName":"admin_permissions","info":{"name":"Permission","description":"","singularName":"permission","pluralName":"permissions","displayName":"Permission"},"options":{},"pluginOptions":{"content-manager":{"visible":false},"content-type-builder":{"visible":false}},"attributes":{"action":{"type":"string","minLength":1,"configurable":false,"required":true},"subject":{"type":"string","minLength":1,"configurable":false,"required":false},"properties":{"type":"json","configurable":false,"required":false,"default":{}},"conditions":{"type":"json","configurable":false,"required":false,"default":[]},"role":{"configurable":false,"type":"relation","relation":"manyToOne","inversedBy":"permissions","target":"admin::role"},"createdAt":{"type":"datetime"},"updatedAt":{"type":"datetime"},"createdBy":{"type":"relation","relation":"oneToOne","target":"admin::user","configurable":false,"writable":false,"visible":false,"useJoinTable":false,"private":true},"updatedBy":{"type":"relation","relation":"oneToOne","target":"admin::user","configurable":false,"writable":false,"visible":false,"useJoinTable":false,"private":true}},"kind":"collectionType","__schema__":{"collectionName":"admin_permissions","info":{"name":"Permission","description":"","singularName":"permission","pluralName":"permissions","displayName":"Permission"},"options":{},"pluginOptions":{"content-manager":{"visible":false},"content-type-builder":{"visible":false}},"attributes":{"action":{"type":"string","minLength":1,"configurable":false,"required":true},"subject":{"type":"string","minLength":1,"configurable":false,"required":false},"properties":{"type":"json","configurable":false,"required":false,"default":{}},"conditions":{"type":"json","configurable":false,"required":false,"default":[]},"role":{"configurable":false,"type":"relation","relation":"manyToOne","inversedBy":"permissions","target":"admin::role"}},"kind":"collectionType"},"modelType":"contentType","modelName":"permission","connection":"default","uid":"admin::permission","plugin":"admin","globalId":"AdminPermission"},"admin::user":{"collectionName":"admin_users","info":{"name":"User","description":"","singularName":"user","pluralName":"users","displayName":"User"},"pluginOptions":{"content-manager":{"visible":false},"content-type-builder":{"visible":false}},"attributes":{"firstname":{"type":"string","unique":false,"minLength":1,"configurable":false,"required":false},"lastname":{"type":"string","unique":false,"minLength":1,"configurable":false,"required":false},"username":{"type":"string","unique":false,"configurable":false,"required":false},"email":{"type":"email","minLength":6,"configurable":false,"required":true,"unique":true,"private":true},"password":{"type":"password","minLength":6,"configurable":false,"required":false,"private":true,"searchable":false},"resetPasswordToken":{"type":"string","configurable":false,"private":true,"searchable":false},"registrationToken":{"type":"string","configurable":false,"private":true,"searchable":false},"isActive":{"type":"boolean","default":false,"configurable":false,"private":true},"roles":{"configurable":false,"private":true,"type":"relation","relation":"manyToMany","inversedBy":"users","target":"admin::role","collectionName":"strapi_users_roles"},"blocked":{"type":"boolean","default":false,"configurable":false,"private":true},"preferedLanguage":{"type":"string","configurable":false,"required":false,"searchable":false},"createdAt":{"type":"datetime"},"updatedAt":{"type":"datetime"},"createdBy":{"type":"relation","relation":"oneToOne","target":"admin::user","configurable":false,"writable":false,"visible":false,"useJoinTable":false,"private":true},"updatedBy":{"type":"relation","relation":"oneToOne","target":"admin::user","configurable":false,"writable":false,"visible":false,"useJoinTable":false,"private":true}},"config":{"attributes":{"resetPasswordToken":{"hidden":true},"registrationToken":{"hidden":true}}},"kind":"collectionType","__schema__":{"collectionName":"admin_users","info":{"name":"User","description":"","singularName":"user","pluralName":"users","displayName":"User"},"pluginOptions":{"content-manager":{"visible":false},"content-type-builder":{"visible":false}},"attributes":{"firstname":{"type":"string","unique":false,"minLength":1,"configurable":false,"required":false},"lastname":{"type":"string","unique":false,"minLength":1,"configurable":false,"required":false},"username":{"type":"string","unique":false,"configurable":false,"required":false},"email":{"type":"email","minLength":6,"configurable":false,"required":true,"unique":true,"private":true},"password":{"type":"password","minLength":6,"configurable":false,"required":false,"private":true,"searchable":false},"resetPasswordToken":{"type":"string","configurable":false,"private":true,"searchable":false},"registrationToken":{"type":"string","configurable":false,"private":true,"searchable":false},"isActive":{"type":"boolean","default":false,"configurable":false,"private":true},"roles":{"configurable":false,"private":true,"type":"relation","relation":"manyToMany","inversedBy":"users","target":"admin::role","collectionName":"strapi_users_roles"},"blocked":{"type":"boolean","default":false,"configurable":false,"private":true},"preferedLanguage":{"type":"string","configurable":false,"required":false,"searchable":false}},"kind":"collectionType"},"modelType":"contentType","modelName":"user","connection":"default","uid":"admin::user","plugin":"admin","globalId":"AdminUser"},"admin::role":{"collectionName":"admin_roles","info":{"name":"Role","description":"","singularName":"role","pluralName":"roles","displayName":"Role"},"options":{},"pluginOptions":{"content-manager":{"visible":false},"content-type-builder":{"visible":false}},"attributes":{"name":{"type":"string","minLength":1,"unique":true,"configurable":false,"required":true},"code":{"type":"string","minLength":1,"unique":true,"configurable":false,"required":true},"description":{"type":"string","configurable":false},"users":{"configurable":false,"type":"relation","relation":"manyToMany","mappedBy":"roles","target":"admin::user"},"permissions":{"configurable":false,"type":"relation","relation":"oneToMany","mappedBy":"role","target":"admin::permission"},"createdAt":{"type":"datetime"},"updatedAt":{"type":"datetime"},"createdBy":{"type":"relation","relation":"oneToOne","target":"admin::user","configurable":false,"writable":false,"visible":false,"useJoinTable":false,"private":true},"updatedBy":{"type":"relation","relation":"oneToOne","target":"admin::user","configurable":false,"writable":false,"visible":false,"useJoinTable":false,"private":true}},"kind":"collectionType","__schema__":{"collectionName":"admin_roles","info":{"name":"Role","description":"","singularName":"role","pluralName":"roles","displayName":"Role"},"options":{},"pluginOptions":{"content-manager":{"visible":false},"content-type-builder":{"visible":false}},"attributes":{"name":{"type":"string","minLength":1,"unique":true,"configurable":false,"required":true},"code":{"type":"string","minLength":1,"unique":true,"configurable":false,"required":true},"description":{"type":"string","configurable":false},"users":{"configurable":false,"type":"relation","relation":"manyToMany","mappedBy":"roles","target":"admin::user"},"permissions":{"configurable":false,"type":"relation","relation":"oneToMany","mappedBy":"role","target":"admin::permission"}},"kind":"collectionType"},"modelType":"contentType","modelName":"role","connection":"default","uid":"admin::role","plugin":"admin","globalId":"AdminRole"},"admin::api-token":{"collectionName":"strapi_api_tokens","info":{"name":"Api Token","singularName":"api-token","pluralName":"api-tokens","displayName":"Api Token","description":""},"options":{},"pluginOptions":{"content-manager":{"visible":false},"content-type-builder":{"visible":false}},"attributes":{"name":{"type":"string","minLength":1,"configurable":false,"required":true,"unique":true},"description":{"type":"string","minLength":1,"configurable":false,"required":false,"default":""},"type":{"type":"enumeration","enum":["read-only","full-access","custom"],"configurable":false,"required":true,"default":"read-only"},"accessKey":{"type":"string","minLength":1,"configurable":false,"required":true,"searchable":false},"lastUsedAt":{"type":"datetime","configurable":false,"required":false},"permissions":{"type":"relation","target":"admin::api-token-permission","relation":"oneToMany","mappedBy":"token","configurable":false,"required":false},"expiresAt":{"type":"datetime","configurable":false,"required":false},"lifespan":{"type":"biginteger","configurable":false,"required":false},"createdAt":{"type":"datetime"},"updatedAt":{"type":"datetime"},"createdBy":{"type":"relation","relation":"oneToOne","target":"admin::user","configurable":false,"writable":false,"visible":false,"useJoinTable":false,"private":true},"updatedBy":{"type":"relation","relation":"oneToOne","target":"admin::user","configurable":false,"writable":false,"visible":false,"useJoinTable":false,"private":true}},"kind":"collectionType","__schema__":{"collectionName":"strapi_api_tokens","info":{"name":"Api Token","singularName":"api-token","pluralName":"api-tokens","displayName":"Api Token","description":""},"options":{},"pluginOptions":{"content-manager":{"visible":false},"content-type-builder":{"visible":false}},"attributes":{"name":{"type":"string","minLength":1,"configurable":false,"required":true,"unique":true},"description":{"type":"string","minLength":1,"configurable":false,"required":false,"default":""},"type":{"type":"enumeration","enum":["read-only","full-access","custom"],"configurable":false,"required":true,"default":"read-only"},"accessKey":{"type":"string","minLength":1,"configurable":false,"required":true,"searchable":false},"lastUsedAt":{"type":"datetime","configurable":false,"required":false},"permissions":{"type":"relation","target":"admin::api-token-permission","relation":"oneToMany","mappedBy":"token","configurable":false,"required":false},"expiresAt":{"type":"datetime","configurable":false,"required":false},"lifespan":{"type":"biginteger","configurable":false,"required":false}},"kind":"collectionType"},"modelType":"contentType","modelName":"api-token","connection":"default","uid":"admin::api-token","plugin":"admin","globalId":"AdminApiToken"},"admin::api-token-permission":{"collectionName":"strapi_api_token_permissions","info":{"name":"API Token Permission","description":"","singularName":"api-token-permission","pluralName":"api-token-permissions","displayName":"API Token Permission"},"options":{},"pluginOptions":{"content-manager":{"visible":false},"content-type-builder":{"visible":false}},"attributes":{"action":{"type":"string","minLength":1,"configurable":false,"required":true},"token":{"configurable":false,"type":"relation","relation":"manyToOne","inversedBy":"permissions","target":"admin::api-token"},"createdAt":{"type":"datetime"},"updatedAt":{"type":"datetime"},"createdBy":{"type":"relation","relation":"oneToOne","target":"admin::user","configurable":false,"writable":false,"visible":false,"useJoinTable":false,"private":true},"updatedBy":{"type":"relation","relation":"oneToOne","target":"admin::user","configurable":false,"writable":false,"visible":false,"useJoinTable":false,"private":true}},"kind":"collectionType","__schema__":{"collectionName":"strapi_api_token_permissions","info":{"name":"API Token Permission","description":"","singularName":"api-token-permission","pluralName":"api-token-permissions","displayName":"API Token Permission"},"options":{},"pluginOptions":{"content-manager":{"visible":false},"content-type-builder":{"visible":false}},"attributes":{"action":{"type":"string","minLength":1,"configurable":false,"required":true},"token":{"configurable":false,"type":"relation","relation":"manyToOne","inversedBy":"permissions","target":"admin::api-token"}},"kind":"collectionType"},"modelType":"contentType","modelName":"api-token-permission","connection":"default","uid":"admin::api-token-permission","plugin":"admin","globalId":"AdminApiTokenPermission"},"admin::transfer-token":{"collectionName":"strapi_transfer_tokens","info":{"name":"Transfer Token","singularName":"transfer-token","pluralName":"transfer-tokens","displayName":"Transfer Token","description":""},"options":{},"pluginOptions":{"content-manager":{"visible":false},"content-type-builder":{"visible":false}},"attributes":{"name":{"type":"string","minLength":1,"configurable":false,"required":true,"unique":true},"description":{"type":"string","minLength":1,"configurable":false,"required":false,"default":""},"accessKey":{"type":"string","minLength":1,"configurable":false,"required":true},"lastUsedAt":{"type":"datetime","configurable":false,"required":false},"permissions":{"type":"relation","target":"admin::transfer-token-permission","relation":"oneToMany","mappedBy":"token","configurable":false,"required":false},"expiresAt":{"type":"datetime","configurable":false,"required":false},"lifespan":{"type":"biginteger","configurable":false,"required":false},"createdAt":{"type":"datetime"},"updatedAt":{"type":"datetime"},"createdBy":{"type":"relation","relation":"oneToOne","target":"admin::user","configurable":false,"writable":false,"visible":false,"useJoinTable":false,"private":true},"updatedBy":{"type":"relation","relation":"oneToOne","target":"admin::user","configurable":false,"writable":false,"visible":false,"useJoinTable":false,"private":true}},"kind":"collectionType","__schema__":{"collectionName":"strapi_transfer_tokens","info":{"name":"Transfer Token","singularName":"transfer-token","pluralName":"transfer-tokens","displayName":"Transfer Token","description":""},"options":{},"pluginOptions":{"content-manager":{"visible":false},"content-type-builder":{"visible":false}},"attributes":{"name":{"type":"string","minLength":1,"configurable":false,"required":true,"unique":true},"description":{"type":"string","minLength":1,"configurable":false,"required":false,"default":""},"accessKey":{"type":"string","minLength":1,"configurable":false,"required":true},"lastUsedAt":{"type":"datetime","configurable":false,"required":false},"permissions":{"type":"relation","target":"admin::transfer-token-permission","relation":"oneToMany","mappedBy":"token","configurable":false,"required":false},"expiresAt":{"type":"datetime","configurable":false,"required":false},"lifespan":{"type":"biginteger","configurable":false,"required":false}},"kind":"collectionType"},"modelType":"contentType","modelName":"transfer-token","connection":"default","uid":"admin::transfer-token","plugin":"admin","globalId":"AdminTransferToken"},"admin::transfer-token-permission":{"collectionName":"strapi_transfer_token_permissions","info":{"name":"Transfer Token Permission","description":"","singularName":"transfer-token-permission","pluralName":"transfer-token-permissions","displayName":"Transfer Token Permission"},"options":{},"pluginOptions":{"content-manager":{"visible":false},"content-type-builder":{"visible":false}},"attributes":{"action":{"type":"string","minLength":1,"configurable":false,"required":true},"token":{"configurable":false,"type":"relation","relation":"manyToOne","inversedBy":"permissions","target":"admin::transfer-token"},"createdAt":{"type":"datetime"},"updatedAt":{"type":"datetime"},"createdBy":{"type":"relation","relation":"oneToOne","target":"admin::user","configurable":false,"writable":false,"visible":false,"useJoinTable":false,"private":true},"updatedBy":{"type":"relation","relation":"oneToOne","target":"admin::user","configurable":false,"writable":false,"visible":false,"useJoinTable":false,"private":true}},"kind":"collectionType","__schema__":{"collectionName":"strapi_transfer_token_permissions","info":{"name":"Transfer Token Permission","description":"","singularName":"transfer-token-permission","pluralName":"transfer-token-permissions","displayName":"Transfer Token Permission"},"options":{},"pluginOptions":{"content-manager":{"visible":false},"content-type-builder":{"visible":false}},"attributes":{"action":{"type":"string","minLength":1,"configurable":false,"required":true},"token":{"configurable":false,"type":"relation","relation":"manyToOne","inversedBy":"permissions","target":"admin::transfer-token"}},"kind":"collectionType"},"modelType":"contentType","modelName":"transfer-token-permission","connection":"default","uid":"admin::transfer-token-permission","plugin":"admin","globalId":"AdminTransferTokenPermission"},"plugin::upload.file":{"collectionName":"files","info":{"singularName":"file","pluralName":"files","displayName":"File","description":""},"options":{},"pluginOptions":{"content-manager":{"visible":false},"content-type-builder":{"visible":false}},"attributes":{"name":{"type":"string","configurable":false,"required":true},"alternativeText":{"type":"string","configurable":false},"caption":{"type":"string","configurable":false},"width":{"type":"integer","configurable":false},"height":{"type":"integer","configurable":false},"formats":{"type":"json","configurable":false},"hash":{"type":"string","configurable":false,"required":true},"ext":{"type":"string","configurable":false},"mime":{"type":"string","configurable":false,"required":true},"size":{"type":"decimal","configurable":false,"required":true},"url":{"type":"string","configurable":false,"required":true},"previewUrl":{"type":"string","configurable":false},"provider":{"type":"string","configurable":false,"required":true},"provider_metadata":{"type":"json","configurable":false},"related":{"type":"relation","relation":"morphToMany","configurable":false},"folder":{"type":"relation","relation":"manyToOne","target":"plugin::upload.folder","inversedBy":"files","private":true},"folderPath":{"type":"string","min":1,"required":true,"private":true,"searchable":false},"createdAt":{"type":"datetime"},"updatedAt":{"type":"datetime"},"createdBy":{"type":"relation","relation":"oneToOne","target":"admin::user","configurable":false,"writable":false,"visible":false,"useJoinTable":false,"private":true},"updatedBy":{"type":"relation","relation":"oneToOne","target":"admin::user","configurable":false,"writable":false,"visible":false,"useJoinTable":false,"private":true}},"indexes":[{"name":"upload_files_folder_path_index","columns":["folder_path"],"type":null},{"name":"upload_files_created_at_index","columns":["created_at"],"type":null},{"name":"upload_files_updated_at_index","columns":["updated_at"],"type":null},{"name":"upload_files_name_index","columns":["name"],"type":null},{"name":"upload_files_size_index","columns":["size"],"type":null},{"name":"upload_files_ext_index","columns":["ext"],"type":null}],"kind":"collectionType","__schema__":{"collectionName":"files","info":{"singularName":"file","pluralName":"files","displayName":"File","description":""},"options":{},"pluginOptions":{"content-manager":{"visible":false},"content-type-builder":{"visible":false}},"attributes":{"name":{"type":"string","configurable":false,"required":true},"alternativeText":{"type":"string","configurable":false},"caption":{"type":"string","configurable":false},"width":{"type":"integer","configurable":false},"height":{"type":"integer","configurable":false},"formats":{"type":"json","configurable":false},"hash":{"type":"string","configurable":false,"required":true},"ext":{"type":"string","configurable":false},"mime":{"type":"string","configurable":false,"required":true},"size":{"type":"decimal","configurable":false,"required":true},"url":{"type":"string","configurable":false,"required":true},"previewUrl":{"type":"string","configurable":false},"provider":{"type":"string","configurable":false,"required":true},"provider_metadata":{"type":"json","configurable":false},"related":{"type":"relation","relation":"morphToMany","configurable":false},"folder":{"type":"relation","relation":"manyToOne","target":"plugin::upload.folder","inversedBy":"files","private":true},"folderPath":{"type":"string","min":1,"required":true,"private":true,"searchable":false}},"kind":"collectionType"},"modelType":"contentType","modelName":"file","connection":"default","uid":"plugin::upload.file","plugin":"upload","globalId":"UploadFile"},"plugin::upload.folder":{"collectionName":"upload_folders","info":{"singularName":"folder","pluralName":"folders","displayName":"Folder"},"options":{},"pluginOptions":{"content-manager":{"visible":false},"content-type-builder":{"visible":false}},"attributes":{"name":{"type":"string","min":1,"required":true},"pathId":{"type":"integer","unique":true,"required":true},"parent":{"type":"relation","relation":"manyToOne","target":"plugin::upload.folder","inversedBy":"children"},"children":{"type":"relation","relation":"oneToMany","target":"plugin::upload.folder","mappedBy":"parent"},"files":{"type":"relation","relation":"oneToMany","target":"plugin::upload.file","mappedBy":"folder"},"path":{"type":"string","min":1,"required":true},"createdAt":{"type":"datetime"},"updatedAt":{"type":"datetime"},"createdBy":{"type":"relation","relation":"oneToOne","target":"admin::user","configurable":false,"writable":false,"visible":false,"useJoinTable":false,"private":true},"updatedBy":{"type":"relation","relation":"oneToOne","target":"admin::user","configurable":false,"writable":false,"visible":false,"useJoinTable":false,"private":true}},"indexes":[{"name":"upload_folders_path_id_index","columns":["path_id"],"type":"unique"},{"name":"upload_folders_path_index","columns":["path"],"type":"unique"}],"kind":"collectionType","__schema__":{"collectionName":"upload_folders","info":{"singularName":"folder","pluralName":"folders","displayName":"Folder"},"options":{},"pluginOptions":{"content-manager":{"visible":false},"content-type-builder":{"visible":false}},"attributes":{"name":{"type":"string","min":1,"required":true},"pathId":{"type":"integer","unique":true,"required":true},"parent":{"type":"relation","relation":"manyToOne","target":"plugin::upload.folder","inversedBy":"children"},"children":{"type":"relation","relation":"oneToMany","target":"plugin::upload.folder","mappedBy":"parent"},"files":{"type":"relation","relation":"oneToMany","target":"plugin::upload.file","mappedBy":"folder"},"path":{"type":"string","min":1,"required":true}},"kind":"collectionType"},"modelType":"contentType","modelName":"folder","connection":"default","uid":"plugin::upload.folder","plugin":"upload","globalId":"UploadFolder"},"plugin::i18n.locale":{"info":{"singularName":"locale","pluralName":"locales","collectionName":"locales","displayName":"Locale","description":""},"options":{"draftAndPublish":false},"pluginOptions":{"content-manager":{"visible":false},"content-type-builder":{"visible":false}},"attributes":{"name":{"type":"string","min":1,"max":50,"configurable":false},"code":{"type":"string","unique":true,"configurable":false},"createdAt":{"type":"datetime"},"updatedAt":{"type":"datetime"},"createdBy":{"type":"relation","relation":"oneToOne","target":"admin::user","configurable":false,"writable":false,"visible":false,"useJoinTable":false,"private":true},"updatedBy":{"type":"relation","relation":"oneToOne","target":"admin::user","configurable":false,"writable":false,"visible":false,"useJoinTable":false,"private":true}},"kind":"collectionType","__schema__":{"info":{"singularName":"locale","pluralName":"locales","collectionName":"locales","displayName":"Locale","description":""},"options":{"draftAndPublish":false},"pluginOptions":{"content-manager":{"visible":false},"content-type-builder":{"visible":false}},"attributes":{"name":{"type":"string","min":1,"max":50,"configurable":false},"code":{"type":"string","unique":true,"configurable":false}},"kind":"collectionType"},"modelType":"contentType","modelName":"locale","connection":"default","uid":"plugin::i18n.locale","plugin":"i18n","collectionName":"i18n_locale","globalId":"I18NLocale"},"plugin::users-permissions.permission":{"collectionName":"up_permissions","info":{"name":"permission","description":"","singularName":"permission","pluralName":"permissions","displayName":"Permission"},"pluginOptions":{"content-manager":{"visible":false},"content-type-builder":{"visible":false}},"attributes":{"action":{"type":"string","required":true,"configurable":false},"role":{"type":"relation","relation":"manyToOne","target":"plugin::users-permissions.role","inversedBy":"permissions","configurable":false},"createdAt":{"type":"datetime"},"updatedAt":{"type":"datetime"},"createdBy":{"type":"relation","relation":"oneToOne","target":"admin::user","configurable":false,"writable":false,"visible":false,"useJoinTable":false,"private":true},"updatedBy":{"type":"relation","relation":"oneToOne","target":"admin::user","configurable":false,"writable":false,"visible":false,"useJoinTable":false,"private":true}},"kind":"collectionType","__schema__":{"collectionName":"up_permissions","info":{"name":"permission","description":"","singularName":"permission","pluralName":"permissions","displayName":"Permission"},"pluginOptions":{"content-manager":{"visible":false},"content-type-builder":{"visible":false}},"attributes":{"action":{"type":"string","required":true,"configurable":false},"role":{"type":"relation","relation":"manyToOne","target":"plugin::users-permissions.role","inversedBy":"permissions","configurable":false}},"kind":"collectionType"},"modelType":"contentType","modelName":"permission","connection":"default","uid":"plugin::users-permissions.permission","plugin":"users-permissions","globalId":"UsersPermissionsPermission"},"plugin::users-permissions.role":{"collectionName":"up_roles","info":{"name":"role","description":"","singularName":"role","pluralName":"roles","displayName":"Role"},"pluginOptions":{"content-manager":{"visible":false},"content-type-builder":{"visible":false}},"attributes":{"name":{"type":"string","minLength":3,"required":true,"configurable":false},"description":{"type":"string","configurable":false},"type":{"type":"string","unique":true,"configurable":false},"permissions":{"type":"relation","relation":"oneToMany","target":"plugin::users-permissions.permission","mappedBy":"role","configurable":false},"users":{"type":"relation","relation":"oneToMany","target":"plugin::users-permissions.user","mappedBy":"role","configurable":false},"createdAt":{"type":"datetime"},"updatedAt":{"type":"datetime"},"createdBy":{"type":"relation","relation":"oneToOne","target":"admin::user","configurable":false,"writable":false,"visible":false,"useJoinTable":false,"private":true},"updatedBy":{"type":"relation","relation":"oneToOne","target":"admin::user","configurable":false,"writable":false,"visible":false,"useJoinTable":false,"private":true}},"kind":"collectionType","__schema__":{"collectionName":"up_roles","info":{"name":"role","description":"","singularName":"role","pluralName":"roles","displayName":"Role"},"pluginOptions":{"content-manager":{"visible":false},"content-type-builder":{"visible":false}},"attributes":{"name":{"type":"string","minLength":3,"required":true,"configurable":false},"description":{"type":"string","configurable":false},"type":{"type":"string","unique":true,"configurable":false},"permissions":{"type":"relation","relation":"oneToMany","target":"plugin::users-permissions.permission","mappedBy":"role","configurable":false},"users":{"type":"relation","relation":"oneToMany","target":"plugin::users-permissions.user","mappedBy":"role","configurable":false}},"kind":"collectionType"},"modelType":"contentType","modelName":"role","connection":"default","uid":"plugin::users-permissions.role","plugin":"users-permissions","globalId":"UsersPermissionsRole"},"plugin::users-permissions.user":{"collectionName":"up_users","info":{"name":"user","description":"","singularName":"user","pluralName":"users","displayName":"User"},"options":{"draftAndPublish":false,"timestamps":true},"attributes":{"username":{"type":"string","minLength":3,"unique":true,"configurable":false,"required":true},"email":{"type":"email","minLength":6,"configurable":false,"required":true},"provider":{"type":"string","configurable":false},"password":{"type":"password","minLength":6,"configurable":false,"private":true,"searchable":false},"resetPasswordToken":{"type":"string","configurable":false,"private":true,"searchable":false},"confirmationToken":{"type":"string","configurable":false,"private":true,"searchable":false},"confirmed":{"type":"boolean","default":false,"configurable":false},"blocked":{"type":"boolean","default":false,"configurable":false},"role":{"type":"relation","relation":"manyToOne","target":"plugin::users-permissions.role","inversedBy":"users","configurable":false},"createdAt":{"type":"datetime"},"updatedAt":{"type":"datetime"},"createdBy":{"type":"relation","relation":"oneToOne","target":"admin::user","configurable":false,"writable":false,"visible":false,"useJoinTable":false,"private":true},"updatedBy":{"type":"relation","relation":"oneToOne","target":"admin::user","configurable":false,"writable":false,"visible":false,"useJoinTable":false,"private":true}},"config":{"attributes":{"resetPasswordToken":{"hidden":true},"confirmationToken":{"hidden":true},"provider":{"hidden":true}}},"kind":"collectionType","__schema__":{"collectionName":"up_users","info":{"name":"user","description":"","singularName":"user","pluralName":"users","displayName":"User"},"options":{"draftAndPublish":false,"timestamps":true},"attributes":{"username":{"type":"string","minLength":3,"unique":true,"configurable":false,"required":true},"email":{"type":"email","minLength":6,"configurable":false,"required":true},"provider":{"type":"string","configurable":false},"password":{"type":"password","minLength":6,"configurable":false,"private":true,"searchable":false},"resetPasswordToken":{"type":"string","configurable":false,"private":true,"searchable":false},"confirmationToken":{"type":"string","configurable":false,"private":true,"searchable":false},"confirmed":{"type":"boolean","default":false,"configurable":false},"blocked":{"type":"boolean","default":false,"configurable":false},"role":{"type":"relation","relation":"manyToOne","target":"plugin::users-permissions.role","inversedBy":"users","configurable":false}},"kind":"collectionType"},"modelType":"contentType","modelName":"user","connection":"default","uid":"plugin::users-permissions.user","plugin":"users-permissions","globalId":"UsersPermissionsUser"},"plugin::menus.menu":{"kind":"collectionType","collectionName":"menus","info":{"displayName":"Menu","singularName":"menu","pluralName":"menus","tableName":"menus"},"options":{"draftAndPublish":false},"pluginOptions":{"content-manager":{"visible":false},"content-type-builder":{"visible":false}},"attributes":{"title":{"type":"string","required":true},"slug":{"type":"uid","targetField":"title","required":true},"items":{"type":"relation","relation":"oneToMany","target":"plugin::menus.menu-item","mappedBy":"root_menu"},"createdAt":{"type":"datetime"},"updatedAt":{"type":"datetime"},"createdBy":{"type":"relation","relation":"oneToOne","target":"admin::user","configurable":false,"writable":false,"visible":false,"useJoinTable":false,"private":true},"updatedBy":{"type":"relation","relation":"oneToOne","target":"admin::user","configurable":false,"writable":false,"visible":false,"useJoinTable":false,"private":true}},"__schema__":{"collectionName":"menus","info":{"displayName":"Menu","singularName":"menu","pluralName":"menus","tableName":"menus"},"options":{"draftAndPublish":false},"pluginOptions":{"content-manager":{"visible":false},"content-type-builder":{"visible":false}},"attributes":{"title":{"type":"string","required":true},"slug":{"type":"uid","targetField":"title","required":true},"items":{"type":"relation","relation":"oneToMany","target":"plugin::menus.menu-item","mappedBy":"root_menu"}},"kind":"collectionType"},"modelType":"contentType","modelName":"menu","connection":"default","uid":"plugin::menus.menu","plugin":"menus","globalId":"MenusMenu"},"plugin::menus.menu-item":{"kind":"collectionType","collectionName":"menu_items","info":{"displayName":"Menu Item","singularName":"menu-item","pluralName":"menu-items","tableName":"menu_items"},"options":{"draftAndPublish":false},"pluginOptions":{"content-manager":{"visible":false},"content-type-builder":{"visible":false}},"attributes":{"order":{"type":"integer"},"title":{"type":"string","required":true},"url":{"type":"string"},"target":{"type":"enumeration","enum":["_blank","_parent","_self","_top"]},"root_menu":{"type":"relation","relation":"manyToOne","target":"plugin::menus.menu","inversedBy":"items","required":true},"parent":{"type":"relation","relation":"oneToOne","target":"plugin::menus.menu-item"},"createdAt":{"type":"datetime"},"updatedAt":{"type":"datetime"},"createdBy":{"type":"relation","relation":"oneToOne","target":"admin::user","configurable":false,"writable":false,"visible":false,"useJoinTable":false,"private":true},"updatedBy":{"type":"relation","relation":"oneToOne","target":"admin::user","configurable":false,"writable":false,"visible":false,"useJoinTable":false,"private":true}},"__schema__":{"collectionName":"menu_items","info":{"displayName":"Menu Item","singularName":"menu-item","pluralName":"menu-items","tableName":"menu_items"},"options":{"draftAndPublish":false},"pluginOptions":{"content-manager":{"visible":false},"content-type-builder":{"visible":false}},"attributes":{"order":{"type":"integer"},"title":{"type":"string","required":true},"url":{"type":"string"},"target":{"type":"enumeration","enum":["_blank","_parent","_self","_top"]},"root_menu":{"type":"relation","relation":"manyToOne","target":"plugin::menus.menu","inversedBy":"items","required":true},"parent":{"type":"relation","relation":"oneToOne","target":"plugin::menus.menu-item"}},"kind":"collectionType"},"modelType":"contentType","modelName":"menu-item","connection":"default","uid":"plugin::menus.menu-item","plugin":"menus","globalId":"MenusMenuItem"},"plugin::react-icons.iconlibrary":{"kind":"collectionType","collectionName":"iconlibrary","info":{"singularName":"iconlibrary","pluralName":"iconlibraries","displayName":"IconLibrary"},"options":{"draftAndPublish":false,"comment":""},"pluginOptions":{"content-manager":{"visible":false},"content-type-builder":{"visible":false}},"attributes":{"name":{"type":"string","required":true},"abbreviation":{"type":"string","required":true,"unique":true,"maxLength":3},"isEnabled":{"type":"boolean","default":true},"createdAt":{"type":"datetime"},"updatedAt":{"type":"datetime"},"createdBy":{"type":"relation","relation":"oneToOne","target":"admin::user","configurable":false,"writable":false,"visible":false,"useJoinTable":false,"private":true},"updatedBy":{"type":"relation","relation":"oneToOne","target":"admin::user","configurable":false,"writable":false,"visible":false,"useJoinTable":false,"private":true}},"__schema__":{"collectionName":"iconlibrary","info":{"singularName":"iconlibrary","pluralName":"iconlibraries","displayName":"IconLibrary"},"options":{"draftAndPublish":false,"comment":""},"pluginOptions":{"content-manager":{"visible":false},"content-type-builder":{"visible":false}},"attributes":{"name":{"type":"string","required":true},"abbreviation":{"type":"string","required":true,"unique":true,"maxLength":3},"isEnabled":{"type":"boolean","default":true}},"kind":"collectionType"},"modelType":"contentType","modelName":"iconlibrary","connection":"default","uid":"plugin::react-icons.iconlibrary","plugin":"react-icons","globalId":"ReactIconsIconlibrary"},"api::book.book":{"kind":"collectionType","collectionName":"books","info":{"singularName":"book","pluralName":"books","displayName":"Book","description":""},"options":{"draftAndPublish":true},"pluginOptions":{"i18n":{"localized":true}},"attributes":{"title":{"pluginOptions":{"i18n":{"localized":false}},"type":"string"},"author":{"pluginOptions":{"i18n":{"localized":false}},"type":"string"},"cover":{"type":"media","multiple":false,"required":false,"allowedTypes":["images","files","videos","audios"],"pluginOptions":{"i18n":{"localized":false}}},"goodreadsLink":{"pluginOptions":{"i18n":{"localized":false}},"type":"string"},"genre":{"pluginOptions":{"i18n":{"localized":false}},"type":"enumeration","enum":["Fiction","Non-fiction"]},"rank":{"pluginOptions":{"i18n":{"localized":false}},"type":"integer"},"createdAt":{"type":"datetime"},"updatedAt":{"type":"datetime"},"publishedAt":{"type":"datetime","configurable":false,"writable":true,"visible":false},"createdBy":{"type":"relation","relation":"oneToOne","target":"admin::user","configurable":false,"writable":false,"visible":false,"useJoinTable":false,"private":true},"updatedBy":{"type":"relation","relation":"oneToOne","target":"admin::user","configurable":false,"writable":false,"visible":false,"useJoinTable":false,"private":true},"localizations":{"writable":true,"private":false,"configurable":false,"visible":false,"type":"relation","relation":"oneToMany","target":"api::book.book"},"locale":{"writable":true,"private":false,"configurable":false,"visible":false,"type":"string"}},"__schema__":{"collectionName":"books","info":{"singularName":"book","pluralName":"books","displayName":"Book","description":""},"options":{"draftAndPublish":true},"pluginOptions":{"i18n":{"localized":true}},"attributes":{"title":{"pluginOptions":{"i18n":{"localized":false}},"type":"string"},"author":{"pluginOptions":{"i18n":{"localized":false}},"type":"string"},"cover":{"type":"media","multiple":false,"required":false,"allowedTypes":["images","files","videos","audios"],"pluginOptions":{"i18n":{"localized":false}}},"goodreadsLink":{"pluginOptions":{"i18n":{"localized":false}},"type":"string"},"genre":{"pluginOptions":{"i18n":{"localized":false}},"type":"enumeration","enum":["Fiction","Non-fiction"]},"rank":{"pluginOptions":{"i18n":{"localized":false}},"type":"integer"}},"kind":"collectionType"},"modelType":"contentType","modelName":"book","connection":"default","uid":"api::book.book","apiName":"book","globalId":"Book","actions":{},"lifecycles":{}},"api::code-snippet.code-snippet":{"kind":"collectionType","collectionName":"code_snippets","info":{"singularName":"code-snippet","pluralName":"code-snippets","displayName":"Code Snippet","description":""},"options":{"draftAndPublish":true},"pluginOptions":{},"attributes":{"language":{"type":"string"},"code":{"type":"richtext"},"createdAt":{"type":"datetime"},"updatedAt":{"type":"datetime"},"publishedAt":{"type":"datetime","configurable":false,"writable":true,"visible":false},"createdBy":{"type":"relation","relation":"oneToOne","target":"admin::user","configurable":false,"writable":false,"visible":false,"useJoinTable":false,"private":true},"updatedBy":{"type":"relation","relation":"oneToOne","target":"admin::user","configurable":false,"writable":false,"visible":false,"useJoinTable":false,"private":true}},"__schema__":{"collectionName":"code_snippets","info":{"singularName":"code-snippet","pluralName":"code-snippets","displayName":"Code Snippet","description":""},"options":{"draftAndPublish":true},"pluginOptions":{},"attributes":{"language":{"type":"string"},"code":{"type":"richtext"}},"kind":"collectionType"},"modelType":"contentType","modelName":"code-snippet","connection":"default","uid":"api::code-snippet.code-snippet","apiName":"code-snippet","globalId":"CodeSnippet","actions":{},"lifecycles":{}},"api::home-page.home-page":{"kind":"singleType","collectionName":"home_pages","info":{"singularName":"home-page","pluralName":"home-pages","displayName":"Home Page","description":""},"options":{"draftAndPublish":true},"pluginOptions":{"versions":{"versioned":true},"i18n":{"localized":true}},"attributes":{"greeting":{"pluginOptions":{"versions":{"versioned":true},"i18n":{"localized":true}},"type":"string"},"introduction_1":{"pluginOptions":{"versions":{"versioned":true},"i18n":{"localized":true}},"type":"richtext"},"introduction_2":{"pluginOptions":{"versions":{"versioned":true},"i18n":{"localized":true}},"type":"richtext"},"introduction_3":{"pluginOptions":{"versions":{"versioned":true},"i18n":{"localized":true}},"type":"richtext"},"introduction_4":{"pluginOptions":{"versions":{"versioned":true},"i18n":{"localized":true}},"type":"richtext"},"introduction_5":{"pluginOptions":{"versions":{"versioned":true},"i18n":{"localized":true}},"type":"richtext"},"createdAt":{"type":"datetime"},"updatedAt":{"type":"datetime"},"publishedAt":{"type":"datetime","configurable":false,"writable":true,"visible":false},"createdBy":{"type":"relation","relation":"oneToOne","target":"admin::user","configurable":false,"writable":false,"visible":false,"useJoinTable":false,"private":true},"updatedBy":{"type":"relation","relation":"oneToOne","target":"admin::user","configurable":false,"writable":false,"visible":false,"useJoinTable":false,"private":true},"versions":{"writable":true,"private":false,"configurable":false,"visible":false,"type":"relation","relation":"manyToMany","target":"api::home-page.home-page"},"vuid":{"writable":true,"private":false,"configurable":false,"visible":false,"type":"string"},"versionNumber":{"writable":true,"private":false,"configurable":false,"visible":false,"type":"integer","default":1},"versionComment":{"writable":true,"private":false,"configurable":false,"visible":false,"type":"string"},"isVisibleInListView":{"writable":true,"private":false,"configurable":false,"visible":false,"type":"boolean","default":true},"localizations":{"writable":true,"private":false,"configurable":false,"visible":false,"type":"relation","relation":"oneToMany","target":"api::home-page.home-page"},"locale":{"writable":true,"private":false,"configurable":false,"visible":false,"type":"string"}},"__schema__":{"collectionName":"home_pages","info":{"singularName":"home-page","pluralName":"home-pages","displayName":"Home Page","description":""},"options":{"draftAndPublish":true},"pluginOptions":{"versions":{"versioned":true},"i18n":{"localized":true}},"attributes":{"greeting":{"pluginOptions":{"versions":{"versioned":true},"i18n":{"localized":true}},"type":"string"},"introduction_1":{"pluginOptions":{"versions":{"versioned":true},"i18n":{"localized":true}},"type":"richtext"},"introduction_2":{"pluginOptions":{"versions":{"versioned":true},"i18n":{"localized":true}},"type":"richtext"},"introduction_3":{"pluginOptions":{"versions":{"versioned":true},"i18n":{"localized":true}},"type":"richtext"},"introduction_4":{"pluginOptions":{"versions":{"versioned":true},"i18n":{"localized":true}},"type":"richtext"},"introduction_5":{"pluginOptions":{"versions":{"versioned":true},"i18n":{"localized":true}},"type":"richtext"}},"kind":"singleType"},"modelType":"contentType","modelName":"home-page","connection":"default","uid":"api::home-page.home-page","apiName":"home-page","globalId":"HomePage","actions":{},"lifecycles":{}},"api::job.job":{"kind":"collectionType","collectionName":"jobs","info":{"singularName":"job","pluralName":"jobs","displayName":"Job","description":""},"options":{"draftAndPublish":true},"pluginOptions":{"i18n":{"localized":true}},"attributes":{"companyName":{"pluginOptions":{"i18n":{"localized":false}},"type":"string"},"icon":{"type":"media","multiple":false,"required":false,"allowedTypes":["images","files","videos","audios"],"pluginOptions":{"i18n":{"localized":false}}},"title":{"pluginOptions":{"i18n":{"localized":true}},"type":"string"},"location":{"pluginOptions":{"i18n":{"localized":true}},"type":"string"},"startDate":{"pluginOptions":{"i18n":{"localized":false}},"type":"date"},"endDate":{"pluginOptions":{"i18n":{"localized":false}},"type":"date"},"isCurrentJob":{"pluginOptions":{"i18n":{"localized":false}},"type":"boolean"},"description":{"pluginOptions":{"i18n":{"localized":true}},"type":"richtext"},"mainColor":{"pluginOptions":{"i18n":{"localized":false}},"type":"string","regex":"^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$","customField":"plugin::color-picker.color"},"darkColor":{"pluginOptions":{"i18n":{"localized":false}},"type":"string","regex":"^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$","customField":"plugin::color-picker.color"},"technologies":{"pluginOptions":{"i18n":{"localized":false}},"type":"json"},"createdAt":{"type":"datetime"},"updatedAt":{"type":"datetime"},"publishedAt":{"type":"datetime","configurable":false,"writable":true,"visible":false},"createdBy":{"type":"relation","relation":"oneToOne","target":"admin::user","configurable":false,"writable":false,"visible":false,"useJoinTable":false,"private":true},"updatedBy":{"type":"relation","relation":"oneToOne","target":"admin::user","configurable":false,"writable":false,"visible":false,"useJoinTable":false,"private":true},"localizations":{"writable":true,"private":false,"configurable":false,"visible":false,"type":"relation","relation":"oneToMany","target":"api::job.job"},"locale":{"writable":true,"private":false,"configurable":false,"visible":false,"type":"string"}},"__schema__":{"collectionName":"jobs","info":{"singularName":"job","pluralName":"jobs","displayName":"Job","description":""},"options":{"draftAndPublish":true},"pluginOptions":{"i18n":{"localized":true}},"attributes":{"companyName":{"pluginOptions":{"i18n":{"localized":false}},"type":"string"},"icon":{"type":"media","multiple":false,"required":false,"allowedTypes":["images","files","videos","audios"],"pluginOptions":{"i18n":{"localized":false}}},"title":{"pluginOptions":{"i18n":{"localized":true}},"type":"string"},"location":{"pluginOptions":{"i18n":{"localized":true}},"type":"string"},"startDate":{"pluginOptions":{"i18n":{"localized":false}},"type":"date"},"endDate":{"pluginOptions":{"i18n":{"localized":false}},"type":"date"},"isCurrentJob":{"pluginOptions":{"i18n":{"localized":false}},"type":"boolean"},"description":{"pluginOptions":{"i18n":{"localized":true}},"type":"richtext"},"mainColor":{"pluginOptions":{"i18n":{"localized":false}},"type":"customField","regex":"^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$","customField":"plugin::color-picker.color"},"darkColor":{"pluginOptions":{"i18n":{"localized":false}},"type":"customField","regex":"^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$","customField":"plugin::color-picker.color"},"technologies":{"pluginOptions":{"i18n":{"localized":false}},"type":"json"}},"kind":"collectionType"},"modelType":"contentType","modelName":"job","connection":"default","uid":"api::job.job","apiName":"job","globalId":"Job","actions":{},"lifecycles":{}},"api::language.language":{"kind":"collectionType","collectionName":"languages","info":{"singularName":"language","pluralName":"languages","displayName":"Language","description":""},"options":{"draftAndPublish":true},"pluginOptions":{"i18n":{"localized":true}},"attributes":{"name":{"pluginOptions":{"i18n":{"localized":true}},"type":"string"},"level":{"pluginOptions":{"i18n":{"localized":true}},"type":"string"},"flag":{"type":"media","multiple":false,"required":false,"allowedTypes":["images","files","videos","audios"],"pluginOptions":{"i18n":{"localized":false}}},"rank":{"pluginOptions":{"i18n":{"localized":true}},"type":"integer"},"createdAt":{"type":"datetime"},"updatedAt":{"type":"datetime"},"publishedAt":{"type":"datetime","configurable":false,"writable":true,"visible":false},"createdBy":{"type":"relation","relation":"oneToOne","target":"admin::user","configurable":false,"writable":false,"visible":false,"useJoinTable":false,"private":true},"updatedBy":{"type":"relation","relation":"oneToOne","target":"admin::user","configurable":false,"writable":false,"visible":false,"useJoinTable":false,"private":true},"localizations":{"writable":true,"private":false,"configurable":false,"visible":false,"type":"relation","relation":"oneToMany","target":"api::language.language"},"locale":{"writable":true,"private":false,"configurable":false,"visible":false,"type":"string"}},"__schema__":{"collectionName":"languages","info":{"singularName":"language","pluralName":"languages","displayName":"Language","description":""},"options":{"draftAndPublish":true},"pluginOptions":{"i18n":{"localized":true}},"attributes":{"name":{"pluginOptions":{"i18n":{"localized":true}},"type":"string"},"level":{"pluginOptions":{"i18n":{"localized":true}},"type":"string"},"flag":{"type":"media","multiple":false,"required":false,"allowedTypes":["images","files","videos","audios"],"pluginOptions":{"i18n":{"localized":false}}},"rank":{"pluginOptions":{"i18n":{"localized":true}},"type":"integer"}},"kind":"collectionType"},"modelType":"contentType","modelName":"language","connection":"default","uid":"api::language.language","apiName":"language","globalId":"Language","actions":{},"lifecycles":{}},"api::podcast.podcast":{"kind":"collectionType","collectionName":"podcasts","info":{"singularName":"podcast","pluralName":"podcasts","displayName":"Podcast"},"options":{"draftAndPublish":true},"pluginOptions":{},"attributes":{"name":{"type":"string"},"author":{"type":"string"},"language":{"type":"enumeration","enum":["en","it"]},"cover":{"allowedTypes":["images","files","videos","audios"],"type":"media","multiple":false},"mediaLink":{"type":"string"},"createdAt":{"type":"datetime"},"updatedAt":{"type":"datetime"},"publishedAt":{"type":"datetime","configurable":false,"writable":true,"visible":false},"createdBy":{"type":"relation","relation":"oneToOne","target":"admin::user","configurable":false,"writable":false,"visible":false,"useJoinTable":false,"private":true},"updatedBy":{"type":"relation","relation":"oneToOne","target":"admin::user","configurable":false,"writable":false,"visible":false,"useJoinTable":false,"private":true}},"__schema__":{"collectionName":"podcasts","info":{"singularName":"podcast","pluralName":"podcasts","displayName":"Podcast"},"options":{"draftAndPublish":true},"pluginOptions":{},"attributes":{"name":{"type":"string"},"author":{"type":"string"},"language":{"type":"enumeration","enum":["en","it"]},"cover":{"allowedTypes":["images","files","videos","audios"],"type":"media","multiple":false},"mediaLink":{"type":"string"}},"kind":"collectionType"},"modelType":"contentType","modelName":"podcast","connection":"default","uid":"api::podcast.podcast","apiName":"podcast","globalId":"Podcast","actions":{},"lifecycles":{}},"api::project.project":{"kind":"collectionType","collectionName":"projects","info":{"singularName":"project","pluralName":"projects","displayName":"Project","description":""},"options":{"draftAndPublish":true},"pluginOptions":{"versions":{"versioned":true},"i18n":{"localized":true}},"attributes":{"title":{"pluginOptions":{"versions":{"versioned":true},"i18n":{"localized":true}},"type":"string"},"image":{"type":"media","multiple":false,"required":false,"allowedTypes":["images","files","videos","audios"],"pluginOptions":{"versions":{"versioned":true},"i18n":{"localized":false}}},"shortDescription":{"pluginOptions":{"versions":{"versioned":true},"i18n":{"localized":true}},"type":"text"},"tools":{"pluginOptions":{"versions":{"versioned":true},"i18n":{"localized":false}},"type":"string"},"date":{"pluginOptions":{"versions":{"versioned":true},"i18n":{"localized":false}},"type":"date"},"tags":{"pluginOptions":{"versions":{"versioned":true},"i18n":{"localized":true}},"type":"string"},"links":{"pluginOptions":{"versions":{"versioned":true},"i18n":{"localized":false}},"type":"json"},"longDescription":{"pluginOptions":{"versions":{"versioned":true},"i18n":{"localized":true}},"type":"richtext"},"createdAt":{"type":"datetime"},"updatedAt":{"type":"datetime"},"publishedAt":{"type":"datetime","configurable":false,"writable":true,"visible":false},"createdBy":{"type":"relation","relation":"oneToOne","target":"admin::user","configurable":false,"writable":false,"visible":false,"useJoinTable":false,"private":true},"updatedBy":{"type":"relation","relation":"oneToOne","target":"admin::user","configurable":false,"writable":false,"visible":false,"useJoinTable":false,"private":true},"versions":{"writable":true,"private":false,"configurable":false,"visible":false,"type":"relation","relation":"manyToMany","target":"api::project.project"},"vuid":{"writable":true,"private":false,"configurable":false,"visible":false,"type":"string"},"versionNumber":{"writable":true,"private":false,"configurable":false,"visible":false,"type":"integer","default":1},"versionComment":{"writable":true,"private":false,"configurable":false,"visible":false,"type":"string"},"isVisibleInListView":{"writable":true,"private":false,"configurable":false,"visible":false,"type":"boolean","default":true},"localizations":{"writable":true,"private":false,"configurable":false,"visible":false,"type":"relation","relation":"oneToMany","target":"api::project.project"},"locale":{"writable":true,"private":false,"configurable":false,"visible":false,"type":"string"}},"__schema__":{"collectionName":"projects","info":{"singularName":"project","pluralName":"projects","displayName":"Project","description":""},"options":{"draftAndPublish":true},"pluginOptions":{"versions":{"versioned":true},"i18n":{"localized":true}},"attributes":{"title":{"pluginOptions":{"versions":{"versioned":true},"i18n":{"localized":true}},"type":"string"},"image":{"type":"media","multiple":false,"required":false,"allowedTypes":["images","files","videos","audios"],"pluginOptions":{"versions":{"versioned":true},"i18n":{"localized":false}}},"shortDescription":{"pluginOptions":{"versions":{"versioned":true},"i18n":{"localized":true}},"type":"text"},"tools":{"pluginOptions":{"versions":{"versioned":true},"i18n":{"localized":false}},"type":"string"},"date":{"pluginOptions":{"versions":{"versioned":true},"i18n":{"localized":false}},"type":"date"},"tags":{"pluginOptions":{"versions":{"versioned":true},"i18n":{"localized":true}},"type":"string"},"links":{"pluginOptions":{"versions":{"versioned":true},"i18n":{"localized":false}},"type":"json"},"longDescription":{"pluginOptions":{"versions":{"versioned":true},"i18n":{"localized":true}},"type":"richtext"}},"kind":"collectionType"},"modelType":"contentType","modelName":"project","connection":"default","uid":"api::project.project","apiName":"project","globalId":"Project","actions":{},"lifecycles":{}},"api::publication.publication":{"kind":"collectionType","collectionName":"publications","info":{"singularName":"publication","pluralName":"publications","displayName":"Publication","description":""},"options":{"draftAndPublish":true},"pluginOptions":{"i18n":{"localized":true}},"attributes":{"title":{"type":"string","pluginOptions":{"i18n":{"localized":false}}},"description":{"type":"string","pluginOptions":{"i18n":{"localized":true}}},"publisher":{"pluginOptions":{"i18n":{"localized":false}},"type":"string"},"file":{"type":"media","multiple":false,"required":false,"allowedTypes":["images","files","videos","audios"],"pluginOptions":{"i18n":{"localized":false}}},"year":{"pluginOptions":{"i18n":{"localized":false}},"type":"string"},"rank":{"pluginOptions":{"i18n":{"localized":true}},"type":"integer"},"createdAt":{"type":"datetime"},"updatedAt":{"type":"datetime"},"publishedAt":{"type":"datetime","configurable":false,"writable":true,"visible":false},"createdBy":{"type":"relation","relation":"oneToOne","target":"admin::user","configurable":false,"writable":false,"visible":false,"useJoinTable":false,"private":true},"updatedBy":{"type":"relation","relation":"oneToOne","target":"admin::user","configurable":false,"writable":false,"visible":false,"useJoinTable":false,"private":true},"localizations":{"writable":true,"private":false,"configurable":false,"visible":false,"type":"relation","relation":"oneToMany","target":"api::publication.publication"},"locale":{"writable":true,"private":false,"configurable":false,"visible":false,"type":"string"}},"__schema__":{"collectionName":"publications","info":{"singularName":"publication","pluralName":"publications","displayName":"Publication","description":""},"options":{"draftAndPublish":true},"pluginOptions":{"i18n":{"localized":true}},"attributes":{"title":{"type":"string","pluginOptions":{"i18n":{"localized":false}}},"description":{"type":"string","pluginOptions":{"i18n":{"localized":true}}},"publisher":{"pluginOptions":{"i18n":{"localized":false}},"type":"string"},"file":{"type":"media","multiple":false,"required":false,"allowedTypes":["images","files","videos","audios"],"pluginOptions":{"i18n":{"localized":false}}},"year":{"pluginOptions":{"i18n":{"localized":false}},"type":"string"},"rank":{"pluginOptions":{"i18n":{"localized":true}},"type":"integer"}},"kind":"collectionType"},"modelType":"contentType","modelName":"publication","connection":"default","uid":"api::publication.publication","apiName":"publication","globalId":"Publication","actions":{},"lifecycles":{}},"api::random-fact.random-fact":{"kind":"collectionType","collectionName":"random_facts","info":{"singularName":"random-fact","pluralName":"random-facts","displayName":"Random Fact","description":""},"options":{"draftAndPublish":true},"pluginOptions":{"i18n":{"localized":true}},"attributes":{"name":{"pluginOptions":{"i18n":{"localized":false}},"type":"string"},"headline":{"pluginOptions":{"i18n":{"localized":true}},"type":"text"},"description":{"pluginOptions":{"i18n":{"localized":true}},"type":"richtext"},"isFactTrue":{"pluginOptions":{"i18n":{"localized":false}},"type":"boolean","default":true},"explanation":{"pluginOptions":{"i18n":{"localized":true}},"type":"richtext"},"createdAt":{"type":"datetime"},"updatedAt":{"type":"datetime"},"publishedAt":{"type":"datetime","configurable":false,"writable":true,"visible":false},"createdBy":{"type":"relation","relation":"oneToOne","target":"admin::user","configurable":false,"writable":false,"visible":false,"useJoinTable":false,"private":true},"updatedBy":{"type":"relation","relation":"oneToOne","target":"admin::user","configurable":false,"writable":false,"visible":false,"useJoinTable":false,"private":true},"localizations":{"writable":true,"private":false,"configurable":false,"visible":false,"type":"relation","relation":"oneToMany","target":"api::random-fact.random-fact"},"locale":{"writable":true,"private":false,"configurable":false,"visible":false,"type":"string"}},"__schema__":{"collectionName":"random_facts","info":{"singularName":"random-fact","pluralName":"random-facts","displayName":"Random Fact","description":""},"options":{"draftAndPublish":true},"pluginOptions":{"i18n":{"localized":true}},"attributes":{"name":{"pluginOptions":{"i18n":{"localized":false}},"type":"string"},"headline":{"pluginOptions":{"i18n":{"localized":true}},"type":"text"},"description":{"pluginOptions":{"i18n":{"localized":true}},"type":"richtext"},"isFactTrue":{"pluginOptions":{"i18n":{"localized":false}},"type":"boolean","default":true},"explanation":{"pluginOptions":{"i18n":{"localized":true}},"type":"richtext"}},"kind":"collectionType"},"modelType":"contentType","modelName":"random-fact","connection":"default","uid":"api::random-fact.random-fact","apiName":"random-fact","globalId":"RandomFact","actions":{},"lifecycles":{}},"api::recruiters-page.recruiters-page":{"kind":"singleType","collectionName":"recruiters_pages","info":{"singularName":"recruiters-page","pluralName":"recruiters-pages","displayName":"Recruiters Page","description":""},"options":{"draftAndPublish":true},"pluginOptions":{"versions":{"versioned":true},"i18n":{"localized":true}},"attributes":{"jobPreferences":{"type":"component","repeatable":false,"pluginOptions":{"versions":{"versioned":true},"i18n":{"localized":true}},"component":"shared.titled-paragraph"},"tldr":{"type":"component","repeatable":false,"pluginOptions":{"versions":{"versioned":true},"i18n":{"localized":true}},"component":"shared.titled-paragraph"},"salary":{"type":"component","repeatable":false,"pluginOptions":{"versions":{"versioned":true},"i18n":{"localized":true}},"component":"shared.titled-paragraph"},"toolsTechs":{"type":"component","repeatable":false,"pluginOptions":{"versions":{"versioned":true},"i18n":{"localized":true}},"component":"shared.titled-paragraph"},"generalInfo":{"type":"component","repeatable":false,"pluginOptions":{"versions":{"versioned":true},"i18n":{"localized":true}},"component":"shared.titled-paragraph"},"intro":{"pluginOptions":{"versions":{"versioned":true},"i18n":{"localized":true}},"type":"richtext"},"outro":{"pluginOptions":{"versions":{"versioned":true},"i18n":{"localized":true}},"type":"richtext"},"createdAt":{"type":"datetime"},"updatedAt":{"type":"datetime"},"publishedAt":{"type":"datetime","configurable":false,"writable":true,"visible":false},"createdBy":{"type":"relation","relation":"oneToOne","target":"admin::user","configurable":false,"writable":false,"visible":false,"useJoinTable":false,"private":true},"updatedBy":{"type":"relation","relation":"oneToOne","target":"admin::user","configurable":false,"writable":false,"visible":false,"useJoinTable":false,"private":true},"versions":{"writable":true,"private":false,"configurable":false,"visible":false,"type":"relation","relation":"manyToMany","target":"api::recruiters-page.recruiters-page"},"vuid":{"writable":true,"private":false,"configurable":false,"visible":false,"type":"string"},"versionNumber":{"writable":true,"private":false,"configurable":false,"visible":false,"type":"integer","default":1},"versionComment":{"writable":true,"private":false,"configurable":false,"visible":false,"type":"string"},"isVisibleInListView":{"writable":true,"private":false,"configurable":false,"visible":false,"type":"boolean","default":true},"localizations":{"writable":true,"private":false,"configurable":false,"visible":false,"type":"relation","relation":"oneToMany","target":"api::recruiters-page.recruiters-page"},"locale":{"writable":true,"private":false,"configurable":false,"visible":false,"type":"string"}},"__schema__":{"collectionName":"recruiters_pages","info":{"singularName":"recruiters-page","pluralName":"recruiters-pages","displayName":"Recruiters Page","description":""},"options":{"draftAndPublish":true},"pluginOptions":{"versions":{"versioned":true},"i18n":{"localized":true}},"attributes":{"jobPreferences":{"type":"component","repeatable":false,"pluginOptions":{"versions":{"versioned":true},"i18n":{"localized":true}},"component":"shared.titled-paragraph"},"tldr":{"type":"component","repeatable":false,"pluginOptions":{"versions":{"versioned":true},"i18n":{"localized":true}},"component":"shared.titled-paragraph"},"salary":{"type":"component","repeatable":false,"pluginOptions":{"versions":{"versioned":true},"i18n":{"localized":true}},"component":"shared.titled-paragraph"},"toolsTechs":{"type":"component","repeatable":false,"pluginOptions":{"versions":{"versioned":true},"i18n":{"localized":true}},"component":"shared.titled-paragraph"},"generalInfo":{"type":"component","repeatable":false,"pluginOptions":{"versions":{"versioned":true},"i18n":{"localized":true}},"component":"shared.titled-paragraph"},"intro":{"pluginOptions":{"versions":{"versioned":true},"i18n":{"localized":true}},"type":"richtext"},"outro":{"pluginOptions":{"versions":{"versioned":true},"i18n":{"localized":true}},"type":"richtext"}},"kind":"singleType"},"modelType":"contentType","modelName":"recruiters-page","connection":"default","uid":"api::recruiters-page.recruiters-page","apiName":"recruiters-page","globalId":"RecruitersPage","actions":{},"lifecycles":{}},"api::school.school":{"kind":"collectionType","collectionName":"schools","info":{"singularName":"school","pluralName":"schools","displayName":"School"},"options":{"draftAndPublish":true},"pluginOptions":{"i18n":{"localized":true}},"attributes":{"schoolName":{"pluginOptions":{"i18n":{"localized":true}},"type":"string"},"flag":{"allowedTypes":["images","files","videos","audios"],"type":"media","multiple":false,"pluginOptions":{"i18n":{"localized":false}}},"degreeName":{"pluginOptions":{"i18n":{"localized":true}},"type":"string"},"degreeUrl":{"pluginOptions":{"i18n":{"localized":false}},"type":"string"},"grade":{"pluginOptions":{"i18n":{"localized":false}},"type":"string"},"start":{"pluginOptions":{"i18n":{"localized":false}},"type":"date"},"end":{"pluginOptions":{"i18n":{"localized":false}},"type":"date"},"description":{"pluginOptions":{"i18n":{"localized":true}},"type":"richtext"},"icon":{"allowedTypes":["images","files","videos","audios"],"type":"media","multiple":false,"pluginOptions":{"i18n":{"localized":false}}},"createdAt":{"type":"datetime"},"updatedAt":{"type":"datetime"},"publishedAt":{"type":"datetime","configurable":false,"writable":true,"visible":false},"createdBy":{"type":"relation","relation":"oneToOne","target":"admin::user","configurable":false,"writable":false,"visible":false,"useJoinTable":false,"private":true},"updatedBy":{"type":"relation","relation":"oneToOne","target":"admin::user","configurable":false,"writable":false,"visible":false,"useJoinTable":false,"private":true},"localizations":{"writable":true,"private":false,"configurable":false,"visible":false,"type":"relation","relation":"oneToMany","target":"api::school.school"},"locale":{"writable":true,"private":false,"configurable":false,"visible":false,"type":"string"}},"__schema__":{"collectionName":"schools","info":{"singularName":"school","pluralName":"schools","displayName":"School"},"options":{"draftAndPublish":true},"pluginOptions":{"i18n":{"localized":true}},"attributes":{"schoolName":{"pluginOptions":{"i18n":{"localized":true}},"type":"string"},"flag":{"allowedTypes":["images","files","videos","audios"],"type":"media","multiple":false,"pluginOptions":{"i18n":{"localized":false}}},"degreeName":{"pluginOptions":{"i18n":{"localized":true}},"type":"string"},"degreeUrl":{"pluginOptions":{"i18n":{"localized":false}},"type":"string"},"grade":{"pluginOptions":{"i18n":{"localized":false}},"type":"string"},"start":{"pluginOptions":{"i18n":{"localized":false}},"type":"date"},"end":{"pluginOptions":{"i18n":{"localized":false}},"type":"date"},"description":{"pluginOptions":{"i18n":{"localized":true}},"type":"richtext"},"icon":{"allowedTypes":["images","files","videos","audios"],"type":"media","multiple":false,"pluginOptions":{"i18n":{"localized":false}}}},"kind":"collectionType"},"modelType":"contentType","modelName":"school","connection":"default","uid":"api::school.school","apiName":"school","globalId":"School","actions":{},"lifecycles":{}},"api::skill.skill":{"kind":"collectionType","collectionName":"skills","info":{"singularName":"skill","pluralName":"skills","displayName":"Skill","description":""},"options":{"draftAndPublish":true},"pluginOptions":{"i18n":{"localized":true}},"attributes":{"title":{"pluginOptions":{"i18n":{"localized":false}},"type":"string"},"description":{"pluginOptions":{"i18n":{"localized":true}},"type":"richtext"},"icons":{"type":"media","multiple":true,"required":false,"allowedTypes":["images","files","videos","audios"],"pluginOptions":{"i18n":{"localized":false}}},"rank":{"pluginOptions":{"i18n":{"localized":false}},"type":"integer"},"createdAt":{"type":"datetime"},"updatedAt":{"type":"datetime"},"publishedAt":{"type":"datetime","configurable":false,"writable":true,"visible":false},"createdBy":{"type":"relation","relation":"oneToOne","target":"admin::user","configurable":false,"writable":false,"visible":false,"useJoinTable":false,"private":true},"updatedBy":{"type":"relation","relation":"oneToOne","target":"admin::user","configurable":false,"writable":false,"visible":false,"useJoinTable":false,"private":true},"localizations":{"writable":true,"private":false,"configurable":false,"visible":false,"type":"relation","relation":"oneToMany","target":"api::skill.skill"},"locale":{"writable":true,"private":false,"configurable":false,"visible":false,"type":"string"}},"__schema__":{"collectionName":"skills","info":{"singularName":"skill","pluralName":"skills","displayName":"Skill","description":""},"options":{"draftAndPublish":true},"pluginOptions":{"i18n":{"localized":true}},"attributes":{"title":{"pluginOptions":{"i18n":{"localized":false}},"type":"string"},"description":{"pluginOptions":{"i18n":{"localized":true}},"type":"richtext"},"icons":{"type":"media","multiple":true,"required":false,"allowedTypes":["images","files","videos","audios"],"pluginOptions":{"i18n":{"localized":false}}},"rank":{"pluginOptions":{"i18n":{"localized":false}},"type":"integer"}},"kind":"collectionType"},"modelType":"contentType","modelName":"skill","connection":"default","uid":"api::skill.skill","apiName":"skill","globalId":"Skill","actions":{},"lifecycles":{}},"api::software-development-intro.software-development-intro":{"kind":"singleType","collectionName":"software_development_intros","info":{"singularName":"software-development-intro","pluralName":"software-development-intros","displayName":"Software Dev Intro","description":""},"options":{"draftAndPublish":true},"pluginOptions":{"versions":{"versioned":true},"i18n":{"localized":true}},"attributes":{"title":{"pluginOptions":{"versions":{"versioned":true},"i18n":{"localized":true}},"type":"string"},"content":{"pluginOptions":{"versions":{"versioned":true},"i18n":{"localized":true}},"type":"richtext"},"icon":{"type":"media","multiple":false,"required":false,"allowedTypes":["images","files","videos","audios"],"pluginOptions":{"versions":{"versioned":true},"i18n":{"localized":false}}},"createdAt":{"type":"datetime"},"updatedAt":{"type":"datetime"},"publishedAt":{"type":"datetime","configurable":false,"writable":true,"visible":false},"createdBy":{"type":"relation","relation":"oneToOne","target":"admin::user","configurable":false,"writable":false,"visible":false,"useJoinTable":false,"private":true},"updatedBy":{"type":"relation","relation":"oneToOne","target":"admin::user","configurable":false,"writable":false,"visible":false,"useJoinTable":false,"private":true},"versions":{"writable":true,"private":false,"configurable":false,"visible":false,"type":"relation","relation":"manyToMany","target":"api::software-development-intro.software-development-intro"},"vuid":{"writable":true,"private":false,"configurable":false,"visible":false,"type":"string"},"versionNumber":{"writable":true,"private":false,"configurable":false,"visible":false,"type":"integer","default":1},"versionComment":{"writable":true,"private":false,"configurable":false,"visible":false,"type":"string"},"isVisibleInListView":{"writable":true,"private":false,"configurable":false,"visible":false,"type":"boolean","default":true},"localizations":{"writable":true,"private":false,"configurable":false,"visible":false,"type":"relation","relation":"oneToMany","target":"api::software-development-intro.software-development-intro"},"locale":{"writable":true,"private":false,"configurable":false,"visible":false,"type":"string"}},"__schema__":{"collectionName":"software_development_intros","info":{"singularName":"software-development-intro","pluralName":"software-development-intros","displayName":"Software Dev Intro","description":""},"options":{"draftAndPublish":true},"pluginOptions":{"versions":{"versioned":true},"i18n":{"localized":true}},"attributes":{"title":{"pluginOptions":{"versions":{"versioned":true},"i18n":{"localized":true}},"type":"string"},"content":{"pluginOptions":{"versions":{"versioned":true},"i18n":{"localized":true}},"type":"richtext"},"icon":{"type":"media","multiple":false,"required":false,"allowedTypes":["images","files","videos","audios"],"pluginOptions":{"versions":{"versioned":true},"i18n":{"localized":false}}}},"kind":"singleType"},"modelType":"contentType","modelName":"software-development-intro","connection":"default","uid":"api::software-development-intro.software-development-intro","apiName":"software-development-intro","globalId":"SoftwareDevelopmentIntro","actions":{},"lifecycles":{}},"api::tv-show.tv-show":{"kind":"collectionType","collectionName":"tv_shows","info":{"singularName":"tv-show","pluralName":"tv-shows","displayName":"TvShow","description":""},"options":{"draftAndPublish":true},"pluginOptions":{},"attributes":{"title":{"type":"string"},"poster":{"type":"media","multiple":false,"required":false,"allowedTypes":["images","files","videos","audios"]},"link":{"type":"string"},"year":{"type":"string"},"createdAt":{"type":"datetime"},"updatedAt":{"type":"datetime"},"publishedAt":{"type":"datetime","configurable":false,"writable":true,"visible":false},"createdBy":{"type":"relation","relation":"oneToOne","target":"admin::user","configurable":false,"writable":false,"visible":false,"useJoinTable":false,"private":true},"updatedBy":{"type":"relation","relation":"oneToOne","target":"admin::user","configurable":false,"writable":false,"visible":false,"useJoinTable":false,"private":true}},"__schema__":{"collectionName":"tv_shows","info":{"singularName":"tv-show","pluralName":"tv-shows","displayName":"TvShow","description":""},"options":{"draftAndPublish":true},"pluginOptions":{},"attributes":{"title":{"type":"string"},"poster":{"type":"media","multiple":false,"required":false,"allowedTypes":["images","files","videos","audios"]},"link":{"type":"string"},"year":{"type":"string"}},"kind":"collectionType"},"modelType":"contentType","modelName":"tv-show","connection":"default","uid":"api::tv-show.tv-show","apiName":"tv-show","globalId":"TvShow","actions":{},"lifecycles":{}},"api::uses-page.uses-page":{"kind":"singleType","collectionName":"uses_pages","info":{"singularName":"uses-page","pluralName":"uses-pages","displayName":"Uses Page","description":""},"options":{"draftAndPublish":true},"pluginOptions":{"versions":{"versioned":true},"i18n":{"localized":true}},"attributes":{"hardware":{"type":"component","repeatable":false,"pluginOptions":{"versions":{"versioned":true},"i18n":{"localized":true}},"component":"shared.titled-paragraph"},"media":{"type":"component","repeatable":false,"pluginOptions":{"versions":{"versioned":true},"i18n":{"localized":true}},"component":"shared.titled-paragraph"},"programmingTools":{"type":"component","repeatable":false,"pluginOptions":{"versions":{"versioned":true},"i18n":{"localized":true}},"component":"shared.titled-paragraph"},"security":{"type":"component","repeatable":false,"pluginOptions":{"versions":{"versioned":true},"i18n":{"localized":true}},"component":"shared.titled-paragraph"},"productivity":{"type":"component","repeatable":false,"pluginOptions":{"versions":{"versioned":true},"i18n":{"localized":true}},"component":"shared.titled-paragraph"},"createdAt":{"type":"datetime"},"updatedAt":{"type":"datetime"},"publishedAt":{"type":"datetime","configurable":false,"writable":true,"visible":false},"createdBy":{"type":"relation","relation":"oneToOne","target":"admin::user","configurable":false,"writable":false,"visible":false,"useJoinTable":false,"private":true},"updatedBy":{"type":"relation","relation":"oneToOne","target":"admin::user","configurable":false,"writable":false,"visible":false,"useJoinTable":false,"private":true},"versions":{"writable":true,"private":false,"configurable":false,"visible":false,"type":"relation","relation":"manyToMany","target":"api::uses-page.uses-page"},"vuid":{"writable":true,"private":false,"configurable":false,"visible":false,"type":"string"},"versionNumber":{"writable":true,"private":false,"configurable":false,"visible":false,"type":"integer","default":1},"versionComment":{"writable":true,"private":false,"configurable":false,"visible":false,"type":"string"},"isVisibleInListView":{"writable":true,"private":false,"configurable":false,"visible":false,"type":"boolean","default":true},"localizations":{"writable":true,"private":false,"configurable":false,"visible":false,"type":"relation","relation":"oneToMany","target":"api::uses-page.uses-page"},"locale":{"writable":true,"private":false,"configurable":false,"visible":false,"type":"string"}},"__schema__":{"collectionName":"uses_pages","info":{"singularName":"uses-page","pluralName":"uses-pages","displayName":"Uses Page","description":""},"options":{"draftAndPublish":true},"pluginOptions":{"versions":{"versioned":true},"i18n":{"localized":true}},"attributes":{"hardware":{"type":"component","repeatable":false,"pluginOptions":{"versions":{"versioned":true},"i18n":{"localized":true}},"component":"shared.titled-paragraph"},"media":{"type":"component","repeatable":false,"pluginOptions":{"versions":{"versioned":true},"i18n":{"localized":true}},"component":"shared.titled-paragraph"},"programmingTools":{"type":"component","repeatable":false,"pluginOptions":{"versions":{"versioned":true},"i18n":{"localized":true}},"component":"shared.titled-paragraph"},"security":{"type":"component","repeatable":false,"pluginOptions":{"versions":{"versioned":true},"i18n":{"localized":true}},"component":"shared.titled-paragraph"},"productivity":{"type":"component","repeatable":false,"pluginOptions":{"versions":{"versioned":true},"i18n":{"localized":true}},"component":"shared.titled-paragraph"}},"kind":"singleType"},"modelType":"contentType","modelName":"uses-page","connection":"default","uid":"api::uses-page.uses-page","apiName":"uses-page","globalId":"UsesPage","actions":{},"lifecycles":{}},"api::video-game.video-game":{"kind":"collectionType","collectionName":"video_games","info":{"singularName":"video-game","pluralName":"video-games","displayName":"VideoGame","description":""},"options":{"draftAndPublish":true},"pluginOptions":{},"attributes":{"title":{"type":"string"},"cover":{"type":"media","multiple":false,"required":false,"allowedTypes":["images","files","videos","audios"]},"link":{"type":"string"},"year":{"type":"string"},"createdAt":{"type":"datetime"},"updatedAt":{"type":"datetime"},"publishedAt":{"type":"datetime","configurable":false,"writable":true,"visible":false},"createdBy":{"type":"relation","relation":"oneToOne","target":"admin::user","configurable":false,"writable":false,"visible":false,"useJoinTable":false,"private":true},"updatedBy":{"type":"relation","relation":"oneToOne","target":"admin::user","configurable":false,"writable":false,"visible":false,"useJoinTable":false,"private":true}},"__schema__":{"collectionName":"video_games","info":{"singularName":"video-game","pluralName":"video-games","displayName":"VideoGame","description":""},"options":{"draftAndPublish":true},"pluginOptions":{},"attributes":{"title":{"type":"string"},"cover":{"type":"media","multiple":false,"required":false,"allowedTypes":["images","files","videos","audios"]},"link":{"type":"string"},"year":{"type":"string"}},"kind":"collectionType"},"modelType":"contentType","modelName":"video-game","connection":"default","uid":"api::video-game.video-game","apiName":"video-game","globalId":"VideoGame","actions":{},"lifecycles":{}}}', 'object', NULL, NULL);
+INSERT INTO public.strapi_core_store_settings (id, key, value, type, environment, tag) VALUES (13, 'plugin_content_manager_configuration_content_types::plugin::users-permissions.role', '{"uid":"plugin::users-permissions.role","settings":{"bulkable":true,"filterable":true,"searchable":true,"pageSize":10,"mainField":"name","defaultSortBy":"name","defaultSortOrder":"ASC"},"metadatas":{"id":{"edit":{},"list":{"label":"id","searchable":true,"sortable":true}},"name":{"edit":{"label":"name","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"name","searchable":true,"sortable":true}},"description":{"edit":{"label":"description","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"description","searchable":true,"sortable":true}},"type":{"edit":{"label":"type","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"type","searchable":true,"sortable":true}},"permissions":{"edit":{"label":"permissions","description":"","placeholder":"","visible":true,"editable":true,"mainField":"action"},"list":{"label":"permissions","searchable":false,"sortable":false}},"users":{"edit":{"label":"users","description":"","placeholder":"","visible":true,"editable":true,"mainField":"username"},"list":{"label":"users","searchable":false,"sortable":false}},"createdAt":{"edit":{"label":"createdAt","description":"","placeholder":"","visible":false,"editable":true},"list":{"label":"createdAt","searchable":true,"sortable":true}},"updatedAt":{"edit":{"label":"updatedAt","description":"","placeholder":"","visible":false,"editable":true},"list":{"label":"updatedAt","searchable":true,"sortable":true}},"createdBy":{"edit":{"label":"createdBy","description":"","placeholder":"","visible":false,"editable":true,"mainField":"firstname"},"list":{"label":"createdBy","searchable":true,"sortable":true}},"updatedBy":{"edit":{"label":"updatedBy","description":"","placeholder":"","visible":false,"editable":true,"mainField":"firstname"},"list":{"label":"updatedBy","searchable":true,"sortable":true}}},"layouts":{"list":["id","name","description","type"],"edit":[[{"name":"name","size":6},{"name":"description","size":6}],[{"name":"type","size":6},{"name":"permissions","size":6}],[{"name":"users","size":6}]]}}', 'object', NULL, NULL);
+INSERT INTO public.strapi_core_store_settings (id, key, value, type, environment, tag) VALUES (24, 'plugin_content_manager_configuration_content_types::plugin::menus.menu', '{"uid":"plugin::menus.menu","settings":{"bulkable":true,"filterable":true,"searchable":true,"pageSize":10,"mainField":"title","defaultSortBy":"title","defaultSortOrder":"ASC"},"metadatas":{"id":{"edit":{},"list":{"label":"id","searchable":true,"sortable":true}},"title":{"edit":{"label":"title","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"title","searchable":true,"sortable":true}},"slug":{"edit":{"label":"slug","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"slug","searchable":true,"sortable":true}},"items":{"edit":{"label":"items","description":"","placeholder":"","visible":true,"editable":true,"mainField":"title"},"list":{"label":"items","searchable":false,"sortable":false}},"createdAt":{"edit":{"label":"createdAt","description":"","placeholder":"","visible":false,"editable":true},"list":{"label":"createdAt","searchable":true,"sortable":true}},"updatedAt":{"edit":{"label":"updatedAt","description":"","placeholder":"","visible":false,"editable":true},"list":{"label":"updatedAt","searchable":true,"sortable":true}},"createdBy":{"edit":{"label":"createdBy","description":"","placeholder":"","visible":false,"editable":true,"mainField":"firstname"},"list":{"label":"createdBy","searchable":true,"sortable":true}},"updatedBy":{"edit":{"label":"updatedBy","description":"","placeholder":"","visible":false,"editable":true,"mainField":"firstname"},"list":{"label":"updatedBy","searchable":true,"sortable":true}}},"layouts":{"list":["id","title","slug","items"],"edit":[[{"name":"title","size":6},{"name":"slug","size":6}],[{"name":"items","size":6}]]}}', 'object', NULL, NULL);
+INSERT INTO public.strapi_core_store_settings (id, key, value, type, environment, tag) VALUES (22, 'core_admin_auth', '{"providers":{"autoRegister":false,"defaultRole":null,"ssoLockedRoles":null}}', 'object', NULL, NULL);
+INSERT INTO public.strapi_core_store_settings (id, key, value, type, environment, tag) VALUES (31, 'plugin_drag-drop-content-types_settings', '{"body":{"rank":"rank","title":""}}', 'object', NULL, NULL);
+INSERT INTO public.strapi_core_store_settings (id, key, value, type, environment, tag) VALUES (6, 'plugin_content_manager_configuration_content_types::admin::transfer-token-permission', '{"uid":"admin::transfer-token-permission","settings":{"bulkable":true,"filterable":true,"searchable":true,"pageSize":10,"mainField":"action","defaultSortBy":"action","defaultSortOrder":"ASC"},"metadatas":{"id":{"edit":{},"list":{"label":"id","searchable":true,"sortable":true}},"action":{"edit":{"label":"action","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"action","searchable":true,"sortable":true}},"token":{"edit":{"label":"token","description":"","placeholder":"","visible":true,"editable":true,"mainField":"name"},"list":{"label":"token","searchable":true,"sortable":true}},"createdAt":{"edit":{"label":"createdAt","description":"","placeholder":"","visible":false,"editable":true},"list":{"label":"createdAt","searchable":true,"sortable":true}},"updatedAt":{"edit":{"label":"updatedAt","description":"","placeholder":"","visible":false,"editable":true},"list":{"label":"updatedAt","searchable":true,"sortable":true}},"createdBy":{"edit":{"label":"createdBy","description":"","placeholder":"","visible":false,"editable":true,"mainField":"firstname"},"list":{"label":"createdBy","searchable":true,"sortable":true}},"updatedBy":{"edit":{"label":"updatedBy","description":"","placeholder":"","visible":false,"editable":true,"mainField":"firstname"},"list":{"label":"updatedBy","searchable":true,"sortable":true}}},"layouts":{"list":["id","action","token","createdAt"],"edit":[[{"name":"action","size":6},{"name":"token","size":6}]]}}', 'object', NULL, NULL);
+INSERT INTO public.strapi_core_store_settings (id, key, value, type, environment, tag) VALUES (21, 'plugin_i18n_default_locale', '"en"', 'string', NULL, NULL);
+INSERT INTO public.strapi_core_store_settings (id, key, value, type, environment, tag) VALUES (42, 'plugin_content_manager_configuration_content_types::api::random-fact.random-fact', '{"uid":"api::random-fact.random-fact","settings":{"bulkable":true,"filterable":true,"searchable":true,"pageSize":20,"mainField":"name","defaultSortBy":"id","defaultSortOrder":"ASC"},"metadatas":{"id":{"edit":{},"list":{"label":"id","searchable":true,"sortable":true}},"name":{"edit":{"label":"name","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"name","searchable":true,"sortable":true}},"headline":{"edit":{"label":"headline","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"headline","searchable":true,"sortable":true}},"description":{"edit":{"label":"description","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"description","searchable":false,"sortable":false}},"isFactTrue":{"edit":{"label":"isFactTrue","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"isFactTrue","searchable":true,"sortable":true}},"explanation":{"edit":{"label":"explanation","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"explanation","searchable":false,"sortable":false}},"createdAt":{"edit":{"label":"createdAt","description":"","placeholder":"","visible":false,"editable":true},"list":{"label":"createdAt","searchable":true,"sortable":true}},"updatedAt":{"edit":{"label":"updatedAt","description":"","placeholder":"","visible":false,"editable":true},"list":{"label":"updatedAt","searchable":true,"sortable":true}},"createdBy":{"edit":{"label":"createdBy","description":"","placeholder":"","visible":false,"editable":true,"mainField":"firstname"},"list":{"label":"createdBy","searchable":true,"sortable":true}},"updatedBy":{"edit":{"label":"updatedBy","description":"","placeholder":"","visible":false,"editable":true,"mainField":"firstname"},"list":{"label":"updatedBy","searchable":true,"sortable":true}}},"layouts":{"list":["id","name","headline","isFactTrue"],"edit":[[{"name":"name","size":6},{"name":"headline","size":6}],[{"name":"description","size":12}],[{"name":"isFactTrue","size":4}],[{"name":"explanation","size":12}]]}}', 'object', NULL, NULL);
+INSERT INTO public.strapi_core_store_settings (id, key, value, type, environment, tag) VALUES (8, 'plugin_content_manager_configuration_content_types::admin::permission', '{"uid":"admin::permission","settings":{"bulkable":true,"filterable":true,"searchable":true,"pageSize":10,"mainField":"action","defaultSortBy":"action","defaultSortOrder":"ASC"},"metadatas":{"id":{"edit":{},"list":{"label":"id","searchable":true,"sortable":true}},"action":{"edit":{"label":"action","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"action","searchable":true,"sortable":true}},"subject":{"edit":{"label":"subject","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"subject","searchable":true,"sortable":true}},"properties":{"edit":{"label":"properties","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"properties","searchable":false,"sortable":false}},"conditions":{"edit":{"label":"conditions","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"conditions","searchable":false,"sortable":false}},"role":{"edit":{"label":"role","description":"","placeholder":"","visible":true,"editable":true,"mainField":"name"},"list":{"label":"role","searchable":true,"sortable":true}},"createdAt":{"edit":{"label":"createdAt","description":"","placeholder":"","visible":false,"editable":true},"list":{"label":"createdAt","searchable":true,"sortable":true}},"updatedAt":{"edit":{"label":"updatedAt","description":"","placeholder":"","visible":false,"editable":true},"list":{"label":"updatedAt","searchable":true,"sortable":true}},"createdBy":{"edit":{"label":"createdBy","description":"","placeholder":"","visible":false,"editable":true,"mainField":"firstname"},"list":{"label":"createdBy","searchable":true,"sortable":true}},"updatedBy":{"edit":{"label":"updatedBy","description":"","placeholder":"","visible":false,"editable":true,"mainField":"firstname"},"list":{"label":"updatedBy","searchable":true,"sortable":true}}},"layouts":{"list":["id","action","subject","role"],"edit":[[{"name":"action","size":6},{"name":"subject","size":6}],[{"name":"properties","size":12}],[{"name":"conditions","size":12}],[{"name":"role","size":6}]]}}', 'object', NULL, NULL);
+INSERT INTO public.strapi_core_store_settings (id, key, value, type, environment, tag) VALUES (25, 'plugin_content_manager_configuration_content_types::plugin::react-icons.iconlibrary', '{"uid":"plugin::react-icons.iconlibrary","settings":{"bulkable":true,"filterable":true,"searchable":true,"pageSize":10,"mainField":"name","defaultSortBy":"name","defaultSortOrder":"ASC"},"metadatas":{"id":{"edit":{},"list":{"label":"id","searchable":true,"sortable":true}},"name":{"edit":{"label":"name","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"name","searchable":true,"sortable":true}},"abbreviation":{"edit":{"label":"abbreviation","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"abbreviation","searchable":true,"sortable":true}},"isEnabled":{"edit":{"label":"isEnabled","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"isEnabled","searchable":true,"sortable":true}},"createdAt":{"edit":{"label":"createdAt","description":"","placeholder":"","visible":false,"editable":true},"list":{"label":"createdAt","searchable":true,"sortable":true}},"updatedAt":{"edit":{"label":"updatedAt","description":"","placeholder":"","visible":false,"editable":true},"list":{"label":"updatedAt","searchable":true,"sortable":true}},"createdBy":{"edit":{"label":"createdBy","description":"","placeholder":"","visible":false,"editable":true,"mainField":"firstname"},"list":{"label":"createdBy","searchable":true,"sortable":true}},"updatedBy":{"edit":{"label":"updatedBy","description":"","placeholder":"","visible":false,"editable":true,"mainField":"firstname"},"list":{"label":"updatedBy","searchable":true,"sortable":true}}},"layouts":{"list":["id","name","abbreviation","isEnabled"],"edit":[[{"name":"name","size":6},{"name":"abbreviation","size":6}],[{"name":"isEnabled","size":4}]]}}', 'object', NULL, NULL);
+INSERT INTO public.strapi_core_store_settings (id, key, value, type, environment, tag) VALUES (11, 'plugin_content_manager_configuration_content_types::plugin::users-permissions.user', '{"uid":"plugin::users-permissions.user","settings":{"bulkable":true,"filterable":true,"searchable":true,"pageSize":10,"mainField":"username","defaultSortBy":"username","defaultSortOrder":"ASC"},"metadatas":{"id":{"edit":{},"list":{"label":"id","searchable":true,"sortable":true}},"username":{"edit":{"label":"username","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"username","searchable":true,"sortable":true}},"email":{"edit":{"label":"email","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"email","searchable":true,"sortable":true}},"provider":{"edit":{"label":"provider","description":"","placeholder":"","visible":false,"editable":true},"list":{"label":"provider","searchable":true,"sortable":true}},"password":{"edit":{"label":"password","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"password","searchable":true,"sortable":true}},"resetPasswordToken":{"edit":{"label":"resetPasswordToken","description":"","placeholder":"","visible":false,"editable":true},"list":{"label":"resetPasswordToken","searchable":true,"sortable":true}},"confirmationToken":{"edit":{"label":"confirmationToken","description":"","placeholder":"","visible":false,"editable":true},"list":{"label":"confirmationToken","searchable":true,"sortable":true}},"confirmed":{"edit":{"label":"confirmed","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"confirmed","searchable":true,"sortable":true}},"blocked":{"edit":{"label":"blocked","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"blocked","searchable":true,"sortable":true}},"role":{"edit":{"label":"role","description":"","placeholder":"","visible":true,"editable":true,"mainField":"name"},"list":{"label":"role","searchable":true,"sortable":true}},"createdAt":{"edit":{"label":"createdAt","description":"","placeholder":"","visible":false,"editable":true},"list":{"label":"createdAt","searchable":true,"sortable":true}},"updatedAt":{"edit":{"label":"updatedAt","description":"","placeholder":"","visible":false,"editable":true},"list":{"label":"updatedAt","searchable":true,"sortable":true}},"createdBy":{"edit":{"label":"createdBy","description":"","placeholder":"","visible":false,"editable":true,"mainField":"firstname"},"list":{"label":"createdBy","searchable":true,"sortable":true}},"updatedBy":{"edit":{"label":"updatedBy","description":"","placeholder":"","visible":false,"editable":true,"mainField":"firstname"},"list":{"label":"updatedBy","searchable":true,"sortable":true}}},"layouts":{"list":["id","username","email","confirmed"],"edit":[[{"name":"username","size":6},{"name":"email","size":6}],[{"name":"password","size":6},{"name":"confirmed","size":4}],[{"name":"blocked","size":4},{"name":"role","size":6}]]}}', 'object', NULL, NULL);
+INSERT INTO public.strapi_core_store_settings (id, key, value, type, environment, tag) VALUES (23, 'plugin_content_manager_configuration_content_types::api::job.job', '{"uid":"api::job.job","settings":{"bulkable":true,"filterable":true,"searchable":true,"pageSize":10,"mainField":"companyName","defaultSortBy":"startDate","defaultSortOrder":"DESC"},"metadatas":{"id":{"edit":{},"list":{"label":"id","searchable":true,"sortable":true}},"companyName":{"edit":{"label":"companyName","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"companyName","searchable":true,"sortable":true}},"icon":{"edit":{"label":"icon","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"icon","searchable":false,"sortable":false}},"title":{"edit":{"label":"title","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"title","searchable":true,"sortable":true}},"location":{"edit":{"label":"location","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"location","searchable":true,"sortable":true}},"startDate":{"edit":{"label":"startDate","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"startDate","searchable":true,"sortable":true}},"endDate":{"edit":{"label":"endDate","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"endDate","searchable":true,"sortable":true}},"isCurrentJob":{"edit":{"label":"isCurrentJob","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"isCurrentJob","searchable":true,"sortable":true}},"description":{"edit":{"label":"description","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"description","searchable":false,"sortable":false}},"mainColor":{"edit":{"label":"mainColor","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"mainColor","searchable":true,"sortable":true}},"darkColor":{"edit":{"label":"darkColor","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"darkColor","searchable":true,"sortable":true}},"technologies":{"edit":{"label":"technologies","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"technologies","searchable":false,"sortable":false}},"createdAt":{"edit":{"label":"createdAt","description":"","placeholder":"","visible":false,"editable":true},"list":{"label":"createdAt","searchable":true,"sortable":true}},"updatedAt":{"edit":{"label":"updatedAt","description":"","placeholder":"","visible":false,"editable":true},"list":{"label":"updatedAt","searchable":true,"sortable":true}},"createdBy":{"edit":{"label":"createdBy","description":"","placeholder":"","visible":false,"editable":true,"mainField":"firstname"},"list":{"label":"createdBy","searchable":true,"sortable":true}},"updatedBy":{"edit":{"label":"updatedBy","description":"","placeholder":"","visible":false,"editable":true,"mainField":"firstname"},"list":{"label":"updatedBy","searchable":true,"sortable":true}}},"layouts":{"list":["id","companyName","icon","title"],"edit":[[{"name":"companyName","size":6},{"name":"icon","size":6}],[{"name":"title","size":6},{"name":"location","size":6}],[{"name":"startDate","size":4},{"name":"endDate","size":4},{"name":"isCurrentJob","size":4}],[{"name":"description","size":12}],[{"name":"mainColor","size":6},{"name":"darkColor","size":6}],[{"name":"technologies","size":12}]]}}', 'object', NULL, NULL);
+INSERT INTO public.strapi_core_store_settings (id, key, value, type, environment, tag) VALUES (26, 'plugin_content_manager_configuration_content_types::plugin::menus.menu-item', '{"uid":"plugin::menus.menu-item","settings":{"bulkable":true,"filterable":true,"searchable":true,"pageSize":10,"mainField":"title","defaultSortBy":"title","defaultSortOrder":"ASC"},"metadatas":{"id":{"edit":{},"list":{"label":"id","searchable":true,"sortable":true}},"order":{"edit":{"label":"order","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"order","searchable":true,"sortable":true}},"title":{"edit":{"label":"title","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"title","searchable":true,"sortable":true}},"url":{"edit":{"label":"url","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"url","searchable":true,"sortable":true}},"target":{"edit":{"label":"target","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"target","searchable":true,"sortable":true}},"root_menu":{"edit":{"label":"root_menu","description":"","placeholder":"","visible":true,"editable":true,"mainField":"title"},"list":{"label":"root_menu","searchable":true,"sortable":true}},"parent":{"edit":{"label":"parent","description":"","placeholder":"","visible":true,"editable":true,"mainField":"title"},"list":{"label":"parent","searchable":true,"sortable":true}},"createdAt":{"edit":{"label":"createdAt","description":"","placeholder":"","visible":false,"editable":true},"list":{"label":"createdAt","searchable":true,"sortable":true}},"updatedAt":{"edit":{"label":"updatedAt","description":"","placeholder":"","visible":false,"editable":true},"list":{"label":"updatedAt","searchable":true,"sortable":true}},"createdBy":{"edit":{"label":"createdBy","description":"","placeholder":"","visible":false,"editable":true,"mainField":"firstname"},"list":{"label":"createdBy","searchable":true,"sortable":true}},"updatedBy":{"edit":{"label":"updatedBy","description":"","placeholder":"","visible":false,"editable":true,"mainField":"firstname"},"list":{"label":"updatedBy","searchable":true,"sortable":true}}},"layouts":{"list":["id","order","title","url"],"edit":[[{"name":"order","size":4},{"name":"title","size":6}],[{"name":"url","size":6},{"name":"target","size":6}],[{"name":"root_menu","size":6},{"name":"parent","size":6}]]}}', 'object', NULL, NULL);
+INSERT INTO public.strapi_core_store_settings (id, key, value, type, environment, tag) VALUES (38, 'plugin_content_manager_configuration_content_types::api::publication.publication', '{"uid":"api::publication.publication","settings":{"bulkable":true,"filterable":true,"searchable":true,"pageSize":10,"mainField":"title","defaultSortBy":"title","defaultSortOrder":"ASC"},"metadatas":{"id":{"edit":{},"list":{"label":"id","searchable":true,"sortable":true}},"title":{"edit":{"label":"title","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"title","searchable":true,"sortable":true}},"description":{"edit":{"label":"description","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"description","searchable":true,"sortable":true}},"publisher":{"edit":{"label":"publisher","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"publisher","searchable":true,"sortable":true}},"file":{"edit":{"label":"file","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"file","searchable":false,"sortable":false}},"year":{"edit":{"label":"year","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"year","searchable":true,"sortable":true}},"rank":{"edit":{"label":"rank","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"rank","searchable":true,"sortable":true}},"createdAt":{"edit":{"label":"createdAt","description":"","placeholder":"","visible":false,"editable":true},"list":{"label":"createdAt","searchable":true,"sortable":true}},"updatedAt":{"edit":{"label":"updatedAt","description":"","placeholder":"","visible":false,"editable":true},"list":{"label":"updatedAt","searchable":true,"sortable":true}},"createdBy":{"edit":{"label":"createdBy","description":"","placeholder":"","visible":false,"editable":true,"mainField":"firstname"},"list":{"label":"createdBy","searchable":true,"sortable":true}},"updatedBy":{"edit":{"label":"updatedBy","description":"","placeholder":"","visible":false,"editable":true,"mainField":"firstname"},"list":{"label":"updatedBy","searchable":true,"sortable":true}}},"layouts":{"list":["id","title","description","publisher"],"edit":[[{"name":"title","size":6},{"name":"description","size":6}],[{"name":"publisher","size":6}],[{"name":"file","size":6},{"name":"year","size":4}],[{"name":"rank","size":4}]]}}', 'object', NULL, NULL);
+INSERT INTO public.strapi_core_store_settings (id, key, value, type, environment, tag) VALUES (32, 'plugin_content_manager_configuration_content_types::api::book.book', '{"uid":"api::book.book","settings":{"bulkable":true,"filterable":true,"searchable":true,"pageSize":20,"mainField":"title","defaultSortBy":"title","defaultSortOrder":"ASC"},"metadatas":{"id":{"edit":{},"list":{"label":"id","searchable":true,"sortable":true}},"title":{"edit":{"label":"title","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"title","searchable":true,"sortable":true}},"author":{"edit":{"label":"author","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"author","searchable":true,"sortable":true}},"cover":{"edit":{"label":"cover","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"cover","searchable":false,"sortable":false}},"goodreadsLink":{"edit":{"label":"goodreadsLink","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"goodreadsLink","searchable":true,"sortable":true}},"genre":{"edit":{"label":"genre","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"genre","searchable":true,"sortable":true}},"rank":{"edit":{"label":"rank","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"rank","searchable":true,"sortable":true}},"createdAt":{"edit":{"label":"createdAt","description":"","placeholder":"","visible":false,"editable":true},"list":{"label":"createdAt","searchable":true,"sortable":true}},"updatedAt":{"edit":{"label":"updatedAt","description":"","placeholder":"","visible":false,"editable":true},"list":{"label":"updatedAt","searchable":true,"sortable":true}},"createdBy":{"edit":{"label":"createdBy","description":"","placeholder":"","visible":false,"editable":true,"mainField":"firstname"},"list":{"label":"createdBy","searchable":true,"sortable":true}},"updatedBy":{"edit":{"label":"updatedBy","description":"","placeholder":"","visible":false,"editable":true,"mainField":"firstname"},"list":{"label":"updatedBy","searchable":true,"sortable":true}}},"layouts":{"list":["id","title","author","cover"],"edit":[[{"name":"title","size":6},{"name":"author","size":6}],[{"name":"cover","size":6},{"name":"goodreadsLink","size":6}],[{"name":"genre","size":6},{"name":"rank","size":4}]]}}', 'object', NULL, NULL);
+INSERT INTO public.strapi_core_store_settings (id, key, value, type, environment, tag) VALUES (28, 'plugin_responsive-image_settings', '{"formats":[{"name":"large","width":1000,"fit":"cover","position":"centre","withoutEnlargement":false,"convertToFormat":""},{"name":"medium","width":750,"fit":"cover","position":"centre","withoutEnlargement":false,"convertToFormat":""},{"name":"small","width":500,"fit":"cover","position":"centre","withoutEnlargement":false,"convertToFormat":""}],"quality":87,"progressive":true}', 'object', NULL, NULL);
+INSERT INTO public.strapi_core_store_settings (id, key, value, type, environment, tag) VALUES (29, 'plugin_content_manager_configuration_components::shared.meta-social', '{"uid":"shared.meta-social","settings":{"bulkable":true,"filterable":true,"searchable":true,"pageSize":10,"mainField":"title","defaultSortBy":"title","defaultSortOrder":"ASC"},"metadatas":{"id":{"edit":{},"list":{"label":"id","searchable":false,"sortable":false}},"socialNetwork":{"edit":{"label":"socialNetwork","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"socialNetwork","searchable":true,"sortable":true}},"title":{"edit":{"label":"title","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"title","searchable":true,"sortable":true}},"description":{"edit":{"label":"description","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"description","searchable":true,"sortable":true}},"image":{"edit":{"label":"image","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"image","searchable":false,"sortable":false}}},"layouts":{"list":["id","socialNetwork","title","description"],"edit":[[{"name":"socialNetwork","size":6},{"name":"title","size":6}],[{"name":"description","size":6},{"name":"image","size":6}]]},"isComponent":true}', 'object', NULL, NULL);
+INSERT INTO public.strapi_core_store_settings (id, key, value, type, environment, tag) VALUES (30, 'plugin_content_manager_configuration_components::shared.seo', '{"uid":"shared.seo","settings":{"bulkable":true,"filterable":true,"searchable":true,"pageSize":10,"mainField":"metaTitle","defaultSortBy":"metaTitle","defaultSortOrder":"ASC"},"metadatas":{"id":{"edit":{},"list":{"label":"id","searchable":false,"sortable":false}},"metaTitle":{"edit":{"label":"metaTitle","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"metaTitle","searchable":true,"sortable":true}},"metaDescription":{"edit":{"label":"metaDescription","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"metaDescription","searchable":true,"sortable":true}},"metaImage":{"edit":{"label":"metaImage","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"metaImage","searchable":false,"sortable":false}},"metaSocial":{"edit":{"label":"metaSocial","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"metaSocial","searchable":false,"sortable":false}},"keywords":{"edit":{"label":"keywords","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"keywords","searchable":true,"sortable":true}},"metaRobots":{"edit":{"label":"metaRobots","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"metaRobots","searchable":true,"sortable":true}},"structuredData":{"edit":{"label":"structuredData","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"structuredData","searchable":false,"sortable":false}},"metaViewport":{"edit":{"label":"metaViewport","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"metaViewport","searchable":true,"sortable":true}},"canonicalURL":{"edit":{"label":"canonicalURL","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"canonicalURL","searchable":true,"sortable":true}}},"layouts":{"list":["id","metaTitle","metaDescription","metaImage"],"edit":[[{"name":"metaTitle","size":6},{"name":"metaDescription","size":6}],[{"name":"metaImage","size":6}],[{"name":"metaSocial","size":12}],[{"name":"keywords","size":6},{"name":"metaRobots","size":6}],[{"name":"structuredData","size":12}],[{"name":"metaViewport","size":6},{"name":"canonicalURL","size":6}]]},"isComponent":true}', 'object', NULL, NULL);
+INSERT INTO public.strapi_core_store_settings (id, key, value, type, environment, tag) VALUES (7, 'plugin_content_manager_configuration_content_types::plugin::upload.folder', '{"uid":"plugin::upload.folder","settings":{"bulkable":true,"filterable":true,"searchable":true,"pageSize":10,"mainField":"name","defaultSortBy":"name","defaultSortOrder":"ASC"},"metadatas":{"id":{"edit":{},"list":{"label":"id","searchable":true,"sortable":true}},"name":{"edit":{"label":"name","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"name","searchable":true,"sortable":true}},"pathId":{"edit":{"label":"pathId","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"pathId","searchable":true,"sortable":true}},"parent":{"edit":{"label":"parent","description":"","placeholder":"","visible":true,"editable":true,"mainField":"name"},"list":{"label":"parent","searchable":true,"sortable":true}},"children":{"edit":{"label":"children","description":"","placeholder":"","visible":true,"editable":true,"mainField":"name"},"list":{"label":"children","searchable":false,"sortable":false}},"files":{"edit":{"label":"files","description":"","placeholder":"","visible":true,"editable":true,"mainField":"name"},"list":{"label":"files","searchable":false,"sortable":false}},"path":{"edit":{"label":"path","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"path","searchable":true,"sortable":true}},"createdAt":{"edit":{"label":"createdAt","description":"","placeholder":"","visible":false,"editable":true},"list":{"label":"createdAt","searchable":true,"sortable":true}},"updatedAt":{"edit":{"label":"updatedAt","description":"","placeholder":"","visible":false,"editable":true},"list":{"label":"updatedAt","searchable":true,"sortable":true}},"createdBy":{"edit":{"label":"createdBy","description":"","placeholder":"","visible":false,"editable":true,"mainField":"firstname"},"list":{"label":"createdBy","searchable":true,"sortable":true}},"updatedBy":{"edit":{"label":"updatedBy","description":"","placeholder":"","visible":false,"editable":true,"mainField":"firstname"},"list":{"label":"updatedBy","searchable":true,"sortable":true}}},"layouts":{"list":["id","name","pathId","parent"],"edit":[[{"name":"name","size":6},{"name":"pathId","size":4}],[{"name":"parent","size":6},{"name":"children","size":6}],[{"name":"files","size":6},{"name":"path","size":6}]]}}', 'object', NULL, NULL);
+INSERT INTO public.strapi_core_store_settings (id, key, value, type, environment, tag) VALUES (41, 'plugin_content_manager_configuration_content_types::api::software-development-intro.software-development-intro', '{"uid":"api::software-development-intro.software-development-intro","settings":{"bulkable":true,"filterable":true,"searchable":true,"pageSize":10,"mainField":"title","defaultSortBy":"title","defaultSortOrder":"ASC"},"metadatas":{"id":{"edit":{},"list":{"label":"id","searchable":true,"sortable":true}},"title":{"edit":{"label":"title","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"title","searchable":true,"sortable":true}},"content":{"edit":{"label":"content","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"content","searchable":false,"sortable":false}},"icon":{"edit":{"label":"icon","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"icon","searchable":false,"sortable":false}},"createdAt":{"edit":{"label":"createdAt","description":"","placeholder":"","visible":false,"editable":true},"list":{"label":"createdAt","searchable":true,"sortable":true}},"updatedAt":{"edit":{"label":"updatedAt","description":"","placeholder":"","visible":false,"editable":true},"list":{"label":"updatedAt","searchable":true,"sortable":true}},"createdBy":{"edit":{"label":"createdBy","description":"","placeholder":"","visible":false,"editable":true,"mainField":"firstname"},"list":{"label":"createdBy","searchable":true,"sortable":true}},"updatedBy":{"edit":{"label":"updatedBy","description":"","placeholder":"","visible":false,"editable":true,"mainField":"firstname"},"list":{"label":"updatedBy","searchable":true,"sortable":true}}},"layouts":{"list":["id","title","icon","createdAt"],"edit":[[{"name":"title","size":6}],[{"name":"content","size":12}],[{"name":"icon","size":6}]]}}', 'object', NULL, NULL);
+INSERT INTO public.strapi_core_store_settings (id, key, value, type, environment, tag) VALUES (44, 'plugin_content_manager_configuration_content_types::api::project.project', '{"uid":"api::project.project","settings":{"bulkable":true,"filterable":true,"searchable":true,"pageSize":10,"mainField":"title","defaultSortBy":"title","defaultSortOrder":"ASC"},"metadatas":{"id":{"edit":{},"list":{"label":"id","searchable":true,"sortable":true}},"title":{"edit":{"label":"title","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"title","searchable":true,"sortable":true}},"image":{"edit":{"label":"image","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"image","searchable":false,"sortable":false}},"shortDescription":{"edit":{"label":"shortDescription","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"shortDescription","searchable":true,"sortable":true}},"tools":{"edit":{"label":"tools","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"tools","searchable":true,"sortable":true}},"date":{"edit":{"label":"date","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"date","searchable":true,"sortable":true}},"tags":{"edit":{"label":"tags","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"tags","searchable":true,"sortable":true}},"links":{"edit":{"label":"links","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"links","searchable":false,"sortable":false}},"longDescription":{"edit":{"label":"longDescription","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"longDescription","searchable":false,"sortable":false}},"createdAt":{"edit":{"label":"createdAt","description":"","placeholder":"","visible":false,"editable":true},"list":{"label":"createdAt","searchable":true,"sortable":true}},"updatedAt":{"edit":{"label":"updatedAt","description":"","placeholder":"","visible":false,"editable":true},"list":{"label":"updatedAt","searchable":true,"sortable":true}},"createdBy":{"edit":{"label":"createdBy","description":"","placeholder":"","visible":false,"editable":true,"mainField":"firstname"},"list":{"label":"createdBy","searchable":true,"sortable":true}},"updatedBy":{"edit":{"label":"updatedBy","description":"","placeholder":"","visible":false,"editable":true,"mainField":"firstname"},"list":{"label":"updatedBy","searchable":true,"sortable":true}}},"layouts":{"list":["id","title","image","shortDescription"],"edit":[[{"name":"title","size":6},{"name":"image","size":6}],[{"name":"shortDescription","size":6}],[{"name":"tools","size":6},{"name":"date","size":4}],[{"name":"tags","size":6}],[{"name":"links","size":12}],[{"name":"longDescription","size":12}]]}}', 'object', NULL, NULL);
+INSERT INTO public.strapi_core_store_settings (id, key, value, type, environment, tag) VALUES (17, 'plugin_upload_metrics', '{"weeklySchedule":"57 58 17 * * 1","lastWeeklyUpdate":1696269537037}', 'object', NULL, NULL);
+INSERT INTO public.strapi_core_store_settings (id, key, value, type, environment, tag) VALUES (45, 'plugin_content_manager_configuration_components::shared.titled-paragraph', '{"uid":"shared.titled-paragraph","settings":{"bulkable":true,"filterable":true,"searchable":true,"pageSize":10,"mainField":"title","defaultSortBy":"title","defaultSortOrder":"ASC"},"metadatas":{"id":{"edit":{},"list":{"label":"id","searchable":false,"sortable":false}},"title":{"edit":{"label":"title","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"title","searchable":true,"sortable":true}},"content":{"edit":{"label":"content","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"content","searchable":false,"sortable":false}}},"layouts":{"list":["id","title"],"edit":[[{"name":"title","size":6}],[{"name":"content","size":12}]]},"isComponent":true}', 'object', NULL, NULL);
+INSERT INTO public.strapi_core_store_settings (id, key, value, type, environment, tag) VALUES (34, 'plugin_content_manager_configuration_content_types::api::podcast.podcast', '{"uid":"api::podcast.podcast","settings":{"bulkable":true,"filterable":true,"searchable":true,"pageSize":10,"mainField":"name","defaultSortBy":"name","defaultSortOrder":"ASC"},"metadatas":{"id":{"edit":{},"list":{"label":"id","searchable":true,"sortable":true}},"name":{"edit":{"label":"name","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"name","searchable":true,"sortable":true}},"author":{"edit":{"label":"author","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"author","searchable":true,"sortable":true}},"language":{"edit":{"label":"language","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"language","searchable":true,"sortable":true}},"cover":{"edit":{"label":"cover","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"cover","searchable":false,"sortable":false}},"mediaLink":{"edit":{"label":"mediaLink","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"mediaLink","searchable":true,"sortable":true}},"createdAt":{"edit":{"label":"createdAt","description":"","placeholder":"","visible":false,"editable":true},"list":{"label":"createdAt","searchable":true,"sortable":true}},"updatedAt":{"edit":{"label":"updatedAt","description":"","placeholder":"","visible":false,"editable":true},"list":{"label":"updatedAt","searchable":true,"sortable":true}},"createdBy":{"edit":{"label":"createdBy","description":"","placeholder":"","visible":false,"editable":true,"mainField":"firstname"},"list":{"label":"createdBy","searchable":true,"sortable":true}},"updatedBy":{"edit":{"label":"updatedBy","description":"","placeholder":"","visible":false,"editable":true,"mainField":"firstname"},"list":{"label":"updatedBy","searchable":true,"sortable":true}}},"layouts":{"list":["id","name","author","language"],"edit":[[{"name":"name","size":6},{"name":"author","size":6}],[{"name":"language","size":6},{"name":"cover","size":6}],[{"name":"mediaLink","size":6}]]}}', 'object', NULL, NULL);
+INSERT INTO public.strapi_core_store_settings (id, key, value, type, environment, tag) VALUES (40, 'plugin_content_manager_configuration_content_types::api::code-snippet.code-snippet', '{"uid":"api::code-snippet.code-snippet","settings":{"bulkable":true,"filterable":true,"searchable":true,"pageSize":20,"mainField":"language","defaultSortBy":"language","defaultSortOrder":"ASC"},"metadatas":{"id":{"edit":{},"list":{"label":"id","searchable":true,"sortable":true}},"language":{"edit":{"label":"language","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"language","searchable":true,"sortable":true}},"code":{"edit":{"label":"code","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"code","searchable":false,"sortable":false}},"createdAt":{"edit":{"label":"createdAt","description":"","placeholder":"","visible":false,"editable":true},"list":{"label":"createdAt","searchable":true,"sortable":true}},"updatedAt":{"edit":{"label":"updatedAt","description":"","placeholder":"","visible":false,"editable":true},"list":{"label":"updatedAt","searchable":true,"sortable":true}},"createdBy":{"edit":{"label":"createdBy","description":"","placeholder":"","visible":false,"editable":true,"mainField":"firstname"},"list":{"label":"createdBy","searchable":true,"sortable":true}},"updatedBy":{"edit":{"label":"updatedBy","description":"","placeholder":"","visible":false,"editable":true,"mainField":"firstname"},"list":{"label":"updatedBy","searchable":true,"sortable":true}}},"layouts":{"list":["id","language","createdAt","createdBy"],"edit":[[{"name":"language","size":6}],[{"name":"code","size":12}]]}}', 'object', NULL, NULL);
+INSERT INTO public.strapi_core_store_settings (id, key, value, type, environment, tag) VALUES (5, 'plugin_content_manager_configuration_content_types::admin::transfer-token', '{"uid":"admin::transfer-token","settings":{"bulkable":true,"filterable":true,"searchable":true,"pageSize":10,"mainField":"name","defaultSortBy":"name","defaultSortOrder":"ASC"},"metadatas":{"id":{"edit":{},"list":{"label":"id","searchable":true,"sortable":true}},"name":{"edit":{"label":"name","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"name","searchable":true,"sortable":true}},"description":{"edit":{"label":"description","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"description","searchable":true,"sortable":true}},"accessKey":{"edit":{"label":"accessKey","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"accessKey","searchable":true,"sortable":true}},"lastUsedAt":{"edit":{"label":"lastUsedAt","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"lastUsedAt","searchable":true,"sortable":true}},"permissions":{"edit":{"label":"permissions","description":"","placeholder":"","visible":true,"editable":true,"mainField":"action"},"list":{"label":"permissions","searchable":false,"sortable":false}},"expiresAt":{"edit":{"label":"expiresAt","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"expiresAt","searchable":true,"sortable":true}},"lifespan":{"edit":{"label":"lifespan","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"lifespan","searchable":true,"sortable":true}},"createdAt":{"edit":{"label":"createdAt","description":"","placeholder":"","visible":false,"editable":true},"list":{"label":"createdAt","searchable":true,"sortable":true}},"updatedAt":{"edit":{"label":"updatedAt","description":"","placeholder":"","visible":false,"editable":true},"list":{"label":"updatedAt","searchable":true,"sortable":true}},"createdBy":{"edit":{"label":"createdBy","description":"","placeholder":"","visible":false,"editable":true,"mainField":"firstname"},"list":{"label":"createdBy","searchable":true,"sortable":true}},"updatedBy":{"edit":{"label":"updatedBy","description":"","placeholder":"","visible":false,"editable":true,"mainField":"firstname"},"list":{"label":"updatedBy","searchable":true,"sortable":true}}},"layouts":{"list":["id","name","description","accessKey"],"edit":[[{"name":"name","size":6},{"name":"description","size":6}],[{"name":"accessKey","size":6},{"name":"lastUsedAt","size":6}],[{"name":"permissions","size":6},{"name":"expiresAt","size":6}],[{"name":"lifespan","size":4}]]}}', 'object', NULL, NULL);
+INSERT INTO public.strapi_core_store_settings (id, key, value, type, environment, tag) VALUES (43, 'plugin_content_manager_configuration_content_types::api::home-page.home-page', '{"uid":"api::home-page.home-page","settings":{"bulkable":true,"filterable":true,"searchable":true,"pageSize":10,"mainField":"greeting","defaultSortBy":"greeting","defaultSortOrder":"ASC"},"metadatas":{"id":{"edit":{},"list":{"label":"id","searchable":true,"sortable":true}},"greeting":{"edit":{"label":"greeting","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"greeting","searchable":true,"sortable":true}},"introduction_1":{"edit":{"label":"introduction_1","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"introduction_1","searchable":false,"sortable":false}},"introduction_2":{"edit":{"label":"introduction_2","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"introduction_2","searchable":false,"sortable":false}},"introduction_3":{"edit":{"label":"introduction_3","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"introduction_3","searchable":false,"sortable":false}},"introduction_4":{"edit":{"label":"introduction_4","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"introduction_4","searchable":false,"sortable":false}},"introduction_5":{"edit":{"label":"introduction_5","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"introduction_5","searchable":false,"sortable":false}},"createdAt":{"edit":{"label":"createdAt","description":"","placeholder":"","visible":false,"editable":true},"list":{"label":"createdAt","searchable":true,"sortable":true}},"updatedAt":{"edit":{"label":"updatedAt","description":"","placeholder":"","visible":false,"editable":true},"list":{"label":"updatedAt","searchable":true,"sortable":true}},"createdBy":{"edit":{"label":"createdBy","description":"","placeholder":"","visible":false,"editable":true,"mainField":"firstname"},"list":{"label":"createdBy","searchable":true,"sortable":true}},"updatedBy":{"edit":{"label":"updatedBy","description":"","placeholder":"","visible":false,"editable":true,"mainField":"firstname"},"list":{"label":"updatedBy","searchable":true,"sortable":true}}},"layouts":{"list":["id","greeting","createdAt","updatedAt"],"edit":[[{"name":"greeting","size":6}],[{"name":"introduction_1","size":12}],[{"name":"introduction_2","size":12}],[{"name":"introduction_3","size":12}],[{"name":"introduction_4","size":12}],[{"name":"introduction_5","size":12}]]}}', 'object', NULL, NULL);
+INSERT INTO public.strapi_core_store_settings (id, key, value, type, environment, tag) VALUES (36, 'plugin_content_manager_configuration_content_types::api::school.school', '{"uid":"api::school.school","settings":{"bulkable":true,"filterable":true,"searchable":true,"pageSize":10,"mainField":"schoolName","defaultSortBy":"start","defaultSortOrder":"DESC"},"metadatas":{"id":{"edit":{},"list":{"label":"id","searchable":true,"sortable":true}},"schoolName":{"edit":{"label":"schoolName","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"schoolName","searchable":true,"sortable":true}},"flag":{"edit":{"label":"flag","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"flag","searchable":false,"sortable":false}},"degreeName":{"edit":{"label":"degreeName","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"degreeName","searchable":true,"sortable":true}},"degreeUrl":{"edit":{"label":"degreeUrl","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"degreeUrl","searchable":true,"sortable":true}},"grade":{"edit":{"label":"grade","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"grade","searchable":true,"sortable":true}},"start":{"edit":{"label":"start","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"start","searchable":true,"sortable":true}},"end":{"edit":{"label":"end","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"end","searchable":true,"sortable":true}},"description":{"edit":{"label":"description","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"description","searchable":false,"sortable":false}},"icon":{"edit":{"label":"icon","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"icon","searchable":false,"sortable":false}},"createdAt":{"edit":{"label":"createdAt","description":"","placeholder":"","visible":false,"editable":true},"list":{"label":"createdAt","searchable":true,"sortable":true}},"updatedAt":{"edit":{"label":"updatedAt","description":"","placeholder":"","visible":false,"editable":true},"list":{"label":"updatedAt","searchable":true,"sortable":true}},"createdBy":{"edit":{"label":"createdBy","description":"","placeholder":"","visible":false,"editable":true,"mainField":"firstname"},"list":{"label":"createdBy","searchable":true,"sortable":true}},"updatedBy":{"edit":{"label":"updatedBy","description":"","placeholder":"","visible":false,"editable":true,"mainField":"firstname"},"list":{"label":"updatedBy","searchable":true,"sortable":true}}},"layouts":{"list":["id","icon","schoolName","degreeName"],"edit":[[{"name":"schoolName","size":6}],[{"name":"degreeName","size":6},{"name":"degreeUrl","size":6}],[{"name":"grade","size":6}],[{"name":"start","size":4},{"name":"end","size":4}],[{"name":"description","size":12}],[{"name":"icon","size":6},{"name":"flag","size":6}]]}}', 'object', NULL, NULL);
+INSERT INTO public.strapi_core_store_settings (id, key, value, type, environment, tag) VALUES (47, 'plugin_content_manager_configuration_content_types::api::uses-page.uses-page', '{"uid":"api::uses-page.uses-page","settings":{"bulkable":true,"filterable":true,"searchable":true,"pageSize":10,"mainField":"id","defaultSortBy":"id","defaultSortOrder":"ASC"},"metadatas":{"id":{"edit":{},"list":{"label":"id","searchable":true,"sortable":true}},"hardware":{"edit":{"label":"hardware","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"hardware","searchable":false,"sortable":false}},"programmingTools":{"edit":{"label":"programmingTools","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"programmingTools","searchable":false,"sortable":false}},"productivity":{"edit":{"label":"productivity","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"productivity","searchable":false,"sortable":false}},"security":{"edit":{"label":"security","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"security","searchable":false,"sortable":false}},"media":{"edit":{"label":"media","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"media","searchable":false,"sortable":false}},"createdAt":{"edit":{"label":"createdAt","description":"","placeholder":"","visible":false,"editable":true},"list":{"label":"createdAt","searchable":true,"sortable":true}},"updatedAt":{"edit":{"label":"updatedAt","description":"","placeholder":"","visible":false,"editable":true},"list":{"label":"updatedAt","searchable":true,"sortable":true}},"createdBy":{"edit":{"label":"createdBy","description":"","placeholder":"","visible":false,"editable":true,"mainField":"firstname"},"list":{"label":"createdBy","searchable":true,"sortable":true}},"updatedBy":{"edit":{"label":"updatedBy","description":"","placeholder":"","visible":false,"editable":true,"mainField":"firstname"},"list":{"label":"updatedBy","searchable":true,"sortable":true}}},"layouts":{"list":["id","createdAt","updatedAt","createdBy"],"edit":[[{"name":"hardware","size":12}],[{"name":"programmingTools","size":12}],[{"name":"productivity","size":12}],[{"name":"security","size":12}],[{"name":"media","size":12}]]}}', 'object', NULL, NULL);
+INSERT INTO public.strapi_core_store_settings (id, key, value, type, environment, tag) VALUES (9, 'plugin_content_manager_configuration_content_types::admin::api-token-permission', '{"uid":"admin::api-token-permission","settings":{"bulkable":true,"filterable":true,"searchable":true,"pageSize":10,"mainField":"action","defaultSortBy":"action","defaultSortOrder":"ASC"},"metadatas":{"id":{"edit":{},"list":{"label":"id","searchable":true,"sortable":true}},"action":{"edit":{"label":"action","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"action","searchable":true,"sortable":true}},"token":{"edit":{"label":"token","description":"","placeholder":"","visible":true,"editable":true,"mainField":"name"},"list":{"label":"token","searchable":true,"sortable":true}},"createdAt":{"edit":{"label":"createdAt","description":"","placeholder":"","visible":false,"editable":true},"list":{"label":"createdAt","searchable":true,"sortable":true}},"updatedAt":{"edit":{"label":"updatedAt","description":"","placeholder":"","visible":false,"editable":true},"list":{"label":"updatedAt","searchable":true,"sortable":true}},"createdBy":{"edit":{"label":"createdBy","description":"","placeholder":"","visible":false,"editable":true,"mainField":"firstname"},"list":{"label":"createdBy","searchable":true,"sortable":true}},"updatedBy":{"edit":{"label":"updatedBy","description":"","placeholder":"","visible":false,"editable":true,"mainField":"firstname"},"list":{"label":"updatedBy","searchable":true,"sortable":true}}},"layouts":{"list":["id","action","token","createdAt"],"edit":[[{"name":"action","size":6},{"name":"token","size":6}]]}}', 'object', NULL, NULL);
+INSERT INTO public.strapi_core_store_settings (id, key, value, type, environment, tag) VALUES (14, 'plugin_content_manager_configuration_content_types::plugin::i18n.locale', '{"uid":"plugin::i18n.locale","settings":{"bulkable":true,"filterable":true,"searchable":true,"pageSize":10,"mainField":"name","defaultSortBy":"name","defaultSortOrder":"ASC"},"metadatas":{"id":{"edit":{},"list":{"label":"id","searchable":true,"sortable":true}},"name":{"edit":{"label":"name","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"name","searchable":true,"sortable":true}},"code":{"edit":{"label":"code","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"code","searchable":true,"sortable":true}},"createdAt":{"edit":{"label":"createdAt","description":"","placeholder":"","visible":false,"editable":true},"list":{"label":"createdAt","searchable":true,"sortable":true}},"updatedAt":{"edit":{"label":"updatedAt","description":"","placeholder":"","visible":false,"editable":true},"list":{"label":"updatedAt","searchable":true,"sortable":true}},"createdBy":{"edit":{"label":"createdBy","description":"","placeholder":"","visible":false,"editable":true,"mainField":"firstname"},"list":{"label":"createdBy","searchable":true,"sortable":true}},"updatedBy":{"edit":{"label":"updatedBy","description":"","placeholder":"","visible":false,"editable":true,"mainField":"firstname"},"list":{"label":"updatedBy","searchable":true,"sortable":true}}},"layouts":{"list":["id","name","code","createdAt"],"edit":[[{"name":"name","size":6},{"name":"code","size":6}]]}}', 'object', NULL, NULL);
+INSERT INTO public.strapi_core_store_settings (id, key, value, type, environment, tag) VALUES (35, 'plugin_content_manager_configuration_content_types::api::skill.skill', '{"uid":"api::skill.skill","settings":{"bulkable":true,"filterable":true,"searchable":true,"pageSize":20,"mainField":"title","defaultSortBy":"title","defaultSortOrder":"ASC"},"metadatas":{"id":{"edit":{},"list":{"label":"id","searchable":true,"sortable":true}},"title":{"edit":{"label":"title","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"title","searchable":true,"sortable":true}},"description":{"edit":{"label":"description","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"description","searchable":false,"sortable":false}},"icons":{"edit":{"label":"icons","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"icons","searchable":false,"sortable":false}},"rank":{"edit":{"label":"rank","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"rank","searchable":true,"sortable":true}},"createdAt":{"edit":{"label":"createdAt","description":"","placeholder":"","visible":false,"editable":true},"list":{"label":"createdAt","searchable":true,"sortable":true}},"updatedAt":{"edit":{"label":"updatedAt","description":"","placeholder":"","visible":false,"editable":true},"list":{"label":"updatedAt","searchable":true,"sortable":true}},"createdBy":{"edit":{"label":"createdBy","description":"","placeholder":"","visible":false,"editable":true,"mainField":"firstname"},"list":{"label":"createdBy","searchable":true,"sortable":true}},"updatedBy":{"edit":{"label":"updatedBy","description":"","placeholder":"","visible":false,"editable":true,"mainField":"firstname"},"list":{"label":"updatedBy","searchable":true,"sortable":true}}},"layouts":{"list":["id","title","icons","createdAt"],"edit":[[{"name":"title","size":6}],[{"name":"description","size":12}],[{"name":"icons","size":6},{"name":"rank","size":4}]]}}', 'object', NULL, NULL);
+INSERT INTO public.strapi_core_store_settings (id, key, value, type, environment, tag) VALUES (39, 'plugin_content_manager_configuration_content_types::api::video-game.video-game', '{"uid":"api::video-game.video-game","settings":{"bulkable":true,"filterable":true,"searchable":true,"pageSize":20,"mainField":"title","defaultSortBy":"year","defaultSortOrder":"DESC"},"metadatas":{"id":{"edit":{},"list":{"label":"id","searchable":true,"sortable":true}},"title":{"edit":{"label":"title","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"title","searchable":true,"sortable":true}},"cover":{"edit":{"label":"cover","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"cover","searchable":false,"sortable":false}},"link":{"edit":{"label":"link","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"link","searchable":true,"sortable":true}},"year":{"edit":{"label":"year","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"year","searchable":true,"sortable":true}},"createdAt":{"edit":{"label":"createdAt","description":"","placeholder":"","visible":false,"editable":true},"list":{"label":"createdAt","searchable":true,"sortable":true}},"updatedAt":{"edit":{"label":"updatedAt","description":"","placeholder":"","visible":false,"editable":true},"list":{"label":"updatedAt","searchable":true,"sortable":true}},"createdBy":{"edit":{"label":"createdBy","description":"","placeholder":"","visible":false,"editable":true,"mainField":"firstname"},"list":{"label":"createdBy","searchable":true,"sortable":true}},"updatedBy":{"edit":{"label":"updatedBy","description":"","placeholder":"","visible":false,"editable":true,"mainField":"firstname"},"list":{"label":"updatedBy","searchable":true,"sortable":true}}},"layouts":{"list":["id","cover","title","year"],"edit":[[{"name":"title","size":6},{"name":"year","size":4}],[{"name":"cover","size":6},{"name":"link","size":6}]]}}', 'object', NULL, NULL);
+INSERT INTO public.strapi_core_store_settings (id, key, value, type, environment, tag) VALUES (33, 'plugin_content_manager_configuration_content_types::api::language.language', '{"uid":"api::language.language","settings":{"bulkable":true,"filterable":true,"searchable":true,"pageSize":10,"mainField":"name","defaultSortBy":"name","defaultSortOrder":"ASC"},"metadatas":{"id":{"edit":{},"list":{"label":"id","searchable":true,"sortable":true}},"name":{"edit":{"label":"name","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"name","searchable":true,"sortable":true}},"level":{"edit":{"label":"level","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"level","searchable":true,"sortable":true}},"flag":{"edit":{"label":"flag","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"flag","searchable":false,"sortable":false}},"rank":{"edit":{"label":"rank","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"rank","searchable":true,"sortable":true}},"createdAt":{"edit":{"label":"createdAt","description":"","placeholder":"","visible":false,"editable":true},"list":{"label":"createdAt","searchable":true,"sortable":true}},"updatedAt":{"edit":{"label":"updatedAt","description":"","placeholder":"","visible":false,"editable":true},"list":{"label":"updatedAt","searchable":true,"sortable":true}},"createdBy":{"edit":{"label":"createdBy","description":"","placeholder":"","visible":false,"editable":true,"mainField":"firstname"},"list":{"label":"createdBy","searchable":true,"sortable":true}},"updatedBy":{"edit":{"label":"updatedBy","description":"","placeholder":"","visible":false,"editable":true,"mainField":"firstname"},"list":{"label":"updatedBy","searchable":true,"sortable":true}}},"layouts":{"list":["id","name","level","flag"],"edit":[[{"name":"name","size":6},{"name":"level","size":6}],[{"name":"flag","size":6},{"name":"rank","size":4}]]}}', 'object', NULL, NULL);
+INSERT INTO public.strapi_core_store_settings (id, key, value, type, environment, tag) VALUES (37, 'plugin_content_manager_configuration_content_types::api::tv-show.tv-show', '{"uid":"api::tv-show.tv-show","settings":{"bulkable":true,"filterable":true,"searchable":true,"pageSize":10,"mainField":"title","defaultSortBy":"year","defaultSortOrder":"DESC"},"metadatas":{"id":{"edit":{},"list":{"label":"id","searchable":true,"sortable":true}},"title":{"edit":{"label":"title","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"title","searchable":true,"sortable":true}},"poster":{"edit":{"label":"poster","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"poster","searchable":false,"sortable":false}},"link":{"edit":{"label":"link","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"link","searchable":true,"sortable":true}},"year":{"edit":{"label":"year","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"year","searchable":true,"sortable":true}},"createdAt":{"edit":{"label":"createdAt","description":"","placeholder":"","visible":false,"editable":true},"list":{"label":"createdAt","searchable":true,"sortable":true}},"updatedAt":{"edit":{"label":"updatedAt","description":"","placeholder":"","visible":false,"editable":true},"list":{"label":"updatedAt","searchable":true,"sortable":true}},"createdBy":{"edit":{"label":"createdBy","description":"","placeholder":"","visible":false,"editable":true,"mainField":"firstname"},"list":{"label":"createdBy","searchable":true,"sortable":true}},"updatedBy":{"edit":{"label":"updatedBy","description":"","placeholder":"","visible":false,"editable":true,"mainField":"firstname"},"list":{"label":"updatedBy","searchable":true,"sortable":true}}},"layouts":{"list":["id","title","year","poster"],"edit":[[{"name":"title","size":6},{"name":"year","size":4}],[{"name":"poster","size":6},{"name":"link","size":6}]]}}', 'object', NULL, NULL);
+INSERT INTO public.strapi_core_store_settings (id, key, value, type, environment, tag) VALUES (46, 'plugin_content_manager_configuration_content_types::api::recruiters-page.recruiters-page', '{"uid":"api::recruiters-page.recruiters-page","settings":{"bulkable":true,"filterable":true,"searchable":true,"pageSize":10,"mainField":"id","defaultSortBy":"id","defaultSortOrder":"ASC"},"metadatas":{"id":{"edit":{},"list":{"label":"id","searchable":true,"sortable":true}},"jobPreferences":{"edit":{"label":"jobPreferences","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"jobPreferences","searchable":false,"sortable":false}},"tldr":{"edit":{"label":"tldr","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"tldr","searchable":false,"sortable":false}},"salary":{"edit":{"label":"salary","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"salary","searchable":false,"sortable":false}},"toolsTechs":{"edit":{"label":"toolsTechs","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"toolsTechs","searchable":false,"sortable":false}},"generalInfo":{"edit":{"label":"generalInfo","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"generalInfo","searchable":false,"sortable":false}},"intro":{"edit":{"label":"intro","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"intro","searchable":false,"sortable":false}},"outro":{"edit":{"label":"outro","description":"","placeholder":"","visible":true,"editable":true},"list":{"label":"outro","searchable":false,"sortable":false}},"createdAt":{"edit":{"label":"createdAt","description":"","placeholder":"","visible":false,"editable":true},"list":{"label":"createdAt","searchable":true,"sortable":true}},"updatedAt":{"edit":{"label":"updatedAt","description":"","placeholder":"","visible":false,"editable":true},"list":{"label":"updatedAt","searchable":true,"sortable":true}},"createdBy":{"edit":{"label":"createdBy","description":"","placeholder":"","visible":false,"editable":true,"mainField":"firstname"},"list":{"label":"createdBy","searchable":true,"sortable":true}},"updatedBy":{"edit":{"label":"updatedBy","description":"","placeholder":"","visible":false,"editable":true,"mainField":"firstname"},"list":{"label":"updatedBy","searchable":true,"sortable":true}}},"layouts":{"list":["id","tldr","salary","jobPreferences"],"edit":[[{"name":"tldr","size":12}],[{"name":"salary","size":12}],[{"name":"toolsTechs","size":12}],[{"name":"jobPreferences","size":12}],[{"name":"generalInfo","size":12}],[{"name":"intro","size":12}],[{"name":"outro","size":12}]]}}', 'object', NULL, NULL);
+
+
+--
+-- Data for Name: strapi_database_schema; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+INSERT INTO public.strapi_database_schema (id, schema, "time", hash) VALUES (29, '{"tables":[{"name":"strapi_core_store_settings","indexes":[],"foreignKeys":[],"columns":[{"name":"id","type":"increments","args":[{"primary":true,"primaryKey":true}],"defaultTo":null,"notNullable":true,"unsigned":false},{"name":"key","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"value","type":"text","args":["longtext"],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"type","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"environment","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"tag","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false}]},{"name":"strapi_webhooks","indexes":[],"foreignKeys":[],"columns":[{"name":"id","type":"increments","args":[{"primary":true,"primaryKey":true}],"defaultTo":null,"notNullable":true,"unsigned":false},{"name":"name","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"url","type":"text","args":["longtext"],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"headers","type":"jsonb","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"events","type":"jsonb","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"enabled","type":"boolean","args":[],"defaultTo":null,"notNullable":false,"unsigned":false}]},{"name":"admin_permissions","indexes":[{"name":"admin_permissions_created_by_id_fk","columns":["created_by_id"]},{"name":"admin_permissions_updated_by_id_fk","columns":["updated_by_id"]}],"foreignKeys":[{"name":"admin_permissions_created_by_id_fk","columns":["created_by_id"],"referencedTable":"admin_users","referencedColumns":["id"],"onDelete":"SET NULL"},{"name":"admin_permissions_updated_by_id_fk","columns":["updated_by_id"],"referencedTable":"admin_users","referencedColumns":["id"],"onDelete":"SET NULL"}],"columns":[{"name":"id","type":"increments","args":[{"primary":true,"primaryKey":true}],"defaultTo":null,"notNullable":true,"unsigned":false},{"name":"action","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"subject","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"properties","type":"jsonb","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"conditions","type":"jsonb","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"created_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"updated_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"created_by_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"updated_by_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true}]},{"name":"admin_users","indexes":[{"name":"admin_users_created_by_id_fk","columns":["created_by_id"]},{"name":"admin_users_updated_by_id_fk","columns":["updated_by_id"]}],"foreignKeys":[{"name":"admin_users_created_by_id_fk","columns":["created_by_id"],"referencedTable":"admin_users","referencedColumns":["id"],"onDelete":"SET NULL"},{"name":"admin_users_updated_by_id_fk","columns":["updated_by_id"],"referencedTable":"admin_users","referencedColumns":["id"],"onDelete":"SET NULL"}],"columns":[{"name":"id","type":"increments","args":[{"primary":true,"primaryKey":true}],"defaultTo":null,"notNullable":true,"unsigned":false},{"name":"firstname","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"lastname","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"username","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"email","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"password","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"reset_password_token","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"registration_token","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"is_active","type":"boolean","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"blocked","type":"boolean","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"prefered_language","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"created_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"updated_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"created_by_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"updated_by_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true}]},{"name":"admin_roles","indexes":[{"name":"admin_roles_created_by_id_fk","columns":["created_by_id"]},{"name":"admin_roles_updated_by_id_fk","columns":["updated_by_id"]}],"foreignKeys":[{"name":"admin_roles_created_by_id_fk","columns":["created_by_id"],"referencedTable":"admin_users","referencedColumns":["id"],"onDelete":"SET NULL"},{"name":"admin_roles_updated_by_id_fk","columns":["updated_by_id"],"referencedTable":"admin_users","referencedColumns":["id"],"onDelete":"SET NULL"}],"columns":[{"name":"id","type":"increments","args":[{"primary":true,"primaryKey":true}],"defaultTo":null,"notNullable":true,"unsigned":false},{"name":"name","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"code","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"description","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"created_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"updated_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"created_by_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"updated_by_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true}]},{"name":"strapi_api_tokens","indexes":[{"name":"strapi_api_tokens_created_by_id_fk","columns":["created_by_id"]},{"name":"strapi_api_tokens_updated_by_id_fk","columns":["updated_by_id"]}],"foreignKeys":[{"name":"strapi_api_tokens_created_by_id_fk","columns":["created_by_id"],"referencedTable":"admin_users","referencedColumns":["id"],"onDelete":"SET NULL"},{"name":"strapi_api_tokens_updated_by_id_fk","columns":["updated_by_id"],"referencedTable":"admin_users","referencedColumns":["id"],"onDelete":"SET NULL"}],"columns":[{"name":"id","type":"increments","args":[{"primary":true,"primaryKey":true}],"defaultTo":null,"notNullable":true,"unsigned":false},{"name":"name","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"description","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"type","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"access_key","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"last_used_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"expires_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"lifespan","type":"bigInteger","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"created_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"updated_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"created_by_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"updated_by_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true}]},{"name":"strapi_api_token_permissions","indexes":[{"name":"strapi_api_token_permissions_created_by_id_fk","columns":["created_by_id"]},{"name":"strapi_api_token_permissions_updated_by_id_fk","columns":["updated_by_id"]}],"foreignKeys":[{"name":"strapi_api_token_permissions_created_by_id_fk","columns":["created_by_id"],"referencedTable":"admin_users","referencedColumns":["id"],"onDelete":"SET NULL"},{"name":"strapi_api_token_permissions_updated_by_id_fk","columns":["updated_by_id"],"referencedTable":"admin_users","referencedColumns":["id"],"onDelete":"SET NULL"}],"columns":[{"name":"id","type":"increments","args":[{"primary":true,"primaryKey":true}],"defaultTo":null,"notNullable":true,"unsigned":false},{"name":"action","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"created_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"updated_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"created_by_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"updated_by_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true}]},{"name":"strapi_transfer_tokens","indexes":[{"name":"strapi_transfer_tokens_created_by_id_fk","columns":["created_by_id"]},{"name":"strapi_transfer_tokens_updated_by_id_fk","columns":["updated_by_id"]}],"foreignKeys":[{"name":"strapi_transfer_tokens_created_by_id_fk","columns":["created_by_id"],"referencedTable":"admin_users","referencedColumns":["id"],"onDelete":"SET NULL"},{"name":"strapi_transfer_tokens_updated_by_id_fk","columns":["updated_by_id"],"referencedTable":"admin_users","referencedColumns":["id"],"onDelete":"SET NULL"}],"columns":[{"name":"id","type":"increments","args":[{"primary":true,"primaryKey":true}],"defaultTo":null,"notNullable":true,"unsigned":false},{"name":"name","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"description","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"access_key","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"last_used_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"expires_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"lifespan","type":"bigInteger","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"created_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"updated_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"created_by_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"updated_by_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true}]},{"name":"strapi_transfer_token_permissions","indexes":[{"name":"strapi_transfer_token_permissions_created_by_id_fk","columns":["created_by_id"]},{"name":"strapi_transfer_token_permissions_updated_by_id_fk","columns":["updated_by_id"]}],"foreignKeys":[{"name":"strapi_transfer_token_permissions_created_by_id_fk","columns":["created_by_id"],"referencedTable":"admin_users","referencedColumns":["id"],"onDelete":"SET NULL"},{"name":"strapi_transfer_token_permissions_updated_by_id_fk","columns":["updated_by_id"],"referencedTable":"admin_users","referencedColumns":["id"],"onDelete":"SET NULL"}],"columns":[{"name":"id","type":"increments","args":[{"primary":true,"primaryKey":true}],"defaultTo":null,"notNullable":true,"unsigned":false},{"name":"action","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"created_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"updated_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"created_by_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"updated_by_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true}]},{"name":"files","indexes":[{"name":"upload_files_folder_path_index","columns":["folder_path"],"type":null},{"name":"upload_files_created_at_index","columns":["created_at"],"type":null},{"name":"upload_files_updated_at_index","columns":["updated_at"],"type":null},{"name":"upload_files_name_index","columns":["name"],"type":null},{"name":"upload_files_size_index","columns":["size"],"type":null},{"name":"upload_files_ext_index","columns":["ext"],"type":null},{"name":"files_created_by_id_fk","columns":["created_by_id"]},{"name":"files_updated_by_id_fk","columns":["updated_by_id"]}],"foreignKeys":[{"name":"files_created_by_id_fk","columns":["created_by_id"],"referencedTable":"admin_users","referencedColumns":["id"],"onDelete":"SET NULL"},{"name":"files_updated_by_id_fk","columns":["updated_by_id"],"referencedTable":"admin_users","referencedColumns":["id"],"onDelete":"SET NULL"}],"columns":[{"name":"id","type":"increments","args":[{"primary":true,"primaryKey":true}],"defaultTo":null,"notNullable":true,"unsigned":false},{"name":"name","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"alternative_text","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"caption","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"width","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"height","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"formats","type":"jsonb","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"hash","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"ext","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"mime","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"size","type":"decimal","args":[10,2],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"url","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"preview_url","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"provider","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"provider_metadata","type":"jsonb","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"folder_path","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"created_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"updated_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"created_by_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"updated_by_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true}]},{"name":"upload_folders","indexes":[{"name":"upload_folders_path_id_index","columns":["path_id"],"type":"unique"},{"name":"upload_folders_path_index","columns":["path"],"type":"unique"},{"name":"upload_folders_created_by_id_fk","columns":["created_by_id"]},{"name":"upload_folders_updated_by_id_fk","columns":["updated_by_id"]}],"foreignKeys":[{"name":"upload_folders_created_by_id_fk","columns":["created_by_id"],"referencedTable":"admin_users","referencedColumns":["id"],"onDelete":"SET NULL"},{"name":"upload_folders_updated_by_id_fk","columns":["updated_by_id"],"referencedTable":"admin_users","referencedColumns":["id"],"onDelete":"SET NULL"}],"columns":[{"name":"id","type":"increments","args":[{"primary":true,"primaryKey":true}],"defaultTo":null,"notNullable":true,"unsigned":false},{"name":"name","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"path_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"path","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"created_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"updated_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"created_by_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"updated_by_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true}]},{"name":"i18n_locale","indexes":[{"name":"i18n_locale_created_by_id_fk","columns":["created_by_id"]},{"name":"i18n_locale_updated_by_id_fk","columns":["updated_by_id"]}],"foreignKeys":[{"name":"i18n_locale_created_by_id_fk","columns":["created_by_id"],"referencedTable":"admin_users","referencedColumns":["id"],"onDelete":"SET NULL"},{"name":"i18n_locale_updated_by_id_fk","columns":["updated_by_id"],"referencedTable":"admin_users","referencedColumns":["id"],"onDelete":"SET NULL"}],"columns":[{"name":"id","type":"increments","args":[{"primary":true,"primaryKey":true}],"defaultTo":null,"notNullable":true,"unsigned":false},{"name":"name","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"code","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"created_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"updated_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"created_by_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"updated_by_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true}]},{"name":"up_permissions","indexes":[{"name":"up_permissions_created_by_id_fk","columns":["created_by_id"]},{"name":"up_permissions_updated_by_id_fk","columns":["updated_by_id"]}],"foreignKeys":[{"name":"up_permissions_created_by_id_fk","columns":["created_by_id"],"referencedTable":"admin_users","referencedColumns":["id"],"onDelete":"SET NULL"},{"name":"up_permissions_updated_by_id_fk","columns":["updated_by_id"],"referencedTable":"admin_users","referencedColumns":["id"],"onDelete":"SET NULL"}],"columns":[{"name":"id","type":"increments","args":[{"primary":true,"primaryKey":true}],"defaultTo":null,"notNullable":true,"unsigned":false},{"name":"action","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"created_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"updated_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"created_by_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"updated_by_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true}]},{"name":"up_roles","indexes":[{"name":"up_roles_created_by_id_fk","columns":["created_by_id"]},{"name":"up_roles_updated_by_id_fk","columns":["updated_by_id"]}],"foreignKeys":[{"name":"up_roles_created_by_id_fk","columns":["created_by_id"],"referencedTable":"admin_users","referencedColumns":["id"],"onDelete":"SET NULL"},{"name":"up_roles_updated_by_id_fk","columns":["updated_by_id"],"referencedTable":"admin_users","referencedColumns":["id"],"onDelete":"SET NULL"}],"columns":[{"name":"id","type":"increments","args":[{"primary":true,"primaryKey":true}],"defaultTo":null,"notNullable":true,"unsigned":false},{"name":"name","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"description","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"type","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"created_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"updated_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"created_by_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"updated_by_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true}]},{"name":"up_users","indexes":[{"name":"up_users_created_by_id_fk","columns":["created_by_id"]},{"name":"up_users_updated_by_id_fk","columns":["updated_by_id"]}],"foreignKeys":[{"name":"up_users_created_by_id_fk","columns":["created_by_id"],"referencedTable":"admin_users","referencedColumns":["id"],"onDelete":"SET NULL"},{"name":"up_users_updated_by_id_fk","columns":["updated_by_id"],"referencedTable":"admin_users","referencedColumns":["id"],"onDelete":"SET NULL"}],"columns":[{"name":"id","type":"increments","args":[{"primary":true,"primaryKey":true}],"defaultTo":null,"notNullable":true,"unsigned":false},{"name":"username","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"email","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"provider","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"password","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"reset_password_token","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"confirmation_token","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"confirmed","type":"boolean","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"blocked","type":"boolean","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"created_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"updated_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"created_by_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"updated_by_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true}]},{"name":"menus","indexes":[{"type":"unique","name":"menus_slug_unique","columns":["slug"]},{"name":"menus_created_by_id_fk","columns":["created_by_id"]},{"name":"menus_updated_by_id_fk","columns":["updated_by_id"]}],"foreignKeys":[{"name":"menus_created_by_id_fk","columns":["created_by_id"],"referencedTable":"admin_users","referencedColumns":["id"],"onDelete":"SET NULL"},{"name":"menus_updated_by_id_fk","columns":["updated_by_id"],"referencedTable":"admin_users","referencedColumns":["id"],"onDelete":"SET NULL"}],"columns":[{"name":"id","type":"increments","args":[{"primary":true,"primaryKey":true}],"defaultTo":null,"notNullable":true,"unsigned":false},{"name":"title","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"slug","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false,"unique":true},{"name":"created_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"updated_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"created_by_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"updated_by_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true}]},{"name":"menu_items","indexes":[{"name":"menu_items_created_by_id_fk","columns":["created_by_id"]},{"name":"menu_items_updated_by_id_fk","columns":["updated_by_id"]}],"foreignKeys":[{"name":"menu_items_created_by_id_fk","columns":["created_by_id"],"referencedTable":"admin_users","referencedColumns":["id"],"onDelete":"SET NULL"},{"name":"menu_items_updated_by_id_fk","columns":["updated_by_id"],"referencedTable":"admin_users","referencedColumns":["id"],"onDelete":"SET NULL"}],"columns":[{"name":"id","type":"increments","args":[{"primary":true,"primaryKey":true}],"defaultTo":null,"notNullable":true,"unsigned":false},{"name":"order","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"title","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"url","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"target","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"created_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"updated_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"created_by_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"updated_by_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true}]},{"name":"iconlibrary","indexes":[{"name":"iconlibrary_created_by_id_fk","columns":["created_by_id"]},{"name":"iconlibrary_updated_by_id_fk","columns":["updated_by_id"]}],"foreignKeys":[{"name":"iconlibrary_created_by_id_fk","columns":["created_by_id"],"referencedTable":"admin_users","referencedColumns":["id"],"onDelete":"SET NULL"},{"name":"iconlibrary_updated_by_id_fk","columns":["updated_by_id"],"referencedTable":"admin_users","referencedColumns":["id"],"onDelete":"SET NULL"}],"columns":[{"name":"id","type":"increments","args":[{"primary":true,"primaryKey":true}],"defaultTo":null,"notNullable":true,"unsigned":false},{"name":"name","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"abbreviation","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"is_enabled","type":"boolean","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"created_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"updated_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"created_by_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"updated_by_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true}]},{"name":"books","indexes":[{"name":"books_created_by_id_fk","columns":["created_by_id"]},{"name":"books_updated_by_id_fk","columns":["updated_by_id"]}],"foreignKeys":[{"name":"books_created_by_id_fk","columns":["created_by_id"],"referencedTable":"admin_users","referencedColumns":["id"],"onDelete":"SET NULL"},{"name":"books_updated_by_id_fk","columns":["updated_by_id"],"referencedTable":"admin_users","referencedColumns":["id"],"onDelete":"SET NULL"}],"columns":[{"name":"id","type":"increments","args":[{"primary":true,"primaryKey":true}],"defaultTo":null,"notNullable":true,"unsigned":false},{"name":"title","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"author","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"goodreads_link","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"genre","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"rank","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"created_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"updated_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"published_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"created_by_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"updated_by_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"locale","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false}]},{"name":"code_snippets","indexes":[{"name":"code_snippets_created_by_id_fk","columns":["created_by_id"]},{"name":"code_snippets_updated_by_id_fk","columns":["updated_by_id"]}],"foreignKeys":[{"name":"code_snippets_created_by_id_fk","columns":["created_by_id"],"referencedTable":"admin_users","referencedColumns":["id"],"onDelete":"SET NULL"},{"name":"code_snippets_updated_by_id_fk","columns":["updated_by_id"],"referencedTable":"admin_users","referencedColumns":["id"],"onDelete":"SET NULL"}],"columns":[{"name":"id","type":"increments","args":[{"primary":true,"primaryKey":true}],"defaultTo":null,"notNullable":true,"unsigned":false},{"name":"language","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"code","type":"text","args":["longtext"],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"created_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"updated_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"published_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"created_by_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"updated_by_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true}]},{"name":"home_pages","indexes":[{"name":"home_pages_created_by_id_fk","columns":["created_by_id"]},{"name":"home_pages_updated_by_id_fk","columns":["updated_by_id"]}],"foreignKeys":[{"name":"home_pages_created_by_id_fk","columns":["created_by_id"],"referencedTable":"admin_users","referencedColumns":["id"],"onDelete":"SET NULL"},{"name":"home_pages_updated_by_id_fk","columns":["updated_by_id"],"referencedTable":"admin_users","referencedColumns":["id"],"onDelete":"SET NULL"}],"columns":[{"name":"id","type":"increments","args":[{"primary":true,"primaryKey":true}],"defaultTo":null,"notNullable":true,"unsigned":false},{"name":"greeting","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"introduction_1","type":"text","args":["longtext"],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"introduction_2","type":"text","args":["longtext"],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"introduction_3","type":"text","args":["longtext"],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"introduction_4","type":"text","args":["longtext"],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"introduction_5","type":"text","args":["longtext"],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"created_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"updated_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"published_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"created_by_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"updated_by_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"vuid","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"version_number","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"version_comment","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"is_visible_in_list_view","type":"boolean","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"locale","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false}]},{"name":"jobs","indexes":[{"name":"jobs_created_by_id_fk","columns":["created_by_id"]},{"name":"jobs_updated_by_id_fk","columns":["updated_by_id"]}],"foreignKeys":[{"name":"jobs_created_by_id_fk","columns":["created_by_id"],"referencedTable":"admin_users","referencedColumns":["id"],"onDelete":"SET NULL"},{"name":"jobs_updated_by_id_fk","columns":["updated_by_id"],"referencedTable":"admin_users","referencedColumns":["id"],"onDelete":"SET NULL"}],"columns":[{"name":"id","type":"increments","args":[{"primary":true,"primaryKey":true}],"defaultTo":null,"notNullable":true,"unsigned":false},{"name":"company_name","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"title","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"location","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"start_date","type":"date","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"end_date","type":"date","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"is_current_job","type":"boolean","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"description","type":"text","args":["longtext"],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"main_color","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"dark_color","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"technologies","type":"jsonb","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"created_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"updated_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"published_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"created_by_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"updated_by_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"locale","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false}]},{"name":"languages","indexes":[{"name":"languages_created_by_id_fk","columns":["created_by_id"]},{"name":"languages_updated_by_id_fk","columns":["updated_by_id"]}],"foreignKeys":[{"name":"languages_created_by_id_fk","columns":["created_by_id"],"referencedTable":"admin_users","referencedColumns":["id"],"onDelete":"SET NULL"},{"name":"languages_updated_by_id_fk","columns":["updated_by_id"],"referencedTable":"admin_users","referencedColumns":["id"],"onDelete":"SET NULL"}],"columns":[{"name":"id","type":"increments","args":[{"primary":true,"primaryKey":true}],"defaultTo":null,"notNullable":true,"unsigned":false},{"name":"name","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"level","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"rank","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"created_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"updated_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"published_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"created_by_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"updated_by_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"locale","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false}]},{"name":"podcasts","indexes":[{"name":"podcasts_created_by_id_fk","columns":["created_by_id"]},{"name":"podcasts_updated_by_id_fk","columns":["updated_by_id"]}],"foreignKeys":[{"name":"podcasts_created_by_id_fk","columns":["created_by_id"],"referencedTable":"admin_users","referencedColumns":["id"],"onDelete":"SET NULL"},{"name":"podcasts_updated_by_id_fk","columns":["updated_by_id"],"referencedTable":"admin_users","referencedColumns":["id"],"onDelete":"SET NULL"}],"columns":[{"name":"id","type":"increments","args":[{"primary":true,"primaryKey":true}],"defaultTo":null,"notNullable":true,"unsigned":false},{"name":"name","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"author","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"language","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"media_link","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"created_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"updated_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"published_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"created_by_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"updated_by_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true}]},{"name":"projects","indexes":[{"name":"projects_created_by_id_fk","columns":["created_by_id"]},{"name":"projects_updated_by_id_fk","columns":["updated_by_id"]}],"foreignKeys":[{"name":"projects_created_by_id_fk","columns":["created_by_id"],"referencedTable":"admin_users","referencedColumns":["id"],"onDelete":"SET NULL"},{"name":"projects_updated_by_id_fk","columns":["updated_by_id"],"referencedTable":"admin_users","referencedColumns":["id"],"onDelete":"SET NULL"}],"columns":[{"name":"id","type":"increments","args":[{"primary":true,"primaryKey":true}],"defaultTo":null,"notNullable":true,"unsigned":false},{"name":"title","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"short_description","type":"text","args":["longtext"],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"tools","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"date","type":"date","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"tags","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"links","type":"jsonb","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"long_description","type":"text","args":["longtext"],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"created_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"updated_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"published_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"created_by_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"updated_by_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"vuid","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"version_number","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"version_comment","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"is_visible_in_list_view","type":"boolean","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"locale","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false}]},{"name":"publications","indexes":[{"name":"publications_created_by_id_fk","columns":["created_by_id"]},{"name":"publications_updated_by_id_fk","columns":["updated_by_id"]}],"foreignKeys":[{"name":"publications_created_by_id_fk","columns":["created_by_id"],"referencedTable":"admin_users","referencedColumns":["id"],"onDelete":"SET NULL"},{"name":"publications_updated_by_id_fk","columns":["updated_by_id"],"referencedTable":"admin_users","referencedColumns":["id"],"onDelete":"SET NULL"}],"columns":[{"name":"id","type":"increments","args":[{"primary":true,"primaryKey":true}],"defaultTo":null,"notNullable":true,"unsigned":false},{"name":"title","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"description","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"publisher","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"year","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"rank","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"created_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"updated_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"published_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"created_by_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"updated_by_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"locale","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false}]},{"name":"random_facts","indexes":[{"name":"random_facts_created_by_id_fk","columns":["created_by_id"]},{"name":"random_facts_updated_by_id_fk","columns":["updated_by_id"]}],"foreignKeys":[{"name":"random_facts_created_by_id_fk","columns":["created_by_id"],"referencedTable":"admin_users","referencedColumns":["id"],"onDelete":"SET NULL"},{"name":"random_facts_updated_by_id_fk","columns":["updated_by_id"],"referencedTable":"admin_users","referencedColumns":["id"],"onDelete":"SET NULL"}],"columns":[{"name":"id","type":"increments","args":[{"primary":true,"primaryKey":true}],"defaultTo":null,"notNullable":true,"unsigned":false},{"name":"name","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"headline","type":"text","args":["longtext"],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"description","type":"text","args":["longtext"],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"is_fact_true","type":"boolean","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"explanation","type":"text","args":["longtext"],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"created_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"updated_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"published_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"created_by_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"updated_by_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"locale","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false}]},{"name":"recruiters_pages","indexes":[{"name":"recruiters_pages_created_by_id_fk","columns":["created_by_id"]},{"name":"recruiters_pages_updated_by_id_fk","columns":["updated_by_id"]}],"foreignKeys":[{"name":"recruiters_pages_created_by_id_fk","columns":["created_by_id"],"referencedTable":"admin_users","referencedColumns":["id"],"onDelete":"SET NULL"},{"name":"recruiters_pages_updated_by_id_fk","columns":["updated_by_id"],"referencedTable":"admin_users","referencedColumns":["id"],"onDelete":"SET NULL"}],"columns":[{"name":"id","type":"increments","args":[{"primary":true,"primaryKey":true}],"defaultTo":null,"notNullable":true,"unsigned":false},{"name":"intro","type":"text","args":["longtext"],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"outro","type":"text","args":["longtext"],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"created_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"updated_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"published_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"created_by_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"updated_by_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"vuid","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"version_number","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"version_comment","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"is_visible_in_list_view","type":"boolean","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"locale","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false}]},{"name":"schools","indexes":[{"name":"schools_created_by_id_fk","columns":["created_by_id"]},{"name":"schools_updated_by_id_fk","columns":["updated_by_id"]}],"foreignKeys":[{"name":"schools_created_by_id_fk","columns":["created_by_id"],"referencedTable":"admin_users","referencedColumns":["id"],"onDelete":"SET NULL"},{"name":"schools_updated_by_id_fk","columns":["updated_by_id"],"referencedTable":"admin_users","referencedColumns":["id"],"onDelete":"SET NULL"}],"columns":[{"name":"id","type":"increments","args":[{"primary":true,"primaryKey":true}],"defaultTo":null,"notNullable":true,"unsigned":false},{"name":"school_name","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"degree_name","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"degree_url","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"grade","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"start","type":"date","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"end","type":"date","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"description","type":"text","args":["longtext"],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"created_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"updated_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"published_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"created_by_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"updated_by_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"locale","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false}]},{"name":"skills","indexes":[{"name":"skills_created_by_id_fk","columns":["created_by_id"]},{"name":"skills_updated_by_id_fk","columns":["updated_by_id"]}],"foreignKeys":[{"name":"skills_created_by_id_fk","columns":["created_by_id"],"referencedTable":"admin_users","referencedColumns":["id"],"onDelete":"SET NULL"},{"name":"skills_updated_by_id_fk","columns":["updated_by_id"],"referencedTable":"admin_users","referencedColumns":["id"],"onDelete":"SET NULL"}],"columns":[{"name":"id","type":"increments","args":[{"primary":true,"primaryKey":true}],"defaultTo":null,"notNullable":true,"unsigned":false},{"name":"title","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"description","type":"text","args":["longtext"],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"rank","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"created_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"updated_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"published_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"created_by_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"updated_by_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"locale","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false}]},{"name":"software_development_intros","indexes":[{"name":"software_development_intros_created_by_id_fk","columns":["created_by_id"]},{"name":"software_development_intros_updated_by_id_fk","columns":["updated_by_id"]}],"foreignKeys":[{"name":"software_development_intros_created_by_id_fk","columns":["created_by_id"],"referencedTable":"admin_users","referencedColumns":["id"],"onDelete":"SET NULL"},{"name":"software_development_intros_updated_by_id_fk","columns":["updated_by_id"],"referencedTable":"admin_users","referencedColumns":["id"],"onDelete":"SET NULL"}],"columns":[{"name":"id","type":"increments","args":[{"primary":true,"primaryKey":true}],"defaultTo":null,"notNullable":true,"unsigned":false},{"name":"title","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"content","type":"text","args":["longtext"],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"created_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"updated_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"published_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"created_by_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"updated_by_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"vuid","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"version_number","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"version_comment","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"is_visible_in_list_view","type":"boolean","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"locale","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false}]},{"name":"tv_shows","indexes":[{"name":"tv_shows_created_by_id_fk","columns":["created_by_id"]},{"name":"tv_shows_updated_by_id_fk","columns":["updated_by_id"]}],"foreignKeys":[{"name":"tv_shows_created_by_id_fk","columns":["created_by_id"],"referencedTable":"admin_users","referencedColumns":["id"],"onDelete":"SET NULL"},{"name":"tv_shows_updated_by_id_fk","columns":["updated_by_id"],"referencedTable":"admin_users","referencedColumns":["id"],"onDelete":"SET NULL"}],"columns":[{"name":"id","type":"increments","args":[{"primary":true,"primaryKey":true}],"defaultTo":null,"notNullable":true,"unsigned":false},{"name":"title","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"link","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"year","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"created_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"updated_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"published_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"created_by_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"updated_by_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true}]},{"name":"uses_pages","indexes":[{"name":"uses_pages_created_by_id_fk","columns":["created_by_id"]},{"name":"uses_pages_updated_by_id_fk","columns":["updated_by_id"]}],"foreignKeys":[{"name":"uses_pages_created_by_id_fk","columns":["created_by_id"],"referencedTable":"admin_users","referencedColumns":["id"],"onDelete":"SET NULL"},{"name":"uses_pages_updated_by_id_fk","columns":["updated_by_id"],"referencedTable":"admin_users","referencedColumns":["id"],"onDelete":"SET NULL"}],"columns":[{"name":"id","type":"increments","args":[{"primary":true,"primaryKey":true}],"defaultTo":null,"notNullable":true,"unsigned":false},{"name":"created_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"updated_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"published_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"created_by_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"updated_by_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"vuid","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"version_number","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"version_comment","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"is_visible_in_list_view","type":"boolean","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"locale","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false}]},{"name":"video_games","indexes":[{"name":"video_games_created_by_id_fk","columns":["created_by_id"]},{"name":"video_games_updated_by_id_fk","columns":["updated_by_id"]}],"foreignKeys":[{"name":"video_games_created_by_id_fk","columns":["created_by_id"],"referencedTable":"admin_users","referencedColumns":["id"],"onDelete":"SET NULL"},{"name":"video_games_updated_by_id_fk","columns":["updated_by_id"],"referencedTable":"admin_users","referencedColumns":["id"],"onDelete":"SET NULL"}],"columns":[{"name":"id","type":"increments","args":[{"primary":true,"primaryKey":true}],"defaultTo":null,"notNullable":true,"unsigned":false},{"name":"title","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"link","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"year","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"created_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"updated_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"published_at","type":"datetime","args":[{"useTz":false,"precision":6}],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"created_by_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"updated_by_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true}]},{"name":"components_shared_meta_socials","indexes":[],"foreignKeys":[],"columns":[{"name":"id","type":"increments","args":[{"primary":true,"primaryKey":true}],"defaultTo":null,"notNullable":true,"unsigned":false},{"name":"social_network","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"title","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"description","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false}]},{"name":"components_shared_seos","indexes":[],"foreignKeys":[],"columns":[{"name":"id","type":"increments","args":[{"primary":true,"primaryKey":true}],"defaultTo":null,"notNullable":true,"unsigned":false},{"name":"meta_title","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"meta_description","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"keywords","type":"text","args":["longtext"],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"meta_robots","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"structured_data","type":"jsonb","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"meta_viewport","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"canonical_url","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false}]},{"name":"components_shared_titled_paragraphs","indexes":[],"foreignKeys":[],"columns":[{"name":"id","type":"increments","args":[{"primary":true,"primaryKey":true}],"defaultTo":null,"notNullable":true,"unsigned":false},{"name":"title","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"content","type":"text","args":["longtext"],"defaultTo":null,"notNullable":false,"unsigned":false}]},{"name":"admin_permissions_role_links","indexes":[{"name":"admin_permissions_role_links_fk","columns":["permission_id"]},{"name":"admin_permissions_role_links_inv_fk","columns":["role_id"]},{"name":"admin_permissions_role_links_unique","columns":["permission_id","role_id"],"type":"unique"},{"name":"admin_permissions_role_links_order_inv_fk","columns":["permission_order"]}],"foreignKeys":[{"name":"admin_permissions_role_links_fk","columns":["permission_id"],"referencedColumns":["id"],"referencedTable":"admin_permissions","onDelete":"CASCADE"},{"name":"admin_permissions_role_links_inv_fk","columns":["role_id"],"referencedColumns":["id"],"referencedTable":"admin_roles","onDelete":"CASCADE"}],"columns":[{"name":"id","type":"increments","args":[{"primary":true,"primaryKey":true}],"defaultTo":null,"notNullable":true,"unsigned":false},{"name":"permission_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"role_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"permission_order","type":"double","args":[],"defaultTo":null,"notNullable":false,"unsigned":true}]},{"name":"admin_users_roles_links","indexes":[{"name":"admin_users_roles_links_fk","columns":["user_id"]},{"name":"admin_users_roles_links_inv_fk","columns":["role_id"]},{"name":"admin_users_roles_links_unique","columns":["user_id","role_id"],"type":"unique"},{"name":"admin_users_roles_links_order_fk","columns":["role_order"]},{"name":"admin_users_roles_links_order_inv_fk","columns":["user_order"]}],"foreignKeys":[{"name":"admin_users_roles_links_fk","columns":["user_id"],"referencedColumns":["id"],"referencedTable":"admin_users","onDelete":"CASCADE"},{"name":"admin_users_roles_links_inv_fk","columns":["role_id"],"referencedColumns":["id"],"referencedTable":"admin_roles","onDelete":"CASCADE"}],"columns":[{"name":"id","type":"increments","args":[{"primary":true,"primaryKey":true}],"defaultTo":null,"notNullable":true,"unsigned":false},{"name":"user_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"role_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"role_order","type":"double","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"user_order","type":"double","args":[],"defaultTo":null,"notNullable":false,"unsigned":true}]},{"name":"strapi_api_token_permissions_token_links","indexes":[{"name":"strapi_api_token_permissions_token_links_fk","columns":["api_token_permission_id"]},{"name":"strapi_api_token_permissions_token_links_inv_fk","columns":["api_token_id"]},{"name":"strapi_api_token_permissions_token_links_unique","columns":["api_token_permission_id","api_token_id"],"type":"unique"},{"name":"strapi_api_token_permissions_token_links_order_inv_fk","columns":["api_token_permission_order"]}],"foreignKeys":[{"name":"strapi_api_token_permissions_token_links_fk","columns":["api_token_permission_id"],"referencedColumns":["id"],"referencedTable":"strapi_api_token_permissions","onDelete":"CASCADE"},{"name":"strapi_api_token_permissions_token_links_inv_fk","columns":["api_token_id"],"referencedColumns":["id"],"referencedTable":"strapi_api_tokens","onDelete":"CASCADE"}],"columns":[{"name":"id","type":"increments","args":[{"primary":true,"primaryKey":true}],"defaultTo":null,"notNullable":true,"unsigned":false},{"name":"api_token_permission_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"api_token_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"api_token_permission_order","type":"double","args":[],"defaultTo":null,"notNullable":false,"unsigned":true}]},{"name":"strapi_transfer_token_permissions_token_links","indexes":[{"name":"strapi_transfer_token_permissions_token_links_fk","columns":["transfer_token_permission_id"]},{"name":"strapi_transfer_token_permissions_token_links_inv_fk","columns":["transfer_token_id"]},{"name":"strapi_transfer_token_permissions_token_links_unique","columns":["transfer_token_permission_id","transfer_token_id"],"type":"unique"},{"name":"strapi_transfer_token_permissions_token_links_order_inv_fk","columns":["transfer_token_permission_order"]}],"foreignKeys":[{"name":"strapi_transfer_token_permissions_token_links_fk","columns":["transfer_token_permission_id"],"referencedColumns":["id"],"referencedTable":"strapi_transfer_token_permissions","onDelete":"CASCADE"},{"name":"strapi_transfer_token_permissions_token_links_inv_fk","columns":["transfer_token_id"],"referencedColumns":["id"],"referencedTable":"strapi_transfer_tokens","onDelete":"CASCADE"}],"columns":[{"name":"id","type":"increments","args":[{"primary":true,"primaryKey":true}],"defaultTo":null,"notNullable":true,"unsigned":false},{"name":"transfer_token_permission_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"transfer_token_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"transfer_token_permission_order","type":"double","args":[],"defaultTo":null,"notNullable":false,"unsigned":true}]},{"name":"files_related_morphs","indexes":[{"name":"files_related_morphs_fk","columns":["file_id"]},{"name":"files_related_morphs_order_index","columns":["order"],"type":null},{"name":"files_related_morphs_id_column_index","columns":["related_id"],"type":null}],"foreignKeys":[{"name":"files_related_morphs_fk","columns":["file_id"],"referencedColumns":["id"],"referencedTable":"files","onDelete":"CASCADE"}],"columns":[{"name":"id","type":"increments","args":[{"primary":true,"primaryKey":true}],"defaultTo":null,"notNullable":true,"unsigned":false},{"name":"file_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"related_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"related_type","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"field","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"order","type":"double","args":[],"defaultTo":null,"notNullable":false,"unsigned":true}]},{"name":"files_folder_links","indexes":[{"name":"files_folder_links_fk","columns":["file_id"]},{"name":"files_folder_links_inv_fk","columns":["folder_id"]},{"name":"files_folder_links_unique","columns":["file_id","folder_id"],"type":"unique"},{"name":"files_folder_links_order_inv_fk","columns":["file_order"]}],"foreignKeys":[{"name":"files_folder_links_fk","columns":["file_id"],"referencedColumns":["id"],"referencedTable":"files","onDelete":"CASCADE"},{"name":"files_folder_links_inv_fk","columns":["folder_id"],"referencedColumns":["id"],"referencedTable":"upload_folders","onDelete":"CASCADE"}],"columns":[{"name":"id","type":"increments","args":[{"primary":true,"primaryKey":true}],"defaultTo":null,"notNullable":true,"unsigned":false},{"name":"file_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"folder_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"file_order","type":"double","args":[],"defaultTo":null,"notNullable":false,"unsigned":true}]},{"name":"upload_folders_parent_links","indexes":[{"name":"upload_folders_parent_links_fk","columns":["folder_id"]},{"name":"upload_folders_parent_links_inv_fk","columns":["inv_folder_id"]},{"name":"upload_folders_parent_links_unique","columns":["folder_id","inv_folder_id"],"type":"unique"},{"name":"upload_folders_parent_links_order_inv_fk","columns":["folder_order"]}],"foreignKeys":[{"name":"upload_folders_parent_links_fk","columns":["folder_id"],"referencedColumns":["id"],"referencedTable":"upload_folders","onDelete":"CASCADE"},{"name":"upload_folders_parent_links_inv_fk","columns":["inv_folder_id"],"referencedColumns":["id"],"referencedTable":"upload_folders","onDelete":"CASCADE"}],"columns":[{"name":"id","type":"increments","args":[{"primary":true,"primaryKey":true}],"defaultTo":null,"notNullable":true,"unsigned":false},{"name":"folder_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"inv_folder_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"folder_order","type":"double","args":[],"defaultTo":null,"notNullable":false,"unsigned":true}]},{"name":"up_permissions_role_links","indexes":[{"name":"up_permissions_role_links_fk","columns":["permission_id"]},{"name":"up_permissions_role_links_inv_fk","columns":["role_id"]},{"name":"up_permissions_role_links_unique","columns":["permission_id","role_id"],"type":"unique"},{"name":"up_permissions_role_links_order_inv_fk","columns":["permission_order"]}],"foreignKeys":[{"name":"up_permissions_role_links_fk","columns":["permission_id"],"referencedColumns":["id"],"referencedTable":"up_permissions","onDelete":"CASCADE"},{"name":"up_permissions_role_links_inv_fk","columns":["role_id"],"referencedColumns":["id"],"referencedTable":"up_roles","onDelete":"CASCADE"}],"columns":[{"name":"id","type":"increments","args":[{"primary":true,"primaryKey":true}],"defaultTo":null,"notNullable":true,"unsigned":false},{"name":"permission_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"role_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"permission_order","type":"double","args":[],"defaultTo":null,"notNullable":false,"unsigned":true}]},{"name":"up_users_role_links","indexes":[{"name":"up_users_role_links_fk","columns":["user_id"]},{"name":"up_users_role_links_inv_fk","columns":["role_id"]},{"name":"up_users_role_links_unique","columns":["user_id","role_id"],"type":"unique"},{"name":"up_users_role_links_order_inv_fk","columns":["user_order"]}],"foreignKeys":[{"name":"up_users_role_links_fk","columns":["user_id"],"referencedColumns":["id"],"referencedTable":"up_users","onDelete":"CASCADE"},{"name":"up_users_role_links_inv_fk","columns":["role_id"],"referencedColumns":["id"],"referencedTable":"up_roles","onDelete":"CASCADE"}],"columns":[{"name":"id","type":"increments","args":[{"primary":true,"primaryKey":true}],"defaultTo":null,"notNullable":true,"unsigned":false},{"name":"user_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"role_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"user_order","type":"double","args":[],"defaultTo":null,"notNullable":false,"unsigned":true}]},{"name":"menu_items_root_menu_links","indexes":[{"name":"menu_items_root_menu_links_fk","columns":["menu_item_id"]},{"name":"menu_items_root_menu_links_inv_fk","columns":["menu_id"]},{"name":"menu_items_root_menu_links_unique","columns":["menu_item_id","menu_id"],"type":"unique"},{"name":"menu_items_root_menu_links_order_inv_fk","columns":["menu_item_order"]}],"foreignKeys":[{"name":"menu_items_root_menu_links_fk","columns":["menu_item_id"],"referencedColumns":["id"],"referencedTable":"menu_items","onDelete":"CASCADE"},{"name":"menu_items_root_menu_links_inv_fk","columns":["menu_id"],"referencedColumns":["id"],"referencedTable":"menus","onDelete":"CASCADE"}],"columns":[{"name":"id","type":"increments","args":[{"primary":true,"primaryKey":true}],"defaultTo":null,"notNullable":true,"unsigned":false},{"name":"menu_item_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"menu_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"menu_item_order","type":"double","args":[],"defaultTo":null,"notNullable":false,"unsigned":true}]},{"name":"menu_items_parent_links","indexes":[{"name":"menu_items_parent_links_fk","columns":["menu_item_id"]},{"name":"menu_items_parent_links_inv_fk","columns":["inv_menu_item_id"]},{"name":"menu_items_parent_links_unique","columns":["menu_item_id","inv_menu_item_id"],"type":"unique"}],"foreignKeys":[{"name":"menu_items_parent_links_fk","columns":["menu_item_id"],"referencedColumns":["id"],"referencedTable":"menu_items","onDelete":"CASCADE"},{"name":"menu_items_parent_links_inv_fk","columns":["inv_menu_item_id"],"referencedColumns":["id"],"referencedTable":"menu_items","onDelete":"CASCADE"}],"columns":[{"name":"id","type":"increments","args":[{"primary":true,"primaryKey":true}],"defaultTo":null,"notNullable":true,"unsigned":false},{"name":"menu_item_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"inv_menu_item_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true}]},{"name":"books_localizations_links","indexes":[{"name":"books_localizations_links_fk","columns":["book_id"]},{"name":"books_localizations_links_inv_fk","columns":["inv_book_id"]},{"name":"books_localizations_links_unique","columns":["book_id","inv_book_id"],"type":"unique"},{"name":"books_localizations_links_order_fk","columns":["book_order"]}],"foreignKeys":[{"name":"books_localizations_links_fk","columns":["book_id"],"referencedColumns":["id"],"referencedTable":"books","onDelete":"CASCADE"},{"name":"books_localizations_links_inv_fk","columns":["inv_book_id"],"referencedColumns":["id"],"referencedTable":"books","onDelete":"CASCADE"}],"columns":[{"name":"id","type":"increments","args":[{"primary":true,"primaryKey":true}],"defaultTo":null,"notNullable":true,"unsigned":false},{"name":"book_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"inv_book_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"book_order","type":"double","args":[],"defaultTo":null,"notNullable":false,"unsigned":true}]},{"name":"home_pages_versions_links","indexes":[{"name":"home_pages_versions_links_fk","columns":["home_page_id"]},{"name":"home_pages_versions_links_inv_fk","columns":["inv_home_page_id"]},{"name":"home_pages_versions_links_unique","columns":["home_page_id","inv_home_page_id"],"type":"unique"},{"name":"home_pages_versions_links_order_fk","columns":["home_page_order"]}],"foreignKeys":[{"name":"home_pages_versions_links_fk","columns":["home_page_id"],"referencedColumns":["id"],"referencedTable":"home_pages","onDelete":"CASCADE"},{"name":"home_pages_versions_links_inv_fk","columns":["inv_home_page_id"],"referencedColumns":["id"],"referencedTable":"home_pages","onDelete":"CASCADE"}],"columns":[{"name":"id","type":"increments","args":[{"primary":true,"primaryKey":true}],"defaultTo":null,"notNullable":true,"unsigned":false},{"name":"home_page_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"inv_home_page_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"home_page_order","type":"double","args":[],"defaultTo":null,"notNullable":false,"unsigned":true}]},{"name":"home_pages_localizations_links","indexes":[{"name":"home_pages_localizations_links_fk","columns":["home_page_id"]},{"name":"home_pages_localizations_links_inv_fk","columns":["inv_home_page_id"]},{"name":"home_pages_localizations_links_unique","columns":["home_page_id","inv_home_page_id"],"type":"unique"},{"name":"home_pages_localizations_links_order_fk","columns":["home_page_order"]}],"foreignKeys":[{"name":"home_pages_localizations_links_fk","columns":["home_page_id"],"referencedColumns":["id"],"referencedTable":"home_pages","onDelete":"CASCADE"},{"name":"home_pages_localizations_links_inv_fk","columns":["inv_home_page_id"],"referencedColumns":["id"],"referencedTable":"home_pages","onDelete":"CASCADE"}],"columns":[{"name":"id","type":"increments","args":[{"primary":true,"primaryKey":true}],"defaultTo":null,"notNullable":true,"unsigned":false},{"name":"home_page_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"inv_home_page_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"home_page_order","type":"double","args":[],"defaultTo":null,"notNullable":false,"unsigned":true}]},{"name":"jobs_localizations_links","indexes":[{"name":"jobs_localizations_links_fk","columns":["job_id"]},{"name":"jobs_localizations_links_inv_fk","columns":["inv_job_id"]},{"name":"jobs_localizations_links_unique","columns":["job_id","inv_job_id"],"type":"unique"},{"name":"jobs_localizations_links_order_fk","columns":["job_order"]}],"foreignKeys":[{"name":"jobs_localizations_links_fk","columns":["job_id"],"referencedColumns":["id"],"referencedTable":"jobs","onDelete":"CASCADE"},{"name":"jobs_localizations_links_inv_fk","columns":["inv_job_id"],"referencedColumns":["id"],"referencedTable":"jobs","onDelete":"CASCADE"}],"columns":[{"name":"id","type":"increments","args":[{"primary":true,"primaryKey":true}],"defaultTo":null,"notNullable":true,"unsigned":false},{"name":"job_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"inv_job_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"job_order","type":"double","args":[],"defaultTo":null,"notNullable":false,"unsigned":true}]},{"name":"languages_localizations_links","indexes":[{"name":"languages_localizations_links_fk","columns":["language_id"]},{"name":"languages_localizations_links_inv_fk","columns":["inv_language_id"]},{"name":"languages_localizations_links_unique","columns":["language_id","inv_language_id"],"type":"unique"},{"name":"languages_localizations_links_order_fk","columns":["language_order"]}],"foreignKeys":[{"name":"languages_localizations_links_fk","columns":["language_id"],"referencedColumns":["id"],"referencedTable":"languages","onDelete":"CASCADE"},{"name":"languages_localizations_links_inv_fk","columns":["inv_language_id"],"referencedColumns":["id"],"referencedTable":"languages","onDelete":"CASCADE"}],"columns":[{"name":"id","type":"increments","args":[{"primary":true,"primaryKey":true}],"defaultTo":null,"notNullable":true,"unsigned":false},{"name":"language_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"inv_language_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"language_order","type":"double","args":[],"defaultTo":null,"notNullable":false,"unsigned":true}]},{"name":"projects_versions_links","indexes":[{"name":"projects_versions_links_fk","columns":["project_id"]},{"name":"projects_versions_links_inv_fk","columns":["inv_project_id"]},{"name":"projects_versions_links_unique","columns":["project_id","inv_project_id"],"type":"unique"},{"name":"projects_versions_links_order_fk","columns":["project_order"]}],"foreignKeys":[{"name":"projects_versions_links_fk","columns":["project_id"],"referencedColumns":["id"],"referencedTable":"projects","onDelete":"CASCADE"},{"name":"projects_versions_links_inv_fk","columns":["inv_project_id"],"referencedColumns":["id"],"referencedTable":"projects","onDelete":"CASCADE"}],"columns":[{"name":"id","type":"increments","args":[{"primary":true,"primaryKey":true}],"defaultTo":null,"notNullable":true,"unsigned":false},{"name":"project_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"inv_project_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"project_order","type":"double","args":[],"defaultTo":null,"notNullable":false,"unsigned":true}]},{"name":"projects_localizations_links","indexes":[{"name":"projects_localizations_links_fk","columns":["project_id"]},{"name":"projects_localizations_links_inv_fk","columns":["inv_project_id"]},{"name":"projects_localizations_links_unique","columns":["project_id","inv_project_id"],"type":"unique"},{"name":"projects_localizations_links_order_fk","columns":["project_order"]}],"foreignKeys":[{"name":"projects_localizations_links_fk","columns":["project_id"],"referencedColumns":["id"],"referencedTable":"projects","onDelete":"CASCADE"},{"name":"projects_localizations_links_inv_fk","columns":["inv_project_id"],"referencedColumns":["id"],"referencedTable":"projects","onDelete":"CASCADE"}],"columns":[{"name":"id","type":"increments","args":[{"primary":true,"primaryKey":true}],"defaultTo":null,"notNullable":true,"unsigned":false},{"name":"project_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"inv_project_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"project_order","type":"double","args":[],"defaultTo":null,"notNullable":false,"unsigned":true}]},{"name":"publications_localizations_links","indexes":[{"name":"publications_localizations_links_fk","columns":["publication_id"]},{"name":"publications_localizations_links_inv_fk","columns":["inv_publication_id"]},{"name":"publications_localizations_links_unique","columns":["publication_id","inv_publication_id"],"type":"unique"},{"name":"publications_localizations_links_order_fk","columns":["publication_order"]}],"foreignKeys":[{"name":"publications_localizations_links_fk","columns":["publication_id"],"referencedColumns":["id"],"referencedTable":"publications","onDelete":"CASCADE"},{"name":"publications_localizations_links_inv_fk","columns":["inv_publication_id"],"referencedColumns":["id"],"referencedTable":"publications","onDelete":"CASCADE"}],"columns":[{"name":"id","type":"increments","args":[{"primary":true,"primaryKey":true}],"defaultTo":null,"notNullable":true,"unsigned":false},{"name":"publication_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"inv_publication_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"publication_order","type":"double","args":[],"defaultTo":null,"notNullable":false,"unsigned":true}]},{"name":"random_facts_localizations_links","indexes":[{"name":"random_facts_localizations_links_fk","columns":["random_fact_id"]},{"name":"random_facts_localizations_links_inv_fk","columns":["inv_random_fact_id"]},{"name":"random_facts_localizations_links_unique","columns":["random_fact_id","inv_random_fact_id"],"type":"unique"},{"name":"random_facts_localizations_links_order_fk","columns":["random_fact_order"]}],"foreignKeys":[{"name":"random_facts_localizations_links_fk","columns":["random_fact_id"],"referencedColumns":["id"],"referencedTable":"random_facts","onDelete":"CASCADE"},{"name":"random_facts_localizations_links_inv_fk","columns":["inv_random_fact_id"],"referencedColumns":["id"],"referencedTable":"random_facts","onDelete":"CASCADE"}],"columns":[{"name":"id","type":"increments","args":[{"primary":true,"primaryKey":true}],"defaultTo":null,"notNullable":true,"unsigned":false},{"name":"random_fact_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"inv_random_fact_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"random_fact_order","type":"double","args":[],"defaultTo":null,"notNullable":false,"unsigned":true}]},{"name":"recruiters_pages_components","indexes":[{"name":"recruiters_pages_field_index","columns":["field"],"type":null},{"name":"recruiters_pages_component_type_index","columns":["component_type"],"type":null},{"name":"recruiters_pages_entity_fk","columns":["entity_id"]},{"name":"recruiters_pages_unique","columns":["entity_id","component_id","field","component_type"],"type":"unique"}],"foreignKeys":[{"name":"recruiters_pages_entity_fk","columns":["entity_id"],"referencedColumns":["id"],"referencedTable":"recruiters_pages","onDelete":"CASCADE"}],"columns":[{"name":"id","type":"increments","args":[{"primary":true,"primaryKey":true}],"defaultTo":null,"notNullable":true,"unsigned":false},{"name":"entity_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"component_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"component_type","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"field","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"order","type":"double","args":[],"defaultTo":null,"notNullable":false,"unsigned":true}]},{"name":"recruiters_pages_versions_links","indexes":[{"name":"recruiters_pages_versions_links_fk","columns":["recruiters_page_id"]},{"name":"recruiters_pages_versions_links_inv_fk","columns":["inv_recruiters_page_id"]},{"name":"recruiters_pages_versions_links_unique","columns":["recruiters_page_id","inv_recruiters_page_id"],"type":"unique"},{"name":"recruiters_pages_versions_links_order_fk","columns":["recruiters_page_order"]}],"foreignKeys":[{"name":"recruiters_pages_versions_links_fk","columns":["recruiters_page_id"],"referencedColumns":["id"],"referencedTable":"recruiters_pages","onDelete":"CASCADE"},{"name":"recruiters_pages_versions_links_inv_fk","columns":["inv_recruiters_page_id"],"referencedColumns":["id"],"referencedTable":"recruiters_pages","onDelete":"CASCADE"}],"columns":[{"name":"id","type":"increments","args":[{"primary":true,"primaryKey":true}],"defaultTo":null,"notNullable":true,"unsigned":false},{"name":"recruiters_page_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"inv_recruiters_page_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"recruiters_page_order","type":"double","args":[],"defaultTo":null,"notNullable":false,"unsigned":true}]},{"name":"recruiters_pages_localizations_links","indexes":[{"name":"recruiters_pages_localizations_links_fk","columns":["recruiters_page_id"]},{"name":"recruiters_pages_localizations_links_inv_fk","columns":["inv_recruiters_page_id"]},{"name":"recruiters_pages_localizations_links_unique","columns":["recruiters_page_id","inv_recruiters_page_id"],"type":"unique"},{"name":"recruiters_pages_localizations_links_order_fk","columns":["recruiters_page_order"]}],"foreignKeys":[{"name":"recruiters_pages_localizations_links_fk","columns":["recruiters_page_id"],"referencedColumns":["id"],"referencedTable":"recruiters_pages","onDelete":"CASCADE"},{"name":"recruiters_pages_localizations_links_inv_fk","columns":["inv_recruiters_page_id"],"referencedColumns":["id"],"referencedTable":"recruiters_pages","onDelete":"CASCADE"}],"columns":[{"name":"id","type":"increments","args":[{"primary":true,"primaryKey":true}],"defaultTo":null,"notNullable":true,"unsigned":false},{"name":"recruiters_page_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"inv_recruiters_page_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"recruiters_page_order","type":"double","args":[],"defaultTo":null,"notNullable":false,"unsigned":true}]},{"name":"schools_localizations_links","indexes":[{"name":"schools_localizations_links_fk","columns":["school_id"]},{"name":"schools_localizations_links_inv_fk","columns":["inv_school_id"]},{"name":"schools_localizations_links_unique","columns":["school_id","inv_school_id"],"type":"unique"},{"name":"schools_localizations_links_order_fk","columns":["school_order"]}],"foreignKeys":[{"name":"schools_localizations_links_fk","columns":["school_id"],"referencedColumns":["id"],"referencedTable":"schools","onDelete":"CASCADE"},{"name":"schools_localizations_links_inv_fk","columns":["inv_school_id"],"referencedColumns":["id"],"referencedTable":"schools","onDelete":"CASCADE"}],"columns":[{"name":"id","type":"increments","args":[{"primary":true,"primaryKey":true}],"defaultTo":null,"notNullable":true,"unsigned":false},{"name":"school_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"inv_school_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"school_order","type":"double","args":[],"defaultTo":null,"notNullable":false,"unsigned":true}]},{"name":"skills_localizations_links","indexes":[{"name":"skills_localizations_links_fk","columns":["skill_id"]},{"name":"skills_localizations_links_inv_fk","columns":["inv_skill_id"]},{"name":"skills_localizations_links_unique","columns":["skill_id","inv_skill_id"],"type":"unique"},{"name":"skills_localizations_links_order_fk","columns":["skill_order"]}],"foreignKeys":[{"name":"skills_localizations_links_fk","columns":["skill_id"],"referencedColumns":["id"],"referencedTable":"skills","onDelete":"CASCADE"},{"name":"skills_localizations_links_inv_fk","columns":["inv_skill_id"],"referencedColumns":["id"],"referencedTable":"skills","onDelete":"CASCADE"}],"columns":[{"name":"id","type":"increments","args":[{"primary":true,"primaryKey":true}],"defaultTo":null,"notNullable":true,"unsigned":false},{"name":"skill_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"inv_skill_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"skill_order","type":"double","args":[],"defaultTo":null,"notNullable":false,"unsigned":true}]},{"name":"software_development_intros_versions_links","indexes":[{"name":"software_development_intros_versions_links_fk","columns":["software_development_intro_id"]},{"name":"software_development_intros_versions_links_inv_fk","columns":["inv_software_development_intro_id"]},{"name":"software_development_intros_versions_links_unique","columns":["software_development_intro_id","inv_software_development_intro_id"],"type":"unique"},{"name":"software_development_intros_versions_links_order_fk","columns":["software_development_intro_order"]}],"foreignKeys":[{"name":"software_development_intros_versions_links_fk","columns":["software_development_intro_id"],"referencedColumns":["id"],"referencedTable":"software_development_intros","onDelete":"CASCADE"},{"name":"software_development_intros_versions_links_inv_fk","columns":["inv_software_development_intro_id"],"referencedColumns":["id"],"referencedTable":"software_development_intros","onDelete":"CASCADE"}],"columns":[{"name":"id","type":"increments","args":[{"primary":true,"primaryKey":true}],"defaultTo":null,"notNullable":true,"unsigned":false},{"name":"software_development_intro_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"inv_software_development_intro_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"software_development_intro_order","type":"double","args":[],"defaultTo":null,"notNullable":false,"unsigned":true}]},{"name":"software_development_intros_localizations_links","indexes":[{"name":"software_development_intros_localizations_links_fk","columns":["software_development_intro_id"]},{"name":"software_development_intros_localizations_links_inv_fk","columns":["inv_software_development_intro_id"]},{"name":"software_development_intros_localizations_links_unique","columns":["software_development_intro_id","inv_software_development_intro_id"],"type":"unique"},{"name":"software_development_intros_localizations_links_order_fk","columns":["software_development_intro_order"]}],"foreignKeys":[{"name":"software_development_intros_localizations_links_fk","columns":["software_development_intro_id"],"referencedColumns":["id"],"referencedTable":"software_development_intros","onDelete":"CASCADE"},{"name":"software_development_intros_localizations_links_inv_fk","columns":["inv_software_development_intro_id"],"referencedColumns":["id"],"referencedTable":"software_development_intros","onDelete":"CASCADE"}],"columns":[{"name":"id","type":"increments","args":[{"primary":true,"primaryKey":true}],"defaultTo":null,"notNullable":true,"unsigned":false},{"name":"software_development_intro_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"inv_software_development_intro_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"software_development_intro_order","type":"double","args":[],"defaultTo":null,"notNullable":false,"unsigned":true}]},{"name":"uses_pages_components","indexes":[{"name":"uses_pages_field_index","columns":["field"],"type":null},{"name":"uses_pages_component_type_index","columns":["component_type"],"type":null},{"name":"uses_pages_entity_fk","columns":["entity_id"]},{"name":"uses_pages_unique","columns":["entity_id","component_id","field","component_type"],"type":"unique"}],"foreignKeys":[{"name":"uses_pages_entity_fk","columns":["entity_id"],"referencedColumns":["id"],"referencedTable":"uses_pages","onDelete":"CASCADE"}],"columns":[{"name":"id","type":"increments","args":[{"primary":true,"primaryKey":true}],"defaultTo":null,"notNullable":true,"unsigned":false},{"name":"entity_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"component_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"component_type","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"field","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"order","type":"double","args":[],"defaultTo":null,"notNullable":false,"unsigned":true}]},{"name":"uses_pages_versions_links","indexes":[{"name":"uses_pages_versions_links_fk","columns":["uses_page_id"]},{"name":"uses_pages_versions_links_inv_fk","columns":["inv_uses_page_id"]},{"name":"uses_pages_versions_links_unique","columns":["uses_page_id","inv_uses_page_id"],"type":"unique"},{"name":"uses_pages_versions_links_order_fk","columns":["uses_page_order"]}],"foreignKeys":[{"name":"uses_pages_versions_links_fk","columns":["uses_page_id"],"referencedColumns":["id"],"referencedTable":"uses_pages","onDelete":"CASCADE"},{"name":"uses_pages_versions_links_inv_fk","columns":["inv_uses_page_id"],"referencedColumns":["id"],"referencedTable":"uses_pages","onDelete":"CASCADE"}],"columns":[{"name":"id","type":"increments","args":[{"primary":true,"primaryKey":true}],"defaultTo":null,"notNullable":true,"unsigned":false},{"name":"uses_page_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"inv_uses_page_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"uses_page_order","type":"double","args":[],"defaultTo":null,"notNullable":false,"unsigned":true}]},{"name":"uses_pages_localizations_links","indexes":[{"name":"uses_pages_localizations_links_fk","columns":["uses_page_id"]},{"name":"uses_pages_localizations_links_inv_fk","columns":["inv_uses_page_id"]},{"name":"uses_pages_localizations_links_unique","columns":["uses_page_id","inv_uses_page_id"],"type":"unique"},{"name":"uses_pages_localizations_links_order_fk","columns":["uses_page_order"]}],"foreignKeys":[{"name":"uses_pages_localizations_links_fk","columns":["uses_page_id"],"referencedColumns":["id"],"referencedTable":"uses_pages","onDelete":"CASCADE"},{"name":"uses_pages_localizations_links_inv_fk","columns":["inv_uses_page_id"],"referencedColumns":["id"],"referencedTable":"uses_pages","onDelete":"CASCADE"}],"columns":[{"name":"id","type":"increments","args":[{"primary":true,"primaryKey":true}],"defaultTo":null,"notNullable":true,"unsigned":false},{"name":"uses_page_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"inv_uses_page_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"uses_page_order","type":"double","args":[],"defaultTo":null,"notNullable":false,"unsigned":true}]},{"name":"components_shared_seos_components","indexes":[{"name":"components_shared_seos_field_index","columns":["field"],"type":null},{"name":"components_shared_seos_component_type_index","columns":["component_type"],"type":null},{"name":"components_shared_seos_entity_fk","columns":["entity_id"]},{"name":"components_shared_seos_unique","columns":["entity_id","component_id","field","component_type"],"type":"unique"}],"foreignKeys":[{"name":"components_shared_seos_entity_fk","columns":["entity_id"],"referencedColumns":["id"],"referencedTable":"components_shared_seos","onDelete":"CASCADE"}],"columns":[{"name":"id","type":"increments","args":[{"primary":true,"primaryKey":true}],"defaultTo":null,"notNullable":true,"unsigned":false},{"name":"entity_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"component_id","type":"integer","args":[],"defaultTo":null,"notNullable":false,"unsigned":true},{"name":"component_type","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"field","type":"string","args":[],"defaultTo":null,"notNullable":false,"unsigned":false},{"name":"order","type":"double","args":[],"defaultTo":null,"notNullable":false,"unsigned":true}]}]}', '2023-09-26 13:55:25.251', '925493ac7ca7d4926d3e73a8d56ddf0d');
+
+
+--
+-- Data for Name: strapi_migrations; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+
+
+--
+-- Data for Name: strapi_transfer_token_permissions; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+
+
+--
+-- Data for Name: strapi_transfer_token_permissions_token_links; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+
+
+--
+-- Data for Name: strapi_transfer_tokens; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+
+
+--
+-- Data for Name: strapi_webhooks; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+
+
+--
+-- Data for Name: tv_shows; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+INSERT INTO public.tv_shows (id, title, year, link, created_at, updated_at, published_at, created_by_id, updated_by_id) VALUES (1, 'Better Call Saul', '2022', 'https://www.imdb.com/title/tt3032476/?ref_=ext_shr_lnk', '2023-08-23 14:07:19.661', '2023-08-23 14:09:47.969', '2023-08-23 14:09:47.964', NULL, 1);
+INSERT INTO public.tv_shows (id, title, year, link, created_at, updated_at, published_at, created_by_id, updated_by_id) VALUES (6, 'Black Mirror', '2023', 'https://www.imdb.com/title/tt2085059/?ref_=tt_rvi_tt_i_6', '2023-08-23 14:08:51.495', '2023-08-23 14:10:03.599', '2023-08-23 14:10:03.595', NULL, 1);
+INSERT INTO public.tv_shows (id, title, year, link, created_at, updated_at, published_at, created_by_id, updated_by_id) VALUES (7, 'Breaking Bad', '2016', 'https://www.imdb.com/title/tt0903747/?ref_=nv_sr_srsg_0_tt_8_nm_0_q_breaki', '2023-08-23 14:09:00.261', '2023-08-23 14:10:22.189', '2023-08-23 14:10:22.183', NULL, 1);
+INSERT INTO public.tv_shows (id, title, year, link, created_at, updated_at, published_at, created_by_id, updated_by_id) VALUES (4, 'Chernobyl', '2019', 'https://www.imdb.com/title/tt7366338/?ref_=tt_rvi_tt_i_4', '2023-08-23 14:08:34.977', '2023-08-23 14:10:32.163', '2023-08-23 14:10:32.159', NULL, 1);
+INSERT INTO public.tv_shows (id, title, year, link, created_at, updated_at, published_at, created_by_id, updated_by_id) VALUES (9, 'Doctor Who', '2017', 'https://www.imdb.com/title/tt0436992/?ref_=nv_sr_srsg_0_tt_8_nm_0_q_doctor%2520who', '2023-08-23 14:09:20.531', '2023-08-23 14:10:46.79', '2023-08-23 14:10:46.786', NULL, 1);
+INSERT INTO public.tv_shows (id, title, year, link, created_at, updated_at, published_at, created_by_id, updated_by_id) VALUES (3, 'Sherlock', '2016', 'https://www.imdb.com/title/tt1475582/?ref_=tt_rvi_tt_i_3', '2023-08-23 14:08:21.072', '2023-08-23 14:10:59.234', '2023-08-23 14:10:59.23', NULL, 1);
+INSERT INTO public.tv_shows (id, title, year, link, created_at, updated_at, published_at, created_by_id, updated_by_id) VALUES (8, 'Stranger Things', '2022', 'https://www.imdb.com/title/tt4574334/?ref_=nv_sr_srsg_0_tt_7_nm_1_q_stra', '2023-08-23 14:09:12.765', '2023-08-23 14:11:16.837', '2023-08-23 14:11:16.833', NULL, 1);
+INSERT INTO public.tv_shows (id, title, year, link, created_at, updated_at, published_at, created_by_id, updated_by_id) VALUES (2, 'Unorthodox', '2020', 'https://www.imdb.com/title/tt9815454/?ref_=tt_rvi_tt_i_2', '2023-08-23 14:07:34.417', '2023-08-23 14:11:36.993', '2023-08-23 14:11:36.99', NULL, 1);
+INSERT INTO public.tv_shows (id, title, year, link, created_at, updated_at, published_at, created_by_id, updated_by_id) VALUES (5, 'Westworld', '2019', 'https://www.imdb.com/title/tt0475784/?ref_=tt_rvi_tt_i_5', '2023-08-23 14:08:42.167', '2023-08-23 14:11:50.158', '2023-08-23 14:11:50.154', NULL, 1);
+INSERT INTO public.tv_shows (id, title, year, link, created_at, updated_at, published_at, created_by_id, updated_by_id) VALUES (10, 'The Last of Us', '2023', 'https://www.imdb.com/title/tt3581920/?ref_=fn_al_tt_1', '2023-08-24 14:46:10.784', '2023-08-24 14:46:12.765', '2023-08-24 14:46:12.759', 1, 1);
+INSERT INTO public.tv_shows (id, title, year, link, created_at, updated_at, published_at, created_by_id, updated_by_id) VALUES (11, 'The Umbrella Academy', '2019', 'https://www.imdb.com/title/tt1312171', '2023-08-24 14:50:20.253', '2023-08-24 14:50:21.858', '2023-08-24 14:50:21.853', 1, 1);
+
+
+--
+-- Data for Name: up_permissions; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+INSERT INTO public.up_permissions (id, action, created_at, updated_at, created_by_id, updated_by_id) VALUES (1, 'plugin::users-permissions.user.me', '2023-08-13 18:13:24.207', '2023-08-13 18:13:24.207', NULL, NULL);
+INSERT INTO public.up_permissions (id, action, created_at, updated_at, created_by_id, updated_by_id) VALUES (2, 'plugin::users-permissions.auth.changePassword', '2023-08-13 18:13:24.207', '2023-08-13 18:13:24.207', NULL, NULL);
+INSERT INTO public.up_permissions (id, action, created_at, updated_at, created_by_id, updated_by_id) VALUES (3, 'plugin::users-permissions.auth.callback', '2023-08-13 18:13:24.227', '2023-08-13 18:13:24.227', NULL, NULL);
+INSERT INTO public.up_permissions (id, action, created_at, updated_at, created_by_id, updated_by_id) VALUES (4, 'plugin::users-permissions.auth.connect', '2023-08-13 18:13:24.227', '2023-08-13 18:13:24.227', NULL, NULL);
+INSERT INTO public.up_permissions (id, action, created_at, updated_at, created_by_id, updated_by_id) VALUES (6, 'plugin::users-permissions.auth.resetPassword', '2023-08-13 18:13:24.227', '2023-08-13 18:13:24.227', NULL, NULL);
+INSERT INTO public.up_permissions (id, action, created_at, updated_at, created_by_id, updated_by_id) VALUES (5, 'plugin::users-permissions.auth.forgotPassword', '2023-08-13 18:13:24.227', '2023-08-13 18:13:24.227', NULL, NULL);
+INSERT INTO public.up_permissions (id, action, created_at, updated_at, created_by_id, updated_by_id) VALUES (7, 'plugin::users-permissions.auth.register', '2023-08-13 18:13:24.227', '2023-08-13 18:13:24.227', NULL, NULL);
+INSERT INTO public.up_permissions (id, action, created_at, updated_at, created_by_id, updated_by_id) VALUES (8, 'plugin::users-permissions.auth.emailConfirmation', '2023-08-13 18:13:24.227', '2023-08-13 18:13:24.227', NULL, NULL);
+INSERT INTO public.up_permissions (id, action, created_at, updated_at, created_by_id, updated_by_id) VALUES (9, 'plugin::users-permissions.auth.sendEmailConfirmation', '2023-08-13 18:13:24.227', '2023-08-13 18:13:24.227', NULL, NULL);
+INSERT INTO public.up_permissions (id, action, created_at, updated_at, created_by_id, updated_by_id) VALUES (10, 'api::job.job.find', '2023-08-15 18:19:24.254', '2023-08-15 18:19:24.254', NULL, NULL);
+INSERT INTO public.up_permissions (id, action, created_at, updated_at, created_by_id, updated_by_id) VALUES (11, 'api::job.job.findOne', '2023-08-15 18:19:24.254', '2023-08-15 18:19:24.254', NULL, NULL);
+INSERT INTO public.up_permissions (id, action, created_at, updated_at, created_by_id, updated_by_id) VALUES (12, 'api::book.book.find', '2023-08-22 15:15:16.794', '2023-08-22 15:15:16.794', NULL, NULL);
+INSERT INTO public.up_permissions (id, action, created_at, updated_at, created_by_id, updated_by_id) VALUES (13, 'api::book.book.findOne', '2023-08-22 15:15:16.794', '2023-08-22 15:15:16.794', NULL, NULL);
+INSERT INTO public.up_permissions (id, action, created_at, updated_at, created_by_id, updated_by_id) VALUES (14, 'api::language.language.find', '2023-08-22 15:15:31.384', '2023-08-22 15:15:31.384', NULL, NULL);
+INSERT INTO public.up_permissions (id, action, created_at, updated_at, created_by_id, updated_by_id) VALUES (15, 'api::language.language.findOne', '2023-08-22 15:15:31.384', '2023-08-22 15:15:31.384', NULL, NULL);
+INSERT INTO public.up_permissions (id, action, created_at, updated_at, created_by_id, updated_by_id) VALUES (16, 'api::podcast.podcast.find', '2023-08-22 15:15:31.384', '2023-08-22 15:15:31.384', NULL, NULL);
+INSERT INTO public.up_permissions (id, action, created_at, updated_at, created_by_id, updated_by_id) VALUES (17, 'api::podcast.podcast.findOne', '2023-08-22 15:15:31.384', '2023-08-22 15:15:31.384', NULL, NULL);
+INSERT INTO public.up_permissions (id, action, created_at, updated_at, created_by_id, updated_by_id) VALUES (18, 'api::publication.publication.find', '2023-08-22 15:15:55.188', '2023-08-22 15:15:55.188', NULL, NULL);
+INSERT INTO public.up_permissions (id, action, created_at, updated_at, created_by_id, updated_by_id) VALUES (19, 'api::school.school.find', '2023-08-22 15:15:55.188', '2023-08-22 15:15:55.188', NULL, NULL);
+INSERT INTO public.up_permissions (id, action, created_at, updated_at, created_by_id, updated_by_id) VALUES (20, 'api::publication.publication.findOne', '2023-08-22 15:15:55.188', '2023-08-22 15:15:55.188', NULL, NULL);
+INSERT INTO public.up_permissions (id, action, created_at, updated_at, created_by_id, updated_by_id) VALUES (21, 'api::school.school.findOne', '2023-08-22 15:15:55.188', '2023-08-22 15:15:55.188', NULL, NULL);
+INSERT INTO public.up_permissions (id, action, created_at, updated_at, created_by_id, updated_by_id) VALUES (22, 'api::skill.skill.find', '2023-08-22 15:15:55.188', '2023-08-22 15:15:55.188', NULL, NULL);
+INSERT INTO public.up_permissions (id, action, created_at, updated_at, created_by_id, updated_by_id) VALUES (23, 'api::skill.skill.findOne', '2023-08-22 15:15:55.188', '2023-08-22 15:15:55.188', NULL, NULL);
+INSERT INTO public.up_permissions (id, action, created_at, updated_at, created_by_id, updated_by_id) VALUES (24, 'api::video-game.video-game.find', '2023-08-22 15:15:55.188', '2023-08-22 15:15:55.188', NULL, NULL);
+INSERT INTO public.up_permissions (id, action, created_at, updated_at, created_by_id, updated_by_id) VALUES (25, 'api::tv-show.tv-show.find', '2023-08-22 15:15:55.188', '2023-08-22 15:15:55.188', NULL, NULL);
+INSERT INTO public.up_permissions (id, action, created_at, updated_at, created_by_id, updated_by_id) VALUES (26, 'api::tv-show.tv-show.findOne', '2023-08-22 15:15:55.188', '2023-08-22 15:15:55.188', NULL, NULL);
+INSERT INTO public.up_permissions (id, action, created_at, updated_at, created_by_id, updated_by_id) VALUES (27, 'api::video-game.video-game.findOne', '2023-08-22 15:15:55.188', '2023-08-22 15:15:55.188', NULL, NULL);
+INSERT INTO public.up_permissions (id, action, created_at, updated_at, created_by_id, updated_by_id) VALUES (28, 'api::code-snippet.code-snippet.find', '2023-08-22 20:00:21.322', '2023-08-22 20:00:21.322', NULL, NULL);
+INSERT INTO public.up_permissions (id, action, created_at, updated_at, created_by_id, updated_by_id) VALUES (29, 'api::code-snippet.code-snippet.findOne', '2023-08-22 20:00:21.322', '2023-08-22 20:00:21.322', NULL, NULL);
+INSERT INTO public.up_permissions (id, action, created_at, updated_at, created_by_id, updated_by_id) VALUES (30, 'api::software-development-intro.software-development-intro.find', '2023-08-22 20:00:21.322', '2023-08-22 20:00:21.322', NULL, NULL);
+INSERT INTO public.up_permissions (id, action, created_at, updated_at, created_by_id, updated_by_id) VALUES (31, 'api::random-fact.random-fact.find', '2023-08-23 17:42:06.978', '2023-08-23 17:42:06.978', NULL, NULL);
+INSERT INTO public.up_permissions (id, action, created_at, updated_at, created_by_id, updated_by_id) VALUES (32, 'api::random-fact.random-fact.findOne', '2023-08-23 17:42:06.978', '2023-08-23 17:42:06.978', NULL, NULL);
+INSERT INTO public.up_permissions (id, action, created_at, updated_at, created_by_id, updated_by_id) VALUES (33, 'api::home-page.home-page.find', '2023-08-26 13:17:02.915', '2023-08-26 13:17:02.915', NULL, NULL);
+INSERT INTO public.up_permissions (id, action, created_at, updated_at, created_by_id, updated_by_id) VALUES (34, 'api::project.project.find', '2023-09-10 10:58:00.775', '2023-09-10 10:58:00.775', NULL, NULL);
+INSERT INTO public.up_permissions (id, action, created_at, updated_at, created_by_id, updated_by_id) VALUES (35, 'api::project.project.findOne', '2023-09-10 10:58:00.775', '2023-09-10 10:58:00.775', NULL, NULL);
+INSERT INTO public.up_permissions (id, action, created_at, updated_at, created_by_id, updated_by_id) VALUES (37, 'api::recruiters-page.recruiters-page.find', '2023-09-18 18:16:24.662', '2023-09-18 18:16:24.662', NULL, NULL);
+INSERT INTO public.up_permissions (id, action, created_at, updated_at, created_by_id, updated_by_id) VALUES (38, 'api::uses-page.uses-page.find', '2023-09-26 14:26:07.836', '2023-09-26 14:26:07.836', NULL, NULL);
+
+
+--
+-- Data for Name: up_permissions_role_links; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+INSERT INTO public.up_permissions_role_links (id, permission_id, role_id, permission_order) VALUES (1, 1, 1, 1);
+INSERT INTO public.up_permissions_role_links (id, permission_id, role_id, permission_order) VALUES (2, 2, 1, 1);
+INSERT INTO public.up_permissions_role_links (id, permission_id, role_id, permission_order) VALUES (3, 3, 2, 1);
+INSERT INTO public.up_permissions_role_links (id, permission_id, role_id, permission_order) VALUES (4, 4, 2, 1);
+INSERT INTO public.up_permissions_role_links (id, permission_id, role_id, permission_order) VALUES (5, 8, 2, 1);
+INSERT INTO public.up_permissions_role_links (id, permission_id, role_id, permission_order) VALUES (6, 7, 2, 1);
+INSERT INTO public.up_permissions_role_links (id, permission_id, role_id, permission_order) VALUES (7, 6, 2, 1);
+INSERT INTO public.up_permissions_role_links (id, permission_id, role_id, permission_order) VALUES (8, 5, 2, 2);
+INSERT INTO public.up_permissions_role_links (id, permission_id, role_id, permission_order) VALUES (9, 9, 2, 2);
+INSERT INTO public.up_permissions_role_links (id, permission_id, role_id, permission_order) VALUES (10, 10, 2, 3);
+INSERT INTO public.up_permissions_role_links (id, permission_id, role_id, permission_order) VALUES (11, 11, 2, 3);
+INSERT INTO public.up_permissions_role_links (id, permission_id, role_id, permission_order) VALUES (12, 12, 2, 4);
+INSERT INTO public.up_permissions_role_links (id, permission_id, role_id, permission_order) VALUES (13, 13, 2, 4);
+INSERT INTO public.up_permissions_role_links (id, permission_id, role_id, permission_order) VALUES (14, 16, 2, 5);
+INSERT INTO public.up_permissions_role_links (id, permission_id, role_id, permission_order) VALUES (15, 15, 2, 5);
+INSERT INTO public.up_permissions_role_links (id, permission_id, role_id, permission_order) VALUES (16, 14, 2, 5);
+INSERT INTO public.up_permissions_role_links (id, permission_id, role_id, permission_order) VALUES (17, 17, 2, 5);
+INSERT INTO public.up_permissions_role_links (id, permission_id, role_id, permission_order) VALUES (18, 21, 2, 6);
+INSERT INTO public.up_permissions_role_links (id, permission_id, role_id, permission_order) VALUES (19, 18, 2, 6);
+INSERT INTO public.up_permissions_role_links (id, permission_id, role_id, permission_order) VALUES (20, 19, 2, 6);
+INSERT INTO public.up_permissions_role_links (id, permission_id, role_id, permission_order) VALUES (21, 20, 2, 6);
+INSERT INTO public.up_permissions_role_links (id, permission_id, role_id, permission_order) VALUES (22, 22, 2, 6);
+INSERT INTO public.up_permissions_role_links (id, permission_id, role_id, permission_order) VALUES (23, 24, 2, 6);
+INSERT INTO public.up_permissions_role_links (id, permission_id, role_id, permission_order) VALUES (24, 25, 2, 6);
+INSERT INTO public.up_permissions_role_links (id, permission_id, role_id, permission_order) VALUES (25, 23, 2, 7);
+INSERT INTO public.up_permissions_role_links (id, permission_id, role_id, permission_order) VALUES (26, 27, 2, 7);
+INSERT INTO public.up_permissions_role_links (id, permission_id, role_id, permission_order) VALUES (27, 26, 2, 7);
+INSERT INTO public.up_permissions_role_links (id, permission_id, role_id, permission_order) VALUES (28, 28, 2, 8);
+INSERT INTO public.up_permissions_role_links (id, permission_id, role_id, permission_order) VALUES (29, 30, 2, 8);
+INSERT INTO public.up_permissions_role_links (id, permission_id, role_id, permission_order) VALUES (30, 29, 2, 8);
+INSERT INTO public.up_permissions_role_links (id, permission_id, role_id, permission_order) VALUES (31, 31, 2, 9);
+INSERT INTO public.up_permissions_role_links (id, permission_id, role_id, permission_order) VALUES (32, 32, 2, 9);
+INSERT INTO public.up_permissions_role_links (id, permission_id, role_id, permission_order) VALUES (33, 33, 2, 10);
+INSERT INTO public.up_permissions_role_links (id, permission_id, role_id, permission_order) VALUES (34, 34, 2, 11);
+INSERT INTO public.up_permissions_role_links (id, permission_id, role_id, permission_order) VALUES (35, 35, 2, 11);
+INSERT INTO public.up_permissions_role_links (id, permission_id, role_id, permission_order) VALUES (37, 37, 2, 12);
+INSERT INTO public.up_permissions_role_links (id, permission_id, role_id, permission_order) VALUES (38, 38, 2, 13);
+
+
+--
+-- Data for Name: up_roles; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+INSERT INTO public.up_roles (id, name, description, type, created_at, updated_at, created_by_id, updated_by_id) VALUES (1, 'Authenticated', 'Default role given to authenticated user.', 'authenticated', '2023-08-13 18:13:24.188', '2023-08-13 18:13:24.188', NULL, NULL);
+INSERT INTO public.up_roles (id, name, description, type, created_at, updated_at, created_by_id, updated_by_id) VALUES (2, 'Public', 'Default role given to unauthenticated user.', 'public', '2023-08-13 18:13:24.195', '2023-09-26 14:26:07.828', NULL, NULL);
+
+
+--
+-- Data for Name: up_users; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+
+
+--
+-- Data for Name: up_users_role_links; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+
+
+--
+-- Data for Name: upload_folders; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+INSERT INTO public.upload_folders (id, name, path_id, path, created_at, updated_at, created_by_id, updated_by_id) VALUES (1, 'Books', 1, '/1', '2023-08-23 13:48:11.443', '2023-08-23 13:48:11.443', 1, 1);
+INSERT INTO public.upload_folders (id, name, path_id, path, created_at, updated_at, created_by_id, updated_by_id) VALUES (2, 'Podcasts', 2, '/2', '2023-08-23 13:49:33.088', '2023-08-23 13:49:33.088', 1, 1);
+INSERT INTO public.upload_folders (id, name, path_id, path, created_at, updated_at, created_by_id, updated_by_id) VALUES (3, 'TvShows', 3, '/3', '2023-08-23 13:50:02.48', '2023-08-23 13:50:02.48', 1, 1);
+INSERT INTO public.upload_folders (id, name, path_id, path, created_at, updated_at, created_by_id, updated_by_id) VALUES (4, 'VideoGames', 4, '/4', '2023-08-23 16:20:15.217', '2023-08-23 16:20:15.217', 1, 1);
+INSERT INTO public.upload_folders (id, name, path_id, path, created_at, updated_at, created_by_id, updated_by_id) VALUES (5, 'Icons', 5, '/5', '2023-08-24 16:22:45.339', '2023-08-24 16:22:45.339', 1, 1);
+INSERT INTO public.upload_folders (id, name, path_id, path, created_at, updated_at, created_by_id, updated_by_id) VALUES (6, 'Projects', 6, '/6', '2023-09-13 19:41:03.791', '2023-09-13 19:41:03.791', 1, 1);
+INSERT INTO public.upload_folders (id, name, path_id, path, created_at, updated_at, created_by_id, updated_by_id) VALUES (7, 'Programming', 7, '/7', '2023-09-13 19:41:42.336', '2023-09-13 19:41:42.336', 1, 1);
+INSERT INTO public.upload_folders (id, name, path_id, path, created_at, updated_at, created_by_id, updated_by_id) VALUES (8, 'Files', 8, '/8', '2023-09-13 19:42:43.447', '2023-09-13 19:42:43.447', 1, 1);
+INSERT INTO public.upload_folders (id, name, path_id, path, created_at, updated_at, created_by_id, updated_by_id) VALUES (9, 'Schools & Companies', 9, '/9', '2023-09-13 19:43:34.585', '2023-09-13 19:43:34.585', 1, 1);
+INSERT INTO public.upload_folders (id, name, path_id, path, created_at, updated_at, created_by_id, updated_by_id) VALUES (10, 'Country Flags', 10, '/10', '2023-09-13 19:43:59.871', '2023-09-13 19:43:59.871', 1, 1);
+INSERT INTO public.upload_folders (id, name, path_id, path, created_at, updated_at, created_by_id, updated_by_id) VALUES (11, 'Avatar', 11, '/11', '2023-09-14 13:54:03.537', '2023-09-14 13:54:03.537', 1, 1);
+
+
+--
+-- Data for Name: upload_folders_parent_links; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+
+
+--
+-- Data for Name: uses_pages; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+INSERT INTO public.uses_pages (id, created_at, updated_at, published_at, created_by_id, updated_by_id, vuid, version_number, version_comment, is_visible_in_list_view, locale) VALUES (1, '2023-09-26 14:04:32.814', '2023-09-29 08:44:29.309', '2023-09-27 09:10:04.786', 1, 1, NULL, 1, NULL, true, 'en');
+
+
+--
+-- Data for Name: uses_pages_components; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+INSERT INTO public.uses_pages_components (id, entity_id, component_id, component_type, field, "order") VALUES (1, 1, 39, 'shared.titled-paragraph', 'hardware', NULL);
+INSERT INTO public.uses_pages_components (id, entity_id, component_id, component_type, field, "order") VALUES (2, 1, 40, 'shared.titled-paragraph', 'media', NULL);
+INSERT INTO public.uses_pages_components (id, entity_id, component_id, component_type, field, "order") VALUES (3, 1, 41, 'shared.titled-paragraph', 'programmingTools', NULL);
+INSERT INTO public.uses_pages_components (id, entity_id, component_id, component_type, field, "order") VALUES (4, 1, 42, 'shared.titled-paragraph', 'security', NULL);
+INSERT INTO public.uses_pages_components (id, entity_id, component_id, component_type, field, "order") VALUES (5, 1, 43, 'shared.titled-paragraph', 'productivity', NULL);
+
+
+--
+-- Data for Name: uses_pages_localizations_links; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+
+
+--
+-- Data for Name: uses_pages_versions_links; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+
+
+--
+-- Data for Name: video_games; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+INSERT INTO public.video_games (id, title, year, link, created_at, updated_at, published_at, created_by_id, updated_by_id) VALUES (2, 'Rayman Legends', '2013', 'https://www.igdb.com/games/rayman-legends--1', '2023-08-23 16:19:24.096', '2023-08-23 16:23:16.005', '2023-08-23 16:23:15.999', NULL, 1);
+INSERT INTO public.video_games (id, title, year, link, created_at, updated_at, published_at, created_by_id, updated_by_id) VALUES (3, 'Portal 2', '2011', 'https://www.igdb.com/games/portal-2', '2023-08-23 16:19:24.105', '2023-08-23 16:23:57.611', '2023-08-23 16:23:57.607', NULL, 1);
+INSERT INTO public.video_games (id, title, year, link, created_at, updated_at, published_at, created_by_id, updated_by_id) VALUES (9, 'Guitar Hero: Warriors of Rock', '2010', 'https://www.igdb.com/games/guitar-hero-warriors-of-rock', '2023-08-23 16:19:24.154', '2023-08-23 16:24:17.241', '2023-08-23 16:24:17.236', NULL, 1);
+INSERT INTO public.video_games (id, title, year, link, created_at, updated_at, published_at, created_by_id, updated_by_id) VALUES (5, 'Professor Layton and the Unwound Future', '2008', 'https://www.igdb.com/games/professor-layton-and-the-unwound-future', '2023-08-23 16:19:24.122', '2023-08-23 16:24:40.18', '2023-08-23 16:24:40.176', NULL, 1);
+INSERT INTO public.video_games (id, title, year, link, created_at, updated_at, published_at, created_by_id, updated_by_id) VALUES (11, 'Sonic Unleashed', '2008', 'https://www.igdb.com/games/sonic-unleashed--1', '2023-08-23 16:19:24.17', '2023-08-23 16:24:58.392', '2023-08-23 16:24:58.386', NULL, 1);
+INSERT INTO public.video_games (id, title, year, link, created_at, updated_at, published_at, created_by_id, updated_by_id) VALUES (7, 'Croc 2', '1999', 'https://www.igdb.com/games/croc-2', '2023-08-23 16:19:24.138', '2023-08-23 16:25:23.408', '2023-08-23 16:25:23.404', NULL, 1);
+INSERT INTO public.video_games (id, title, year, link, created_at, updated_at, published_at, created_by_id, updated_by_id) VALUES (14, 'The Legend of Zelda: Tears of the Kingdom', '2023', 'https://www.igdb.com/games/the-legend-of-zelda-tears-of-the-kingdom', '2023-08-23 16:19:24.197', '2023-08-23 16:20:54.299', '2023-08-23 16:20:54.294', NULL, 1);
+INSERT INTO public.video_games (id, title, year, link, created_at, updated_at, published_at, created_by_id, updated_by_id) VALUES (12, 'Sonic Frontiers', '2022', 'https://www.igdb.com/games/sonic-frontiers', '2023-08-23 16:19:24.18', '2023-08-23 16:21:15.128', '2023-08-23 16:21:15.122', NULL, 1);
+INSERT INTO public.video_games (id, title, year, link, created_at, updated_at, published_at, created_by_id, updated_by_id) VALUES (16, 'Pokémon Go', '2021', 'https://www.igdb.com/games/pokemon-go', '2023-08-23 16:19:24.213', '2023-08-23 16:21:30.178', '2023-08-23 16:21:30.172', NULL, 1);
+INSERT INTO public.video_games (id, title, year, link, created_at, updated_at, published_at, created_by_id, updated_by_id) VALUES (1, 'Detroit Become Human', '2018', 'https://www.igdb.com/games/detroit-become-human--1', '2023-08-23 16:19:24.084', '2023-08-23 16:22:01.056', '2023-08-23 16:22:01.051', NULL, 1);
+INSERT INTO public.video_games (id, title, year, link, created_at, updated_at, published_at, created_by_id, updated_by_id) VALUES (4, 'The Legend of Zelda: Breath of the Wild', '2017', 'https://www.igdb.com/games/the-legend-of-zelda-breath-of-the-wild', '2023-08-23 16:19:24.113', '2023-08-23 16:22:14.335', '2023-08-23 16:22:14.331', NULL, 1);
+INSERT INTO public.video_games (id, title, year, link, created_at, updated_at, published_at, created_by_id, updated_by_id) VALUES (13, 'Super Mario Odyssey', '2017', 'https://www.igdb.com/games/super-mario-odyssey', '2023-08-23 16:19:24.188', '2023-08-23 16:22:27.231', '2023-08-23 16:22:27.226', NULL, 1);
+INSERT INTO public.video_games (id, title, year, link, created_at, updated_at, published_at, created_by_id, updated_by_id) VALUES (8, 'Uncharted 4', '2016', 'https://www.igdb.com/games/uncharted-4-a-thief-s-end', '2023-08-23 16:19:24.147', '2023-08-23 16:22:37.495', '2023-08-23 16:22:37.49', NULL, 1);
+INSERT INTO public.video_games (id, title, year, link, created_at, updated_at, published_at, created_by_id, updated_by_id) VALUES (6, 'Ori and the Blind Forest', '2015', 'https://www.igdb.com/games/ori-and-the-blind-forest', '2023-08-23 16:19:24.13', '2023-08-23 16:22:47.93', '2023-08-23 16:22:47.926', NULL, 1);
+INSERT INTO public.video_games (id, title, year, link, created_at, updated_at, published_at, created_by_id, updated_by_id) VALUES (10, 'Rocket League', '2015', 'https://www.igdb.com/games/rocket-league', '2023-08-23 16:19:24.162', '2023-08-23 16:22:59.595', '2023-08-23 16:22:59.591', NULL, 1);
+INSERT INTO public.video_games (id, title, year, link, created_at, updated_at, published_at, created_by_id, updated_by_id) VALUES (15, 'Ori and the Will of the Wisps', '2020', 'https://www.igdb.com/games/ori-and-the-will-of-the-wisps', '2023-08-23 16:19:24.205', '2023-08-24 14:54:52.189', '2023-08-24 14:54:52.183', NULL, 1);
+INSERT INTO public.video_games (id, title, year, link, created_at, updated_at, published_at, created_by_id, updated_by_id) VALUES (17, 'Town of Salem', '2014', 'https://www.igdb.com/games/town-of-salem', '2023-09-20 15:08:37.216', '2023-09-20 15:08:40.167', '2023-09-20 15:08:40.162', 1, 1);
+
+
+--
+-- Name: admin_permissions_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.admin_permissions_id_seq', 220, true);
+
+
+--
+-- Name: admin_permissions_role_links_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.admin_permissions_role_links_id_seq', 230, true);
+
+
+--
+-- Name: admin_roles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.admin_roles_id_seq', 3, true);
+
+
+--
+-- Name: admin_users_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.admin_users_id_seq', 1, true);
+
+
+--
+-- Name: admin_users_roles_links_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.admin_users_roles_links_id_seq', 1, true);
+
+
+--
+-- Name: books_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.books_id_seq', 9, true);
+
+
+--
+-- Name: books_localizations_links_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.books_localizations_links_id_seq', 1, false);
+
+
+--
+-- Name: code_snippets_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.code_snippets_id_seq', 15, true);
+
+
+--
+-- Name: components_shared_meta_socials_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.components_shared_meta_socials_id_seq', 1, false);
+
+
+--
+-- Name: components_shared_seos_components_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.components_shared_seos_components_id_seq', 1, false);
+
+
+--
+-- Name: components_shared_seos_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.components_shared_seos_id_seq', 1, false);
+
+
+--
+-- Name: components_shared_titled_paragraphs_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.components_shared_titled_paragraphs_id_seq', 43, true);
+
+
+--
+-- Name: files_folder_links_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.files_folder_links_id_seq', 97, true);
+
+
+--
+-- Name: files_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.files_id_seq', 100, true);
+
+
+--
+-- Name: files_related_morphs_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.files_related_morphs_id_seq', 139, true);
+
+
+--
+-- Name: home_pages_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.home_pages_id_seq', 3, true);
+
+
+--
+-- Name: home_pages_localizations_links_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.home_pages_localizations_links_id_seq', 1, false);
+
+
+--
+-- Name: home_pages_versions_links_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.home_pages_versions_links_id_seq', 2, true);
+
+
+--
+-- Name: i18n_locale_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.i18n_locale_id_seq', 3, true);
+
+
+--
+-- Name: iconlibrary_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.iconlibrary_id_seq', 1, false);
+
+
+--
+-- Name: jobs_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.jobs_id_seq', 6, true);
+
+
+--
+-- Name: jobs_localizations_links_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.jobs_localizations_links_id_seq', 2, true);
+
+
+--
+-- Name: languages_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.languages_id_seq', 4, true);
+
+
+--
+-- Name: languages_localizations_links_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.languages_localizations_links_id_seq', 1, false);
+
+
+--
+-- Name: menu_items_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.menu_items_id_seq', 1, false);
+
+
+--
+-- Name: menu_items_parent_links_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.menu_items_parent_links_id_seq', 1, false);
+
+
+--
+-- Name: menu_items_root_menu_links_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.menu_items_root_menu_links_id_seq', 1, false);
+
+
+--
+-- Name: menus_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.menus_id_seq', 1, false);
+
+
+--
+-- Name: podcasts_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.podcasts_id_seq', 10, true);
+
+
+--
+-- Name: projects_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.projects_id_seq', 7, true);
+
+
+--
+-- Name: projects_localizations_links_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.projects_localizations_links_id_seq', 1, false);
+
+
+--
+-- Name: projects_versions_links_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.projects_versions_links_id_seq', 1, false);
+
+
+--
+-- Name: publications_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.publications_id_seq', 4, true);
+
+
+--
+-- Name: publications_localizations_links_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.publications_localizations_links_id_seq', 1, false);
+
+
+--
+-- Name: random_facts_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.random_facts_id_seq', 11, true);
+
+
+--
+-- Name: random_facts_localizations_links_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.random_facts_localizations_links_id_seq', 1, false);
+
+
+--
+-- Name: recruiters_pages_components_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.recruiters_pages_components_id_seq', 179, true);
+
+
+--
+-- Name: recruiters_pages_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.recruiters_pages_id_seq', 3, true);
+
+
+--
+-- Name: recruiters_pages_localizations_links_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.recruiters_pages_localizations_links_id_seq', 1, false);
+
+
+--
+-- Name: recruiters_pages_versions_links_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.recruiters_pages_versions_links_id_seq', 1, false);
+
+
+--
+-- Name: schools_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.schools_id_seq', 4, true);
+
+
+--
+-- Name: schools_localizations_links_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.schools_localizations_links_id_seq', 1, false);
+
+
+--
+-- Name: skills_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.skills_id_seq', 2, true);
+
+
+--
+-- Name: skills_localizations_links_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.skills_localizations_links_id_seq', 1, false);
+
+
+--
+-- Name: software_development_intros_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.software_development_intros_id_seq', 1, true);
+
+
+--
+-- Name: software_development_intros_localizations_links_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.software_development_intros_localizations_links_id_seq', 1, false);
+
+
+--
+-- Name: software_development_intros_versions_links_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.software_development_intros_versions_links_id_seq', 1, false);
+
+
+--
+-- Name: strapi_api_token_permissions_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.strapi_api_token_permissions_id_seq', 1, false);
+
+
+--
+-- Name: strapi_api_token_permissions_token_links_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.strapi_api_token_permissions_token_links_id_seq', 1, false);
+
+
+--
+-- Name: strapi_api_tokens_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.strapi_api_tokens_id_seq', 1, false);
+
+
+--
+-- Name: strapi_core_store_settings_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.strapi_core_store_settings_id_seq', 47, true);
+
+
+--
+-- Name: strapi_database_schema_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.strapi_database_schema_id_seq', 29, true);
+
+
+--
+-- Name: strapi_migrations_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.strapi_migrations_id_seq', 1, false);
+
+
+--
+-- Name: strapi_transfer_token_permissions_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.strapi_transfer_token_permissions_id_seq', 1, false);
+
+
+--
+-- Name: strapi_transfer_token_permissions_token_links_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.strapi_transfer_token_permissions_token_links_id_seq', 1, false);
+
+
+--
+-- Name: strapi_transfer_tokens_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.strapi_transfer_tokens_id_seq', 1, false);
+
+
+--
+-- Name: strapi_webhooks_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.strapi_webhooks_id_seq', 1, false);
+
+
+--
+-- Name: tv_shows_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.tv_shows_id_seq', 11, true);
+
+
+--
+-- Name: up_permissions_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.up_permissions_id_seq', 38, true);
+
+
+--
+-- Name: up_permissions_role_links_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.up_permissions_role_links_id_seq', 38, true);
+
+
+--
+-- Name: up_roles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.up_roles_id_seq', 2, true);
+
+
+--
+-- Name: up_users_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.up_users_id_seq', 1, false);
+
+
+--
+-- Name: up_users_role_links_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.up_users_role_links_id_seq', 1, false);
+
+
+--
+-- Name: upload_folders_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.upload_folders_id_seq', 11, true);
+
+
+--
+-- Name: upload_folders_parent_links_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.upload_folders_parent_links_id_seq', 1, false);
+
+
+--
+-- Name: uses_pages_components_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.uses_pages_components_id_seq', 45, true);
+
+
+--
+-- Name: uses_pages_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.uses_pages_id_seq', 1, true);
+
+
+--
+-- Name: uses_pages_localizations_links_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.uses_pages_localizations_links_id_seq', 1, false);
+
+
+--
+-- Name: uses_pages_versions_links_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.uses_pages_versions_links_id_seq', 1, false);
+
+
+--
+-- Name: video_games_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.video_games_id_seq', 17, true);
+
+
+--
+-- Name: admin_permissions admin_permissions_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.admin_permissions
+    ADD CONSTRAINT admin_permissions_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: admin_permissions_role_links admin_permissions_role_links_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.admin_permissions_role_links
+    ADD CONSTRAINT admin_permissions_role_links_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: admin_permissions_role_links admin_permissions_role_links_unique; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.admin_permissions_role_links
+    ADD CONSTRAINT admin_permissions_role_links_unique UNIQUE (permission_id, role_id);
+
+
+--
+-- Name: admin_roles admin_roles_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.admin_roles
+    ADD CONSTRAINT admin_roles_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: admin_users admin_users_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.admin_users
+    ADD CONSTRAINT admin_users_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: admin_users_roles_links admin_users_roles_links_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.admin_users_roles_links
+    ADD CONSTRAINT admin_users_roles_links_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: admin_users_roles_links admin_users_roles_links_unique; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.admin_users_roles_links
+    ADD CONSTRAINT admin_users_roles_links_unique UNIQUE (user_id, role_id);
+
+
+--
+-- Name: books_localizations_links books_localizations_links_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.books_localizations_links
+    ADD CONSTRAINT books_localizations_links_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: books_localizations_links books_localizations_links_unique; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.books_localizations_links
+    ADD CONSTRAINT books_localizations_links_unique UNIQUE (book_id, inv_book_id);
+
+
+--
+-- Name: books books_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.books
+    ADD CONSTRAINT books_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: code_snippets code_snippets_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.code_snippets
+    ADD CONSTRAINT code_snippets_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: components_shared_meta_socials components_shared_meta_socials_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.components_shared_meta_socials
+    ADD CONSTRAINT components_shared_meta_socials_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: components_shared_seos_components components_shared_seos_components_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.components_shared_seos_components
+    ADD CONSTRAINT components_shared_seos_components_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: components_shared_seos components_shared_seos_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.components_shared_seos
+    ADD CONSTRAINT components_shared_seos_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: components_shared_seos_components components_shared_seos_unique; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.components_shared_seos_components
+    ADD CONSTRAINT components_shared_seos_unique UNIQUE (entity_id, component_id, field, component_type);
+
+
+--
+-- Name: components_shared_titled_paragraphs components_shared_titled_paragraphs_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.components_shared_titled_paragraphs
+    ADD CONSTRAINT components_shared_titled_paragraphs_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: files_folder_links files_folder_links_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.files_folder_links
+    ADD CONSTRAINT files_folder_links_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: files_folder_links files_folder_links_unique; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.files_folder_links
+    ADD CONSTRAINT files_folder_links_unique UNIQUE (file_id, folder_id);
+
+
+--
+-- Name: files files_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.files
+    ADD CONSTRAINT files_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: files_related_morphs files_related_morphs_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.files_related_morphs
+    ADD CONSTRAINT files_related_morphs_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: home_pages_localizations_links home_pages_localizations_links_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.home_pages_localizations_links
+    ADD CONSTRAINT home_pages_localizations_links_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: home_pages_localizations_links home_pages_localizations_links_unique; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.home_pages_localizations_links
+    ADD CONSTRAINT home_pages_localizations_links_unique UNIQUE (home_page_id, inv_home_page_id);
+
+
+--
+-- Name: home_pages home_pages_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.home_pages
+    ADD CONSTRAINT home_pages_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: home_pages_versions_links home_pages_versions_links_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.home_pages_versions_links
+    ADD CONSTRAINT home_pages_versions_links_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: home_pages_versions_links home_pages_versions_links_unique; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.home_pages_versions_links
+    ADD CONSTRAINT home_pages_versions_links_unique UNIQUE (home_page_id, inv_home_page_id);
+
+
+--
+-- Name: i18n_locale i18n_locale_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.i18n_locale
+    ADD CONSTRAINT i18n_locale_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: iconlibrary iconlibrary_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.iconlibrary
+    ADD CONSTRAINT iconlibrary_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: jobs_localizations_links jobs_localizations_links_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.jobs_localizations_links
+    ADD CONSTRAINT jobs_localizations_links_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: jobs_localizations_links jobs_localizations_links_unique; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.jobs_localizations_links
+    ADD CONSTRAINT jobs_localizations_links_unique UNIQUE (job_id, inv_job_id);
+
+
+--
+-- Name: jobs jobs_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.jobs
+    ADD CONSTRAINT jobs_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: languages_localizations_links languages_localizations_links_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.languages_localizations_links
+    ADD CONSTRAINT languages_localizations_links_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: languages_localizations_links languages_localizations_links_unique; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.languages_localizations_links
+    ADD CONSTRAINT languages_localizations_links_unique UNIQUE (language_id, inv_language_id);
+
+
+--
+-- Name: languages languages_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.languages
+    ADD CONSTRAINT languages_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: menu_items_parent_links menu_items_parent_links_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.menu_items_parent_links
+    ADD CONSTRAINT menu_items_parent_links_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: menu_items_parent_links menu_items_parent_links_unique; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.menu_items_parent_links
+    ADD CONSTRAINT menu_items_parent_links_unique UNIQUE (menu_item_id, inv_menu_item_id);
+
+
+--
+-- Name: menu_items menu_items_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.menu_items
+    ADD CONSTRAINT menu_items_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: menu_items_root_menu_links menu_items_root_menu_links_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.menu_items_root_menu_links
+    ADD CONSTRAINT menu_items_root_menu_links_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: menu_items_root_menu_links menu_items_root_menu_links_unique; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.menu_items_root_menu_links
+    ADD CONSTRAINT menu_items_root_menu_links_unique UNIQUE (menu_item_id, menu_id);
+
+
+--
+-- Name: menus menus_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.menus
+    ADD CONSTRAINT menus_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: menus menus_slug_unique; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.menus
+    ADD CONSTRAINT menus_slug_unique UNIQUE (slug);
+
+
+--
+-- Name: podcasts podcasts_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.podcasts
+    ADD CONSTRAINT podcasts_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: projects_localizations_links projects_localizations_links_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.projects_localizations_links
+    ADD CONSTRAINT projects_localizations_links_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: projects_localizations_links projects_localizations_links_unique; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.projects_localizations_links
+    ADD CONSTRAINT projects_localizations_links_unique UNIQUE (project_id, inv_project_id);
+
+
+--
+-- Name: projects projects_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.projects
+    ADD CONSTRAINT projects_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: projects_versions_links projects_versions_links_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.projects_versions_links
+    ADD CONSTRAINT projects_versions_links_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: projects_versions_links projects_versions_links_unique; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.projects_versions_links
+    ADD CONSTRAINT projects_versions_links_unique UNIQUE (project_id, inv_project_id);
+
+
+--
+-- Name: publications_localizations_links publications_localizations_links_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.publications_localizations_links
+    ADD CONSTRAINT publications_localizations_links_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: publications_localizations_links publications_localizations_links_unique; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.publications_localizations_links
+    ADD CONSTRAINT publications_localizations_links_unique UNIQUE (publication_id, inv_publication_id);
+
+
+--
+-- Name: publications publications_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.publications
+    ADD CONSTRAINT publications_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: random_facts_localizations_links random_facts_localizations_links_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.random_facts_localizations_links
+    ADD CONSTRAINT random_facts_localizations_links_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: random_facts_localizations_links random_facts_localizations_links_unique; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.random_facts_localizations_links
+    ADD CONSTRAINT random_facts_localizations_links_unique UNIQUE (random_fact_id, inv_random_fact_id);
+
+
+--
+-- Name: random_facts random_facts_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.random_facts
+    ADD CONSTRAINT random_facts_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: recruiters_pages_components recruiters_pages_components_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.recruiters_pages_components
+    ADD CONSTRAINT recruiters_pages_components_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: recruiters_pages_localizations_links recruiters_pages_localizations_links_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.recruiters_pages_localizations_links
+    ADD CONSTRAINT recruiters_pages_localizations_links_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: recruiters_pages_localizations_links recruiters_pages_localizations_links_unique; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.recruiters_pages_localizations_links
+    ADD CONSTRAINT recruiters_pages_localizations_links_unique UNIQUE (recruiters_page_id, inv_recruiters_page_id);
+
+
+--
+-- Name: recruiters_pages recruiters_pages_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.recruiters_pages
+    ADD CONSTRAINT recruiters_pages_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: recruiters_pages_components recruiters_pages_unique; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.recruiters_pages_components
+    ADD CONSTRAINT recruiters_pages_unique UNIQUE (entity_id, component_id, field, component_type);
+
+
+--
+-- Name: recruiters_pages_versions_links recruiters_pages_versions_links_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.recruiters_pages_versions_links
+    ADD CONSTRAINT recruiters_pages_versions_links_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: recruiters_pages_versions_links recruiters_pages_versions_links_unique; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.recruiters_pages_versions_links
+    ADD CONSTRAINT recruiters_pages_versions_links_unique UNIQUE (recruiters_page_id, inv_recruiters_page_id);
+
+
+--
+-- Name: schools_localizations_links schools_localizations_links_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.schools_localizations_links
+    ADD CONSTRAINT schools_localizations_links_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: schools_localizations_links schools_localizations_links_unique; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.schools_localizations_links
+    ADD CONSTRAINT schools_localizations_links_unique UNIQUE (school_id, inv_school_id);
+
+
+--
+-- Name: schools schools_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.schools
+    ADD CONSTRAINT schools_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: skills_localizations_links skills_localizations_links_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.skills_localizations_links
+    ADD CONSTRAINT skills_localizations_links_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: skills_localizations_links skills_localizations_links_unique; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.skills_localizations_links
+    ADD CONSTRAINT skills_localizations_links_unique UNIQUE (skill_id, inv_skill_id);
+
+
+--
+-- Name: skills skills_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.skills
+    ADD CONSTRAINT skills_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: software_development_intros_localizations_links software_development_intros_localizations_links_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.software_development_intros_localizations_links
+    ADD CONSTRAINT software_development_intros_localizations_links_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: software_development_intros_localizations_links software_development_intros_localizations_links_unique; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.software_development_intros_localizations_links
+    ADD CONSTRAINT software_development_intros_localizations_links_unique UNIQUE (software_development_intro_id, inv_software_development_intro_id);
+
+
+--
+-- Name: software_development_intros software_development_intros_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.software_development_intros
+    ADD CONSTRAINT software_development_intros_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: software_development_intros_versions_links software_development_intros_versions_links_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.software_development_intros_versions_links
+    ADD CONSTRAINT software_development_intros_versions_links_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: software_development_intros_versions_links software_development_intros_versions_links_unique; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.software_development_intros_versions_links
+    ADD CONSTRAINT software_development_intros_versions_links_unique UNIQUE (software_development_intro_id, inv_software_development_intro_id);
+
+
+--
+-- Name: strapi_api_token_permissions strapi_api_token_permissions_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.strapi_api_token_permissions
+    ADD CONSTRAINT strapi_api_token_permissions_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: strapi_api_token_permissions_token_links strapi_api_token_permissions_token_links_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.strapi_api_token_permissions_token_links
+    ADD CONSTRAINT strapi_api_token_permissions_token_links_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: strapi_api_token_permissions_token_links strapi_api_token_permissions_token_links_unique; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.strapi_api_token_permissions_token_links
+    ADD CONSTRAINT strapi_api_token_permissions_token_links_unique UNIQUE (api_token_permission_id, api_token_id);
+
+
+--
+-- Name: strapi_api_tokens strapi_api_tokens_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.strapi_api_tokens
+    ADD CONSTRAINT strapi_api_tokens_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: strapi_core_store_settings strapi_core_store_settings_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.strapi_core_store_settings
+    ADD CONSTRAINT strapi_core_store_settings_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: strapi_database_schema strapi_database_schema_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.strapi_database_schema
+    ADD CONSTRAINT strapi_database_schema_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: strapi_migrations strapi_migrations_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.strapi_migrations
+    ADD CONSTRAINT strapi_migrations_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: strapi_transfer_token_permissions strapi_transfer_token_permissions_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.strapi_transfer_token_permissions
+    ADD CONSTRAINT strapi_transfer_token_permissions_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: strapi_transfer_token_permissions_token_links strapi_transfer_token_permissions_token_links_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.strapi_transfer_token_permissions_token_links
+    ADD CONSTRAINT strapi_transfer_token_permissions_token_links_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: strapi_transfer_token_permissions_token_links strapi_transfer_token_permissions_token_links_unique; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.strapi_transfer_token_permissions_token_links
+    ADD CONSTRAINT strapi_transfer_token_permissions_token_links_unique UNIQUE (transfer_token_permission_id, transfer_token_id);
+
+
+--
+-- Name: strapi_transfer_tokens strapi_transfer_tokens_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.strapi_transfer_tokens
+    ADD CONSTRAINT strapi_transfer_tokens_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: strapi_webhooks strapi_webhooks_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.strapi_webhooks
+    ADD CONSTRAINT strapi_webhooks_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: tv_shows tv_shows_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.tv_shows
+    ADD CONSTRAINT tv_shows_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: up_permissions up_permissions_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.up_permissions
+    ADD CONSTRAINT up_permissions_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: up_permissions_role_links up_permissions_role_links_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.up_permissions_role_links
+    ADD CONSTRAINT up_permissions_role_links_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: up_permissions_role_links up_permissions_role_links_unique; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.up_permissions_role_links
+    ADD CONSTRAINT up_permissions_role_links_unique UNIQUE (permission_id, role_id);
+
+
+--
+-- Name: up_roles up_roles_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.up_roles
+    ADD CONSTRAINT up_roles_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: up_users up_users_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.up_users
+    ADD CONSTRAINT up_users_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: up_users_role_links up_users_role_links_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.up_users_role_links
+    ADD CONSTRAINT up_users_role_links_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: up_users_role_links up_users_role_links_unique; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.up_users_role_links
+    ADD CONSTRAINT up_users_role_links_unique UNIQUE (user_id, role_id);
+
+
+--
+-- Name: upload_folders_parent_links upload_folders_parent_links_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.upload_folders_parent_links
+    ADD CONSTRAINT upload_folders_parent_links_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: upload_folders_parent_links upload_folders_parent_links_unique; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.upload_folders_parent_links
+    ADD CONSTRAINT upload_folders_parent_links_unique UNIQUE (folder_id, inv_folder_id);
+
+
+--
+-- Name: upload_folders upload_folders_path_id_index; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.upload_folders
+    ADD CONSTRAINT upload_folders_path_id_index UNIQUE (path_id);
+
+
+--
+-- Name: upload_folders upload_folders_path_index; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.upload_folders
+    ADD CONSTRAINT upload_folders_path_index UNIQUE (path);
+
+
+--
+-- Name: upload_folders upload_folders_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.upload_folders
+    ADD CONSTRAINT upload_folders_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: uses_pages_components uses_pages_components_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.uses_pages_components
+    ADD CONSTRAINT uses_pages_components_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: uses_pages_localizations_links uses_pages_localizations_links_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.uses_pages_localizations_links
+    ADD CONSTRAINT uses_pages_localizations_links_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: uses_pages_localizations_links uses_pages_localizations_links_unique; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.uses_pages_localizations_links
+    ADD CONSTRAINT uses_pages_localizations_links_unique UNIQUE (uses_page_id, inv_uses_page_id);
+
+
+--
+-- Name: uses_pages uses_pages_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.uses_pages
+    ADD CONSTRAINT uses_pages_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: uses_pages_components uses_pages_unique; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.uses_pages_components
+    ADD CONSTRAINT uses_pages_unique UNIQUE (entity_id, component_id, field, component_type);
+
+
+--
+-- Name: uses_pages_versions_links uses_pages_versions_links_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.uses_pages_versions_links
+    ADD CONSTRAINT uses_pages_versions_links_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: uses_pages_versions_links uses_pages_versions_links_unique; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.uses_pages_versions_links
+    ADD CONSTRAINT uses_pages_versions_links_unique UNIQUE (uses_page_id, inv_uses_page_id);
+
+
+--
+-- Name: video_games video_games_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.video_games
+    ADD CONSTRAINT video_games_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: admin_permissions_created_by_id_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX admin_permissions_created_by_id_fk ON public.admin_permissions USING btree (created_by_id);
+
+
+--
+-- Name: admin_permissions_role_links_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX admin_permissions_role_links_fk ON public.admin_permissions_role_links USING btree (permission_id);
+
+
+--
+-- Name: admin_permissions_role_links_inv_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX admin_permissions_role_links_inv_fk ON public.admin_permissions_role_links USING btree (role_id);
+
+
+--
+-- Name: admin_permissions_role_links_order_inv_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX admin_permissions_role_links_order_inv_fk ON public.admin_permissions_role_links USING btree (permission_order);
+
+
+--
+-- Name: admin_permissions_updated_by_id_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX admin_permissions_updated_by_id_fk ON public.admin_permissions USING btree (updated_by_id);
+
+
+--
+-- Name: admin_roles_created_by_id_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX admin_roles_created_by_id_fk ON public.admin_roles USING btree (created_by_id);
+
+
+--
+-- Name: admin_roles_updated_by_id_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX admin_roles_updated_by_id_fk ON public.admin_roles USING btree (updated_by_id);
+
+
+--
+-- Name: admin_users_created_by_id_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX admin_users_created_by_id_fk ON public.admin_users USING btree (created_by_id);
+
+
+--
+-- Name: admin_users_roles_links_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX admin_users_roles_links_fk ON public.admin_users_roles_links USING btree (user_id);
+
+
+--
+-- Name: admin_users_roles_links_inv_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX admin_users_roles_links_inv_fk ON public.admin_users_roles_links USING btree (role_id);
+
+
+--
+-- Name: admin_users_roles_links_order_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX admin_users_roles_links_order_fk ON public.admin_users_roles_links USING btree (role_order);
+
+
+--
+-- Name: admin_users_roles_links_order_inv_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX admin_users_roles_links_order_inv_fk ON public.admin_users_roles_links USING btree (user_order);
+
+
+--
+-- Name: admin_users_updated_by_id_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX admin_users_updated_by_id_fk ON public.admin_users USING btree (updated_by_id);
+
+
+--
+-- Name: books_created_by_id_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX books_created_by_id_fk ON public.books USING btree (created_by_id);
+
+
+--
+-- Name: books_localizations_links_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX books_localizations_links_fk ON public.books_localizations_links USING btree (book_id);
+
+
+--
+-- Name: books_localizations_links_inv_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX books_localizations_links_inv_fk ON public.books_localizations_links USING btree (inv_book_id);
+
+
+--
+-- Name: books_localizations_links_order_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX books_localizations_links_order_fk ON public.books_localizations_links USING btree (book_order);
+
+
+--
+-- Name: books_updated_by_id_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX books_updated_by_id_fk ON public.books USING btree (updated_by_id);
+
+
+--
+-- Name: code_snippets_created_by_id_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX code_snippets_created_by_id_fk ON public.code_snippets USING btree (created_by_id);
+
+
+--
+-- Name: code_snippets_updated_by_id_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX code_snippets_updated_by_id_fk ON public.code_snippets USING btree (updated_by_id);
+
+
+--
+-- Name: components_shared_seos_component_type_index; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX components_shared_seos_component_type_index ON public.components_shared_seos_components USING btree (component_type);
+
+
+--
+-- Name: components_shared_seos_entity_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX components_shared_seos_entity_fk ON public.components_shared_seos_components USING btree (entity_id);
+
+
+--
+-- Name: components_shared_seos_field_index; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX components_shared_seos_field_index ON public.components_shared_seos_components USING btree (field);
+
+
+--
+-- Name: files_created_by_id_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX files_created_by_id_fk ON public.files USING btree (created_by_id);
+
+
+--
+-- Name: files_folder_links_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX files_folder_links_fk ON public.files_folder_links USING btree (file_id);
+
+
+--
+-- Name: files_folder_links_inv_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX files_folder_links_inv_fk ON public.files_folder_links USING btree (folder_id);
+
+
+--
+-- Name: files_folder_links_order_inv_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX files_folder_links_order_inv_fk ON public.files_folder_links USING btree (file_order);
+
+
+--
+-- Name: files_related_morphs_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX files_related_morphs_fk ON public.files_related_morphs USING btree (file_id);
+
+
+--
+-- Name: files_related_morphs_id_column_index; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX files_related_morphs_id_column_index ON public.files_related_morphs USING btree (related_id);
+
+
+--
+-- Name: files_related_morphs_order_index; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX files_related_morphs_order_index ON public.files_related_morphs USING btree ("order");
+
+
+--
+-- Name: files_updated_by_id_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX files_updated_by_id_fk ON public.files USING btree (updated_by_id);
+
+
+--
+-- Name: home_pages_created_by_id_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX home_pages_created_by_id_fk ON public.home_pages USING btree (created_by_id);
+
+
+--
+-- Name: home_pages_localizations_links_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX home_pages_localizations_links_fk ON public.home_pages_localizations_links USING btree (home_page_id);
+
+
+--
+-- Name: home_pages_localizations_links_inv_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX home_pages_localizations_links_inv_fk ON public.home_pages_localizations_links USING btree (inv_home_page_id);
+
+
+--
+-- Name: home_pages_localizations_links_order_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX home_pages_localizations_links_order_fk ON public.home_pages_localizations_links USING btree (home_page_order);
+
+
+--
+-- Name: home_pages_updated_by_id_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX home_pages_updated_by_id_fk ON public.home_pages USING btree (updated_by_id);
+
+
+--
+-- Name: home_pages_versions_links_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX home_pages_versions_links_fk ON public.home_pages_versions_links USING btree (home_page_id);
+
+
+--
+-- Name: home_pages_versions_links_inv_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX home_pages_versions_links_inv_fk ON public.home_pages_versions_links USING btree (inv_home_page_id);
+
+
+--
+-- Name: home_pages_versions_links_order_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX home_pages_versions_links_order_fk ON public.home_pages_versions_links USING btree (home_page_order);
+
+
+--
+-- Name: i18n_locale_created_by_id_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX i18n_locale_created_by_id_fk ON public.i18n_locale USING btree (created_by_id);
+
+
+--
+-- Name: i18n_locale_updated_by_id_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX i18n_locale_updated_by_id_fk ON public.i18n_locale USING btree (updated_by_id);
+
+
+--
+-- Name: iconlibrary_created_by_id_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX iconlibrary_created_by_id_fk ON public.iconlibrary USING btree (created_by_id);
+
+
+--
+-- Name: iconlibrary_updated_by_id_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX iconlibrary_updated_by_id_fk ON public.iconlibrary USING btree (updated_by_id);
+
+
+--
+-- Name: jobs_created_by_id_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX jobs_created_by_id_fk ON public.jobs USING btree (created_by_id);
+
+
+--
+-- Name: jobs_localizations_links_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX jobs_localizations_links_fk ON public.jobs_localizations_links USING btree (job_id);
+
+
+--
+-- Name: jobs_localizations_links_inv_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX jobs_localizations_links_inv_fk ON public.jobs_localizations_links USING btree (inv_job_id);
+
+
+--
+-- Name: jobs_localizations_links_order_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX jobs_localizations_links_order_fk ON public.jobs_localizations_links USING btree (job_order);
+
+
+--
+-- Name: jobs_updated_by_id_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX jobs_updated_by_id_fk ON public.jobs USING btree (updated_by_id);
+
+
+--
+-- Name: languages_created_by_id_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX languages_created_by_id_fk ON public.languages USING btree (created_by_id);
+
+
+--
+-- Name: languages_localizations_links_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX languages_localizations_links_fk ON public.languages_localizations_links USING btree (language_id);
+
+
+--
+-- Name: languages_localizations_links_inv_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX languages_localizations_links_inv_fk ON public.languages_localizations_links USING btree (inv_language_id);
+
+
+--
+-- Name: languages_localizations_links_order_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX languages_localizations_links_order_fk ON public.languages_localizations_links USING btree (language_order);
+
+
+--
+-- Name: languages_updated_by_id_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX languages_updated_by_id_fk ON public.languages USING btree (updated_by_id);
+
+
+--
+-- Name: menu_items_created_by_id_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX menu_items_created_by_id_fk ON public.menu_items USING btree (created_by_id);
+
+
+--
+-- Name: menu_items_parent_links_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX menu_items_parent_links_fk ON public.menu_items_parent_links USING btree (menu_item_id);
+
+
+--
+-- Name: menu_items_parent_links_inv_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX menu_items_parent_links_inv_fk ON public.menu_items_parent_links USING btree (inv_menu_item_id);
+
+
+--
+-- Name: menu_items_root_menu_links_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX menu_items_root_menu_links_fk ON public.menu_items_root_menu_links USING btree (menu_item_id);
+
+
+--
+-- Name: menu_items_root_menu_links_inv_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX menu_items_root_menu_links_inv_fk ON public.menu_items_root_menu_links USING btree (menu_id);
+
+
+--
+-- Name: menu_items_root_menu_links_order_inv_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX menu_items_root_menu_links_order_inv_fk ON public.menu_items_root_menu_links USING btree (menu_item_order);
+
+
+--
+-- Name: menu_items_updated_by_id_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX menu_items_updated_by_id_fk ON public.menu_items USING btree (updated_by_id);
+
+
+--
+-- Name: menus_created_by_id_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX menus_created_by_id_fk ON public.menus USING btree (created_by_id);
+
+
+--
+-- Name: menus_updated_by_id_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX menus_updated_by_id_fk ON public.menus USING btree (updated_by_id);
+
+
+--
+-- Name: podcasts_created_by_id_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX podcasts_created_by_id_fk ON public.podcasts USING btree (created_by_id);
+
+
+--
+-- Name: podcasts_updated_by_id_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX podcasts_updated_by_id_fk ON public.podcasts USING btree (updated_by_id);
+
+
+--
+-- Name: projects_created_by_id_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX projects_created_by_id_fk ON public.projects USING btree (created_by_id);
+
+
+--
+-- Name: projects_localizations_links_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX projects_localizations_links_fk ON public.projects_localizations_links USING btree (project_id);
+
+
+--
+-- Name: projects_localizations_links_inv_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX projects_localizations_links_inv_fk ON public.projects_localizations_links USING btree (inv_project_id);
+
+
+--
+-- Name: projects_localizations_links_order_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX projects_localizations_links_order_fk ON public.projects_localizations_links USING btree (project_order);
+
+
+--
+-- Name: projects_updated_by_id_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX projects_updated_by_id_fk ON public.projects USING btree (updated_by_id);
+
+
+--
+-- Name: projects_versions_links_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX projects_versions_links_fk ON public.projects_versions_links USING btree (project_id);
+
+
+--
+-- Name: projects_versions_links_inv_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX projects_versions_links_inv_fk ON public.projects_versions_links USING btree (inv_project_id);
+
+
+--
+-- Name: projects_versions_links_order_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX projects_versions_links_order_fk ON public.projects_versions_links USING btree (project_order);
+
+
+--
+-- Name: publications_created_by_id_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX publications_created_by_id_fk ON public.publications USING btree (created_by_id);
+
+
+--
+-- Name: publications_localizations_links_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX publications_localizations_links_fk ON public.publications_localizations_links USING btree (publication_id);
+
+
+--
+-- Name: publications_localizations_links_inv_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX publications_localizations_links_inv_fk ON public.publications_localizations_links USING btree (inv_publication_id);
+
+
+--
+-- Name: publications_localizations_links_order_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX publications_localizations_links_order_fk ON public.publications_localizations_links USING btree (publication_order);
+
+
+--
+-- Name: publications_updated_by_id_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX publications_updated_by_id_fk ON public.publications USING btree (updated_by_id);
+
+
+--
+-- Name: random_facts_created_by_id_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX random_facts_created_by_id_fk ON public.random_facts USING btree (created_by_id);
+
+
+--
+-- Name: random_facts_localizations_links_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX random_facts_localizations_links_fk ON public.random_facts_localizations_links USING btree (random_fact_id);
+
+
+--
+-- Name: random_facts_localizations_links_inv_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX random_facts_localizations_links_inv_fk ON public.random_facts_localizations_links USING btree (inv_random_fact_id);
+
+
+--
+-- Name: random_facts_localizations_links_order_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX random_facts_localizations_links_order_fk ON public.random_facts_localizations_links USING btree (random_fact_order);
+
+
+--
+-- Name: random_facts_updated_by_id_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX random_facts_updated_by_id_fk ON public.random_facts USING btree (updated_by_id);
+
+
+--
+-- Name: recruiters_pages_component_type_index; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX recruiters_pages_component_type_index ON public.recruiters_pages_components USING btree (component_type);
+
+
+--
+-- Name: recruiters_pages_created_by_id_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX recruiters_pages_created_by_id_fk ON public.recruiters_pages USING btree (created_by_id);
+
+
+--
+-- Name: recruiters_pages_entity_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX recruiters_pages_entity_fk ON public.recruiters_pages_components USING btree (entity_id);
+
+
+--
+-- Name: recruiters_pages_field_index; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX recruiters_pages_field_index ON public.recruiters_pages_components USING btree (field);
+
+
+--
+-- Name: recruiters_pages_localizations_links_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX recruiters_pages_localizations_links_fk ON public.recruiters_pages_localizations_links USING btree (recruiters_page_id);
+
+
+--
+-- Name: recruiters_pages_localizations_links_inv_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX recruiters_pages_localizations_links_inv_fk ON public.recruiters_pages_localizations_links USING btree (inv_recruiters_page_id);
+
+
+--
+-- Name: recruiters_pages_localizations_links_order_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX recruiters_pages_localizations_links_order_fk ON public.recruiters_pages_localizations_links USING btree (recruiters_page_order);
+
+
+--
+-- Name: recruiters_pages_updated_by_id_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX recruiters_pages_updated_by_id_fk ON public.recruiters_pages USING btree (updated_by_id);
+
+
+--
+-- Name: recruiters_pages_versions_links_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX recruiters_pages_versions_links_fk ON public.recruiters_pages_versions_links USING btree (recruiters_page_id);
+
+
+--
+-- Name: recruiters_pages_versions_links_inv_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX recruiters_pages_versions_links_inv_fk ON public.recruiters_pages_versions_links USING btree (inv_recruiters_page_id);
+
+
+--
+-- Name: recruiters_pages_versions_links_order_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX recruiters_pages_versions_links_order_fk ON public.recruiters_pages_versions_links USING btree (recruiters_page_order);
+
+
+--
+-- Name: schools_created_by_id_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX schools_created_by_id_fk ON public.schools USING btree (created_by_id);
+
+
+--
+-- Name: schools_localizations_links_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX schools_localizations_links_fk ON public.schools_localizations_links USING btree (school_id);
+
+
+--
+-- Name: schools_localizations_links_inv_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX schools_localizations_links_inv_fk ON public.schools_localizations_links USING btree (inv_school_id);
+
+
+--
+-- Name: schools_localizations_links_order_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX schools_localizations_links_order_fk ON public.schools_localizations_links USING btree (school_order);
+
+
+--
+-- Name: schools_updated_by_id_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX schools_updated_by_id_fk ON public.schools USING btree (updated_by_id);
+
+
+--
+-- Name: skills_created_by_id_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX skills_created_by_id_fk ON public.skills USING btree (created_by_id);
+
+
+--
+-- Name: skills_localizations_links_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX skills_localizations_links_fk ON public.skills_localizations_links USING btree (skill_id);
+
+
+--
+-- Name: skills_localizations_links_inv_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX skills_localizations_links_inv_fk ON public.skills_localizations_links USING btree (inv_skill_id);
+
+
+--
+-- Name: skills_localizations_links_order_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX skills_localizations_links_order_fk ON public.skills_localizations_links USING btree (skill_order);
+
+
+--
+-- Name: skills_updated_by_id_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX skills_updated_by_id_fk ON public.skills USING btree (updated_by_id);
+
+
+--
+-- Name: software_development_intros_created_by_id_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX software_development_intros_created_by_id_fk ON public.software_development_intros USING btree (created_by_id);
+
+
+--
+-- Name: software_development_intros_localizations_links_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX software_development_intros_localizations_links_fk ON public.software_development_intros_localizations_links USING btree (software_development_intro_id);
+
+
+--
+-- Name: software_development_intros_localizations_links_inv_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX software_development_intros_localizations_links_inv_fk ON public.software_development_intros_localizations_links USING btree (inv_software_development_intro_id);
+
+
+--
+-- Name: software_development_intros_localizations_links_order_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX software_development_intros_localizations_links_order_fk ON public.software_development_intros_localizations_links USING btree (software_development_intro_order);
+
+
+--
+-- Name: software_development_intros_updated_by_id_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX software_development_intros_updated_by_id_fk ON public.software_development_intros USING btree (updated_by_id);
+
+
+--
+-- Name: software_development_intros_versions_links_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX software_development_intros_versions_links_fk ON public.software_development_intros_versions_links USING btree (software_development_intro_id);
+
+
+--
+-- Name: software_development_intros_versions_links_inv_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX software_development_intros_versions_links_inv_fk ON public.software_development_intros_versions_links USING btree (inv_software_development_intro_id);
+
+
+--
+-- Name: software_development_intros_versions_links_order_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX software_development_intros_versions_links_order_fk ON public.software_development_intros_versions_links USING btree (software_development_intro_order);
+
+
+--
+-- Name: strapi_api_token_permissions_created_by_id_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX strapi_api_token_permissions_created_by_id_fk ON public.strapi_api_token_permissions USING btree (created_by_id);
+
+
+--
+-- Name: strapi_api_token_permissions_token_links_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX strapi_api_token_permissions_token_links_fk ON public.strapi_api_token_permissions_token_links USING btree (api_token_permission_id);
+
+
+--
+-- Name: strapi_api_token_permissions_token_links_inv_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX strapi_api_token_permissions_token_links_inv_fk ON public.strapi_api_token_permissions_token_links USING btree (api_token_id);
+
+
+--
+-- Name: strapi_api_token_permissions_token_links_order_inv_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX strapi_api_token_permissions_token_links_order_inv_fk ON public.strapi_api_token_permissions_token_links USING btree (api_token_permission_order);
+
+
+--
+-- Name: strapi_api_token_permissions_updated_by_id_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX strapi_api_token_permissions_updated_by_id_fk ON public.strapi_api_token_permissions USING btree (updated_by_id);
+
+
+--
+-- Name: strapi_api_tokens_created_by_id_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX strapi_api_tokens_created_by_id_fk ON public.strapi_api_tokens USING btree (created_by_id);
+
+
+--
+-- Name: strapi_api_tokens_updated_by_id_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX strapi_api_tokens_updated_by_id_fk ON public.strapi_api_tokens USING btree (updated_by_id);
+
+
+--
+-- Name: strapi_transfer_token_permissions_created_by_id_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX strapi_transfer_token_permissions_created_by_id_fk ON public.strapi_transfer_token_permissions USING btree (created_by_id);
+
+
+--
+-- Name: strapi_transfer_token_permissions_token_links_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX strapi_transfer_token_permissions_token_links_fk ON public.strapi_transfer_token_permissions_token_links USING btree (transfer_token_permission_id);
+
+
+--
+-- Name: strapi_transfer_token_permissions_token_links_inv_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX strapi_transfer_token_permissions_token_links_inv_fk ON public.strapi_transfer_token_permissions_token_links USING btree (transfer_token_id);
+
+
+--
+-- Name: strapi_transfer_token_permissions_token_links_order_inv_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX strapi_transfer_token_permissions_token_links_order_inv_fk ON public.strapi_transfer_token_permissions_token_links USING btree (transfer_token_permission_order);
+
+
+--
+-- Name: strapi_transfer_token_permissions_updated_by_id_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX strapi_transfer_token_permissions_updated_by_id_fk ON public.strapi_transfer_token_permissions USING btree (updated_by_id);
+
+
+--
+-- Name: strapi_transfer_tokens_created_by_id_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX strapi_transfer_tokens_created_by_id_fk ON public.strapi_transfer_tokens USING btree (created_by_id);
+
+
+--
+-- Name: strapi_transfer_tokens_updated_by_id_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX strapi_transfer_tokens_updated_by_id_fk ON public.strapi_transfer_tokens USING btree (updated_by_id);
+
+
+--
+-- Name: tv_shows_created_by_id_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX tv_shows_created_by_id_fk ON public.tv_shows USING btree (created_by_id);
+
+
+--
+-- Name: tv_shows_updated_by_id_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX tv_shows_updated_by_id_fk ON public.tv_shows USING btree (updated_by_id);
+
+
+--
+-- Name: up_permissions_created_by_id_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX up_permissions_created_by_id_fk ON public.up_permissions USING btree (created_by_id);
+
+
+--
+-- Name: up_permissions_role_links_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX up_permissions_role_links_fk ON public.up_permissions_role_links USING btree (permission_id);
+
+
+--
+-- Name: up_permissions_role_links_inv_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX up_permissions_role_links_inv_fk ON public.up_permissions_role_links USING btree (role_id);
+
+
+--
+-- Name: up_permissions_role_links_order_inv_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX up_permissions_role_links_order_inv_fk ON public.up_permissions_role_links USING btree (permission_order);
+
+
+--
+-- Name: up_permissions_updated_by_id_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX up_permissions_updated_by_id_fk ON public.up_permissions USING btree (updated_by_id);
+
+
+--
+-- Name: up_roles_created_by_id_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX up_roles_created_by_id_fk ON public.up_roles USING btree (created_by_id);
+
+
+--
+-- Name: up_roles_updated_by_id_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX up_roles_updated_by_id_fk ON public.up_roles USING btree (updated_by_id);
+
+
+--
+-- Name: up_users_created_by_id_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX up_users_created_by_id_fk ON public.up_users USING btree (created_by_id);
+
+
+--
+-- Name: up_users_role_links_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX up_users_role_links_fk ON public.up_users_role_links USING btree (user_id);
+
+
+--
+-- Name: up_users_role_links_inv_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX up_users_role_links_inv_fk ON public.up_users_role_links USING btree (role_id);
+
+
+--
+-- Name: up_users_role_links_order_inv_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX up_users_role_links_order_inv_fk ON public.up_users_role_links USING btree (user_order);
+
+
+--
+-- Name: up_users_updated_by_id_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX up_users_updated_by_id_fk ON public.up_users USING btree (updated_by_id);
+
+
+--
+-- Name: upload_files_created_at_index; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX upload_files_created_at_index ON public.files USING btree (created_at);
+
+
+--
+-- Name: upload_files_ext_index; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX upload_files_ext_index ON public.files USING btree (ext);
+
+
+--
+-- Name: upload_files_folder_path_index; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX upload_files_folder_path_index ON public.files USING btree (folder_path);
+
+
+--
+-- Name: upload_files_name_index; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX upload_files_name_index ON public.files USING btree (name);
+
+
+--
+-- Name: upload_files_size_index; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX upload_files_size_index ON public.files USING btree (size);
+
+
+--
+-- Name: upload_files_updated_at_index; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX upload_files_updated_at_index ON public.files USING btree (updated_at);
+
+
+--
+-- Name: upload_folders_created_by_id_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX upload_folders_created_by_id_fk ON public.upload_folders USING btree (created_by_id);
+
+
+--
+-- Name: upload_folders_parent_links_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX upload_folders_parent_links_fk ON public.upload_folders_parent_links USING btree (folder_id);
+
+
+--
+-- Name: upload_folders_parent_links_inv_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX upload_folders_parent_links_inv_fk ON public.upload_folders_parent_links USING btree (inv_folder_id);
+
+
+--
+-- Name: upload_folders_parent_links_order_inv_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX upload_folders_parent_links_order_inv_fk ON public.upload_folders_parent_links USING btree (folder_order);
+
+
+--
+-- Name: upload_folders_updated_by_id_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX upload_folders_updated_by_id_fk ON public.upload_folders USING btree (updated_by_id);
+
+
+--
+-- Name: uses_pages_component_type_index; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX uses_pages_component_type_index ON public.uses_pages_components USING btree (component_type);
+
+
+--
+-- Name: uses_pages_created_by_id_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX uses_pages_created_by_id_fk ON public.uses_pages USING btree (created_by_id);
+
+
+--
+-- Name: uses_pages_entity_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX uses_pages_entity_fk ON public.uses_pages_components USING btree (entity_id);
+
+
+--
+-- Name: uses_pages_field_index; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX uses_pages_field_index ON public.uses_pages_components USING btree (field);
+
+
+--
+-- Name: uses_pages_localizations_links_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX uses_pages_localizations_links_fk ON public.uses_pages_localizations_links USING btree (uses_page_id);
+
+
+--
+-- Name: uses_pages_localizations_links_inv_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX uses_pages_localizations_links_inv_fk ON public.uses_pages_localizations_links USING btree (inv_uses_page_id);
+
+
+--
+-- Name: uses_pages_localizations_links_order_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX uses_pages_localizations_links_order_fk ON public.uses_pages_localizations_links USING btree (uses_page_order);
+
+
+--
+-- Name: uses_pages_updated_by_id_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX uses_pages_updated_by_id_fk ON public.uses_pages USING btree (updated_by_id);
+
+
+--
+-- Name: uses_pages_versions_links_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX uses_pages_versions_links_fk ON public.uses_pages_versions_links USING btree (uses_page_id);
+
+
+--
+-- Name: uses_pages_versions_links_inv_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX uses_pages_versions_links_inv_fk ON public.uses_pages_versions_links USING btree (inv_uses_page_id);
+
+
+--
+-- Name: uses_pages_versions_links_order_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX uses_pages_versions_links_order_fk ON public.uses_pages_versions_links USING btree (uses_page_order);
+
+
+--
+-- Name: video_games_created_by_id_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX video_games_created_by_id_fk ON public.video_games USING btree (created_by_id);
+
+
+--
+-- Name: video_games_updated_by_id_fk; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE INDEX video_games_updated_by_id_fk ON public.video_games USING btree (updated_by_id);
+
+
+--
+-- Name: admin_permissions admin_permissions_created_by_id_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.admin_permissions
+    ADD CONSTRAINT admin_permissions_created_by_id_fk FOREIGN KEY (created_by_id) REFERENCES public.admin_users(id) ON DELETE SET NULL;
+
+
+--
+-- Name: admin_permissions_role_links admin_permissions_role_links_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.admin_permissions_role_links
+    ADD CONSTRAINT admin_permissions_role_links_fk FOREIGN KEY (permission_id) REFERENCES public.admin_permissions(id) ON DELETE CASCADE;
+
+
+--
+-- Name: admin_permissions_role_links admin_permissions_role_links_inv_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.admin_permissions_role_links
+    ADD CONSTRAINT admin_permissions_role_links_inv_fk FOREIGN KEY (role_id) REFERENCES public.admin_roles(id) ON DELETE CASCADE;
+
+
+--
+-- Name: admin_permissions admin_permissions_updated_by_id_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.admin_permissions
+    ADD CONSTRAINT admin_permissions_updated_by_id_fk FOREIGN KEY (updated_by_id) REFERENCES public.admin_users(id) ON DELETE SET NULL;
+
+
+--
+-- Name: admin_roles admin_roles_created_by_id_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.admin_roles
+    ADD CONSTRAINT admin_roles_created_by_id_fk FOREIGN KEY (created_by_id) REFERENCES public.admin_users(id) ON DELETE SET NULL;
+
+
+--
+-- Name: admin_roles admin_roles_updated_by_id_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.admin_roles
+    ADD CONSTRAINT admin_roles_updated_by_id_fk FOREIGN KEY (updated_by_id) REFERENCES public.admin_users(id) ON DELETE SET NULL;
+
+
+--
+-- Name: admin_users admin_users_created_by_id_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.admin_users
+    ADD CONSTRAINT admin_users_created_by_id_fk FOREIGN KEY (created_by_id) REFERENCES public.admin_users(id) ON DELETE SET NULL;
+
+
+--
+-- Name: admin_users_roles_links admin_users_roles_links_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.admin_users_roles_links
+    ADD CONSTRAINT admin_users_roles_links_fk FOREIGN KEY (user_id) REFERENCES public.admin_users(id) ON DELETE CASCADE;
+
+
+--
+-- Name: admin_users_roles_links admin_users_roles_links_inv_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.admin_users_roles_links
+    ADD CONSTRAINT admin_users_roles_links_inv_fk FOREIGN KEY (role_id) REFERENCES public.admin_roles(id) ON DELETE CASCADE;
+
+
+--
+-- Name: admin_users admin_users_updated_by_id_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.admin_users
+    ADD CONSTRAINT admin_users_updated_by_id_fk FOREIGN KEY (updated_by_id) REFERENCES public.admin_users(id) ON DELETE SET NULL;
+
+
+--
+-- Name: books books_created_by_id_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.books
+    ADD CONSTRAINT books_created_by_id_fk FOREIGN KEY (created_by_id) REFERENCES public.admin_users(id) ON DELETE SET NULL;
+
+
+--
+-- Name: books_localizations_links books_localizations_links_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.books_localizations_links
+    ADD CONSTRAINT books_localizations_links_fk FOREIGN KEY (book_id) REFERENCES public.books(id) ON DELETE CASCADE;
+
+
+--
+-- Name: books_localizations_links books_localizations_links_inv_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.books_localizations_links
+    ADD CONSTRAINT books_localizations_links_inv_fk FOREIGN KEY (inv_book_id) REFERENCES public.books(id) ON DELETE CASCADE;
+
+
+--
+-- Name: books books_updated_by_id_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.books
+    ADD CONSTRAINT books_updated_by_id_fk FOREIGN KEY (updated_by_id) REFERENCES public.admin_users(id) ON DELETE SET NULL;
+
+
+--
+-- Name: code_snippets code_snippets_created_by_id_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.code_snippets
+    ADD CONSTRAINT code_snippets_created_by_id_fk FOREIGN KEY (created_by_id) REFERENCES public.admin_users(id) ON DELETE SET NULL;
+
+
+--
+-- Name: code_snippets code_snippets_updated_by_id_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.code_snippets
+    ADD CONSTRAINT code_snippets_updated_by_id_fk FOREIGN KEY (updated_by_id) REFERENCES public.admin_users(id) ON DELETE SET NULL;
+
+
+--
+-- Name: components_shared_seos_components components_shared_seos_entity_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.components_shared_seos_components
+    ADD CONSTRAINT components_shared_seos_entity_fk FOREIGN KEY (entity_id) REFERENCES public.components_shared_seos(id) ON DELETE CASCADE;
+
+
+--
+-- Name: files files_created_by_id_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.files
+    ADD CONSTRAINT files_created_by_id_fk FOREIGN KEY (created_by_id) REFERENCES public.admin_users(id) ON DELETE SET NULL;
+
+
+--
+-- Name: files_folder_links files_folder_links_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.files_folder_links
+    ADD CONSTRAINT files_folder_links_fk FOREIGN KEY (file_id) REFERENCES public.files(id) ON DELETE CASCADE;
+
+
+--
+-- Name: files_folder_links files_folder_links_inv_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.files_folder_links
+    ADD CONSTRAINT files_folder_links_inv_fk FOREIGN KEY (folder_id) REFERENCES public.upload_folders(id) ON DELETE CASCADE;
+
+
+--
+-- Name: files_related_morphs files_related_morphs_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.files_related_morphs
+    ADD CONSTRAINT files_related_morphs_fk FOREIGN KEY (file_id) REFERENCES public.files(id) ON DELETE CASCADE;
+
+
+--
+-- Name: files files_updated_by_id_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.files
+    ADD CONSTRAINT files_updated_by_id_fk FOREIGN KEY (updated_by_id) REFERENCES public.admin_users(id) ON DELETE SET NULL;
+
+
+--
+-- Name: home_pages home_pages_created_by_id_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.home_pages
+    ADD CONSTRAINT home_pages_created_by_id_fk FOREIGN KEY (created_by_id) REFERENCES public.admin_users(id) ON DELETE SET NULL;
+
+
+--
+-- Name: home_pages_localizations_links home_pages_localizations_links_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.home_pages_localizations_links
+    ADD CONSTRAINT home_pages_localizations_links_fk FOREIGN KEY (home_page_id) REFERENCES public.home_pages(id) ON DELETE CASCADE;
+
+
+--
+-- Name: home_pages_localizations_links home_pages_localizations_links_inv_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.home_pages_localizations_links
+    ADD CONSTRAINT home_pages_localizations_links_inv_fk FOREIGN KEY (inv_home_page_id) REFERENCES public.home_pages(id) ON DELETE CASCADE;
+
+
+--
+-- Name: home_pages home_pages_updated_by_id_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.home_pages
+    ADD CONSTRAINT home_pages_updated_by_id_fk FOREIGN KEY (updated_by_id) REFERENCES public.admin_users(id) ON DELETE SET NULL;
+
+
+--
+-- Name: home_pages_versions_links home_pages_versions_links_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.home_pages_versions_links
+    ADD CONSTRAINT home_pages_versions_links_fk FOREIGN KEY (home_page_id) REFERENCES public.home_pages(id) ON DELETE CASCADE;
+
+
+--
+-- Name: home_pages_versions_links home_pages_versions_links_inv_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.home_pages_versions_links
+    ADD CONSTRAINT home_pages_versions_links_inv_fk FOREIGN KEY (inv_home_page_id) REFERENCES public.home_pages(id) ON DELETE CASCADE;
+
+
+--
+-- Name: i18n_locale i18n_locale_created_by_id_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.i18n_locale
+    ADD CONSTRAINT i18n_locale_created_by_id_fk FOREIGN KEY (created_by_id) REFERENCES public.admin_users(id) ON DELETE SET NULL;
+
+
+--
+-- Name: i18n_locale i18n_locale_updated_by_id_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.i18n_locale
+    ADD CONSTRAINT i18n_locale_updated_by_id_fk FOREIGN KEY (updated_by_id) REFERENCES public.admin_users(id) ON DELETE SET NULL;
+
+
+--
+-- Name: iconlibrary iconlibrary_created_by_id_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.iconlibrary
+    ADD CONSTRAINT iconlibrary_created_by_id_fk FOREIGN KEY (created_by_id) REFERENCES public.admin_users(id) ON DELETE SET NULL;
+
+
+--
+-- Name: iconlibrary iconlibrary_updated_by_id_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.iconlibrary
+    ADD CONSTRAINT iconlibrary_updated_by_id_fk FOREIGN KEY (updated_by_id) REFERENCES public.admin_users(id) ON DELETE SET NULL;
+
+
+--
+-- Name: jobs jobs_created_by_id_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.jobs
+    ADD CONSTRAINT jobs_created_by_id_fk FOREIGN KEY (created_by_id) REFERENCES public.admin_users(id) ON DELETE SET NULL;
+
+
+--
+-- Name: jobs_localizations_links jobs_localizations_links_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.jobs_localizations_links
+    ADD CONSTRAINT jobs_localizations_links_fk FOREIGN KEY (job_id) REFERENCES public.jobs(id) ON DELETE CASCADE;
+
+
+--
+-- Name: jobs_localizations_links jobs_localizations_links_inv_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.jobs_localizations_links
+    ADD CONSTRAINT jobs_localizations_links_inv_fk FOREIGN KEY (inv_job_id) REFERENCES public.jobs(id) ON DELETE CASCADE;
+
+
+--
+-- Name: jobs jobs_updated_by_id_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.jobs
+    ADD CONSTRAINT jobs_updated_by_id_fk FOREIGN KEY (updated_by_id) REFERENCES public.admin_users(id) ON DELETE SET NULL;
+
+
+--
+-- Name: languages languages_created_by_id_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.languages
+    ADD CONSTRAINT languages_created_by_id_fk FOREIGN KEY (created_by_id) REFERENCES public.admin_users(id) ON DELETE SET NULL;
+
+
+--
+-- Name: languages_localizations_links languages_localizations_links_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.languages_localizations_links
+    ADD CONSTRAINT languages_localizations_links_fk FOREIGN KEY (language_id) REFERENCES public.languages(id) ON DELETE CASCADE;
+
+
+--
+-- Name: languages_localizations_links languages_localizations_links_inv_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.languages_localizations_links
+    ADD CONSTRAINT languages_localizations_links_inv_fk FOREIGN KEY (inv_language_id) REFERENCES public.languages(id) ON DELETE CASCADE;
+
+
+--
+-- Name: languages languages_updated_by_id_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.languages
+    ADD CONSTRAINT languages_updated_by_id_fk FOREIGN KEY (updated_by_id) REFERENCES public.admin_users(id) ON DELETE SET NULL;
+
+
+--
+-- Name: menu_items menu_items_created_by_id_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.menu_items
+    ADD CONSTRAINT menu_items_created_by_id_fk FOREIGN KEY (created_by_id) REFERENCES public.admin_users(id) ON DELETE SET NULL;
+
+
+--
+-- Name: menu_items_parent_links menu_items_parent_links_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.menu_items_parent_links
+    ADD CONSTRAINT menu_items_parent_links_fk FOREIGN KEY (menu_item_id) REFERENCES public.menu_items(id) ON DELETE CASCADE;
+
+
+--
+-- Name: menu_items_parent_links menu_items_parent_links_inv_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.menu_items_parent_links
+    ADD CONSTRAINT menu_items_parent_links_inv_fk FOREIGN KEY (inv_menu_item_id) REFERENCES public.menu_items(id) ON DELETE CASCADE;
+
+
+--
+-- Name: menu_items_root_menu_links menu_items_root_menu_links_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.menu_items_root_menu_links
+    ADD CONSTRAINT menu_items_root_menu_links_fk FOREIGN KEY (menu_item_id) REFERENCES public.menu_items(id) ON DELETE CASCADE;
+
+
+--
+-- Name: menu_items_root_menu_links menu_items_root_menu_links_inv_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.menu_items_root_menu_links
+    ADD CONSTRAINT menu_items_root_menu_links_inv_fk FOREIGN KEY (menu_id) REFERENCES public.menus(id) ON DELETE CASCADE;
+
+
+--
+-- Name: menu_items menu_items_updated_by_id_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.menu_items
+    ADD CONSTRAINT menu_items_updated_by_id_fk FOREIGN KEY (updated_by_id) REFERENCES public.admin_users(id) ON DELETE SET NULL;
+
+
+--
+-- Name: menus menus_created_by_id_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.menus
+    ADD CONSTRAINT menus_created_by_id_fk FOREIGN KEY (created_by_id) REFERENCES public.admin_users(id) ON DELETE SET NULL;
+
+
+--
+-- Name: menus menus_updated_by_id_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.menus
+    ADD CONSTRAINT menus_updated_by_id_fk FOREIGN KEY (updated_by_id) REFERENCES public.admin_users(id) ON DELETE SET NULL;
+
+
+--
+-- Name: podcasts podcasts_created_by_id_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.podcasts
+    ADD CONSTRAINT podcasts_created_by_id_fk FOREIGN KEY (created_by_id) REFERENCES public.admin_users(id) ON DELETE SET NULL;
+
+
+--
+-- Name: podcasts podcasts_updated_by_id_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.podcasts
+    ADD CONSTRAINT podcasts_updated_by_id_fk FOREIGN KEY (updated_by_id) REFERENCES public.admin_users(id) ON DELETE SET NULL;
+
+
+--
+-- Name: projects projects_created_by_id_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.projects
+    ADD CONSTRAINT projects_created_by_id_fk FOREIGN KEY (created_by_id) REFERENCES public.admin_users(id) ON DELETE SET NULL;
+
+
+--
+-- Name: projects_localizations_links projects_localizations_links_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.projects_localizations_links
+    ADD CONSTRAINT projects_localizations_links_fk FOREIGN KEY (project_id) REFERENCES public.projects(id) ON DELETE CASCADE;
+
+
+--
+-- Name: projects_localizations_links projects_localizations_links_inv_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.projects_localizations_links
+    ADD CONSTRAINT projects_localizations_links_inv_fk FOREIGN KEY (inv_project_id) REFERENCES public.projects(id) ON DELETE CASCADE;
+
+
+--
+-- Name: projects projects_updated_by_id_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.projects
+    ADD CONSTRAINT projects_updated_by_id_fk FOREIGN KEY (updated_by_id) REFERENCES public.admin_users(id) ON DELETE SET NULL;
+
+
+--
+-- Name: projects_versions_links projects_versions_links_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.projects_versions_links
+    ADD CONSTRAINT projects_versions_links_fk FOREIGN KEY (project_id) REFERENCES public.projects(id) ON DELETE CASCADE;
+
+
+--
+-- Name: projects_versions_links projects_versions_links_inv_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.projects_versions_links
+    ADD CONSTRAINT projects_versions_links_inv_fk FOREIGN KEY (inv_project_id) REFERENCES public.projects(id) ON DELETE CASCADE;
+
+
+--
+-- Name: publications publications_created_by_id_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.publications
+    ADD CONSTRAINT publications_created_by_id_fk FOREIGN KEY (created_by_id) REFERENCES public.admin_users(id) ON DELETE SET NULL;
+
+
+--
+-- Name: publications_localizations_links publications_localizations_links_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.publications_localizations_links
+    ADD CONSTRAINT publications_localizations_links_fk FOREIGN KEY (publication_id) REFERENCES public.publications(id) ON DELETE CASCADE;
+
+
+--
+-- Name: publications_localizations_links publications_localizations_links_inv_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.publications_localizations_links
+    ADD CONSTRAINT publications_localizations_links_inv_fk FOREIGN KEY (inv_publication_id) REFERENCES public.publications(id) ON DELETE CASCADE;
+
+
+--
+-- Name: publications publications_updated_by_id_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.publications
+    ADD CONSTRAINT publications_updated_by_id_fk FOREIGN KEY (updated_by_id) REFERENCES public.admin_users(id) ON DELETE SET NULL;
+
+
+--
+-- Name: random_facts random_facts_created_by_id_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.random_facts
+    ADD CONSTRAINT random_facts_created_by_id_fk FOREIGN KEY (created_by_id) REFERENCES public.admin_users(id) ON DELETE SET NULL;
+
+
+--
+-- Name: random_facts_localizations_links random_facts_localizations_links_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.random_facts_localizations_links
+    ADD CONSTRAINT random_facts_localizations_links_fk FOREIGN KEY (random_fact_id) REFERENCES public.random_facts(id) ON DELETE CASCADE;
+
+
+--
+-- Name: random_facts_localizations_links random_facts_localizations_links_inv_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.random_facts_localizations_links
+    ADD CONSTRAINT random_facts_localizations_links_inv_fk FOREIGN KEY (inv_random_fact_id) REFERENCES public.random_facts(id) ON DELETE CASCADE;
+
+
+--
+-- Name: random_facts random_facts_updated_by_id_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.random_facts
+    ADD CONSTRAINT random_facts_updated_by_id_fk FOREIGN KEY (updated_by_id) REFERENCES public.admin_users(id) ON DELETE SET NULL;
+
+
+--
+-- Name: recruiters_pages recruiters_pages_created_by_id_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.recruiters_pages
+    ADD CONSTRAINT recruiters_pages_created_by_id_fk FOREIGN KEY (created_by_id) REFERENCES public.admin_users(id) ON DELETE SET NULL;
+
+
+--
+-- Name: recruiters_pages_components recruiters_pages_entity_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.recruiters_pages_components
+    ADD CONSTRAINT recruiters_pages_entity_fk FOREIGN KEY (entity_id) REFERENCES public.recruiters_pages(id) ON DELETE CASCADE;
+
+
+--
+-- Name: recruiters_pages_localizations_links recruiters_pages_localizations_links_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.recruiters_pages_localizations_links
+    ADD CONSTRAINT recruiters_pages_localizations_links_fk FOREIGN KEY (recruiters_page_id) REFERENCES public.recruiters_pages(id) ON DELETE CASCADE;
+
+
+--
+-- Name: recruiters_pages_localizations_links recruiters_pages_localizations_links_inv_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.recruiters_pages_localizations_links
+    ADD CONSTRAINT recruiters_pages_localizations_links_inv_fk FOREIGN KEY (inv_recruiters_page_id) REFERENCES public.recruiters_pages(id) ON DELETE CASCADE;
+
+
+--
+-- Name: recruiters_pages recruiters_pages_updated_by_id_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.recruiters_pages
+    ADD CONSTRAINT recruiters_pages_updated_by_id_fk FOREIGN KEY (updated_by_id) REFERENCES public.admin_users(id) ON DELETE SET NULL;
+
+
+--
+-- Name: recruiters_pages_versions_links recruiters_pages_versions_links_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.recruiters_pages_versions_links
+    ADD CONSTRAINT recruiters_pages_versions_links_fk FOREIGN KEY (recruiters_page_id) REFERENCES public.recruiters_pages(id) ON DELETE CASCADE;
+
+
+--
+-- Name: recruiters_pages_versions_links recruiters_pages_versions_links_inv_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.recruiters_pages_versions_links
+    ADD CONSTRAINT recruiters_pages_versions_links_inv_fk FOREIGN KEY (inv_recruiters_page_id) REFERENCES public.recruiters_pages(id) ON DELETE CASCADE;
+
+
+--
+-- Name: schools schools_created_by_id_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.schools
+    ADD CONSTRAINT schools_created_by_id_fk FOREIGN KEY (created_by_id) REFERENCES public.admin_users(id) ON DELETE SET NULL;
+
+
+--
+-- Name: schools_localizations_links schools_localizations_links_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.schools_localizations_links
+    ADD CONSTRAINT schools_localizations_links_fk FOREIGN KEY (school_id) REFERENCES public.schools(id) ON DELETE CASCADE;
+
+
+--
+-- Name: schools_localizations_links schools_localizations_links_inv_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.schools_localizations_links
+    ADD CONSTRAINT schools_localizations_links_inv_fk FOREIGN KEY (inv_school_id) REFERENCES public.schools(id) ON DELETE CASCADE;
+
+
+--
+-- Name: schools schools_updated_by_id_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.schools
+    ADD CONSTRAINT schools_updated_by_id_fk FOREIGN KEY (updated_by_id) REFERENCES public.admin_users(id) ON DELETE SET NULL;
+
+
+--
+-- Name: skills skills_created_by_id_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.skills
+    ADD CONSTRAINT skills_created_by_id_fk FOREIGN KEY (created_by_id) REFERENCES public.admin_users(id) ON DELETE SET NULL;
+
+
+--
+-- Name: skills_localizations_links skills_localizations_links_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.skills_localizations_links
+    ADD CONSTRAINT skills_localizations_links_fk FOREIGN KEY (skill_id) REFERENCES public.skills(id) ON DELETE CASCADE;
+
+
+--
+-- Name: skills_localizations_links skills_localizations_links_inv_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.skills_localizations_links
+    ADD CONSTRAINT skills_localizations_links_inv_fk FOREIGN KEY (inv_skill_id) REFERENCES public.skills(id) ON DELETE CASCADE;
+
+
+--
+-- Name: skills skills_updated_by_id_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.skills
+    ADD CONSTRAINT skills_updated_by_id_fk FOREIGN KEY (updated_by_id) REFERENCES public.admin_users(id) ON DELETE SET NULL;
+
+
+--
+-- Name: software_development_intros software_development_intros_created_by_id_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.software_development_intros
+    ADD CONSTRAINT software_development_intros_created_by_id_fk FOREIGN KEY (created_by_id) REFERENCES public.admin_users(id) ON DELETE SET NULL;
+
+
+--
+-- Name: software_development_intros_localizations_links software_development_intros_localizations_links_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.software_development_intros_localizations_links
+    ADD CONSTRAINT software_development_intros_localizations_links_fk FOREIGN KEY (software_development_intro_id) REFERENCES public.software_development_intros(id) ON DELETE CASCADE;
+
+
+--
+-- Name: software_development_intros_localizations_links software_development_intros_localizations_links_inv_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.software_development_intros_localizations_links
+    ADD CONSTRAINT software_development_intros_localizations_links_inv_fk FOREIGN KEY (inv_software_development_intro_id) REFERENCES public.software_development_intros(id) ON DELETE CASCADE;
+
+
+--
+-- Name: software_development_intros software_development_intros_updated_by_id_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.software_development_intros
+    ADD CONSTRAINT software_development_intros_updated_by_id_fk FOREIGN KEY (updated_by_id) REFERENCES public.admin_users(id) ON DELETE SET NULL;
+
+
+--
+-- Name: software_development_intros_versions_links software_development_intros_versions_links_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.software_development_intros_versions_links
+    ADD CONSTRAINT software_development_intros_versions_links_fk FOREIGN KEY (software_development_intro_id) REFERENCES public.software_development_intros(id) ON DELETE CASCADE;
+
+
+--
+-- Name: software_development_intros_versions_links software_development_intros_versions_links_inv_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.software_development_intros_versions_links
+    ADD CONSTRAINT software_development_intros_versions_links_inv_fk FOREIGN KEY (inv_software_development_intro_id) REFERENCES public.software_development_intros(id) ON DELETE CASCADE;
+
+
+--
+-- Name: strapi_api_token_permissions strapi_api_token_permissions_created_by_id_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.strapi_api_token_permissions
+    ADD CONSTRAINT strapi_api_token_permissions_created_by_id_fk FOREIGN KEY (created_by_id) REFERENCES public.admin_users(id) ON DELETE SET NULL;
+
+
+--
+-- Name: strapi_api_token_permissions_token_links strapi_api_token_permissions_token_links_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.strapi_api_token_permissions_token_links
+    ADD CONSTRAINT strapi_api_token_permissions_token_links_fk FOREIGN KEY (api_token_permission_id) REFERENCES public.strapi_api_token_permissions(id) ON DELETE CASCADE;
+
+
+--
+-- Name: strapi_api_token_permissions_token_links strapi_api_token_permissions_token_links_inv_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.strapi_api_token_permissions_token_links
+    ADD CONSTRAINT strapi_api_token_permissions_token_links_inv_fk FOREIGN KEY (api_token_id) REFERENCES public.strapi_api_tokens(id) ON DELETE CASCADE;
+
+
+--
+-- Name: strapi_api_token_permissions strapi_api_token_permissions_updated_by_id_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.strapi_api_token_permissions
+    ADD CONSTRAINT strapi_api_token_permissions_updated_by_id_fk FOREIGN KEY (updated_by_id) REFERENCES public.admin_users(id) ON DELETE SET NULL;
+
+
+--
+-- Name: strapi_api_tokens strapi_api_tokens_created_by_id_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.strapi_api_tokens
+    ADD CONSTRAINT strapi_api_tokens_created_by_id_fk FOREIGN KEY (created_by_id) REFERENCES public.admin_users(id) ON DELETE SET NULL;
+
+
+--
+-- Name: strapi_api_tokens strapi_api_tokens_updated_by_id_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.strapi_api_tokens
+    ADD CONSTRAINT strapi_api_tokens_updated_by_id_fk FOREIGN KEY (updated_by_id) REFERENCES public.admin_users(id) ON DELETE SET NULL;
+
+
+--
+-- Name: strapi_transfer_token_permissions strapi_transfer_token_permissions_created_by_id_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.strapi_transfer_token_permissions
+    ADD CONSTRAINT strapi_transfer_token_permissions_created_by_id_fk FOREIGN KEY (created_by_id) REFERENCES public.admin_users(id) ON DELETE SET NULL;
+
+
+--
+-- Name: strapi_transfer_token_permissions_token_links strapi_transfer_token_permissions_token_links_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.strapi_transfer_token_permissions_token_links
+    ADD CONSTRAINT strapi_transfer_token_permissions_token_links_fk FOREIGN KEY (transfer_token_permission_id) REFERENCES public.strapi_transfer_token_permissions(id) ON DELETE CASCADE;
+
+
+--
+-- Name: strapi_transfer_token_permissions_token_links strapi_transfer_token_permissions_token_links_inv_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.strapi_transfer_token_permissions_token_links
+    ADD CONSTRAINT strapi_transfer_token_permissions_token_links_inv_fk FOREIGN KEY (transfer_token_id) REFERENCES public.strapi_transfer_tokens(id) ON DELETE CASCADE;
+
+
+--
+-- Name: strapi_transfer_token_permissions strapi_transfer_token_permissions_updated_by_id_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.strapi_transfer_token_permissions
+    ADD CONSTRAINT strapi_transfer_token_permissions_updated_by_id_fk FOREIGN KEY (updated_by_id) REFERENCES public.admin_users(id) ON DELETE SET NULL;
+
+
+--
+-- Name: strapi_transfer_tokens strapi_transfer_tokens_created_by_id_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.strapi_transfer_tokens
+    ADD CONSTRAINT strapi_transfer_tokens_created_by_id_fk FOREIGN KEY (created_by_id) REFERENCES public.admin_users(id) ON DELETE SET NULL;
+
+
+--
+-- Name: strapi_transfer_tokens strapi_transfer_tokens_updated_by_id_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.strapi_transfer_tokens
+    ADD CONSTRAINT strapi_transfer_tokens_updated_by_id_fk FOREIGN KEY (updated_by_id) REFERENCES public.admin_users(id) ON DELETE SET NULL;
+
+
+--
+-- Name: tv_shows tv_shows_created_by_id_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.tv_shows
+    ADD CONSTRAINT tv_shows_created_by_id_fk FOREIGN KEY (created_by_id) REFERENCES public.admin_users(id) ON DELETE SET NULL;
+
+
+--
+-- Name: tv_shows tv_shows_updated_by_id_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.tv_shows
+    ADD CONSTRAINT tv_shows_updated_by_id_fk FOREIGN KEY (updated_by_id) REFERENCES public.admin_users(id) ON DELETE SET NULL;
+
+
+--
+-- Name: up_permissions up_permissions_created_by_id_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.up_permissions
+    ADD CONSTRAINT up_permissions_created_by_id_fk FOREIGN KEY (created_by_id) REFERENCES public.admin_users(id) ON DELETE SET NULL;
+
+
+--
+-- Name: up_permissions_role_links up_permissions_role_links_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.up_permissions_role_links
+    ADD CONSTRAINT up_permissions_role_links_fk FOREIGN KEY (permission_id) REFERENCES public.up_permissions(id) ON DELETE CASCADE;
+
+
+--
+-- Name: up_permissions_role_links up_permissions_role_links_inv_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.up_permissions_role_links
+    ADD CONSTRAINT up_permissions_role_links_inv_fk FOREIGN KEY (role_id) REFERENCES public.up_roles(id) ON DELETE CASCADE;
+
+
+--
+-- Name: up_permissions up_permissions_updated_by_id_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.up_permissions
+    ADD CONSTRAINT up_permissions_updated_by_id_fk FOREIGN KEY (updated_by_id) REFERENCES public.admin_users(id) ON DELETE SET NULL;
+
+
+--
+-- Name: up_roles up_roles_created_by_id_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.up_roles
+    ADD CONSTRAINT up_roles_created_by_id_fk FOREIGN KEY (created_by_id) REFERENCES public.admin_users(id) ON DELETE SET NULL;
+
+
+--
+-- Name: up_roles up_roles_updated_by_id_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.up_roles
+    ADD CONSTRAINT up_roles_updated_by_id_fk FOREIGN KEY (updated_by_id) REFERENCES public.admin_users(id) ON DELETE SET NULL;
+
+
+--
+-- Name: up_users up_users_created_by_id_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.up_users
+    ADD CONSTRAINT up_users_created_by_id_fk FOREIGN KEY (created_by_id) REFERENCES public.admin_users(id) ON DELETE SET NULL;
+
+
+--
+-- Name: up_users_role_links up_users_role_links_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.up_users_role_links
+    ADD CONSTRAINT up_users_role_links_fk FOREIGN KEY (user_id) REFERENCES public.up_users(id) ON DELETE CASCADE;
+
+
+--
+-- Name: up_users_role_links up_users_role_links_inv_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.up_users_role_links
+    ADD CONSTRAINT up_users_role_links_inv_fk FOREIGN KEY (role_id) REFERENCES public.up_roles(id) ON DELETE CASCADE;
+
+
+--
+-- Name: up_users up_users_updated_by_id_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.up_users
+    ADD CONSTRAINT up_users_updated_by_id_fk FOREIGN KEY (updated_by_id) REFERENCES public.admin_users(id) ON DELETE SET NULL;
+
+
+--
+-- Name: upload_folders upload_folders_created_by_id_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.upload_folders
+    ADD CONSTRAINT upload_folders_created_by_id_fk FOREIGN KEY (created_by_id) REFERENCES public.admin_users(id) ON DELETE SET NULL;
+
+
+--
+-- Name: upload_folders_parent_links upload_folders_parent_links_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.upload_folders_parent_links
+    ADD CONSTRAINT upload_folders_parent_links_fk FOREIGN KEY (folder_id) REFERENCES public.upload_folders(id) ON DELETE CASCADE;
+
+
+--
+-- Name: upload_folders_parent_links upload_folders_parent_links_inv_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.upload_folders_parent_links
+    ADD CONSTRAINT upload_folders_parent_links_inv_fk FOREIGN KEY (inv_folder_id) REFERENCES public.upload_folders(id) ON DELETE CASCADE;
+
+
+--
+-- Name: upload_folders upload_folders_updated_by_id_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.upload_folders
+    ADD CONSTRAINT upload_folders_updated_by_id_fk FOREIGN KEY (updated_by_id) REFERENCES public.admin_users(id) ON DELETE SET NULL;
+
+
+--
+-- Name: uses_pages uses_pages_created_by_id_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.uses_pages
+    ADD CONSTRAINT uses_pages_created_by_id_fk FOREIGN KEY (created_by_id) REFERENCES public.admin_users(id) ON DELETE SET NULL;
+
+
+--
+-- Name: uses_pages_components uses_pages_entity_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.uses_pages_components
+    ADD CONSTRAINT uses_pages_entity_fk FOREIGN KEY (entity_id) REFERENCES public.uses_pages(id) ON DELETE CASCADE;
+
+
+--
+-- Name: uses_pages_localizations_links uses_pages_localizations_links_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.uses_pages_localizations_links
+    ADD CONSTRAINT uses_pages_localizations_links_fk FOREIGN KEY (uses_page_id) REFERENCES public.uses_pages(id) ON DELETE CASCADE;
+
+
+--
+-- Name: uses_pages_localizations_links uses_pages_localizations_links_inv_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.uses_pages_localizations_links
+    ADD CONSTRAINT uses_pages_localizations_links_inv_fk FOREIGN KEY (inv_uses_page_id) REFERENCES public.uses_pages(id) ON DELETE CASCADE;
+
+
+--
+-- Name: uses_pages uses_pages_updated_by_id_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.uses_pages
+    ADD CONSTRAINT uses_pages_updated_by_id_fk FOREIGN KEY (updated_by_id) REFERENCES public.admin_users(id) ON DELETE SET NULL;
+
+
+--
+-- Name: uses_pages_versions_links uses_pages_versions_links_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.uses_pages_versions_links
+    ADD CONSTRAINT uses_pages_versions_links_fk FOREIGN KEY (uses_page_id) REFERENCES public.uses_pages(id) ON DELETE CASCADE;
+
+
+--
+-- Name: uses_pages_versions_links uses_pages_versions_links_inv_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.uses_pages_versions_links
+    ADD CONSTRAINT uses_pages_versions_links_inv_fk FOREIGN KEY (inv_uses_page_id) REFERENCES public.uses_pages(id) ON DELETE CASCADE;
+
+
+--
+-- Name: video_games video_games_created_by_id_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.video_games
+    ADD CONSTRAINT video_games_created_by_id_fk FOREIGN KEY (created_by_id) REFERENCES public.admin_users(id) ON DELETE SET NULL;
+
+
+--
+-- Name: video_games video_games_updated_by_id_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.video_games
+    ADD CONSTRAINT video_games_updated_by_id_fk FOREIGN KEY (updated_by_id) REFERENCES public.admin_users(id) ON DELETE SET NULL;
+
+
+--
+-- PostgreSQL database dump complete
+--
+
