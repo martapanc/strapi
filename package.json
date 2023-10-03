@@ -1,7 +1,7 @@
 {
   "name": "martacodes.it",
   "private": true,
-  "version": "1.5.1",
+  "version": "1.5.2",
   "description": "Strapi CMS for martacodes.it",
   "scripts": {
     "dev": "strapi develop",
@@ -40,7 +40,9 @@
     "strapi-provider-translate-deepl": "^1.1.8"
   },
   "devDependencies": {
-    "react-dom": "^18.2.0"
+    "@radix-ui/react-toolbar": "^1.0.4",
+    "react-dom": "^18.2.0",
+    "slate-react": "^0.99.0"
   },
   "author": {
     "name": "Marta Pancaldi"
