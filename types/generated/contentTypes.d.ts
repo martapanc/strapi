@@ -1386,12 +1386,6 @@ export interface ApiPublicationPublication extends Schema.CollectionType {
           localized: false;
         };
       }>;
-    file: Attribute.Media &
-      Attribute.SetPluginOptions<{
-        i18n: {
-          localized: false;
-        };
-      }>;
     year: Attribute.String &
       Attribute.SetPluginOptions<{
         i18n: {
@@ -1399,6 +1393,12 @@ export interface ApiPublicationPublication extends Schema.CollectionType {
         };
       }>;
     rank: Attribute.Integer &
+      Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
+    fileUrl: Attribute.String &
       Attribute.SetPluginOptions<{
         i18n: {
           localized: true;
