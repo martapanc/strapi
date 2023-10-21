@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-10-03T19:25:23.616Z"
+    "x-generation-date": "2023-10-21T08:55:10.536Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -8086,6 +8086,9 @@
                             },
                             "content": {
                               "type": "string"
+                            },
+                            "outro": {
+                              "type": "string"
                             }
                           }
                         },
@@ -8099,6 +8102,9 @@
                               "type": "string"
                             },
                             "content": {
+                              "type": "string"
+                            },
+                            "outro": {
                               "type": "string"
                             }
                           }
@@ -8114,6 +8120,9 @@
                             },
                             "content": {
                               "type": "string"
+                            },
+                            "outro": {
+                              "type": "string"
                             }
                           }
                         },
@@ -8128,6 +8137,9 @@
                             },
                             "content": {
                               "type": "string"
+                            },
+                            "outro": {
+                              "type": "string"
                             }
                           }
                         },
@@ -8141,6 +8153,9 @@
                               "type": "string"
                             },
                             "content": {
+                              "type": "string"
+                            },
+                            "outro": {
                               "type": "string"
                             }
                           }
@@ -8308,6 +8323,9 @@
             "type": "string"
           },
           "content": {
+            "type": "string"
+          },
+          "outro": {
             "type": "string"
           }
         }
@@ -12879,6 +12897,9 @@
                             },
                             "content": {
                               "type": "string"
+                            },
+                            "outro": {
+                              "type": "string"
                             }
                           }
                         },
@@ -12892,6 +12913,9 @@
                               "type": "string"
                             },
                             "content": {
+                              "type": "string"
+                            },
+                            "outro": {
                               "type": "string"
                             }
                           }
@@ -12907,6 +12931,9 @@
                             },
                             "content": {
                               "type": "string"
+                            },
+                            "outro": {
+                              "type": "string"
                             }
                           }
                         },
@@ -12921,6 +12948,9 @@
                             },
                             "content": {
                               "type": "string"
+                            },
+                            "outro": {
+                              "type": "string"
                             }
                           }
                         },
@@ -12934,6 +12964,9 @@
                               "type": "string"
                             },
                             "content": {
+                              "type": "string"
+                            },
+                            "outro": {
                               "type": "string"
                             }
                           }

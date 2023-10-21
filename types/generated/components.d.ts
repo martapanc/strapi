@@ -56,10 +56,12 @@ export interface SharedTitledParagraph extends Schema.Component {
   info: {
     displayName: 'Titled Paragraph';
     icon: 'feather';
+    description: '';
   };
   attributes: {
     title: Attribute.String;
     content: Attribute.RichText;
+    outro: Attribute.RichText;
   };
 }
 
