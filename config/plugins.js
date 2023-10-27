@@ -49,5 +49,8 @@ module.exports = ({ env }) => ({
       purgingAPIToken: env('STELLATE_PURGING_TOKEN'),
       soft: false
     }
-  }
+  },
+  "content-versioning": {
+		enabled:  true,
+	},
 });
