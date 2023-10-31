@@ -1,7 +1,7 @@
 {
   "name": "martacodes.it",
   "private": true,
-  "version": "1.6.0",
+  "version": "1.6.1",
   "description": "Strapi CMS for martacodes.it",
   "scripts": {
     "dev": "strapi develop",
@@ -33,7 +33,7 @@
     "strapi-plugin-import-export-entries": "^1.21.0",
     "strapi-plugin-menus": "^1.5.0",
     "strapi-plugin-multi-select": "^1.2.2",
-    "strapi-plugin-react-icons": "^0.2.0",
+    "strapi-plugin-react-icons": "^0.2.1",
     "strapi-plugin-responsive-image": "^1.1.0",
     "strapi-plugin-transformer": "^3.1.2",
     "strapi-plugin-wysiwyg-react-md-editor": "^4.3.0",
@@ -42,7 +42,7 @@
   "devDependencies": {
     "@radix-ui/react-toolbar": "^1.0.4",
     "react-dom": "^18.2.0",
-    "slate-react": "^0.100.0"
+    "slate-react": "^0.100.1"
   },
   "author": {
     "name": "Marta Pancaldi"

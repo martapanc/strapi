@@ -3268,7 +3268,7 @@
   resolved "https://verdaccio.mein-recycling.de/@strapi%2ficons/-/icons-1.13.0.tgz#0020560b5bed008ddc39aa177b264cb3bebe8b67"
   integrity sha512-bmFJvyM75nuVyJVq4bgHxRYwu9eEkmRKNipEb/GBTBvvkHGN0GTHLOAedGpKGvB7RwcclbaymOP7oBlxahOmsw==
 
-"@strapi/icons@^1.6.3", "@strapi/icons@^1.6.6":
+"@strapi/icons@^1.6.3":
   version "1.9.0"
   resolved "https://verdaccio.mein-recycling.de/@strapi%2ficons/-/icons-1.9.0.tgz#a3d12f965e8a42082cc83149af8fb0a5e610dfe8"
   integrity sha512-w+4PGz/8mdzW+kDS8vJX/5fAZ7NBaWPDdhuLE4rqWQZuUDSsetVjgX5RQlulw/f3R52JKJmp5+p2shT84kyMbw==
@@ -12483,10 +12483,10 @@ slate-react@0.98.3:
     scroll-into-view-if-needed "^2.2.20"
     tiny-invariant "1.0.6"
 
-slate-react@^0.100.0:
-  version "0.100.0"
-  resolved "https://verdaccio.mein-recycling.de/slate-react/-/slate-react-0.100.0.tgz#f53b11a8dde151d15cebbdb15ca40ee7f04ab4d6"
-  integrity sha512-cWq3tiOvYDJE96ISjnZrX/5IrGcqT4tVVW+PeGquUbrEK/Vq9/850juucjXMLl4zQAtXehy+fxWaJQWPeclUDQ==
+slate-react@^0.100.1:
+  version "0.100.1"
+  resolved "https://verdaccio.mein-recycling.de/slate-react/-/slate-react-0.100.1.tgz#d542cd9181e3ad5639dcd8d9911a50da1bf46d71"
+  integrity sha512-CHlUhopb+3VL0YWXPGcloUlaib4BvaT50+UOudj+rsZaa/EQVgmP6czLqLlXhlyLNiOnp5QaWso/qeoLwuBOyQ==
   dependencies:
     "@juggle/resize-observer" "^3.4.0"
     "@types/is-hotkey" "^0.1.8"
@@ -12779,14 +12779,14 @@ strapi-plugin-multi-select@^1.2.2:
   resolved "https://verdaccio.mein-recycling.de/strapi-plugin-multi-select/-/strapi-plugin-multi-select-1.2.2.tgz#eda123de6c6c6ec7346d17c1d63ce082a66db97e"
   integrity sha512-D10hSUzFn7TU3fwH7SUn4/2dsL/JtSgyLLz7S8ozBQbK+GPjOJU264h6lpGppURkxwdXbihJvGzutZlM0DzFVQ==
 
-strapi-plugin-react-icons@^0.2.0:
-  version "0.2.0"
-  resolved "https://verdaccio.mein-recycling.de/strapi-plugin-react-icons/-/strapi-plugin-react-icons-0.2.0.tgz#5676b49f7cdcbc7f722f6268a7c3ace341a64577"
-  integrity sha512-VX1vGsZ9E66KYxSundCB1fHIiYOplJbKr85HmVbtJdYvaxXTnUrveqxC3nchNN21K1ntxv3NI1cnsUW4JUBnGw==
+strapi-plugin-react-icons@^0.2.1:
+  version "0.2.1"
+  resolved "https://verdaccio.mein-recycling.de/strapi-plugin-react-icons/-/strapi-plugin-react-icons-0.2.1.tgz#018b5ee119afca37908421e103fc85c308d94083"
+  integrity sha512-LblieTF3PWJle8sYxuIu35O4VT+phfGkk9i9ZfMVFCRDv/hULemVSU9XsRPwbjYk/QEo8UnoWTjoTU4DwXsLeA==
   dependencies:
     "@strapi/design-system" "^1.6.3"
     "@strapi/helper-plugin" "^4.6.0"
-    "@strapi/icons" "^1.6.6"
+    "@strapi/icons" "^1.6.3"
     prop-types "^15.8.1"
     react-icons "4.8.0"
 
