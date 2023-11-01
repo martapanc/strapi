@@ -931,9 +931,6 @@ export interface ApiHomePageHomePage extends Schema.SingleType {
     draftAndPublish: true;
   };
   pluginOptions: {
-    versions: {
-      versioned: true;
-    };
     i18n: {
       localized: true;
     };
