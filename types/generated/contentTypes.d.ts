@@ -1226,9 +1226,6 @@ export interface ApiProjectProject extends Schema.CollectionType {
     draftAndPublish: true;
   };
   pluginOptions: {
-    versions: {
-      versioned: true;
-    };
     i18n: {
       localized: true;
     };
@@ -1491,9 +1488,6 @@ export interface ApiRecruitersPageRecruitersPage extends Schema.SingleType {
     draftAndPublish: true;
   };
   pluginOptions: {
-    versions: {
-      versioned: true;
-    };
     i18n: {
       localized: true;
     };
@@ -1758,9 +1752,6 @@ export interface ApiSoftwareDevelopmentIntroSoftwareDevelopmentIntro
     draftAndPublish: true;
   };
   pluginOptions: {
-    versions: {
-      versioned: true;
-    };
     i18n: {
       localized: true;
     };
@@ -1863,9 +1854,6 @@ export interface ApiUsesPageUsesPage extends Schema.SingleType {
     draftAndPublish: true;
   };
   pluginOptions: {
-    versions: {
-      versioned: true;
-    };
     i18n: {
       localized: true;
     };
