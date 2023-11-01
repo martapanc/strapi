@@ -1008,15 +1008,6 @@ export interface ApiHomePageHomePage extends Schema.SingleType {
       'admin::user'
     > &
       Attribute.Private;
-    versions: Attribute.Relation<
-      'api::home-page.home-page',
-      'manyToMany',
-      'api::home-page.home-page'
-    >;
-    vuid: Attribute.String;
-    versionNumber: Attribute.Integer & Attribute.DefaultTo<1>;
-    versionComment: Attribute.String;
-    isVisibleInListView: Attribute.Boolean & Attribute.DefaultTo<true>;
     localizations: Attribute.Relation<
       'api::home-page.home-page',
       'oneToMany',
@@ -1333,15 +1324,6 @@ export interface ApiProjectProject extends Schema.CollectionType {
       'admin::user'
     > &
       Attribute.Private;
-    versions: Attribute.Relation<
-      'api::project.project',
-      'manyToMany',
-      'api::project.project'
-    >;
-    vuid: Attribute.String;
-    versionNumber: Attribute.Integer & Attribute.DefaultTo<1>;
-    versionComment: Attribute.String;
-    isVisibleInListView: Attribute.Boolean & Attribute.DefaultTo<true>;
     localizations: Attribute.Relation<
       'api::project.project',
       'oneToMany',
@@ -1598,15 +1580,6 @@ export interface ApiRecruitersPageRecruitersPage extends Schema.SingleType {
       'admin::user'
     > &
       Attribute.Private;
-    versions: Attribute.Relation<
-      'api::recruiters-page.recruiters-page',
-      'manyToMany',
-      'api::recruiters-page.recruiters-page'
-    >;
-    vuid: Attribute.String;
-    versionNumber: Attribute.Integer & Attribute.DefaultTo<1>;
-    versionComment: Attribute.String;
-    isVisibleInListView: Attribute.Boolean & Attribute.DefaultTo<true>;
     localizations: Attribute.Relation<
       'api::recruiters-page.recruiters-page',
       'oneToMany',
@@ -1838,15 +1811,6 @@ export interface ApiSoftwareDevelopmentIntroSoftwareDevelopmentIntro
       'admin::user'
     > &
       Attribute.Private;
-    versions: Attribute.Relation<
-      'api::software-development-intro.software-development-intro',
-      'manyToMany',
-      'api::software-development-intro.software-development-intro'
-    >;
-    vuid: Attribute.String;
-    versionNumber: Attribute.Integer & Attribute.DefaultTo<1>;
-    versionComment: Attribute.String;
-    isVisibleInListView: Attribute.Boolean & Attribute.DefaultTo<true>;
     localizations: Attribute.Relation<
       'api::software-development-intro.software-development-intro',
       'oneToMany',
@@ -1970,15 +1934,6 @@ export interface ApiUsesPageUsesPage extends Schema.SingleType {
       'admin::user'
     > &
       Attribute.Private;
-    versions: Attribute.Relation<
-      'api::uses-page.uses-page',
-      'manyToMany',
-      'api::uses-page.uses-page'
-    >;
-    vuid: Attribute.String;
-    versionNumber: Attribute.Integer & Attribute.DefaultTo<1>;
-    versionComment: Attribute.String;
-    isVisibleInListView: Attribute.Boolean & Attribute.DefaultTo<true>;
     localizations: Attribute.Relation<
       'api::uses-page.uses-page',
       'oneToMany',

@@ -2350,15 +2350,6 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@notum-cz/strapi-plugin-content-versioning@^1.1.4":
-  version "1.1.4"
-  resolved "https://verdaccio.mein-recycling.de/@notum-cz%2fstrapi-plugin-content-versioning/-/strapi-plugin-content-versioning-1.1.4.tgz#feccbd5e07f63ea94e921ff93aea543c6ebf75c5"
-  integrity sha512-LqrRzfCIDp7hHgd4kY85MmKO+FohQ/dxx2R8zK8Af07T1YuLngSpXvYnM+5nqdbxO56zTM54PP8H5/QxLvOqtQ==
-  dependencies:
-    "@strapi/utils" "^4.14.4"
-    lodash "^4.17.21"
-    uuid "^9.0.1"
-
 "@palmabit/strapi-app-version@^1.1.0":
   version "1.1.0"
   resolved "https://verdaccio.mein-recycling.de/@palmabit%2fstrapi-app-version/-/strapi-app-version-1.1.0.tgz#2d5ab0dfe802fee79a8dcbe31c2c5987d8c700a3"
@@ -3707,7 +3698,7 @@
     aria-hidden "^1.2.3"
     react-remove-scroll "^2.5.6"
 
-"@strapi/utils@4.15.0", "@strapi/utils@^4.14.4":
+"@strapi/utils@4.15.0":
   version "4.15.0"
   resolved "https://verdaccio.mein-recycling.de/@strapi%2futils/-/utils-4.15.0.tgz#1f4cf0343b7dbc91afa0907dd5afb732b1c7efed"
   integrity sha512-8X7YNGpL7OdJOF3Sx3gnnvIt+omKPiZqoqCvLIfVxbpt1o597cmaVaBHeCWAYBkd9xqmdnalvtGmEjMtjS+ILw==
@@ -13630,11 +13621,6 @@ uuid@^9.0.0:
   version "9.0.0"
   resolved "https://verdaccio.mein-recycling.de/uuid/-/uuid-9.0.0.tgz#592f550650024a38ceb0c562f2f6aa435761efb5"
   integrity sha512-MXcSTerfPa4uqyzStbRoTgt5XIe3x5+42+q1sDuy3R5MDk66URdLMOZe5aPX/SQd+kuYAh0FdP/pO28IkQyTeg==
-
-uuid@^9.0.1:
-  version "9.0.1"
-  resolved "https://verdaccio.mein-recycling.de/uuid/-/uuid-9.0.1.tgz#e188d4c8853cc722220392c424cd637f32293f30"
-  integrity sha512-b+1eJOlsR9K8HJpow9Ok3fiWOWSIcIzXodvv0rQjVoOVNpWMpxf1wZNpt4y9h10odCNrqnYp1OBzRktckBe3sA==
 
 uvu@^0.5.0:
   version "0.5.6"

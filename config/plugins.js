@@ -50,7 +50,4 @@ module.exports = ({ env }) => ({
       soft: false
     }
   },
-  "content-versioning": {
-		enabled:  true,
-	},
 });
