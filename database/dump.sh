@@ -11,4 +11,4 @@ PGPASSWORD="$PGPASSWORD" /usr/local/bin/pg_dump --file="$output_file" --create -
 export_file="./database/exports/${timestamp}_strapi-export"
 export_pw="$EXPORT_PW"
 
-echo "$export_pw" | strapi export --file "$export_file"
+echo "$export_pw" | yarn strapi export --file "$export_file"
