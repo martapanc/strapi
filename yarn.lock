@@ -12799,10 +12799,10 @@ strapi-plugin-wysiwyg-react-md-editor@^4.3.0:
     "@uiw/react-md-editor" "^3.20"
     styled-components "^5.3.3"
 
-strapi-provider-translate-deepl@^1.1.8:
-  version "1.1.10"
-  resolved "https://verdaccio.mein-recycling.de/strapi-provider-translate-deepl/-/strapi-provider-translate-deepl-1.1.10.tgz#d9faa793f463331edb925334b6d4822d518be632"
-  integrity sha512-XitGiiKJ/uG8rX+Zsi8WlAutqnxcAj84u0sKLwjlpfHM09XqH9rgEvpSA6TRmX4iBwa9uQTpEb50BdrDi1KEyA==
+strapi-provider-translate-deepl@^1.1.11:
+  version "1.1.11"
+  resolved "https://verdaccio.mein-recycling.de/strapi-provider-translate-deepl/-/strapi-provider-translate-deepl-1.1.11.tgz#ddd598a4b403ca82df72cc2cb92212da6ee37df8"
+  integrity sha512-64pJSnWB127hPDNG5/B+xNReb4qSmPc3e5nHE3zijS/yUlwMZkJg8G6HJZMNuqbeEfe7XXxTlRqnYEbYWkwdTQ==
   dependencies:
     bottleneck "^2.19.5"
     deepl-node "^1.8.0"

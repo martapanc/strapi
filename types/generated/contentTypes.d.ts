@@ -1904,6 +1904,12 @@ export interface ApiUsesPageUsesPage extends Schema.SingleType {
           localized: true;
         };
       }>;
+    gaming: Attribute.Component<'shared.titled-paragraph'> &
+      Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
