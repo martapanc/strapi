@@ -8,19 +8,16 @@ import dragDropContentTypes from "@retikolo/drag-drop-content-types/strapi-admin
 import colorPicker from "@strapi/plugin-color-picker/strapi-admin";
 import documentation from "@strapi/plugin-documentation/strapi-admin";
 import graphql from "@strapi/plugin-graphql/strapi-admin";
-import i18N from "@strapi/plugin-i18n/strapi-admin";
 import sentry from "@strapi/plugin-sentry/strapi-admin";
 import seo from "@strapi/plugin-seo/strapi-admin";
 import usersPermissions from "@strapi/plugin-users-permissions/strapi-admin";
 import strapiChatgpt from "strapi-chatgpt/strapi-admin";
 import contentTags from "strapi-plugin-content-tags/strapi-admin";
-import duplicateButton from "strapi-plugin-duplicate-button/strapi-admin";
 import importExportEntries from "strapi-plugin-import-export-entries/strapi-admin";
 import menus from "strapi-plugin-menus/strapi-admin";
 import multiSelect from "strapi-plugin-multi-select/strapi-admin";
 import reactIcons from "strapi-plugin-react-icons/strapi-admin";
 import responsiveImage from "strapi-plugin-responsive-image/strapi-admin";
-import wysiwygReactMdEditor from "strapi-plugin-wysiwyg-react-md-editor/strapi-admin";
 import { renderAdmin } from "@strapi/strapi/admin";
 
 renderAdmin(document.getElementById("strapi"), {
@@ -31,18 +28,15 @@ renderAdmin(document.getElementById("strapi"), {
     "color-picker": colorPicker,
     documentation: documentation,
     graphql: graphql,
-    i18n: i18N,
     sentry: sentry,
     seo: seo,
     "users-permissions": usersPermissions,
     "strapi-chatgpt": strapiChatgpt,
     "content-tags": contentTags,
-    "duplicate-button": duplicateButton,
     "import-export-entries": importExportEntries,
     menus: menus,
     "multi-select": multiSelect,
     "react-icons": reactIcons,
     "responsive-image": responsiveImage,
-    "wysiwyg-react-md-editor": wysiwygReactMdEditor,
   },
 });
