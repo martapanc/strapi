@@ -482,50 +482,6 @@ export interface PluginUploadFolder extends Schema.CollectionType {
   };
 }
 
-export interface PluginI18NLocale extends Schema.CollectionType {
-  collectionName: 'i18n_locale';
-  info: {
-    singularName: 'locale';
-    pluralName: 'locales';
-    collectionName: 'locales';
-    displayName: 'Locale';
-    description: '';
-  };
-  options: {
-    draftAndPublish: false;
-  };
-  pluginOptions: {
-    'content-manager': {
-      visible: false;
-    };
-    'content-type-builder': {
-      visible: false;
-    };
-  };
-  attributes: {
-    name: Attribute.String &
-      Attribute.SetMinMax<{
-        min: 1;
-        max: 50;
-      }>;
-    code: Attribute.String & Attribute.Unique;
-    createdAt: Attribute.DateTime;
-    updatedAt: Attribute.DateTime;
-    createdBy: Attribute.Relation<
-      'plugin::i18n.locale',
-      'oneToOne',
-      'admin::user'
-    > &
-      Attribute.Private;
-    updatedBy: Attribute.Relation<
-      'plugin::i18n.locale',
-      'oneToOne',
-      'admin::user'
-    > &
-      Attribute.Private;
-  };
-}
-
 export interface PluginUsersPermissionsPermission
   extends Schema.CollectionType {
   collectionName: 'up_permissions';
@@ -878,12 +834,6 @@ export interface ApiBookBook extends Schema.CollectionType {
       Attribute.Private;
     updatedBy: Attribute.Relation<'api::book.book', 'oneToOne', 'admin::user'> &
       Attribute.Private;
-    localizations: Attribute.Relation<
-      'api::book.book',
-      'oneToMany',
-      'api::book.book'
-    >;
-    locale: Attribute.String;
   };
 }
 
@@ -1005,12 +955,6 @@ export interface ApiHomePageHomePage extends Schema.SingleType {
       'admin::user'
     > &
       Attribute.Private;
-    localizations: Attribute.Relation<
-      'api::home-page.home-page',
-      'oneToMany',
-      'api::home-page.home-page'
-    >;
-    locale: Attribute.String;
   };
 }
 
@@ -1106,12 +1050,6 @@ export interface ApiJobJob extends Schema.CollectionType {
       Attribute.Private;
     updatedBy: Attribute.Relation<'api::job.job', 'oneToOne', 'admin::user'> &
       Attribute.Private;
-    localizations: Attribute.Relation<
-      'api::job.job',
-      'oneToMany',
-      'api::job.job'
-    >;
-    locale: Attribute.String;
   };
 }
 
@@ -1171,12 +1109,6 @@ export interface ApiLanguageLanguage extends Schema.CollectionType {
       'admin::user'
     > &
       Attribute.Private;
-    localizations: Attribute.Relation<
-      'api::language.language',
-      'oneToMany',
-      'api::language.language'
-    >;
-    locale: Attribute.String;
   };
 }
 
@@ -1318,12 +1250,6 @@ export interface ApiProjectProject extends Schema.CollectionType {
       'admin::user'
     > &
       Attribute.Private;
-    localizations: Attribute.Relation<
-      'api::project.project',
-      'oneToMany',
-      'api::project.project'
-    >;
-    locale: Attribute.String;
   };
 }
 
@@ -1395,12 +1321,6 @@ export interface ApiPublicationPublication extends Schema.CollectionType {
       'admin::user'
     > &
       Attribute.Private;
-    localizations: Attribute.Relation<
-      'api::publication.publication',
-      'oneToMany',
-      'api::publication.publication'
-    >;
-    locale: Attribute.String;
   };
 }
 
@@ -1467,12 +1387,6 @@ export interface ApiRandomFactRandomFact extends Schema.CollectionType {
       'admin::user'
     > &
       Attribute.Private;
-    localizations: Attribute.Relation<
-      'api::random-fact.random-fact',
-      'oneToMany',
-      'api::random-fact.random-fact'
-    >;
-    locale: Attribute.String;
   };
 }
 
@@ -1571,12 +1485,6 @@ export interface ApiRecruitersPageRecruitersPage extends Schema.SingleType {
       'admin::user'
     > &
       Attribute.Private;
-    localizations: Attribute.Relation<
-      'api::recruiters-page.recruiters-page',
-      'oneToMany',
-      'api::recruiters-page.recruiters-page'
-    >;
-    locale: Attribute.String;
   };
 }
 
@@ -1665,12 +1573,6 @@ export interface ApiSchoolSchool extends Schema.CollectionType {
       'admin::user'
     > &
       Attribute.Private;
-    localizations: Attribute.Relation<
-      'api::school.school',
-      'oneToMany',
-      'api::school.school'
-    >;
-    locale: Attribute.String;
   };
 }
 
@@ -1730,12 +1632,6 @@ export interface ApiSkillSkill extends Schema.CollectionType {
       'admin::user'
     > &
       Attribute.Private;
-    localizations: Attribute.Relation<
-      'api::skill.skill',
-      'oneToMany',
-      'api::skill.skill'
-    >;
-    locale: Attribute.String;
   };
 }
 
@@ -1799,12 +1695,6 @@ export interface ApiSoftwareDevelopmentIntroSoftwareDevelopmentIntro
       'admin::user'
     > &
       Attribute.Private;
-    localizations: Attribute.Relation<
-      'api::software-development-intro.software-development-intro',
-      'oneToMany',
-      'api::software-development-intro.software-development-intro'
-    >;
-    locale: Attribute.String;
   };
 }
 
@@ -1919,12 +1809,6 @@ export interface ApiUsesPageUsesPage extends Schema.SingleType {
       'admin::user'
     > &
       Attribute.Private;
-    localizations: Attribute.Relation<
-      'api::uses-page.uses-page',
-      'oneToMany',
-      'api::uses-page.uses-page'
-    >;
-    locale: Attribute.String;
   };
 }
 
@@ -1974,7 +1858,6 @@ declare module '@strapi/types' {
       'admin::transfer-token-permission': AdminTransferTokenPermission;
       'plugin::upload.file': PluginUploadFile;
       'plugin::upload.folder': PluginUploadFolder;
-      'plugin::i18n.locale': PluginI18NLocale;
       'plugin::users-permissions.permission': PluginUsersPermissionsPermission;
       'plugin::users-permissions.role': PluginUsersPermissionsRole;
       'plugin::users-permissions.user': PluginUsersPermissionsUser;
