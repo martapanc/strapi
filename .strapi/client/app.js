@@ -23,7 +23,10 @@ import responsiveImage from "strapi-plugin-responsive-image/strapi-admin";
 import wysiwygReactMdEditor from "strapi-plugin-wysiwyg-react-md-editor/strapi-admin";
 import { renderAdmin } from "@strapi/strapi/admin";
 
+import customisations from "../../src/admin/app.js";
+
 renderAdmin(document.getElementById("strapi"), {
+  customisations,
   plugins: {
     stellate: stellate,
     "strapi-app-version": strapiAppVersion,
